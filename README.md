@@ -196,7 +196,9 @@ ollama launch clawdbot
 - 選擇主要模型：`glm-4.7-flash` (default)
 - 選擇備援模型：`gemini-3-flash-preview:cloud` (fallback)
 
-此指令會自動更新 `.clawdbot\clawdbot.json` 裡的模型配置。
+此指令會自動更新 `.clawdbot\clawdbot.json` 裡的模型配置，並執行 Clawdbot的Gateway Service。
+
+> 註：日後若要更換Ollama模型，需要先刪除 Ollama 的config.json (檔案位置: %USERPROFILE%\.ollama\config\config.json)，再執行 ollama launch clawdbot指令。
 
 ### 步驟 5: 測試 Web UI
 
