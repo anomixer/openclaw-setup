@@ -1,4 +1,4 @@
-# 🤖 Clawdbot (Moltbot) + Ollama 安裝指南
+# 🦞 Clawdbot (Moltbot) + 🦙 Ollama 安裝指南
 
 在 Windows 下安裝 Clawdbot (Moltbot) 與本地端 LLM (Ollama) 的完整步驟指南。
 
@@ -47,7 +47,7 @@ ollama pull glm-4.7-flash
 ```
 
 - 模型大小：19GB
-- 適合：vGPU 為 20GB 以上顯卡
+- 適合：vRAM 為 20GB 以上顯卡
 
 #### 選項 B: Ministral 3:8b (輕量版，需要 8GB+ VRAM)
 
@@ -56,7 +56,7 @@ ollama pull ministral-3:8b
 ```
 
 - 模型大小：6GB
-- 適合：vGPU 為 8GB 以上顯卡
+- 適合：vRAM 為 8GB 以上顯卡
 
 ### 步驟 3: 配置雲端模型（可選）
 
@@ -516,3 +516,4 @@ npm uninstall -g moltbot
 ---
 
 **最後更新**: 2026-01-29
+**by anomixer 原創
