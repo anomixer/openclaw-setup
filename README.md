@@ -289,6 +289,8 @@ clawdbot pairing approve telegram abcdefgh
 
 再次進入手機 Telegram 頻道，輸入訊息，Bot 應該可以正常回覆了！🎉
 
+> ⚠️重要：接下來請重新開機一次，讓 Gateway 服務正常啟用，這樣 Clawdbot 才算可以正常運作！
+
 ---
 
 ## 📱 Telegram Bot 設定
@@ -496,6 +498,7 @@ npm uninstall -g moltbot
 | `ollama pull <model>` | 拉取模型 |
 | `ollama launch clawdbot` | 配置並啟動模型 |
 | `clawdbot config` | 進入配置介面 |
+| `clawdbot models list` | 檢視目前配置的模型列表 |
 | `clawdbot pairing approve telegram <code>` | 配對 Telegram 頻道 |
 | `clawdbot uninstall --all` | 完整移除 |
 
