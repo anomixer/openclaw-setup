@@ -1,6 +1,6 @@
-# 🦞 Clawdbot (Moltbot) + 🦙 Ollama 安裝指南
+# 🦞 Clawdbot / Moltbot / OpenClaw + 🦙 Ollama 安裝指南
 
-在 Windows 下安裝 Clawdbot (Moltbot) 與本地端 LLM (Ollama) 的完整步驟指南。
+在 Windows 下安裝 Clawdbot / Moltbot / OpenClaw 與本地端 LLM (Ollama) 的完整步驟指南。
 
 ---
 
