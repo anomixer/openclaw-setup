@@ -1,10 +1,15 @@
-# 🦞 Clawdbot / Moltbot / OpenClaw + 🦙 Ollama 安裝指南
+# 🦞 OpenClaw (clawdbot / moltbot) + 🦙 Ollama 安裝指南
 
 **中文版 | [English](README-EN.md)**
 
-在 Windows 下安裝 Clawdbot / Moltbot / OpenClaw 與本地端 LLM (Ollama) 的完整步驟指南。
+<p align="center">
+    <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-logo-text-dark.png">
+        <img src="https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-logo-text.png" alt="OpenClaw" width="500">
+    </picture>
+</p>
 
-[![OpenClaw Logo](https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-logo-text.png)](https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-logo-text.png)
+在 Windows 下安裝 OpenClaw (clawdbot / moltbot) 與本地端 LLM (Ollama) 的完整步驟指南。
 
 ---
 
@@ -12,7 +17,7 @@
 
 - [Ollama 安裝與配置](#-ollama-安裝與配置)
 - [Python 安裝](#-python-安裝)
-- [Clawdbot 安裝與配置](#%EF%B8%8F-clawdbot-安裝與配置)
+- [OpenClaw 安裝與配置](#%EF%B8%8F-openclaw-安裝與配置)
 - [Telegram Bot 設定](#-telegram-bot-設定)
 - [完整移除指南](#%EF%B8%8F-完整移除指南)
 - [配置檔案參考](#-配置檔案參考)
@@ -23,7 +28,7 @@
 
 ### 推薦模型
 
-雖然 Clawdbot 理論上支援任何 OpenAI 相容的模型，但社群與官方測試顯示以下模型表現較佳：
+雖然 OpenClaw 理論上支援任何 OpenAI 相容的模型，但社群與官方測試顯示以下模型表現較佳：
 
 - **GPT-OSS 系列**: 包括 `gpt-oss-20b`（適合 16GB VRAM）與 `gpt-oss-120b`，專為開源生態設計的高效能模型
 - **GLM 系列**: 例如 `glm-4.7-flash`，常用於需要快速回應的自動化場景
@@ -80,7 +85,7 @@ ollama pull gemini-3-flash-preview:cloud
 
 ## 🐍 Python 安裝
 
-Clawdbot 的 Windows 版本不會自動安裝 Python，但許多任務需要用到，請先安裝：
+OpenClaw 的 Windows 版本不會自動安裝 Python，但許多任務需要用到，請先安裝：
 
 ```cmd
 winget install python
@@ -88,7 +93,7 @@ winget install python
 
 ---
 
-## ⚙️ Clawdbot 安裝與配置
+## ⚙️ OpenClaw 安裝與配置
 
 ### 步驟 1: 設定 PowerShell 執行權限
 
@@ -102,15 +107,16 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 Get-ExecutionPolicy -List
 ```
 
-### 步驟 2: 安裝 Clawdbot
+### 步驟 2: 安裝 OpenClaw
 
-參考 [https://www.molt.bot/](https://www.molt.bot/) 官網，以 **一般使用者身份** 開啟 PowerShell：
+參考 [https://openclaw.ai/](https://openclaw.ai/) 官網，這裡以 **一般使用者身份** 開啟 PowerShell：
 
 ```powershell
-iwr -useb https://molt.bot/install.ps1 | iex
+iwr -useb https://openclaw.ai/install.ps1 | iex
 ```
 
-此指令會自動安裝 Node.js 和 npm。
+上面指令會自動安裝 node.js 和 npm。
+
 
 ### 步驟 3: 按照螢幕指示進行初始配置
 
@@ -125,7 +131,7 @@ I understand this is powerful and inherently risky. Continue?
 
 ```
 Onboarding mode
-> QuickStart (Configure details later via clawdbot configure.)
+> QuickStart (Configure details later via openclaw configure.)
 ```
 
 #### 模型/認證提供者
@@ -138,10 +144,11 @@ Filter models by provider
 > All providers
 
 Default model
-> Keep current (default: anthropic/claude-opus-4-5)
+> Enter model manually
 ```
 
-或選擇 `Enter model manually`，輸入 `glm-4.7-flash`
+輸入 `ollama/glm-4.7-flash` 或其他你指定的模型名稱。
+
 
 #### 頻道配置
 
@@ -164,9 +171,12 @@ Configure skills now? (recommended)
 ```
 Enable hooks?
 > [+] 🚀 boot-md (Run BOOT.md on gateway startup)
+> [+] 📝 command-logger (Log all command events to a centralized audit file)
+> [+] 💾 session-memory (Save session context to memory when /new command is issued)
+
 ```
 
-按空白鍵選擇，再按 Enter
+按空白鍵選擇，此時三種都選擇，最後再按 Enter
 
 #### 記錄 Web UI 資訊
 
@@ -180,40 +190,79 @@ Control UI:
   Gateway: reachable
 ```
 
-> 🔑 **重要**: 記住帶 token 的 URL！
+> 🔑 **重要**: 記住有帶 token 的 URL！
 
-#### Gateway 啟動方式
+#### Gateway 啟動方式 (若出現的話)
 
 ```
 How do you want to hatch your bot?
-> Do this later
+> Open the Web UI
 ```
 
 ### 步驟 4: 更新模型配置
 
-若剛才用管理員身份安裝，先按 `Ctrl+C` 停止 Gateway。然後執行：
+安裝至此，OpenClaw 就會嘗試另外開一個 Command Prompt 視窗去啟用 Gateway 服務，並開啟網路瀏覽器。
 
-```cmd
-ollama launch clawdbot
+- 若您一開始就用**Administrator**身份安裝的話，會發現此時瀏覽器進入Chat畫面，此時先別輸入任何內容，因為我們還沒設定Ollama的Key和BaseURL。先按 `Ctrl+C` 停止 Gateway 服務。
+- 若您遵循前面用**一般使用者**安裝的話，此時不會開啟Gateway Service，瀏覽器怎顯示「無法連上這個網站」，這屬正常現象。
+
+現在請直接修改 `.openclaw\openclaw.json` 設定檔即可。利用文書處理器:
+
+```
+notepad $env:USERPROFILE\.openclaw\openclaw.json
 ```
 
-- 選擇主要模型：`glm-4.7-flash` (default)
-- 選擇備援模型：`gemini-3-flash-preview:cloud` (fallback)
+然後在第一行的 `{` 和`"messages": {`中間，插入以下的資料。
 
-此指令會自動更新 `.clawdbot\clawdbot.json` 裡的模型配置，並執行 Clawdbot的Gateway Service。
+```
+  "models": {
+    "providers": {
+      "ollama": {
+        "baseUrl": "http://127.0.0.1:11434/v1",
+        "apiKey": "ollama-local",
+        "models": [
+          {
+            "id": "ollama/glm-4.7-flash",
+            "name": "GLM 4.7 Flash",
+            "reasoning": true,
+            "input": ["text"],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 16384
+          },
+        ]
+      }
+    }
+  },
+```
 
-> 註：日後若要更換Ollama模型，需要先刪除 Ollama 的config.json (檔案位置: `%USERPROFILE%\.ollama\config\config.json`)，再執行 `ollama launch clawdbot`指令。
+> ⚠️ 注意：上面的模型名稱，可以改成你喜歡的名稱
 
-### 步驟 5: 測試 Web UI
+儲存設定檔之後，接著以 **Administrator** 身份開啟 PowerShell ，輸入:
+```
+openclaw gateway install
+```
+開啟 Gateway 服務成功之後，此時先重新開機 (Reboot)。
 
-用瀏覽器開啟上述的 Web UI（帶 token 的那個 URL），測試是否能與 AI 正常交談。
+等重新進入 Windows 之後，會自動開啟 Gateway Service 視窗。
+此時可以開啟瀏覽器，進入上述 http://127.0.0.1:18789/?token=xxxxxxxxxx 網址。
 
-### 步驟 6: 進階配置
+在 Chat 畫面輸入任何對話，Ollama 接著會在背後載入模型。然後將對話顯示在 Chat 視窗。
 
-另開一個 Command Prompt，執行配置指令：
+若 AI 回覆正常，以上的基本 AI 對話至此設定完成。
+
+
+### 步驟 5: 進階配置
+
+請用一般使用者身份開啟 Command Prompt，執行配置指令：
 
 ```cmd
-clawdbot config
+openclaw config
 ```
 
 #### Gateway 位置
@@ -268,14 +317,14 @@ Select sections to configure
 > ● Continue (Done)
 ```
 
-### 步驟 7: 配對 Telegram 頻道
+### 步驟 6: 配對 Telegram 頻道
 
 進入手機 Telegram 中的 bot 頻道，隨便輸入一個訊息。
 
 Bot 會回覆：
 
 ```
-Clawdbot: access not configured.
+OpenClaw: access not configured.
 
 Your Telegram user id: 1234567890
 Pairing code: abcdefgh
@@ -286,16 +335,19 @@ Pairing code: abcdefgh
 在電腦上執行配對指令：
 
 ```cmd
-clawdbot pairing approve telegram abcdefgh
+openclaw pairing approve telegram abcdefgh
 ```
 
 （將 `abcdefgh` 替換成你的配對碼）
 
-### 步驟 8: 測試完成
+### 步驟 7: 測試完成
 
 再次進入手機 Telegram 頻道，輸入訊息，Bot 應該可以正常回覆了！🎉
 
-> ⚠️重要：接下來請重新開機一次，讓 Gateway 服務正常啟用，這樣 Clawdbot 才算可以正常運作！
+> ⚠️重要：接下來請重新開機一次，讓 Gateway 服務正常啟用，這樣 OpenClaw 才算可以正常運作！
+
+> 建議: 在環境變數加入一個 `OLLAMA_KEEP_ALIVE=-1`，以免 Ollama 自定5分鐘沒反應就自動退出Model，影響下次對話時的速度。
+
 
 ---
 
@@ -306,7 +358,7 @@ clawdbot pairing approve telegram abcdefgh
 1. 在 Telegram 搜尋並加入官方帳號 **@BotFather**
 
 2. 發送指令 `/newbot`，依提示設定機器人名稱
-   - 例如：`clawdbot-bot`（如果名字被佔用就換一個）
+   - 例如：`openclaw-bot`（如果名字被佔用就換一個）
 
 3. **BotFather** 會回覆：
 
@@ -323,18 +375,24 @@ Use this token to access the HTTP API:
 
 ## 🗑️ 完整移除指南
 
-若需要完全移除 Clawdbot：
+若需要完全移除 OpenClaw / Moltbot / Clawdbot：
 
 ### 以管理員身份開啟 PowerShell
 
 ```powershell
 # 完整移除（包含所有資料）
+openclaw uninstall --all --yes --non-interactive
+或
+moltbot uninstall --all --yes --non-interactive
+或
 clawdbot uninstall --all --yes --non-interactive
 
 # 移除 npm 套件
-npm uninstall -g clawdbot
-# 或
+npm uninstall -g openclaw
+或
 npm uninstall -g moltbot
+或
+npm uninstall -g clawdbot
 ```
 
 ---
@@ -344,43 +402,19 @@ npm uninstall -g moltbot
 ### 檔案路徑
 
 ```
-%USERPROFILE%\.clawd\clawdbot.json
+%USERPROFILE%\.openclaw\openclaw.json
 ```
 
 ### 配置範例
 
 ```json
 {
-  "meta": {
-    "lastTouchedVersion": "2026.1.24-3",
-    "lastTouchedAt": "2026-01-28T08:58:52.807Z"
-  },
-  "wizard": {
-    "lastRunAt": "2026-01-28T08:58:52.797Z",
-    "lastRunVersion": "2026.1.24-3",
-    "lastRunCommand": "configure",
-    "lastRunMode": "local"
-  },
   "models": {
     "providers": {
       "ollama": {
         "baseUrl": "http://127.0.0.1:11434/v1",
         "apiKey": "ollama-local",
         "models": [
-          {
-            "id": "gemini-3-flash-preview:cloud",
-            "name": "Gemini 3 Flash",
-            "reasoning": true,
-            "input": ["text"],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 1000000,
-            "maxTokens": 65536
-          },
           {
             "id": "ollama/glm-4.7-flash",
             "name": "GLM 4.7 Flash",
@@ -394,10 +428,34 @@ npm uninstall -g moltbot
             },
             "contextWindow": 128000,
             "maxTokens": 16384
+          },
+          {
+            "id": "gemini-3-flash-preview:cloud",
+            "name": "Gemini 3 Flash",
+            "reasoning": true,
+            "input": ["text"],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 1000000,
+            "maxTokens": 65536
           }
         ]
       }
     }
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.1.24-3",
+    "lastTouchedAt": "2026-01-28T08:58:52.807Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-01-28T08:58:52.797Z",
+    "lastRunVersion": "2026.1.24-3",
+    "lastRunCommand": "configure",
+    "lastRunMode": "local"
   },
   "agents": {
     "defaults": {
@@ -413,7 +471,7 @@ npm uninstall -g moltbot
           "alias": "glm-4.7"
         }
       },
-      "workspace": "C:\\Users\\USER\\clawd",
+      "workspace": "C:\\Users\\USER\\.openclaw\\workspace",
       "compaction": {
         "mode": "safeguard"
       },
@@ -498,20 +556,21 @@ npm uninstall -g moltbot
 | 指令 | 用途 |
 |------|------|
 | `ollama pull <model>` | 拉取模型 |
-| `ollama launch clawdbot` | 配置並啟動模型 |
-| `clawdbot config` | 進入配置介面 |
-| `clawdbot models list` | 檢視目前配置的模型列表 |
-| `clawdbot pairing approve telegram <code>` | 配對 Telegram 頻道 |
-| `clawdbot uninstall --all` | 完整移除 |
+| `ollama launch openclaw` | 配置並啟動模型 |
+| `openclaw config` | 進入配置介面 |
+| `openclaw models list` | 檢視目前配置的模型列表 |
+| `openclaw pairing approve telegram <code>` | 配對 Telegram 頻道 |
+| `openclaw uninstall --all` | 完整移除 |
+| `openclaw security audit --deep` | 安全性深度檢查 |
 
 ---
 
 ## 📚 相關連結
 
 - [Ollama 官網](https://ollama.com/)
-- [Moltbot 官網](https://www.molt.bot/)
+- [OpenClaw 官網](https://openclaw.ai/)
 - [Telegram BotFather](https://t.me/BotFather)
-
+- [OpenClaw之Ollama設定](https://docs.openclaw.ai/providers/ollama)
 ---
 
 ## 💬 社群支援
