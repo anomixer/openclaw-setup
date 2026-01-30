@@ -1,20 +1,21 @@
 # 🦞 Clawdbot / Moltbot / OpenClaw + 🦙 Ollama 安裝指南
 
+**中文版 | [English](README-EN.md)**
+
 在 Windows 下安裝 Clawdbot / Moltbot / OpenClaw 與本地端 LLM (Ollama) 的完整步驟指南。
 
-
-![](https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-logo-text.png)
+[![OpenClaw Logo](https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-logo-text.png)](https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-logo-text.png)
 
 ---
 
 ## 📋 目錄
 
-- [Ollama 安裝與配置](#ollama-安裝與配置)
-- [Python 安裝](#python-安裝)
-- [Clawdbot 安裝與配置](#clawdbot-安裝與配置)
-- [Telegram Bot 設定](#telegram-bot-設定)
-- [完整移除指南](#完整移除指南)
-- [配置檔案參考](#配置檔案參考)
+- [Ollama 安裝與配置](#-ollama-安裝與配置)
+- [Python 安裝](#-python-安裝)
+- [Clawdbot 安裝與配置](#%EF%B8%8F-clawdbot-安裝與配置)
+- [Telegram Bot 設定](#-telegram-bot-設定)
+- [完整移除指南](#%EF%B8%8F-完整移除指南)
+- [配置檔案參考](#-配置檔案參考)
 
 ---
 
@@ -201,7 +202,7 @@ ollama launch clawdbot
 
 此指令會自動更新 `.clawdbot\clawdbot.json` 裡的模型配置，並執行 Clawdbot的Gateway Service。
 
-> 註：日後若要更換Ollama模型，需要先刪除 Ollama 的config.json (檔案位置: %USERPROFILE%\.ollama\config\config.json)，再執行 ollama launch clawdbot指令。
+> 註：日後若要更換Ollama模型，需要先刪除 Ollama 的config.json (檔案位置: `%USERPROFILE%\.ollama\config\config.json`)，再執行 `ollama launch clawdbot`指令。
 
 ### 步驟 5: 測試 Web UI
 
@@ -255,7 +256,7 @@ Enter Telegram bot token
 >>> 1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789
 ```
 
-輸入你的 Telegram Bot Token（格式如上，請參考 [Telegram Bot 設定](#telegram-bot-設定)）
+輸入你的 Telegram Bot Token（格式如上，請參考 [Telegram Bot 設定](#-telegram-bot-設定)）
 
 ```
 > ● Finished (Done)
@@ -521,7 +522,6 @@ npm uninstall -g moltbot
 
 **最後更新**: 2026-01-30
 
-**by anomixer 原創
+**原創 by anomixer**
 
-Clawdbot -> Moltbot -> OpenClaw
-
+Clawdbot → Moltbot → OpenClaw
