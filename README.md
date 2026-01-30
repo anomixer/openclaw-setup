@@ -2,6 +2,8 @@
 
 在 Windows 下安裝 Clawdbot / Moltbot / OpenClaw 與本地端 LLM (Ollama) 的完整步驟指南。
 
+https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-logo-text.png
+
 ---
 
 ## 📋 目錄
