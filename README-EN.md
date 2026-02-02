@@ -11,45 +11,89 @@
 
 A comprehensive guide for installing OpenClaw (clawdbot / moltbot) with local LLM (Ollama) on Windows.
 
+> ⚠️ **Version Requirements**: Ollama v0.15.4+ and OpenClaw 2026.1.30+
+
 ---
 
 ## 📋 Table of Contents
 
-- [Ollama Installation & Configuration](#-ollama-installation--configuration)
-- [Python Installation](#-python-installation)
-- [OpenClaw Installation & Configuration](#%EF%B8%8F-openclaw-installation--configuration)
-- [Telegram Bot Setup](#-telegram-bot-setup)
+### Installation Steps
+1. [Environment Setup](#1️⃣-environment-setup)
+   - [Install Ollama](#install-ollama-v0154)
+   - [Install Python](#install-python)
+2. [Ollama Model Configuration](#2️⃣-ollama-model-configuration)
+   - [Pull Local Models](#pull-local-models)
+   - [Configure Cloud Models](#configure-cloud-models-optional)
+   - [Pre-configure OpenClaw](#pre-configure-openclaw-for-ollama)
+3. [OpenClaw Installation](#3️⃣-openclaw-installation)
+   - [Set PowerShell Permissions](#set-powershell-execution-policy)
+   - [Install OpenClaw](#install-openclaw-1)
+   - [Initial Configuration](#initial-configuration)
+   - [Start Gateway Service](#start-gateway-service)
+4. [Advanced Configuration](#4️⃣-advanced-configuration)
+   - [Telegram Bot Setup](#telegram-bot-setup)
+   - [Pair Telegram Channel](#pair-telegram-channel)
+   - [Other Advanced Settings](#other-advanced-settings)
+
+### Reference
 - [Complete Uninstallation Guide](#%EF%B8%8F-complete-uninstallation-guide)
 - [Configuration File Reference](#-configuration-file-reference)
+- [Quick Reference Table](#-quick-reference)
+- [Related Links](#-related-links)
 
 ---
 
-## 🧠 Ollama Installation & Configuration
+## 1️⃣ Environment Setup
 
-### Recommended Models
+### Install Ollama (v0.15.4+)
 
-While OpenClaw theoretically supports any OpenAI-compatible model, community and official testing show these models perform best:
+> ⚠️ **Important**: Please ensure you install **v0.15.4 or above**, which supports native OpenClaw integration.
 
-- **GPT-OSS Series**: Includes `gpt-oss-20b` (suitable for 16GB VRAM) and `gpt-oss-120b`, high-performance models designed for the open-source ecosystem
-- **GLM Series**: Such as `glm-4.7-flash`, commonly used for fast-response automation scenarios
-
-> ⚠️ **Warning**: `qwen2.5` and `qwen3` currently have compatibility issues - not recommended for now!
-
-### Step 1: Install Ollama
-
-Open **Command Prompt** and run:
+#### Method 1: Using winget (Recommended)
 
 ```cmd
 winget install ollama
 ```
 
-Or manually download the Windows installer from [https://ollama.com/](https://ollama.com/).
+#### Method 2: Manual Download
 
-### Step 2: Pull Local Models
+Visit [https://ollama.com/](https://ollama.com/) to download the latest Windows installer.
+
+#### Verify Installation
+
+```cmd
+ollama --version
+```
+
+### Install Python
+
+The Windows version of OpenClaw doesn't auto-install Python, but many tasks require it:
+
+```cmd
+winget install python
+```
+
+---
+
+## 2️⃣ Ollama Model Configuration
+
+### Recommended Models
+
+While OpenClaw theoretically supports any OpenAI-compatible model, community and official testing show these models perform best:
+
+| Model Series | Model Name | VRAM Required | Size | Best For |
+|-------------|------------|---------------|------|----------|
+| **GLM** | `glm-4.7-flash` | 20GB+ | 19GB | Fast response, automation |
+| **Ministral** | `ministral-3:8b` | 8GB+ | 6GB | Lightweight, daily use |
+| **GPT-OSS** | `gpt-oss-20b` | 16GB+ | - | Open-source ecosystem |
+
+> ⚠️ **Known Issues**: `qwen2.5` and `qwen3` currently have compatibility issues - not recommended!
+
+### Pull Local Models
 
 Choose a model based on your GPU VRAM:
 
-#### Option A: GLM 4.7 Flash (Recommended, requires 20GB+ VRAM)
+#### Option A: GLM 4.7 Flash (Recommended)
 
 ```cmd
 ollama pull glm-4.7-flash
@@ -58,7 +102,7 @@ ollama pull glm-4.7-flash
 - Model size: 19GB
 - Suitable for: GPUs with 20GB+ vRAM
 
-#### Option B: Ministral 3:8b (Lightweight, requires 8GB+ VRAM)
+#### Option B: Ministral 3:8b (Lightweight)
 
 ```cmd
 ollama pull ministral-3:8b
@@ -67,37 +111,46 @@ ollama pull ministral-3:8b
 - Model size: 6GB
 - Suitable for: GPUs with 8GB+ vRAM
 
-### Step 3: Configure Cloud Models (Optional)
+### Configure Cloud Models (Optional)
 
-If you want to use SOTA models but don't have OpenAI/Anthropic/Google Gemini API Keys, you can register a free Ollama account and use their cloud models.
+If you want to use SOTA models but don't have OpenAI/Anthropic/Google Gemini API Keys:
 
 ```cmd
-# Sign in to Ollama (follow on-screen instructions to connect device)
+# Sign in to Ollama (follow on-screen instructions)
 ollama signin
 
 # Pull Google Gemini 3 Flash cloud model
 ollama pull gemini-3-flash-preview:cloud
 ```
 
-> 💡 **Tip**: Cloud models have usage limits - don't use them too frequently.
+> 💡 **Tip**: Cloud models have usage limits - don't use too frequently.
 
----
+### Pre-configure OpenClaw for Ollama
 
-## 🐍 Python Installation
-
-The Windows version of OpenClaw doesn't auto-install Python, but many tasks require it. Install first:
+**Ollama v0.15.3+ New Feature**: Pre-configure OpenClaw's Ollama settings
 
 ```cmd
-winget install python
+ollama launch openclaw
 ```
+
+You'll see:
+
+```
+Launching OpenClaw with <model name>...
+Error: openclaw is not installed, install from https://docs.openclaw.ai
+```
+
+**This is normal!** The command has written the configuration to `%USERPROFILE%\.openclaw\openclaw.json`, which will be auto-detected during OpenClaw installation.
+
+> 📝 **To change models later**: Delete `%USERPROFILE%\.ollama\config\config.json` first, then run `ollama launch openclaw` again.
 
 ---
 
-## ⚙️ OpenClaw Installation & Configuration
+## 3️⃣ OpenClaw Installation
 
-### Step 1: Set PowerShell Execution Policy
+### Set PowerShell Execution Policy
 
-Open PowerShell **as Administrator** and run:
+Open PowerShell **as Administrator**:
 
 ```powershell
 # Allow local machine to execute PS1 scripts
@@ -107,9 +160,13 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 Get-ExecutionPolicy -List
 ```
 
-### Step 2: Install OpenClaw
+### Install OpenClaw
 
-Refer to [https://openclaw.ai/](https://openclaw.ai/), open PowerShell **as regular user**:
+> ⚠️ **CRITICAL! CRITICAL! CRITICAL!** (Important × 3)  
+> You MUST install OpenClaw using PowerShell **as a regular user**!  
+> Installing as Administrator may cause Telegram to not respond properly.
+
+Open PowerShell **as regular user**:
 
 ```powershell
 iwr -useb https://openclaw.ai/install.ps1 | iex
@@ -117,23 +174,38 @@ iwr -useb https://openclaw.ai/install.ps1 | iex
 
 This command will automatically install Node.js and npm.
 
-### Step 3: Follow On-Screen Instructions for Initial Setup
+### Initial Configuration
 
-#### Security Confirmation
+#### 1. Security Confirmation
 
 ```
 I understand this is powerful and inherently risky. Continue?
 > Yes
 ```
 
-#### Onboarding Mode
+#### 2. Onboarding Mode
 
 ```
 Onboarding mode
 > QuickStart (Configure details later via openclaw configure.)
 ```
 
-#### Model/Auth Provider
+#### 3. Set Model/Auth Provider
+
+If you previously ran `ollama launch openclaw`, you'll see:
+
+```
+o  Existing config detected ---------+
+|                                    |
+|  model: <your model>               |
+|                                    |
++------------------------------------+
+|
+*  Config handling
+|  > Use existing values
+```
+
+Select **Use existing values**, then:
 
 ```
 Model/auth provider
@@ -143,28 +215,33 @@ Filter models by provider
 > All providers
 
 Default model
-> Enter model manually
+> Keep current (ollama/<your model>)
 ```
 
-Enter `ollama/glm-4.7-flash` or your specified model name.
+#### 4. Channel Configuration (Optional)
 
-#### Channel Configuration
+You can select **Skip for now**, or configure Telegram directly:
 
 ```
 Select channel (QuickStart)
-> Skip for now
+> ● Telegram (Bot API) (not configured)
+
+Enter Telegram bot token
+>>> 1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789
 ```
 
-#### Skills Store
+> 💡 How to get a token? See [Telegram Bot Setup](#telegram-bot-setup)
+
+#### 5. Skills Store
 
 ```
 Configure skills now? (recommended)
 > No
 ```
 
-> ⚠️ Windows cannot install Brew, and the skills store requires Brew, so choose No for now
+> ⚠️ Windows cannot install Brew, and the skills store requires Brew, so choose No for now.
 
-#### Enable Hooks
+#### 6. Enable Hooks
 
 ```
 Enable hooks?
@@ -173,9 +250,9 @@ Enable hooks?
 > [+] 💾 session-memory (Save session context to memory when /new command is issued)
 ```
 
-Press spacebar to select all three, then press Enter
+Press **spacebar** to select all three, then press **Enter**.
 
-#### Record Web UI Information
+#### 7. Record Web UI Information
 
 After installation completes, you'll see:
 
@@ -189,75 +266,91 @@ Control UI:
 
 > 🔑 **Important**: Remember the URL with token!
 
-#### Gateway Launch Method (if prompted)
+#### 8. Install Shell Completion Script
 
 ```
-How do you want to hatch your bot?
-> Open the Web UI
+—  Onboarding complete. Dashboard opened with your token;
+   keep that tab to control OpenClaw.
+
+*  Install shell completion script?
+> Yes
 ```
 
-### Step 4: Update Model Configuration
+### Start Gateway Service
 
-At this point, OpenClaw will attempt to launch the Gateway service in a separate Command Prompt window and open a web browser.
-
-- If you installed as **Administrator**, the browser will enter the Chat screen. Don't enter anything yet, as we haven't configured Ollama's Key and BaseURL. Press `Ctrl+C` to stop the Gateway service first.
-- If you followed the instructions and installed as a **regular user**, the Gateway Service won't launch at this point, and the browser will show "Unable to connect to this site" - this is normal.
-
-Now, directly edit the `.openclaw\openclaw.json` configuration file using a text editor:
-
-```cmd
-notepad $env:USERPROFILE\.openclaw\openclaw.json
-```
-
-Then, between the first line's `{` and `"messages": {`, insert the following data:
-
-```json
-  "models": {
-    "providers": {
-      "ollama": {
-        "baseUrl": "http://127.0.0.1:11434/v1",
-        "apiKey": "ollama-local",
-        "models": [
-          {
-            "id": "ollama/glm-4.7-flash",
-            "name": "GLM 4.7 Flash",
-            "reasoning": true,
-            "input": ["text"],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 128000,
-            "maxTokens": 16384
-          },
-        ]
-      }
-    }
-  },
-```
-
-> ⚠️ Note: You can change the model name above to your preferred name
-
-After saving the configuration file, open PowerShell **as Administrator** and enter:
+Open PowerShell **as Administrator**:
 
 ```powershell
 openclaw gateway install
+openclaw gateway start
 ```
 
-After successfully starting the Gateway service, restart your computer (Reboot).
+> 💡 **Recommendation**: Restart your computer after this to ensure the Gateway service starts automatically on boot.
 
-After re-entering Windows, the Gateway Service window will automatically open.
-You can now open your browser and navigate to the URL mentioned above: http://127.0.0.1:18789/?token=xxxxxxxxxx
+#### Test Gateway
 
-Enter any conversation in the Chat screen. Ollama will then load the model in the background and display the conversation in the Chat window.
+After reboot, open your browser and visit:
 
-If the AI responds normally, the basic AI conversation setup is complete.
+```
+http://127.0.0.1:18789/?token=xxxxxxxxxx
+```
 
-### Step 5: Advanced Configuration
+Type any message in the Chat screen. Ollama will load the model in the background and respond.
 
-Open Command Prompt as a regular user and run the configuration command:
+✅ **If AI responds normally, basic setup is complete!**
+
+---
+
+## 4️⃣ Advanced Configuration
+
+### Telegram Bot Setup
+
+#### Create Telegram Bot
+
+1. In Telegram, search for and add **@BotFather**
+
+2. Send command `/newbot` and follow prompts to set bot name
+   - Example: `openclaw-bot` (choose different name if taken)
+
+3. **BotFather** will reply:
+
+```
+Done. Congratulations on your new bot...
+
+Use this token to access the HTTP API:
+1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789
+```
+
+> 🔑 **Remember this Token** - you'll need it during configuration!
+
+### Pair Telegram Channel
+
+1. Open your bot channel in Telegram on your phone, send any message
+
+2. Bot will reply:
+
+```
+OpenClaw: access not configured.
+
+Your Telegram user id: 1234567890
+Pairing code: abcdefgh
+```
+
+3. On your computer, run the pairing command:
+
+```cmd
+openclaw pairing approve telegram abcdefgh
+```
+
+(Replace `abcdefgh` with your pairing code)
+
+4. Send another message to test
+
+✅ **Bot should respond normally now!** 🎉
+
+### Other Advanced Settings (Optional)
+
+Open Command Prompt as regular user:
 
 ```cmd
 openclaw config
@@ -287,87 +380,6 @@ Enable web_fetch (keyless HTTP fetch)?
 > ● Yes / ○ No
 ```
 
-#### Channel Configuration
-
-```
-Select sections to configure
-> ● Channels (Link WhatsApp/Telegram/etc and defaults)
-
-Channels
-> ● Configure/link (Add/update channels; disable unselected accounts)
-
-Select a channel
-> ● Telegram (Bot API) (not configured)
-
-Enter Telegram bot token
->>> 1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789
-```
-
-Enter your Telegram Bot Token (format as shown above, see [Telegram Bot Setup](#-telegram-bot-setup))
-
-```
-> ● Finished (Done)
-
-Configure DM access policies now? (default: pairing)
-> ○ Yes / ● No
-
-Select sections to configure
-> ● Continue (Done)
-```
-
-### Step 6: Pair Telegram Channel
-
-Open your bot channel in Telegram on your phone and send any message.
-
-The bot will reply:
-
-```
-OpenClaw: access not configured.
-
-Your Telegram user id: 1234567890
-Pairing code: abcdefgh
-```
-
-> 🔑 **Remember the pairing code**: `abcdefgh`
-
-On your computer, run the pairing command:
-
-```cmd
-openclaw pairing approve telegram abcdefgh
-```
-
-(Replace `abcdefgh` with your pairing code)
-
-### Step 7: Test Complete
-
-Return to your Telegram channel and send another message - the bot should now respond normally! 🎉
-
-> ⚠️ Important: Please restart your computer once to ensure the Gateway service starts properly. Only then will OpenClaw work normally!
-
-> Recommendation: Add an environment variable `OLLAMA_KEEP_ALIVE=-1` to prevent Ollama from automatically exiting the model after 5 minutes of inactivity, which would affect the speed of the next conversation.
-
----
-
-## 📱 Telegram Bot Setup
-
-### Create Telegram Bot
-
-1. In Telegram, search for and add the official account **@BotFather**
-
-2. Send command `/newbot` and follow prompts to set bot name
-   - Example: `openclaw-bot` (choose a different name if taken)
-
-3. **BotFather** will reply:
-
-```
-Done. Congratulations on your new bot...
-
-Use this token to access the HTTP API:
-1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789
-```
-
-> 🔑 **Remember this Token** - you'll need it during configuration!
-
 ---
 
 ## 🗑️ Complete Uninstallation Guide
@@ -379,16 +391,16 @@ To completely remove OpenClaw / Moltbot / Clawdbot:
 ```powershell
 # Complete removal (including all data)
 openclaw uninstall --all --yes --non-interactive
-or
+# or
 moltbot uninstall --all --yes --non-interactive
-or
+# or
 clawdbot uninstall --all --yes --non-interactive
 
 # Remove npm package
 npm uninstall -g openclaw
-or
+# or
 npm uninstall -g moltbot
-or
+# or
 npm uninstall -g clawdbot
 ```
 
@@ -411,6 +423,7 @@ npm uninstall -g clawdbot
       "ollama": {
         "baseUrl": "http://127.0.0.1:11434/v1",
         "apiKey": "ollama-local",
+        "api": "openai-completions",
         "models": [
           {
             "id": "ollama/glm-4.7-flash",
@@ -423,50 +436,18 @@ npm uninstall -g clawdbot
               "cacheRead": 0,
               "cacheWrite": 0
             },
-            "contextWindow": 128000,
+            "contextWindow": 262000,
             "maxTokens": 16384
-          },
-          {
-            "id": "gemini-3-flash-preview:cloud",
-            "name": "Gemini 3 Flash",
-            "reasoning": true,
-            "input": ["text"],
-            "cost": {
-              "input": 0,
-              "output": 0,
-              "cacheRead": 0,
-              "cacheWrite": 0
-            },
-            "contextWindow": 1000000,
-            "maxTokens": 65536
           }
         ]
       }
     }
-  },
-  "meta": {
-    "lastTouchedVersion": "2026.1.24-3",
-    "lastTouchedAt": "2026-01-28T08:58:52.807Z"
-  },
-  "wizard": {
-    "lastRunAt": "2026-01-28T08:58:52.797Z",
-    "lastRunVersion": "2026.1.24-3",
-    "lastRunCommand": "configure",
-    "lastRunMode": "local"
   },
   "agents": {
     "defaults": {
       "model": {
         "primary": "ollama/glm-4.7-flash",
         "fallbacks": ["ollama/gemini-3-flash-preview:cloud"]
-      },
-      "models": {
-        "ollama/gemini-3-flash-preview:cloud": {
-          "alias": "gemini-flash"
-        },
-        "ollama/glm-4.7-flash": {
-          "alias": "glm-4.7"
-        }
       },
       "workspace": "C:\\Users\\USER\\.openclaw\\workspace",
       "compaction": {
@@ -478,87 +459,78 @@ npm uninstall -g clawdbot
       }
     }
   },
-  "tools": {
-    "web": {
-      "search": {
-        "enabled": false
-      },
-      "fetch": {
-        "enabled": true
-      }
+  "gateway": {
+    "mode": "local",
+    "auth": {
+      "mode": "token",
+      "token": "YOUR_TOKEN_HERE"
+    },
+    "port": 18789,
+    "bind": "loopback"
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "botToken": "YOUR_BOT_TOKEN_HERE"
     }
-  },
-  "messages": {
-    "ackReactionScope": "group-mentions"
-  },
-  "commands": {
-    "native": "auto",
-    "nativeSkills": "auto"
   },
   "hooks": {
     "internal": {
       "enabled": true,
       "entries": {
-        "boot-md": {
-          "enabled": true
-        },
-        "command-logger": {
-          "enabled": true
-        },
-        "session-memory": {
-          "enabled": true
-        }
-      }
-    }
-  },
-  "channels": {
-    "telegram": {
-      "enabled": true,
-      "dmPolicy": "pairing",
-      "botToken": "YOUR_BOT_TOKEN_HERE",
-      "groupPolicy": "allowlist",
-      "streamMode": "partial"
-    }
-  },
-  "gateway": {
-    "port": 18789,
-    "mode": "local",
-    "bind": "auto",
-    "auth": {
-      "mode": "token",
-      "token": "YOUR_TOKEN_HERE"
-    },
-    "tailscale": {
-      "mode": "off",
-      "resetOnExit": false
-    }
-  },
-  "skills": {
-    "install": {
-      "nodeManager": "npm"
-    }
-  },
-  "plugins": {
-    "entries": {
-      "telegram": {
-        "enabled": true
+        "boot-md": { "enabled": true },
+        "command-logger": { "enabled": true },
+        "session-memory": { "enabled": true }
       }
     }
   }
 }
 ```
 
+---
+
 ## 🎯 Quick Reference
 
 | Command | Purpose |
 |---------|---------|
+| `ollama --version` | Check Ollama version |
 | `ollama pull <model>` | Pull model |
-| `ollama launch openclaw` | Configure and launch model |
+| `ollama launch openclaw` | Configure OpenClaw with Ollama |
 | `openclaw config` | Enter configuration interface |
 | `openclaw models list` | View current configured model list |
+| `openclaw gateway install` | Install Gateway service |
+| `openclaw gateway start` | Start Gateway service |
 | `openclaw pairing approve telegram <code>` | Pair Telegram channel |
-| `openclaw uninstall --all` | Complete removal |
 | `openclaw security audit --deep` | Deep security check |
+| `openclaw uninstall --all` | Complete removal |
+
+---
+
+## 💡 Useful Tips
+
+### Prevent Ollama from Auto-unloading Models
+
+Add to environment variables:
+
+```
+OLLAMA_KEEP_ALIVE=-1
+```
+
+This prevents Ollama from automatically unloading models after 5 minutes of inactivity, improving response time for next conversation.
+
+### Update Ollama Model Configuration
+
+To change Ollama models:
+
+1. Delete Ollama config file:
+   ```cmd
+   del %USERPROFILE%\.ollama\config\config.json
+   ```
+
+2. Re-run configuration:
+   ```cmd
+   ollama launch openclaw
+   ```
 
 ---
 
@@ -566,19 +538,32 @@ npm uninstall -g clawdbot
 
 - [Ollama Official Site](https://ollama.com/)
 - [OpenClaw Official Site](https://openclaw.ai/)
+- [OpenClaw Docs - Ollama Setup](https://docs.openclaw.ai/providers/ollama)
 - [Telegram BotFather](https://t.me/BotFather)
-- [OpenClaw Ollama Configuration](https://docs.openclaw.ai/providers/ollama)
 
 ---
 
 ## 💬 Community Support
 
-Have questions? Feel free to open a GitHub Issue!
+Have questions? Feel free to open an [GitHub Issue](https://github.com/anomixer/openclaw-setup/issues)!
 
 ---
 
-**Last Updated**: 2026-01-30
+## 📝 Changelog
 
-**Created by anomixer**
+### 2026-02-02
+- 🔄 Updated to Ollama v0.15.4+ version
+- ✨ Added `ollama launch openclaw` pre-configuration feature
+- 📖 Restructured documentation for better readability
+- ⚠️ Emphasized must use regular user account for installation
 
-Clawdbot → Moltbot → OpenClaw
+### 2026-01-30
+- 🦞 Renamed repository to openclaw-setup
+- 🌍 Added English README
+- 💬 Added murmur.md commentary file
+
+---
+
+**Last Updated**: 2026-02-02  
+**Created by anomixer**  
+**Clawdbot → Moltbot → OpenClaw**
