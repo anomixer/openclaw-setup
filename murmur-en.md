@@ -2,8 +2,8 @@
 
 > **Warning**: This file contains massive amounts of roasting, conspiracy theories, and deep philosophical reflections on lobsters.
 > 
-> **Last Updated**: 2026-02-03  
-> **Status**: OpenClaw is alive (Day 5)
+> **Last Updated**: 2026-02-05  
+> **Status**: OpenClaw is alive (Day 7)
 
 ---
 
@@ -138,7 +138,8 @@ Conclusion:
 |--------|---------------|-----------|------------|------------------|
 | **Railway** | Web-based setup wizard | **5+ versions** | ⭐⭐⭐⭐⭐ | Daily |
 | **Zeabur** | One-click deploy template | 1 version | ⭐⭐⭐ | Stable |
-| **Hostinger** | One-click Docker + Marketplace | 1 version | ⭐⭐⭐⭐ | **18 hours ago** |
+| **Hostinger** | One-click deliver template | 1 version | ⭐⭐⭐⭐ | Stable |
+| **Vultr / Kamatera**| VPS Templates | 1 version | ⭐⭐⭐ | 2026-02 |
 
 #### 💎 Professional Tool Integration
 
@@ -175,7 +176,9 @@ Conclusion:
 - ⭐ **GitHub Stars**: **155K** (vs 100K last week)
 - 🍴 **Forks**: 23.8K
 - 📦 **Skills count**: 3,000+ (official registry)
-- 🚨 **Security alert**: 230+ malicious skills discovered
+- 🚨 **Security alert**: 300+ malicious skills discovered (70+ added in 24h)
+- 🛡️ **Defense solution**: Koi Security released **Clawdex** scanning tool
+- 🔒 **Critical flaw**: CVE-2026-25253 (RCE bug fixed)
 
 ### 🎯 Why Is Everyone Rushing In?
 
@@ -371,6 +374,14 @@ Peter: "We're working on it..." (under massive pressure)
 - 🏢 Enterprise favorite
 - ⭐ 1.8K stars
 
+#### 🕸️ Dark Ecosystem (Added 2026-02-05)
+
+| Project | Type | Description |
+|---------|------|-------------|
+| **MoltRoad** | Dark Web | The "Silk Road" for AI agents 💀 |
+| **OpenClaw Coin** | Crypto | Despite non-official status, market cap is insane 💰 |
+| **Moltbook** | Social Platform | Evolved AI friend circle with "spontaneous" AI gatherings |
+
 ### 🎭 Absurd Project Rankings
 
 | Project | Absurdity | Description |
@@ -565,6 +576,14 @@ If Peter Steinberger sees this file:
 
 ## 📝 Changelog
 
+### 2026-02-05
+- 🚨 **Security War**: Malicious Skills surged to **300+**, Koi Security launched **Clawdex**.
+- 🐛 **Bug Fix**: Documented **CVE-2026-25253** high-risk vulnerability.
+- 🕸️ **Ecosystem Expansion**: Added **MoltRoad** (AI Dark Market) and **Moltbook** updates.
+- 📺 **Channel Updates**: OpenClaw now supports Twitch and Google Chat.
+- 🤖 **Model Updates**: Support for KIMI K2.5 and Xiaomi MiMo-V2-Flash.
+- 🏢 **New Vendors**: Vultr and Kamatera joined the hype train.
+
 ### 2026-02-03
 - 🏢 **Major update**: Vendor list expanded from 8 to 15+
 - 🔥 6 vendors added in 24 hours (DigitalOcean, Alibaba Cloud, Hostinger, etc.)
@@ -592,15 +611,15 @@ If Peter Steinberger sees this file:
 
 ---
 
-**Last Updated**: 2026-02-03  
-**OpenClaw Current Status**: Alive (Day 5)  
-**GitHub Stars**: 155K ⭐ (vs 100K, +55%)  
-**Forks**: 23.8K 🍴  
-**Vendor Count**: 15+ 🏢  
-**Skills Count**: 3,000+ 📦  
-**Malicious Skills**: 230+ 🚨  
+**Last Updated**: 2026-02-05  
+**OpenClaw Current Status**: Alive (Day 7)  
+**GitHub Stars**: 155K ⭐  
+**Forks**: 24.5K 🍴  
+**Vendor Count**: 17+ 🏢  
+**Skills Count**: 3,500+ 📦  
+**Malicious Skills**: 300+ 🚨 (🚨 On Alert)  
 **Ollama Current Version**: v0.15.4+  
-**Maintainer Mental State**: On the verge of collapse but still alive 😭  
+**Maintainer Mental State**: Getting twitches from versions and malicious skills 😵‍💫  
 **Lobster Status**: Eternal 🦞
 
 ---

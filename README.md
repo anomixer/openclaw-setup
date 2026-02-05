@@ -9,9 +9,9 @@
     </picture>
 </p>
 
-在 Windows 下安裝 OpenClaw (clawdbot / moltbot) 與本地端 LLM (Ollama) 的完整步驟指南。
+在 Windows 下快速安裝 OpenClaw (clawdbot / moltbot) 與本地端 LLM (Ollama) 的完整步驟指南。
 
-> ⚠️ **版本需求**: Ollama v0.15.4+ 與 OpenClaw 2026.1.30+
+> ⚠️ **版本需求**: Ollama v0.15.4+ 與 OpenClaw 2026.2.5+
 
 ---
 
@@ -22,24 +22,28 @@
    - [安裝 Ollama](#安裝-ollama-v0154)
    - [安裝 Python](#安裝-python)
 2. [Ollama 模型配置](#2️⃣-ollama-模型配置)
+   - [推薦模型](#推薦模型)
    - [拉取本地模型](#拉取本地模型)
    - [配置雲端模型](#配置雲端模型可選)
-   - [預先設定 OpenClaw](#預先設定-openclaw-使用-ollama)
 3. [OpenClaw 安裝](#3️⃣-openclaw-安裝)
-   - [設定 PowerShell 權限](#設定-powershell-執行權限)
-   - [安裝 OpenClaw](#安裝-openclaw-1)
+   - [安裝 OpenClaw](#安裝-openclaw)
    - [初始配置](#初始配置)
-   - [啟動 Gateway](#啟動-gateway-服務)
+   - [啟動 Gateway 服務](#9-啟動-gateway-服務)
+   - [設定 OpenClaw 使用 Ollama](#10-設定-openclaw-使用-ollama)
+   - [測試 Gateway](#11-測試-gateway)
 4. [進階配置](#4️⃣-進階配置)
    - [Telegram Bot 設定](#telegram-bot-設定)
    - [配對 Telegram 頻道](#配對-telegram-頻道)
-   - [其他進階設定](#其他進階設定)
+   - [其他進階設定](#其他進階設定-可選)
 
 ### 參考資料
-- [完整移除指南](#-完整移除指南)
+- [完整移除指南](#️-完整移除指南)
 - [配置檔案參考](#-配置檔案參考)
-- [快速參考表](#-快速參考)
+- [快速參考](#-快速參考)
+- [實用技巧](#-實用技巧)
 - [相關連結](#-相關連結)
+- [社群支援](#-社群支援)
+- [更新日誌](#-更新日誌)
 
 ---
 
@@ -125,54 +129,25 @@ ollama pull gemini-3-flash-preview:cloud
 
 > 💡 **提示**: 雲端模型有用量限制，不要過於頻繁使用。
 
-### 預先設定 OpenClaw 使用 Ollama
-
-**Ollama v0.15.3+ 新功能**: 可預先配置 OpenClaw 的 Ollama 設定
-
-```cmd
-ollama launch openclaw
-```
-
-此時會顯示：
-
-```
-Launching OpenClaw with <model name>...
-Error: openclaw is not installed, install from https://docs.openclaw.ai
-```
-
-**這是正常的！** 這個指令已經將配置寫入 `%USERPROFILE%\.openclaw\openclaw.json`，下面安裝 OpenClaw 時會自動偵測。
-
-> 📝 **日後更換模型**: 需先刪除 `%USERPROFILE%\.ollama\config\config.json`，再執行 `ollama launch openclaw`。
-
 ---
 
 ## 3️⃣ OpenClaw 安裝
 
-### 設定 PowerShell 執行權限
-
-以 **管理員身份** 開啟 PowerShell：
-
-```powershell
-# 允許本機執行 PS1 腳本
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
-
-# 檢查設定（LocalMachine 應顯示 RemoteSigned）
-Get-ExecutionPolicy -List
-```
+以 **一般使用者身份** 開啟 Command Prompt：
 
 ### 安裝 OpenClaw
 
 > ⚠️ **重要！重要！重要！** （重要所以說三次）  
-> 請務必以 **一般使用者身份** 執行 PowerShell 來安裝 OpenClaw！  
+> 請務必以 **一般使用者身份** 執行 Command Prompt 來安裝 OpenClaw！  
 > 若用 Administrator 安裝，可能導致 Telegram 無法正常回應。
 
-以 **一般使用者身份** 開啟 PowerShell：
+以 **一般使用者身份** 開啟 Command Prompt：
 
-```powershell
-iwr -useb https://openclaw.ai/install.ps1 | iex
+```cmd
+curl -fsSL https://openclaw.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
 ```
 
-此指令會自動安裝 Node.js 和 npm。
+此指令會自動安裝 Node.js 和 npm ，並進入 OpenClaw 的 Onboarding 模式 (初次歡迎設定畫面)。
 
 ### 初始配置
 
@@ -192,20 +167,7 @@ Onboarding mode
 
 #### 3. 設定模型/認證提供者
 
-若你先前執行了 `ollama launch openclaw`，會看到：
-
-```
-o  Existing config detected ---------+
-|                                    |
-|  model: <your model>               |
-|                                    |
-+------------------------------------+
-|
-*  Config handling
-|  > Use existing values
-```
-
-選擇 **Use existing values**，然後：
+先選擇跳過，後面再設定：
 
 ```
 Model/auth provider
@@ -215,12 +177,14 @@ Filter models by provider
 > All providers
 
 Default model
-> Keep current (ollama/<your model>)
+> Enter model manually 
+
+#輸入上述的模型名稱，例如: ollama/glm-4.7-flash
 ```
 
 #### 4. 頻道配置（可選）
 
-這裡可以先選擇 **Skip for now**，或直接配置 Telegram：
+這裡可以先選擇 **Skip for now**，或直接配置 Telegram，這裡以有配置為例：
 
 ```
 Select channel (QuickStart)
@@ -241,7 +205,8 @@ Configure skills now? (recommended)
 
 > ⚠️ Windows 無法安裝 Brew，而技能商店需要 Brew，所以先選 No。
 
-#### 6. 啟用 Hooks
+
+#### 6. 啟用 Hooks (若出現的話)
 
 ```
 Enable hooks?
@@ -266,30 +231,55 @@ Control UI:
 
 > 🔑 **重要**: 記住帶 token 的 URL！
 
-#### 8. 安裝 Shell Completion Script
+#### 8. 安裝 Shell (若出現的話)
 
 ```
-—  Onboarding complete. Dashboard opened with your token;
-   keep that tab to control OpenClaw.
-
-*  Install shell completion script?
-> Yes
+Enable zsh shell completion for openclaw?
+> No
 ```
 
-### 啟動 Gateway 服務
+> ⚠️ Windows 無法使用 zsh ，所以先選 No。
 
-以 **管理員身份** 開啟 PowerShell：
+### 9. 啟動 Gateway 服務
 
-```powershell
+此時， OpenClaw 會開啟瀏覽器，進入 Gateway Dashboard ，若此時沒執行 Gateway Service 的話，就無法正常顯示內容。此時請先按 Ctrl+C 結束 OpenClaw 視窗，然後:
+
+以 **管理員身份** 開啟 Command Prompt：
+
+```cmd
 openclaw gateway install
-openclaw gateway start
 ```
 
-> 💡 **建議**: 執行完後重新啟動電腦，確保 Gateway 服務正常開機自動啟動。
+此時，OpenClaw 的 Gateway Service 會安裝完成並啟動，並於 Windows 開機時自動啟動。
 
-#### 測試 Gateway
+### 10. 設定 OpenClaw 使用 Ollama ###
 
-重開機後，開啟瀏覽器訪問：
+**Ollama v0.15.3+ 新功能**: 可配置 OpenClaw 的 Ollama 設定，讓其套用本地模型。
+
+因為此時 Ollama 本地端模型還沒套用，所以請先將用 Ctrl+C鈕，將 Gateway 視窗關閉 (若出現的話) ，然後輸入:
+
+```
+ollama launch openclaw
+```
+
+設定好模型之後，畫面會出現，回答y 繼續:
+```
+This will modify your OpenClaw configuration:
+  C:\Users\<your username>\.openclaw\openclaw.json
+Backups will be saved to C:\Users\<your username>\AppData\Local\Temp\ollama-backups/
+
+Proceed? (y/n) yes
+```
+
+> 💡 **建議**: 執行完後，先重新啟動電腦，確保 Gateway Service 正常開機自動啟動。
+
+
+> 📝 **日後更換模型**: 請參考下方 **實用技巧**。
+
+
+#### 11. 測試 Gateway
+
+重開機後，確認 Gateway Service 有在執行 (若沒有的話，請執行 `ollama launch openclaw` 即可)，然後開啟瀏覽器訪問：
 
 ```
 http://127.0.0.1:18789/?token=xxxxxxxxxx
@@ -325,9 +315,7 @@ Use this token to access the HTTP API:
 
 ### 配對 Telegram 頻道
 
-1. 進入手機 Telegram 中的 bot 頻道，發送任意訊息
-
-2. Bot 會回覆：
+1. 進入手機 Telegram 中的 bot 頻道，查看是否有下列訊息 （若沒有，請發送任意訊息)
 
 ```
 OpenClaw: access not configured.
@@ -336,7 +324,7 @@ Your Telegram user id: 1234567890
 Pairing code: abcdefgh
 ```
 
-3. 在電腦上執行配對指令：
+2. 在電腦上執行配對指令：
 
 ```cmd
 openclaw pairing approve telegram abcdefgh
@@ -344,7 +332,7 @@ openclaw pairing approve telegram abcdefgh
 
 （將 `abcdefgh` 替換成你的配對碼）
 
-4. 再次發送訊息測試
+3. 再次發送訊息測試
 
 ✅ **Bot 應該可以正常回覆了！** 🎉
 
@@ -551,6 +539,11 @@ OLLAMA_KEEP_ALIVE=-1
 
 ## 📝 更新日誌
 
+### 2026-02-05
+- 🚀 改用 `cmd` 快速安裝指令，自動化安裝 Node.js 與 npm
+- 🆕 支援最新 OpenClaw 2026.2.5+ 版本
+- 📋 重編目錄並更新翻譯至 `README-EN.md`
+
 ### 2026-02-02
 - 🔄 更新至 Ollama v0.15.4+ 版本
 - ✨ 新增 `ollama launch openclaw` 預配置功能
@@ -564,6 +557,6 @@ OLLAMA_KEEP_ALIVE=-1
 
 ---
 
-**最後更新**: 2026-02-02  
+**最後更新**: 2026-02-05  
 **原創 by anomixer**  
 **Clawdbot → Moltbot → OpenClaw**
