@@ -2,8 +2,8 @@
 
 > **Warning**: This file contains massive amounts of roasting, conspiracy theories, and deep philosophical reflections on lobsters.
 > 
-> **Last Updated**: 2026-02-05  
-> **Status**: OpenClaw is alive (Day 7)
+> **Last Updated**: 2026-02-06  
+> **Status**: OpenClaw is alive (Day 8)
 
 ---
 
@@ -173,12 +173,10 @@ Conclusion:
 - 💰 Price range: $5-$24/mo
 - 🏆 Most templates: Railway (5+ versions)
 - 😱 Most absurd: Still Vertu
-- ⭐ **GitHub Stars**: **155K** (vs 100K last week)
-- 🍴 **Forks**: 23.8K
-- 📦 **Skills count**: 3,000+ (official registry)
 - 🚨 **Security alert**: 300+ malicious skills discovered (70+ added in 24h)
 - 🛡️ **Defense solution**: Koi Security released **Clawdex** scanning tool
 - 🔒 **Critical flaw**: CVE-2026-25253 (RCE bug fixed)
+- 🛠️ **Windows Bug**: `spawn EINVAL` issue found when installing plugins (fix below)
 
 ### 🎯 Why Is Everyone Rushing In?
 
@@ -576,6 +574,35 @@ If Peter Steinberger sees this file:
 
 ## 📝 Changelog
 
+- 😱 Absurd projects: molt.church (AI religion)
+- 📦 Skills count**: 3,500+ (official registry)
+
+### 🛠️ Windows Known Issues & Hotfixes (Added 2026-02-06)
+
+#### ❌ `spawn EINVAL` (Plugin Install Failed)
+- **Symptom**: Running `openclaw plugins install` results in `Error: spawn EINVAL`.
+- **Cause**: Official bug (#9224) where calling `npm.cmd` on Windows lacks `shell: true`.
+- **Hotfix**: 
+    1. Locate `...\npm\node_modules\openclaw\dist\exec-BIMFe4XS.js`.
+    2. Add `{ shell: true }` to the `spawn` parameters around line 201.
+- **Fixed Version**: OpenClaw 2026.2.5+ will fix this officially.
+
+#### ❌ Local Models Lack Memory Functionality
+- **Symptom**: When using Ollama local models, the AI forgets conversations and fails to call memory tools.
+- **Cause**: Known official bugs (#8470 / #8131) where Ollama misses tool definitions or incorrectly requires API keys.
+- **Workarounds**: 
+    - Upgrade Ollama to **v0.15.4+** (improves stability, though not a 100% fix).
+    - Install `supermemory` plugin (must fix `spawn EINVAL` first).
+    - Wait for the major official update at the end of February.
+
+#### ❌ `unknown integration: openclaw`
+- **Symptom**: Running `ollama launch openclaw` fails.
+- **Solution**: Ensure Ollama is upgraded to the latest **v0.15.4**.
+
+### 2026-02-06
+- 🛠️ **Troubleshooting Added**: Provided manual fix for `spawn EINVAL` and memory issues reported in Issue #1.
+- 🆙 **Version Reinforcement**: Re-emphasized the necessity of Ollama v0.15.4+.
+
 ### 2026-02-05
 - 🚨 **Security War**: Malicious Skills surged to **300+**, Koi Security launched **Clawdex**.
 - 🐛 **Bug Fix**: Documented **CVE-2026-25253** high-risk vulnerability.
@@ -611,8 +638,8 @@ If Peter Steinberger sees this file:
 
 ---
 
-**Last Updated**: 2026-02-05  
-**OpenClaw Current Status**: Alive (Day 7)  
+**Last Updated**: 2026-02-06  
+**OpenClaw Current Status**: Alive (Day 8)  
 **GitHub Stars**: 155K ⭐  
 **Forks**: 24.5K 🍴  
 **Vendor Count**: 17+ 🏢  

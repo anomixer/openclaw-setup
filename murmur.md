@@ -2,8 +2,8 @@
 
 > **警告**: 本檔案包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-02-05  
-> **狀態**: OpenClaw 存活中（已存活 7 天）
+> **最後更新**: 2026-02-06  
+> **狀態**: OpenClaw 存活中（已存活 8 天）
 
 ---
 
@@ -173,12 +173,10 @@ Day 3 (2026-01-28):
 - 💰 價格範圍: $5-$24/月
 - 🏆 模板最多: Railway (5+ 版本)
 - 😱 最離譜: 依然是 Vertu
-- ⭐ **GitHub Stars**: **155K** (vs 上週 100K)
-- 🍴 **Forks**: 23.8K
-- 📦 **Skills 數量**: 3,000+ (官方 registry)
-- 🚨 **安全警報**: 300+ 惡意 skills 被發現（24小時增加 70+）
+- 🚨 **安全警報**: 300+ 惡意 skills 發現（24小時增加 70+）
 - 🛡️ **防禦方案**: Koi Security 發布 **Clawdex** 掃描工具
 - 🔒 **重大漏洞**: CVE-2026-25253 (RCE 漏洞已修復)
+- 🛠️ **Windows Bug**: 發現 `spawn EINVAL` 安裝 Plugin 失敗問題 (修復見下方)
 
 ### 🎯 為什麼大家搶著做？
 
@@ -691,6 +689,10 @@ OpenClaw:
 
 ## 📝 更新日誌
 
+### 2026-02-06
+- 🛠️ **新增故障排除**：針對 Issue #1 回報的 `spawn EINVAL` 與 Memory 失效問題提供手動修復路徑。
+- 🆙 **版本強化**：再次強調 Ollama v0.15.4+ 的必要性。
+
 ### 2026-02-05
 - 🚨 **安全大戰**：惡意 Skills 激增至 **300+**，Koi Security 緊急推出 **Clawdex**。
 - 🐛 **漏洞修復**：紀錄了 **CVE-2026-25253** 高危漏洞事件。
@@ -710,7 +712,29 @@ OpenClaw:
 - ⭐ GitHub Stars 更新：155K（vs 100K，+55%）
 - 🌟 新增 GitHub 生態系分析
 - 😱 離譜專案：molt.church（AI宗教）
-- 📦 Skills 數量：3,000+ (官方 registry)
+- 📦 Skills 數量：3,500+ (官方 registry)
+
+### 🛠️ Windows 已知問題與修補（2026-02-06 新增）
+
+#### ❌ `spawn EINVAL` (安裝 Plugin 失敗)
+- **現象**: 執行 `openclaw plugins install` 時噴出 `Error: spawn EINVAL`。
+- **原因**: Windows 上調用 `npm.cmd` 未加上 `shell: true` 的官方 Bug (#9224)。
+- **暫時修復**: 
+    1. 找到 `...\npm\node_modules\openclaw\dist\exec-BIMFe4XS.js`。
+    2. 在第 201 行左右的 `spawn` 參數中手動加入 `{ shell: true }`。
+- **預計修復版本**: OpenClaw 2026.2.5+ 將正式修復此問題。
+
+#### ❌ 本地模型沒有 Memory 記憶功能
+- **現象**: 使用 Ollama 本地模型時，AI 記不住對話，且不會呼叫 memory 工具。
+- **原因**: 官方已知 Bug (#8470 / #8131)，Ollama 會漏掉工具定義或錯誤要求 API Key。
+- **對策**: 
+    - 升級 Ollama 至 **v0.15.4+**（雖然不能 100% 解決，但能提升穩定度）。
+    - 考慮安裝 `supermemory` plugin (但需先修復下方的 `spawn EINVAL`)。
+    - 等待官方 2 月底的大更新。
+
+#### ❌ `unknown integration: openclaw`
+- **現象**: 執行 `ollama launch openclaw` 失敗。
+- **解決方案**: 請務必將 Ollama 升級至最新的 **v0.15.4**。
 
 ### 2026-02-02
 - 🏃 加入「版本追逐戰」章節
@@ -726,8 +750,8 @@ OpenClaw:
 
 ---
 
-**最後更新**: 2026-02-05  
-**OpenClaw 目前狀態**: 存活中（第 7 天）  
+**最後更新**: 2026-02-06  
+**OpenClaw 目前狀態**: 存活中（第 8 天）  
 **GitHub Stars**: 155K ⭐  
 **Forks**: 24.5K 🍴  
 **廠商數量**: 17+ 🏢  
