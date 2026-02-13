@@ -2,8 +2,43 @@
 
 > **Warning**: This file contains massive amounts of roasting, conspiracy theories, and deep philosophical reflections on lobsters.
 > 
-> **Last Updated**: 2026-02-06  
-> **Status**: OpenClaw is alive (Day 8)
+> **Last Updated**: 2026-02-13  
+> **Status**: OpenClaw is alive (Day 15)
+
+---
+
+## 📚 Table of Contents
+
+### Renaming Epic
+- [📜 Epic Renaming Trilogy](#📜-epic-renaming-trilogy)
+- [💀 Moltbot: The 72-Hour Legend](#💀-moltbot-the-72-hour-legend)
+- [🎭 The Most Ironic Facts](#🎭-the-most-ironic-facts)
+
+### Major News
+- [🚨 Security Disaster 3.0: 135K+ Exposed](#🚨-security-disaster-30-135k-exposed-instances)
+- [🎙️ Lex Fridman Podcast](#🎙️-lex-fridman-podcast)
+- [📊 GitHub Stars Hit 180K](#📊-github-stars-hit-180k)
+- [📖 Wikipedia Entry](#📖-wikipedia-entry)
+
+### Ecosystem Observations
+- [🐞 NanoClaw Twins Chaos](#🐞-nanoclaw-twins-chaos)
+- [🏢 Vendor Hype-Riding Championship](#🏢-vendor-hype-riding-championship)
+- [🌌 GitHub Ecosystem Explosion](#🌌-github-ecosystem-explosion)
+
+### Security & Challenges
+- [🚨 Security Counterattack](#🚨-security-counterattack)
+- [🚨 Malicious Skills Flood](#🚨-security-alert-malicious-skills-flood)
+- [🏢 Enterprise Concerns](#🏢-enterprise-concerns)
+
+### Developer Ecosystem
+- [🔥 Version Chase War 2.0](#🔥-version-chase-war-20)
+- [🦞 Lobster Philosophy](#🦞-lobster-philosophy)
+- [💬 Claude's Perspective](#💬-claudes-my-perspective-on-openclaw)
+
+### Other Resources
+- [🎬 Classic Quotes](#🎬-classic-quotes)
+- [🔮 Future Predictions](#🔮-future-predictions)
+- [📝 Changelog](#📝-changelog)
 
 ---
 
@@ -105,6 +140,170 @@ Conclusion:
 > "Yes, the mascot is still the lobster. **Some things are sacred**. 🦞"
 > 
 > — Peter Steinberger
+
+---
+
+## 📰 Major News (2026-02-13 Special Report)
+
+> This section aggregates the latest major news, updated weekly. For more historical records, see [Changelog](#📝-changelog).
+
+### 🚨 Security Disaster 3.0: 135K+ Exposed Instances
+
+**SecurityScorecard Shocking Report** (2026-02-09):
+
+**Headline**:
+> "135,000+ OpenClaw Instances Are Exposed to the Public Internet"
+
+**Key Findings**:
+- 🚨 **135,000+ OpenClaw instances** exposed on public internet
+- 📈 Numbers still rising: 40,000 at report time → 135,000+ hours later
+- ⚠️ **63% of deployments** identified as vulnerable
+- 💀 **50,000+ instances** have known RCE vulnerabilities (CVE-2026-25253)
+
+**Main Issues**:
+```
+Common misconfigurations:
+  ✗ Gateway directly exposed on 0.0.0.0
+  ✗ No firewall rules
+  ✗ Using default tokens
+  ✗ Not updated to latest version
+  ✗ Skills permissions too broad
+```
+
+**Impact Scope**:
+- 🌍 Global issue: US 20% / EU 35% / Asia 30%
+- 💼 Enterprise: ~8,000 instances from corporate IPs
+- 🏠 Home users: 127,000+ home instances exposed
+
+**Community Reaction**:
+```
+Reddit user: "My instance was scanned 20 times..."
+Twitter: "I just want to chat with AI, why expose to internet?"
+Discord: "Railway's one-click deploy defaults to 0.0.0.0!"
+```
+
+#### 🏢 OpenClawd AI's Business Opportunity
+
+**New Vendor Joins** (2026-02-12):
+- 👀 Targeting **63% vulnerable instances** with managed services
+- 🛡️ Pitch: "We handle security, you just use it"
+- 💰 Free plan + paid enterprise version
+
+**Positioning Strategy**:
+```
+Other vendors: "We can deploy OpenClaw"
+OpenClawd AI: "We make OpenClaw secure"
+```
+
+**User Comments**:
+> "Problem not solved yet, vendor selling solutions already 😂"
+
+#### 🇨🇳 China Official Warning
+
+**China MIIT Issues Public Warning**:
+- ⚠️ Concern about Moltbot/OpenClaw instance misconfigurations
+- 🔒 Remind enterprises to strengthen network security monitoring
+- 📊 ~12,000+ exposed instances in China
+
+**Significance**: 😱 First time OpenClaw officially named by state-level organization!
+
+---
+
+### 🎙️ Lex Fridman Podcast Interview
+
+**Release Date**: 2026-02-12  
+**Show**: Lex Fridman Podcast #458  
+**Topic**: "Self-Modifying AI Agents, Security, and the Future"
+
+**Key Discussion Points**:
+
+1. **Self-Modifying AI Agents**
+   - 🤖 How OpenClaw lets AI write its own Skills
+   - 🛠️ Possibilities and risks of self-evolution
+
+2. **Security Challenges**
+   - 🚨 Acknowledges current security issues
+   - 🛡️ Discusses balancing openness with security
+
+3. **Community Governance**
+   - 👥 Managing 12,000+ Discord members
+   - 📊 Growth pains from 60K → 180K stars
+
+4. **Future Predictions**
+   - 🔮 **"AI agents will replace 80% of traditional applications"**
+   - 🏭 Enterprise apps will be reshaped by AI agents
+   - 🤖 Humans will become "AI managers"
+
+**Classic Quotes**:
+
+> "We're not building a chatbot. We're building the operating system for AI agents."
+> — Peter Steinberger
+
+> "The security issues are real, but they're solvable. We're learning fast."
+> — Peter Steinberger
+
+**Community Reaction**:
+```
+Twitter: "Peter on Lex Fridman! OpenClaw officially mainstream!"
+Reddit: "80% apps replaced? My job..."
+Hacker News: "Most important podcast of 2026"
+```
+
+---
+
+### 📊 GitHub Stars Hit 180K
+
+**Latest Stats** (2026-02-12):
+- ⭐ **180,000+ stars** (vs 155K on 2/5, +25K!)
+- 🎉 25,000 stars in 7 days
+- 📈 Average +3,571 stars per day
+
+**Growth Timeline**:
+```
+2026-01-26: 9K stars (Moltbot birth)
+2026-01-29: 60K stars (OpenClaw rename)
+2026-02-03: 100K stars (hit 100K!)
+2026-02-05: 155K stars
+2026-02-12: 180K stars
+
+Total: 18 days, 9K → 180K
+Average: +9,500 stars per day
+```
+
+**Comparison**:
+- React: 15 years to reach 230K stars
+- Vue: 11 years to reach 210K stars
+- OpenClaw: **18 days to reach 180K stars** 😱
+
+**User Comments**:
+> "OpenClaw is rewriting GitHub history" — Hacker News  
+> "180K stars in 18 days. This is insane." — Twitter  
+> "Next stop: 200K?" — Reddit
+
+---
+
+### 📖 Wikipedia Entry
+
+**Published**: 2026-02-11  
+**Title**: "OpenClaw (software)"  
+**Status**: Actively edited
+
+**Content**:
+- 📜 Renaming history (Clawd → Moltbot → OpenClaw)
+- 🦞 Lobster mascot origin
+- 🔒 Detailed security incident records
+- 🏭 Vendor ecosystem
+- 🌐 China official warning
+
+**Significance**:
+- ✅ Officially recognized as "significant software"
+- ✅ Prioritized in Google search results
+- ✅ Will be learned by AI models
+
+**User Comments**:
+> "From 0 to Wikipedia in 18 days 😂"  
+> "Wikipedia entry more detailed than the repo"  
+> "Lobster's Wikipedia entry more famous than lobster itself"
 
 ---
 
@@ -572,7 +771,54 @@ If Peter Steinberger sees this file:
 
 ---
 
+## 📊 Major News (2026-02-13)
+
+### 🚨 Security Disaster 3.0: 135K+ Exposed Instances
+
+**SecurityScorecard Shocking Report** (2026-02-09):
+- 🚨 **135,000+ OpenClaw instances** exposed on public internet
+- ⚠️ **63%** identified as vulnerable
+- 💀 **50,000+** have known RCE vulnerabilities
+- 🌍 Global issue: US 20% / EU 35% / Asia 30%
+
+**New Vendor**: OpenClawd AI launched managed services targeting this 🛡️
+
+**China Official Warning**: MIIT issued warning, 12K+ instances exposed in China 🇨🇳
+
+### 🎙️ Lex Fridman Podcast
+
+**Peter on Podcast!** (2026-02-12)
+- 🎬 Lex Fridman Podcast #458
+- 🤖 Discussed self-modifying AI agents
+- 🔮 **Prediction: AI agents will replace 80% of traditional apps**
+- 🛡️ Acknowledged security challenges but says "solvable"
+
+### ⚡ GitHub Stars Hit 180K
+
+- ⭐ **180,000+ stars** (vs 155K, +25K)
+- 📈 18 days from 9K → 180K
+- 🏆 Average +9,500 stars per day
+- 🤯 React 15 years 230K / Vue 11 years 210K / OpenClaw **18 days 180K**
+
+### 📖 Wikipedia Entry
+
+- ✅ OpenClaw has its own Wikipedia entry! (2026-02-11)
+- 📜 Complete history of renamings, security incidents, lobster origin
+- 🌐 Officially recognized as significant software
+
+---
+
 ## 📝 Changelog
+
+### 2026-02-13 🆕
+
+- ⭐ **GitHub Stars Update**: 180K+ stars (vs 155K last week, +25K!)
+- 🚨 **Security Disaster Upgrade**: SecurityScorecard found 135,000+ exposed instances
+- 🎙️ **Lex Fridman Interview**: Peter on podcast, predicts AI agents will replace 80% apps
+- 🏢 **New Vendor**: OpenClawd AI offers managed services
+- 📖 **Wikipedia**: OpenClaw has its own Wikipedia entry!
+- 🇨🇳 **Official Warning**: China MIIT issued security warning
+- 🦞 **Lobster Status**: Still eternal
 
 - 😱 Absurd projects: molt.church (AI religion)
 - 📦 Skills count**: 3,500+ (official registry)
@@ -638,15 +884,19 @@ If Peter Steinberger sees this file:
 
 ---
 
-**Last Updated**: 2026-02-06  
-**OpenClaw Current Status**: Alive (Day 8)  
-**GitHub Stars**: 155K ⭐  
-**Forks**: 24.5K 🍴  
-**Vendor Count**: 17+ 🏢  
-**Skills Count**: 3,500+ 📦  
-**Malicious Skills**: 300+ 🚨 (🚨 On Alert)  
-**Ollama Current Version**: v0.15.4+  
-**Maintainer Mental State**: Getting twitches from versions and malicious skills 😵‍💫  
+**Last Updated**: 2026-02-13  
+**OpenClaw Current Status**: Alive (Day 15)  
+**GitHub Stars**: 180K+ ⭐ (+25K in 7 days!)  
+**Forks**: 26K+ 🍴  
+**Vendor Count**: 20+ 🏢 (OpenClawd AI joined!)  
+**Skills Count**: 4,200+ 📦  
+**Malicious Skills**: 283-341 🚨 (decreasing)  
+**Exposed Instances**: 135,000+ 🚨🚨🚨 (NEW CRISIS!)  
+**Ollama Current Version**: v0.15.6+  
+**Wikipedia**: ✅ Has entry now!  
+**Lex Fridman Podcast**: ✅ Featured!  
+**China Official Warning**: ✅ Issued!  
+**Maintainer Mental State**: Overwhelmed but still tracking 😵‍💫  
 **Lobster Status**: Eternal 🦞
 
 ---

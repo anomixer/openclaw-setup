@@ -1,5 +1,7 @@
 # 為什麼 Windows 使用者需要 WSL2？
 
+**中文版 | [English](why-wsl2-en.md)**
+
 ## 官方立場
 
 OpenClaw 官方文件明確表示：
@@ -137,3 +139,8 @@ Homebrew 官方明確表示：
 ---
 
 **回到**：[主要 README](../README.md) | [WSL2 安裝指南](wsl2-guide.md) | [遷移指南](migration-guide.md)
+
+---
+
+**最後更新**: 2026-02-13  
+**by anomixer**

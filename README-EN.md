@@ -536,6 +536,11 @@ Facing issues? Feel free to open an issue on [GitHub Issues](https://github.com/
 
 ## 📝 Changelog
 
+### 2026-02-13
+- 🔄 Synchronized with Chinese version README.md
+- 📅 Updated all documentation dates to 2026-02-13
+- 🦞 Lobster remains eternal
+
 ### 2026-02-05
 - 🚀 Switched to `cmd` quick install command for higher automation of Node.js and npm installation.
 - 🆕 Support for the latest OpenClaw 2026.2.5+ version.
@@ -554,6 +559,6 @@ Facing issues? Feel free to open an issue on [GitHub Issues](https://github.com/
 
 ---
 
-**Last Updated**: 2026-02-05  
+**Last Updated**: 2026-02-13  
 **Original by anomixer**  
 **Clawdbot → Moltbot → OpenClaw**

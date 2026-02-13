@@ -1,4 +1,4 @@
-# 🦞 OpenClaw (clawdbot / moltbot) + 🦙 Ollama 安裝指南
+# 🦞 OpenClaw + 🦙 Ollama 安裝指南
 
 **中文版 | [English](README-EN.md)**
 
@@ -9,11 +9,33 @@
     </picture>
 </p>
 
-在 Windows 下快速安裝 OpenClaw (clawdbot / moltbot) 與本地端 LLM (Ollama) 的完整步驟指南。
+
+---
+
+## ⚠️ 重要提醒: Windows 原生版 vs WSL2
+
+目前你看到的是 **Windows 原生版安裝教學**。這個方式可以快速體驗 OpenClaw + Ollama，但有以下限制：
+
+| 功能 | Windows 原生版 | WSL2 版本 |
+|------|---------------|----------|
+| **基本對話** | ✅ 完全支援 | ✅ 完全支援 |
+| **Memory 功能** | ⚠️ 可能不穩定 | ✅ 完全支援 |
+| **Skills 擴充** | ⚠️ 只能用部分 Windows 相容 skills | ✅ 支援大部分 skills |
+| **Homebrew 依賴** | ❌ 不支援 | ✅ 可選支援 |
+
+**建議：**
+- 若只是**快速體驗** OpenClaw + Ollama → 繼續往下看 Windows 原生版教學
+- 若需要**完整功能**（memory、skills）→ 請改用 [WSL2 安裝指南](docs/wsl2-guide.md)
+- 已安裝 Windows 版但遇到問題 → 參考 [遷移到 WSL2](docs/migration-guide.md)
+
+📚 **更多資訊**：[為什麼需要 WSL2？](docs/why-wsl2.md)
+
+---
+
+Windows原生版快速安裝 OpenClaw 與本地端 LLM (Ollama) 的完整步驟指南。
 
 > ⚠️ **版本需求**: Ollama v0.15.4+ 與 OpenClaw 2026.2.5+
 
----
 
 ## 📋 目錄
 
@@ -66,7 +88,7 @@ winget install ollama
 #### 驗證安裝
 
 ```cmd
-ollama --version
+ollama -v
 ```
 
 ### 安裝 Python
@@ -506,6 +528,16 @@ OLLAMA_KEEP_ALIVE=-1
 
 這樣可以避免 Ollama 在 5 分鐘無活動後自動卸載模型，提升下次對話的速度。
 
+
+### 調整 Ollama 的上下文長度
+
+Ollama 的 Context Length 自定值是 4096 ，對 OpenClaw 來說實在太少了。建議調高至 16384 以上。
+
+```
+OLLAMA_CONTEXT_LENGTH=32768
+```
+
+
 ### 更新 Ollama 模型配置
 
 若需要更換 Ollama 模型：
@@ -524,10 +556,14 @@ OLLAMA_KEEP_ALIVE=-1
 
 ## 📚 相關連結
 
-- [Ollama 官網](https://ollama.com/)
-- [OpenClaw 官網](https://openclaw.ai/)
-- [OpenClaw 文件 - Ollama 設定](https://docs.openclaw.ai/providers/ollama)
-- [Telegram BotFather](https://t.me/BotFather)
+- [👍 WSL2 完整安裝指南](docs/wsl2-guide.md)
+- [🔄 從 Windows 遷移到 WSL2](docs/migration-guide.md)
+- [🤔 為什麼需要 WSL2?](docs/why-wsl2.md)
+
+- [🦙 Ollama 官網](https://ollama.com/)
+- [🦞 OpenClaw 官網](https://openclaw.ai/)
+- [🦞 OpenClaw 文件 - Ollama 設定](https://docs.openclaw.ai/providers/ollama)
+- [🤖 Telegram BotFather](https://t.me/BotFather)
 
 ---
 
@@ -538,6 +574,11 @@ OLLAMA_KEEP_ALIVE=-1
 ---
 
 ## 📝 更新日誌
+
+### 2026-02-13
+- 🔄 同步更新 README-EN.md
+- 📅 所有文件日期更新至 2026-02-13
+- 🦞 龍蝦依然永恆
 
 ### 2026-02-05
 - 🚀 改用 `cmd` 快速安裝指令，自動化安裝 Node.js 與 npm
@@ -557,6 +598,6 @@ OLLAMA_KEEP_ALIVE=-1
 
 ---
 
-**最後更新**: 2026-02-05  
+**最後更新**: 2026-02-13  
 **原創 by anomixer**  
 **Clawdbot → Moltbot → OpenClaw**
