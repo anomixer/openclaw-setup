@@ -343,7 +343,7 @@ If you really need to, change the port on one side:
 
 ## Related Links
 
-- [Main README](../README.md) - Windows native version guide
+- [Main README](../README-EN.md) - Windows native version guide
 - [Why WSL2?](why-wsl2-en.md) - Technical explanation
 - [WSL2 Complete Installation Guide](wsl2-guide-en.md) - Install from scratch
 
