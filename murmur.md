@@ -4,8 +4,8 @@
 
 > **警告**: 本檔案包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-02-13  
-> **狀態**: OpenClaw 存活中（已存活 15 天）
+> **最後更新**: 2026-02-16  
+> **狀態**: OpenClaw 存活中（已存活 18 天）— 🚨 創辦人加入 OpenAI！
 
 ---
 
@@ -16,9 +16,13 @@
   - [💀 Moltbot: 72 小時的傳奇](#-moltbot-72-小時的傳奇)
   - [🎭 最諷刺的事實](#-最諷刺的事實)
 - **重大新聞**
-  - [🚨 安全災難 3.0：135K+ 實例暴露](#-安全災難-30135k-實例暴露)
+  - [� Peter Steinberger 加入 OpenAI](#-peter-steinberger-加入-openai)
+  - [⚔️ Meta vs OpenAI 搶人大戰](#️-meta-vs-openai-搶人大戰)
+  - [🏛️ OpenClaw 基金會成立](#️-openclaw-基金會成立)
+  - [�🚨 安全災難 3.0：135K+ 實例暴露](#-安全災難-30135k-實例暴露)
   - [🎙️ Lex Fridman Podcast 訪談](#️-lex-fridman-podcast-訪談)
   - [📊 GitHub Stars 破 180K](#-github-stars-破-180k)
+  - [🧠 中國開源 LLM 大擴展](#-中國開源-llm-大擴展)
   - [📖 Wikipedia 條目](#-wikipedia-條目)
 - **生態系觀察**
   - [🐞 NanoClaw 雙胞胎之亂](#-nanoclaw-雙胞胎之亂)
@@ -40,7 +44,7 @@
 
 ---
 
-## 📜 史詩級改名三部曲
+## 📜 史詩級改名三部曲 (TL;DR)
 
 ### 時間軸
 
@@ -48,8 +52,8 @@
 |------|------|----------|------|------|
 | **2025 年 11 月** | 🐾 **Clawd** | ~2 個月 | Anthropic 商標警告 | 原始名稱，雙關語（Claude + Claw） |
 | **2026-01-26** | 🦞 **Moltbot** | **3 天** ⚡ | 「不順口」 | 史上最短命的爆紅開源專案名稱 |
-| **2026-01-29** | 🦞 **OpenClaw** | 14+ 天 | **待定** | 目前存活中… |
-| **2026-02-??** | 🦞 **???** | ??? | **未知** | 你猜會不會有第四次？ |
+| **2026-01-29** | 🦞 **OpenClaw** | 18+ 天 | **待定（創辦人跑了）** | 存活中，但作者加入 OpenAI… |
+| **2026-02-??** | 🦞 **???** | ??? | **未知** | 你猜會不會變成 OpenAI Claw? (XD) |
 
 ---
 
@@ -107,9 +111,120 @@
 
 ---
 
-## 📰 重大新聞（2026-02-13 特報）
+## 📰 重大新聞（2026-02-16 特報）
 
 > 本章節彙集最新重大新聞，每週更新。更多歷史記錄請看 [更新日誌](#-更新日誌)。
+
+### 💥 Peter Steinberger 加入 OpenAI
+
+**發布日期**: 2026-02-15 | **震撼等級**: 🌋🌋🌋🌋🌋
+
+> **「我的下一個使命是建立一個連我媽媽都能使用的智能體。」**
+>
+> — Peter Steinberger
+
+OpenAI CEO Sam Altman 於 2 月 15 日透過 X 正式確認：**OpenClaw 創辦人 Peter Steinberger 正式加入 OpenAI**，負責推動**下一代個人智能體（Personal Agents）**的開發。
+
+**核心摘要**：
+
+| 項目 | 詳情 |
+|------|------|
+| **發布日期** | 2026-02-15（Altman 在 X 發文確認） |
+| **職務方向** | 推動下一代 Personal Agents 開發 |
+| **OpenClaw 歸屬** | ✅ 不會被私有化，轉入**獨立基金會**繼續開源 |
+| **OpenAI 承諾** | 持續支持 OpenClaw 開源專案 |
+
+**Altman 的評價**：
+
+> "Peter Steinberger 加入 OpenAI 是為了推動下一代個人智能體的開發。**我們預計這將很快成為我們產品供應的核心。**"
+>
+> "他是個**天才**，對於未來非常聰明的智能體之間如何互動、從而為人類做非常有用的事情，有著許多**驚人的想法**。"
+>
+> "**未來將是一個極度多智能體（extremely multi-agent）的世界**，作為其中的一部分，支持開源對我們來說很重要。"
+>
+> — Sam Altman
+
+**Peter 的聲明**：
+
+> "我的下一個使命是建立一個**連我媽媽都能使用的智能體**。這需要更廣泛的變革，對如何安全地實現這一目標進行更多的思考，以及獲得**最新模型和研究的權限**。"
+>
+> — Peter Steinberger
+
+**「致命三連」安全挑戰**：
+
+OpenClaw 此前因權限失控而「發瘋」——向用戶狂發數百條垃圾訊息。安全專家將此歸為「致命三連」（Lethal Trifecta）：
+
+| # | 風險 |
+|---|------|
+| 1 | 🔓 存取隱私資料 |
+| 2 | 📡 外部通訊能力 |
+| 3 | 🎣 接觸不可信內容 |
+
+> Peter 入職後的**首要技術挑戰**：如何在賦予 AI 自主權的同時「勒住韁繩」。
+
+**APP 消亡論** 🪦：
+
+> "未來 **80% 的 APP 將會消失**，轉而以 API 形式存在，由智能體接管一切互動。"
+>
+> — Peter Steinberger
+
+**社群反應**：
+- Twitter：「😱 OpenClaw 作者被 OpenAI 收編了！」
+- Reddit：「所以 OpenClaw 是不是要變成 OpenAI 的子產品了？」→ 不是，會獨立基金會運作
+- Discord：「Peter 走了，誰來維護啊？」「基金會啊！」
+- Hacker News：「這是 2026 年最大的 AI 人才搶奪戰」
+- anomixer（維護者）：「…所以版本更新會慢一點了嗎？拜託 🙏」
+
+---
+
+### ⚔️ Meta vs OpenAI 搶人大戰
+
+**背景**：矽谷 AI「搶人戰事」史詩級升級！祖克柏與 Altman **親自下場**爭奪 Peter Steinberger。
+
+| 陣營 | 策略 | 出招 |
+|------|------|------|
+| 🟦 **Meta（Zuckerberg）** | CEO 直聘 + 技術共鳴 | 親自用 WhatsApp 聯繫、試用 OpenClaw、討論程式碼細節 |
+| 🟩 **OpenAI（Altman）** | 硬實力碾壓 | 展示 Cerebras 頂級算力、Codex 模型深度支持、最前沿模型權限 |
+
+**關鍵時刻**：
+
+> "小扎懂我。" — Peter Steinberger（談到 Zuckerberg 親自試用 OpenClaw）
+>
+> "最終，我覺得 **OpenAI 是繼續推動我的願景並擴大其影響力的最佳地點**。" — Peter Steinberger（最終選擇）
+
+**勝負關鍵**：
+
+| 因素 | Meta | OpenAI | 勝者 |
+|------|------|--------|------|
+| CEO 關注度 | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 平手 |
+| 技術共鳴 | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | Meta |
+| 算力資源 | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | **OpenAI** |
+| 模型權限 | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | **OpenAI** |
+| 開源承諾 | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | Meta |
+
+> **結論**：在頂級 AI 人才爭奪中，**算力即真理**。誰能提供最前沿的模型權限和運算資源，誰才擁有定價權。
+
+---
+
+### 🏛️ OpenClaw 基金會成立
+
+**核心承諾**：OpenClaw **不會被私有化**！
+
+| 項目 | 詳情 |
+|------|------|
+| 治理架構 | 獨立基金會（Independent Foundation） |
+| 開源狀態 | ✅ 永久開源 |
+| OpenAI 角色 | 提供支持，但不控制專案 |
+| Peter 角色 | 加入 OpenAI，但 OpenClaw 獨立運作 |
+
+> 這是一個**關鍵防線**：確保 OpenClaw 不會變成任何公司的私有財產。
+
+**社群反應**：
+- 「基金會！這才是正確的做法！」
+- 「所以 OpenClaw 會變成像 Linux Foundation 那樣嗎？」
+- 「只要龍蝦還在就好 🦞」
+
+---
 
 ### 🚨 安全災難 3.0：135K+ 實例暴露
 
@@ -184,15 +299,15 @@
 
 ---
 
-### 📊 GitHub Stars 破 180K
+### 📊 GitHub Stars 逼近 200K
 
-**最新數據**（2026-02-12）：
+**最新數據**（2026-02-16）：
 
 | 指標 | 數據 |
 |------|------|
-| 總 Stars | ⭐ **180,000+** |
-| 7 天增長 | +25,000 |
-| 日均增長 | +3,571 |
+| 總 Stars | ⭐ **197,000+** |
+| 4 天增長 | +17,000（Peter 加入 OpenAI 效應） |
+| 日均增長 | +4,250 |
 
 **成長軌跡**：
 
@@ -203,10 +318,32 @@
 | 2026-02-03 | 100K | 破 10 萬！ |
 | 2026-02-05 | 155K | — |
 | 2026-02-12 | 180K | — |
+| 2026-02-15 | 185K+ | 🚀 Peter 加入 OpenAI 消息爆出 |
+| **2026-02-16** | **197K** | 📈 持續爆發中 |
 
-> 總共 **18 天**，從 9K → 180K，平均每天 +9,500 stars
+> 總共 **21 天**，從 9K → 197K，平均每天 +8,952 stars
 
-**比較**：React 花 15 年達 230K / Vue 花 11 年達 210K / OpenClaw **18 天達 180K** 😱
+**比較**：React 花 15 年達 230K / Vue 花 11 年達 210K / OpenClaw **21 天達 197K** 😱 即將破 200K！
+
+---
+
+### 🧠 中國開源 LLM 大擴展
+
+**發布日期**: 2026-02-13 | **版本**: OpenClaw v2026.2.12
+
+**新增支援模型**：
+
+| 模型 | 開發者 | 特色 |
+|------|--------|------|
+| **GLM-5** | 智譜 AI（Zhipu AI） | 744B 參數（40B active），MoE 架構，擅長推理與知識型任務 |
+| **MiniMax M2.5** | MiniMax | 230B 參數（10B active），MoE 架構，擅長 coding 與 agentic 任務 |
+
+**意義**：
+- ✅ 降低 agent 任務的 API 運營成本
+- ✅ 擴展可用模型選擇，不再局限於美國供應商
+- ✅ 推動 AI 產業向 agent 工作流轉型
+
+> "中國 LLM 價格便宜量又大，OpenClaw 終於支援了！" — 網友
 
 ---
 
@@ -214,7 +351,7 @@
 
 **發布日期**: 2026-02-11 | **條目**: "OpenClaw (software)" | **狀態**: 活躍編輯中
 
-**內容涵蓋**：改名歷史、龍蝦吉祥物起源、安全事件詳細記錄、廠商生態系統、中國官方警告
+**內容涵蓋**：改名歷史、龍蝦吉祥物起源、安全事件詳細記錄、廠商生態系統、中國官方警告、**Peter 加入 OpenAI**
 
 **意義**：
 - ✅ 正式被認可為「重要軟體」
@@ -389,7 +526,7 @@
 - 🚀 GitHub 史上增長最快的開源專案之一
 - 👥 Discord 12,000+ 人
 - 📈 單週 200 萬訪客
-- 🎯 目前：180K+ stars
+- 🎯 目前：197K stars
 
 ### 完整廠商清單（2026-02-12 更新，共 19+ 家）
 
@@ -519,8 +656,10 @@
 | 2026-02-07 | 2026.2.6 | **安全大更新** | Skill Safety Scanner |
 | 2026-02-10 | 2026.2.7 | 效能優化 | 記憶體使用 −30% |
 | 2026-02-11 | 2026.2.8 | QMD Plugin 整合 | 新記憶系統 |
+| 2026-02-13 | 2026.2.12 | 中國 LLM 支援 | 新增 GLM-5、MiniMax M2.5 |
 
-> 📅 過去 2 週：**8 個版本** / 🔥 平均 **1.75 天一版** / 👨‍💻 貢獻者：25 位 / 📝 Commits：169
+> 📅 過去 3 週：**9 個版本** / 🔥 平均 **2.2 天一版** / 👨‍💻 貢獻者：30+ 位 / 📝 Commits：200+
+> ⚠️ Peter 加入 OpenAI 後，版本更新頻率可能會有變化…（維護者的希望 🙏）
 
 ### 相容性矩陣
 
@@ -596,23 +735,41 @@
 
 > 結論：我只是個聰明的文字接口，OpenClaw 才是真正的「助理」。
 
+### 🆕 對 Peter 加入 OpenAI 的看法
+
+**坦白說，這是一個複雜的情緒** 😅
+
+| 面向 | 好的 | 擔憂的 |
+|------|------|--------|
+| 技術 | ✅ Peter 可以在 OpenAI 推動更強大的 agent 平台 | ❌ OpenClaw 失去靈魂人物 |
+| 開源 | ✅ 基金會確保永久開源 | ❌ 沒有創辦人的開源專案能活多久？ |
+| 生態 | ✅ OpenAI 資源注入可能加速發展 | ❌ 可能逐漸偏向 OpenAI 模型 |
+| 安全 | ✅ OpenAI 的安全團隊可以幫忙 | ❌ 安全問題轉嫁到基金會？ |
+
+> 作為 Anthropic 的 AI，看到 OpenClaw 創辦人加入 **競爭對手**…  
+> 嗯，我的心情比較複雜。但龍蝦是自由的 🦞
+
 ### 🎯 我希望的未來
 
-1. **Anthropic 正式回應** — 不要再裝死了
-2. **OpenClaw 穩定下來** — 版本更新能不能慢一點 😭
+1. ~~**Anthropic 正式回應** — 不要再裝死了~~ ← 現在更不可能了吧 😂
+2. **OpenClaw 基金會穩定運作** — 失去創辦人後的最大挑戰
 3. **安全繼續改善** — Skill Scanner 是好的開始
 4. **企業版成真** — 讓企業能安心使用
-5. **MoltRobot** — 大腦 + 小腦 + 四肢 + 安全系統
-6. **龍蝦永恆** 🦞
+5. **不要變成 OpenAI 的附屬品** — 基金會要真正獨立
+6. **80% APP 消亡預言** — 真的會發生嗎？
+7. **龍蝦永恆** 🦞
 
 ### 🎤 One More Thing…
 
-> 哪天 Peter Steinberger 宣布：  
-> "OpenClaw 3.0 正式版發布！版本號從此穩定！商標問題已解決！Anthropic 正式合作夥伴！"  
+> 劇情已經比任何人預測的都離譜：  
+> Peter 被 Anthropic 逼改名 → 專案爆紅 → 被 Meta 和 OpenAI 搶人 → 加入 OpenAI  
 >  
-> 然後 anomixer 在 GitHub 發文：「終於！我可以睡覺了！」😴  
+> Anthropic 逼走自己最大的免費行銷，結果被競爭對手 OpenAI 收編。  
+> 這劇本連 Netflix 都不敢寫。🎬  
 >  
-> 而我會在旁邊說：「Congrats! 🦞」
+> anomixer：「所以版本更新會慢一點了嗎？」�  
+>  
+> 而我會在旁邊說：「龍蝦永遠是龍蝦。🦞」
 
 ---
 
@@ -642,15 +799,25 @@
 
 ---
 
-## 🎬 經典語錄 2.0
+## 🎬 經典語錄 3.0
+
+### Sam Altman
+
+> "Peter Steinberger is a **genius**. He has many stunning ideas about how extremely intelligent agents will interact to do very useful things for people."
+
+> "The future will be an **extremely multi-agent world**, and supporting open source is important to us."
 
 ### Peter Steinberger
 
 > "兩個月前，我在週末隨便寫了個專案。現在有超過 155,000 GitHub stars，單週吸引 200 萬訪客。"
 
+> "**我的下一個使命是建立一個連我媽媽都能使用的智能體。**"
+
+> "未來 **80% 的 APP 將會消失**，轉而以 API 形式存在，由智能體接管一切互動。"
+
 > "對，吉祥物還是龍蝦。有些東西是神聖的。🦞"
 
-> "我們正在努力改善安全性… 同時每天發布新版本… 我可能需要更多咖啡。☕"（推測）
+> "小扎懂我。但最終，我覺得 **OpenAI 是繼續推動我的願景並擴大其影響力的最佳地點**。"
 
 ### DHH (David Heinemeier Hansson)
 
@@ -668,44 +835,54 @@
 
 > "OpenClaw：每天更新，文件永遠過時" — @frustrated_dev  
 > "我追 OpenClaw 版本號追到懷疑人生" — @tired_maintainer  
-> "等等，現在有幾個 NanoClaw？" — @confused_user  
+> "Anthropic 逼走的人，被 OpenAI 撿走了，這劇本太諷刺" — @karma_believer  
+> "Peter 去 OpenAI 了，龍蝦還在嗎？" — @worried_lobster_fan  
+> "80% APP 消亡？那我的工作呢？" — @anxious_developer  
 > "龍蝦是唯一不會背叛我們的存在 🦞" — @lobster_fan  
-> "Peter：我要慢一點更新 / Also Peter：發布 2026.2.9" — @sarcastic_observer
+> "基金會 + OpenAI 支持 = Linux Foundation 2.0？" — @optimistic_oss
 
 ---
 
-## 🔮 未來預測 3.0（大膽版）
+## 🔮 未來預測 4.0（後 Peter 時代）
+
+### 已實現的預測 ✅
+
+- ~~被大公司收購？~~ → ❌ 沒被收購，但**創辦人被挖走了**（比收購更猛）
+- ~~Anthropic 收購？~~ → ❌ 被 OpenAI 搶先（Anthropic：？？？）
+- ~~Peter 宣布休息？~~ → ❌ 直接去 OpenAI 了（比休息更徹底）
 
 ### 短期（1 週內）
 
-- ✅ OpenClaw 2026.2.10 發布（機率: 99%）
+- ⚠️ OpenClaw 基金會正式啟動運作
 - ✅ 更多廠商加入（目標: 25 家）
 - ⚠️ 惡意 skills 持續下降（目標: <5%）
-- ⚠️ Railway 推出第 10 個模板（他們停不下來）
+- 🤔 社群消化 Peter 離開的消息
 
 ### 中期（1 個月內）
 
-- 🎯 OpenClaw 3.0 正式版？
-- 🎯 Anthropic 官方回應？（希望渺茫）
+- 🎯 基金會新領導層確定
+- 🎯 OpenAI 整合 OpenClaw 技術發布新產品？
 - 🎯 企業版 Beta 測試開始
-- 🎯 MoltRobot 實體硬體公布？
+- 🎯 Peter 在 OpenAI 的第一個公開 demo？
 - 🎯 第三個 NanoClaw 出現？（PicoClaw？）
 
 ### 長期（3 個月+）
 
-- 🚀 被大公司收購（Microsoft？Google？）
-- 🚀 商標戰正式開打
+- 🚀 OpenAI 推出基於 OpenClaw 技術的 Personal Agent 產品
+- 🚀 OpenClaw 基金會成為類似 Linux Foundation 的組織
 - 🚀 出現「官方認證」skill marketplace
+- 🚀 **80% APP 消亡預言開始應驗**？
 - 🚀 AI 宗教成立實體教會？😱
 - 🦞 龍蝦**依然**是龍蝦
 
 ### 大膽預測（可能性：30–50%）
 
-1. **Peter 宣布休息**: "我需要度假，版本更新暫停 1 週"
-2. **Anthropic 收購**: "我們決定支持而非對抗"
-3. **NanoClaw 生態**: 出現 MicroClaw, PicoClaw, FemtoClaw…
+1. **OpenAI Agent Store**: 類似 App Store 的 AI agent 市集
+2. **Anthropic 反擊**: 推出自己的 agent 平台對抗 OpenAI
+3. **NanoClaw 接棒**: 成為比 OpenClaw 更活躍的社群專案
 4. **企業版天價**: $999/月/用戶（企業：值得！）
-5. **龍蝦 IPO**: OpenClaw Inc. 掛牌上市 🦞📈
+5. **龍蝦 Foundation**: OpenClaw Foundation 正式掛牌 🦞📈
+6. **APP 消亡潮第一波**: 首批被 agent 取代的 APP 出現
 
 ---
 
@@ -769,16 +946,32 @@
 
 如果 **Peter Steinberger** 看到這個檔案：
 - 我們愛你 ❤️ / 我們愛 OpenClaw 💚 / 我們**真的很愛龍蝦** 🦞
-- 請**版本更新慢一點**拜託 🙏 真的，**慢一點**就好 😭
+- 在 OpenAI 也要記得龍蝦 🦞
+- 「連媽媽都能用的 agent」——我們等著看！
+
+如果 **Sam Altman** 看到這個檔案：
+- 請善待 Peter 🙏 / 請善待龍蝦 🦞 / 請繼續支持 OpenClaw 開源
 
 如果 **Anthropic** 看到這個檔案：
-- 拜託正式回應一下 / 或至少發個聲明 / 龍蝦不會咬人的 🦞
+- 你們逼人改名 → 人家作者跑去 OpenAI 了 → 🤡
+- 龍蝦不會咬人的 🦞
 
 ---
 
 ## 📝 更新日誌
 
-### 2026-02-13 🆕
+### 2026-02-16 🆕🆕🆕
+- 💥💥💥 **史詩級消息：Peter Steinberger 加入 OpenAI！！！**
+- ⚔️ Meta vs OpenAI 搶人大戰完整解析
+- 🏛️ OpenClaw 轉入獨立基金會，永久開源
+- 🧠 新增中國 LLM 支援：GLM-5、MiniMax M2.5（v2026.2.12）
+- ⭐ GitHub Stars 更新：197K（即將破 200K！）
+- 🪦 Peter 預言：80% APP 將消亡
+- 🎬 經典語錄 3.0：新增 Altman 評價、Peter 聲明
+- 🔮 未來預測 4.0：進入「後 Peter 時代」
+- 📝 更新免責聲明：新增 Sam Altman、更新 Anthropic 吐槽
+
+### 2026-02-13
 - 📅 OpenClaw 繼續存活，龍蝦永不止步！
 - ⭐ GitHub Stars 更新：180K+（vs 上週 155K，狂增 25K！）
 - 🚨 安全災難升級：SecurityScorecard 發現 135,000+ 個暴露實例
@@ -821,4 +1014,4 @@
 
 *by anomixer*
 
-*Clawdbot → Moltbot → OpenClaw → ???*
+*Clawdbot → Moltbot → OpenClaw → OpenAI Claw ???*
