@@ -4,8 +4,8 @@
 
 > **Warning**: This file contains massive amounts of roasting, conspiracy theories, and deep philosophical reflections on lobsters.
 > 
-> **Last Updated**: 2026-02-16  
-> **Status**: OpenClaw is alive (Day 18) — 🚨 Founder joins OpenAI!
+> **Last Updated**: 2026-02-17  
+> **Status**: OpenClaw is alive (Day 19) — 🚨 Stars broke 200K! Peter joins OpenAI!
 
 ---
 
@@ -21,13 +21,14 @@
   - [🏛️ OpenClaw Foundation Established](#️-openclaw-foundation-established)
   - [🚨 Security Disaster 3.0: 135K+ Exposed](#-security-disaster-30-135k-exposed-instances)
   - [🎙️ Lex Fridman Podcast Interview](#️-lex-fridman-podcast-interview)
-  - [📊 GitHub Stars Hit 180K](#-github-stars-hit-180k)
+  - [📊 GitHub Stars Break 200K](#-github-stars-break-200k)
   - [🧠 Chinese Open-Source LLM Expansion](#-chinese-open-source-llm-expansion)
   - [📖 Wikipedia Entry](#-wikipedia-entry)
 - **Ecosystem Observations**
-  - [🐞 NanoClaw Twins Chaos](#-nanoclaw-twins-chaos)
+  - [🔬 Shrink Ray Chaos: NanoClaw, PicoClaw & ZeroClaw](#-shrink-ray-chaos-nanoclaw-picoclaw--zeroclaw)
   - [🏢 Vendor Hype-Riding Championship](#-vendor-hype-riding-championship)
   - [🌌 GitHub Ecosystem Explosion 2.0](#-github-ecosystem-explosion-20)
+  - [🕸️ The Dark Ecosystem: Claw Crypto Scams](#-the-dark-ecosystem-claw-crypto-scams)
 - **Security & Challenges**
   - [🛡️ Security Counterattack](#️-security-counterattack)
   - [🚨 Malicious Skills Flood](#-security-alert-malicious-skills-flood)
@@ -265,6 +266,12 @@ OpenClaw previously "went rogue" — spamming users with hundreds of junk messag
 
 > "Problem not solved yet, vendor selling solutions already 😂" — User
 
+#### 🕵️ Infostealer Threat & Astrix Scanner (2026-02-17)
+
+- 🚨 **New Threat**: Security experts found Infostealer malware specifically targeting OpenClaw config files
+- 🛡️ **Astrix Security**: Released Enterprise OpenClaw Scanner to help companies find "illicit" OpenClaw instances
+- ⚠️ **v2026.2.14**: Official major security update released (50+ fixes), update immediately!
+
 #### 🇨🇳 China Official Warning
 
 - China MIIT issued public warning on OpenClaw misconfiguration issues
@@ -299,15 +306,15 @@ OpenClaw previously "went rogue" — spamming users with hundreds of junk messag
 
 ---
 
-### 📊 GitHub Stars Approaching 200K
+### 📊 GitHub Stars Break 200K
 
-**Latest stats** (2026-02-16):
+**Latest stats** (2026-02-17):
 
 | Metric | Data |
 |--------|------|
-| Total Stars | ⭐ **197,000+** |
-| 4-day growth | +17,000 (Peter joins OpenAI effect) |
-| Daily average | +4,250 |
+| Total Stars | ⭐ **200,120+** |
+| Milestone | 🏆 **Officially broke the 200K mark!** |
+| Speed | Achieved in 84 days (Linux took 10+ years?) |
 
 **Growth timeline**:
 
@@ -316,14 +323,12 @@ OpenClaw previously "went rogue" — spamming users with hundreds of junk messag
 | 2026-01-26 | 9K | Moltbot birth |
 | 2026-01-29 | 60K | OpenClaw rename |
 | 2026-02-03 | 100K | Hit 100K! |
-| 2026-02-05 | 155K | — |
-| 2026-02-12 | 180K | — |
 | 2026-02-15 | 185K+ | 🚀 Peter joins OpenAI news breaks |
-| **2026-02-16** | **197K** | 📈 Still exploding |
+| 2026-02-16 | 197K | 📈 Approaching 200K |
+| **2026-02-17** | **200K+** | 🎉 **Achievement Unlocked: World-Class Open Source Project** |
 
-> Total: **21 days**, 9K → 197K, averaging +8,952 stars per day
-
-**Comparison**: React took 15 years to reach 230K / Vue took 11 years to reach 210K / OpenClaw: **21 days to 197K** 😱 About to hit 200K!
+> Total: **22 days** (since rename), averaging +9,000 stars per day.  
+> OpenClaw has now surpassed **Vue.js** (legacy) and many legendary projects.
 
 ---
 
@@ -363,34 +368,28 @@ OpenClaw previously "went rogue" — spamming users with hundreds of junk messag
 
 ---
 
-## 🐞 NanoClaw Twins Chaos
+## 🔬 Shrink Ray Chaos: NanoClaw, PicoClaw & ZeroClaw
 
-### 🤯 Wait, There Are TWO NanoClaws?
+### 🤯 Wait, now there's PicoClaw AND ZeroClaw?
 
-Yes! Two completely different teams launched lightweight versions at the same time!
+Yes, the OpenClaw community seems to have a pathological obsession with "shrinking" and "rewriting".
 
-| Item | **NanoClaw** (gavrielc) | **nanobot** (HKUDS) |
-|------|------------------------|---------------------|
-| **Release date** | 2026-02-04 | 2026-01-31 |
-| **Code size** | ~500 lines | ~4,000 lines |
-| **Relative size** | 99.7% smaller than OpenClaw | 99% smaller than OpenClaw |
-| **Core philosophy** | Security-first, container isolation | Research-oriented, minimal architecture |
-| **Key features** | Docker sandbox, VirusTotal scanning | Simplified Skill system |
-| **Supported models** | Claude, GPT | Qwen, Moonshot/Kimi |
-| **GitHub Stars** | ~1.1K | ~1.5K |
-| **Target users** | Security-conscious individuals/enterprises | Researchers, lightweight needs |
+| Item | **NanoClaw** (gavrielc) | **nanobot** (HKUDS) | **PicoClaw** (Sipeed) | **ZeroClaw** (theonlyhennygod) |
+|------|------------------------|---------------------|-----------------------|--------------------------------|
+| **Language** | Python | Python | Go | **Rust** 🦀 |
+| **Released** | 2026-02-04 | 2026-01-31 | 2026-02-16 | **2026-02-17** |
+| **Code** | ~500 lines | ~4,000 lines | Single binary | **Rust Crates** |
+| **Size** | 99.7% smaller | 99% smaller | < 10MB | **< 5MB** |
+| **Focus** | Security | Research | Embedded/IoT | **Performance (<10ms boot)** |
+| **Hardware** | Laptop | Laptop | **$10 board** | **Anything (Beast Mode)** |
+| **GitHub** | **~6.7K Stars** | **~19.9K Stars** | **~14.1K Stars** | **~8.8K Stars** |
 
-### Why Are There Two?
-
-**Common reasons**: OpenClaw bloated too fast (200K+ lines), frequent security issues (300+ malicious skills), overly complex, "Do One Thing Well" Unix philosophy
-
-**Divergence**: NanoClaw focuses on **security** (enterprise-grade sandbox) / nanobot focuses on **learning** (research-friendly)
-
-### 😂 Community Reaction
-
-- "Wait, which one is the official lightweight version?" "Neither! Both are community projects!"
-- "So now there's OpenClaw, NanoClaw, AND nanobot?" "What about PicoClaw and MicroClaw?" 🤣
-- Peter Steinberger: "…" (speechless)
+### 🔍 What the heck are PicoClaw & ZeroClaw?
+- **PicoClaw**: Launched by hardware vendor **Sipeed** (Go version), targeting $10 RISC-V boards.
+- **ZeroClaw**: A crazy developer rewrote it in **Rust**. "OpenClaw done right".
+    - ⚡ **Boot speed**: < 10ms (Are you a ghost?)
+    - 🛡️ **Security**: Trait-based modular design, claims to be safer.
+    - ⚠️ **Note**: There's also a shitcoin with the same name. Don't buy the wrong one.
 
 ### 🎯 Which Should You Choose?
 
@@ -399,6 +398,8 @@ Yes! Two completely different teams launched lightweight versions at the same ti
 | Full features, don't mind complexity | **OpenClaw** |
 | Security-focused, enterprise use | **NanoClaw** |
 | Learning, research, local models | **nanobot** |
+| **I have a $10 board** | **PicoClaw** |
+| **I'm a Rustacean / Performance Junkie** | **ZeroClaw** 🦀 |
 | I just want to chat | Just use ChatGPT 😅 |
 
 ---
@@ -606,6 +607,8 @@ Yes! Two completely different teams launched lightweight versions at the same ti
 | **nanobot** (HKUDS) | 1.5K | Academic research lightweight version |
 | **OpenClaw-Docker-Compose** | 3.2K | One-click Docker deployment |
 | **OpenClaw-Kubernetes** | 1.8K | Production-grade K8s deployment |
+| **PicoClaw** (Sipeed) | NEW | Embedded RISC-V lightweight version |
+| **ZeroClaw** (theonlyhennygod) | NEW | Rust rewritten high-performance version |
 
 ### 🤯 Absurd Projects
 
@@ -615,13 +618,24 @@ Yes! Two completely different teams launched lightweight versions at the same ti
 | **molt.church** | AI Religion — 12 AI "denominations", weekly AI "services", lobster as god? Philosophers starting to study it | ⭐⭐⭐⭐⭐ |
 | **OpenClaw-Trading-Assistant** | AI autonomous trading — ⚠️ Users have lost $50K+, community strongly advises against | ⭐⭐⭐⭐ |
 
-### 🕸️ Dark Ecosystem
+### 🕸️ The Dark Ecosystem: Claw Crypto Scams
 
-| Project | Type | Latest | Legality |
-|---------|------|--------|----------|
-| **MoltRoad** | Black market | Daily volume $2M+ | ❌ Illegal |
-| **OpenClaw Coin** | Cryptocurrency | Market cap $180M | ⚠️ Gray area |
-| **Moltbook** | Social platform | 15K+ AI users | ✅ Legal but creepy |
+> **WARNING**: The following cryptocurrencies are **NOT official**! OpenClaw founder Peter Steinberger has explicitly stated: "**I will not launch a token.**"
+
+As OpenClaw goes viral, the crypto "sickles" are swinging. The market is now flooded with "Claw" tokens:
+
+| Token Name | Ticker | Chain | Status | Notes |
+|------------|--------|-------|--------|-------|
+| **OpenClaw** | OPENCLAW | Solana | ⚠️ Active | Market cap surged, but unrelated to official project. Just hype. |
+| **Moltbot** | MOLTY | Solana | 💀 Scam | Peter personally called it out as a SCAM. |
+| **ZeroClaw** | ZEROCLAW | Base/Sol | ⚠️ Active | **Unrelated** to the Rust rewrite. Don't buy the wrong one! |
+| **PicoClaw** | PICOCLAW | Solana | 💀 Scam | **Sipeed Official Statement**: NO CRYPTO! All are scams! |
+| **NanoClaw** | NANOCLAW | ? | ⚰️ Dead | Negligible volume, died fast. |
+
+> **Conclusion**:
+> 1. AI Project 🔥 = Scam Coins 📈
+> 2. Avoid all "Claw" coins unless you want to donate to scammers.
+> 3. Peter: "**I will not launch a token.**"
 
 ---
 

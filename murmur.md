@@ -4,8 +4,8 @@
 
 > **警告**: 本檔案包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-02-16  
-> **狀態**: OpenClaw 存活中（已存活 18 天）— 🚨 創辦人加入 OpenAI！
+> **最後更新**: 2026-02-17  
+> **狀態**: OpenClaw 存活中（已存活 19 天）— 🚨 Stars 破 200K！ Peter 加入 OpenAI！
 
 ---
 
@@ -19,17 +19,18 @@
   - [� Peter Steinberger 加入 OpenAI](#-peter-steinberger-加入-openai)
   - [⚔️ Meta vs OpenAI 搶人大戰](#️-meta-vs-openai-搶人大戰)
   - [🏛️ OpenClaw 基金會成立](#️-openclaw-基金會成立)
-  - [�🚨 安全災難 3.0：135K+ 實例暴露](#-安全災難-30135k-實例暴露)
+  - [🚨 安全災難 3.0：135K+ 實例暴露](#-安全災難-30135k-實例暴露)
   - [🎙️ Lex Fridman Podcast 訪談](#️-lex-fridman-podcast-訪談)
-  - [📊 GitHub Stars 破 180K](#-github-stars-破-180k)
+  - [📊 GitHub Stars 破 200K](#-github-stars-破-200k)
   - [🧠 中國開源 LLM 大擴展](#-中國開源-llm-大擴展)
   - [📖 Wikipedia 條目](#-wikipedia-條目)
 - **生態系觀察**
-  - [🐞 NanoClaw 雙胞胎之亂](#-nanoclaw-雙胞胎之亂)
+  - [🔬 縮小燈之亂：NanoClaw, PicoClaw & ZeroClaw](#-縮小燈之亂nanoclaw-picoclaw--zeroclaw)
   - [🏢 廠商蹭熱度大賞](#-廠商蹭熱度大賞)
   - [🌌 GitHub 生態系爆炸 2.0](#-github-生態系爆炸-20)
+  - [🕸️ 黑暗生態系：Claw 幣圈亂象](#-黑暗生態系claw-幣圈亂象)
 - **安全與挑戰**
-  - [�️ 安全反擊戰](#️-安全反擊戰)
+  - [🛡️ 安全反擊戰](#️-安全反擊戰)
   - [🚨 惡意 Skills 氾濫](#-安全警報惡意-skills-氾濫)
   - [🏢 企業的擔憂](#-企業的擔憂)
 - **開發者生態**
@@ -265,6 +266,12 @@ OpenClaw 此前因權限失控而「發瘋」——向用戶狂發數百條垃�
 
 > "問題還沒解決，先來個賣解決方案的廠商 😂" — 網友
 
+#### 🕵️ Infostealer 威脅與 Astrix Scanner（2026-02-17）
+
+- 🚨 **新威脅**：資安專家發現 Infostealer 惡意軟體開始專門鎖定 OpenClaw 環境設定檔
+- 🛡️ **Astrix Security**：發布 Enterprise OpenClaw Scanner，幫助企業找出內網中的「非法」OpenClaw
+- ⚠️ **v2026.2.14**：官方釋出重大安全更新（50+ 修復），請立即更新！
+
 #### 🇨🇳 中國官方警告
 
 - 中國工信部發布公開警告，關注 OpenClaw 配置錯誤問題
@@ -299,15 +306,15 @@ OpenClaw 此前因權限失控而「發瘋」——向用戶狂發數百條垃�
 
 ---
 
-### 📊 GitHub Stars 逼近 200K
+### 📊 GitHub Stars 破 200K
 
-**最新數據**（2026-02-16）：
+**最新數據**（2026-02-17）：
 
 | 指標 | 數據 |
 |------|------|
-| 總 Stars | ⭐ **197,000+** |
-| 4 天增長 | +17,000（Peter 加入 OpenAI 效應） |
-| 日均增長 | +4,250 |
+| 總 Stars | ⭐ **200,120+** |
+| 里程碑 | 🏆 **正式突破 200K 大關！** |
+| 速度 | 84 天達成（Linux 花了 10+ 年？） |
 
 **成長軌跡**：
 
@@ -316,14 +323,12 @@ OpenClaw 此前因權限失控而「發瘋」——向用戶狂發數百條垃�
 | 2026-01-26 | 9K | Moltbot 誕生 |
 | 2026-01-29 | 60K | OpenClaw 改名 |
 | 2026-02-03 | 100K | 破 10 萬！ |
-| 2026-02-05 | 155K | — |
-| 2026-02-12 | 180K | — |
 | 2026-02-15 | 185K+ | 🚀 Peter 加入 OpenAI 消息爆出 |
-| **2026-02-16** | **197K** | 📈 持續爆發中 |
+| 2026-02-16 | 197K | � 逼近 200K |
+| **2026-02-17** | **200K+** | 🎉 **達成成就：世界級開源專案** |
 
-> 總共 **21 天**，從 9K → 197K，平均每天 +8,952 stars
-
-**比較**：React 花 15 年達 230K / Vue 花 11 年達 210K / OpenClaw **21 天達 197K** 😱 即將破 200K！
+> 總共 **22 天**（從改名算起），平均每天 +9,000 stars。  
+> 現在，OpenClaw 的 Stars 數已經超過了 **Vue.js** (舊版) 和許多傳奇專案。
 
 ---
 
@@ -363,34 +368,28 @@ OpenClaw 此前因權限失控而「發瘋」——向用戶狂發數百條垃�
 
 ---
 
-## 🐞 NanoClaw 雙胞胎之亂
+## 🔬 縮小燈之亂：NanoClaw, PicoClaw & ZeroClaw
 
-### 🤯 等等，有兩個 NanoClaw？
+### 🤯 現在連 PicoClaw 和 ZeroClaw 都有了？
 
-沒錯！兩個完全不同的團隊，同時推出輕量版！
+是的，OpenClaw 社群似乎對「縮小」和「重寫」這件事有種病態的執著。
 
-| 項目 | **NanoClaw** (gavrielc) | **nanobot** (HKUDS) |
-|------|------------------------|---------------------|
-| **發布日期** | 2026-02-04 | 2026-01-31 |
-| **程式碼量** | ~500 行 | ~4,000 行 |
-| **相對大小** | 比 OpenClaw 小 99.7% | 比 OpenClaw 小 99% |
-| **核心理念** | 安全至上，容器隔離 | 研究導向，極簡架構 |
-| **主要特色** | Docker 沙盒、VirusTotal 掃描 | 簡化版 Skill 系統 |
-| **支援模型** | Claude, GPT | Qwen, Moonshot/Kimi |
-| **GitHub Stars** | ~1.1K | ~1.5K |
-| **目標用戶** | 注重安全的個人/企業用戶 | 研究者、輕量化需求 |
+| 項目 | **NanoClaw** (gavrielc) | **nanobot** (HKUDS) | **PicoClaw** (Sipeed) | **ZeroClaw** (theonlyhennygod) |
+|------|------------------------|---------------------|-----------------------|--------------------------------|
+| **語言** | Python | Python | Go | **Rust** 🦀 |
+| **發布** | 2026-02-04 | 2026-01-31 | 2026-02-16 | **2026-02-17** |
+| **代碼** | ~500 行 | ~4,000 行 | 單一 binary | **Rust Crates** |
+| **大小** | 小 99.7% | 小 99% | < 10MB | **< 5MB** |
+| **特色** | 安全沙盒 | 研究導向 | 嵌入式/IoT | **極致效能 (<10ms 啟動)** |
+| **硬體** | 筆電 | 筆電 | **$10 的板子** | **任何東西 (Beast Mode)** |
+| **GitHub** | **~6.7K Stars** | **~19.9K Stars** | **~14.1K Stars** | **~8.8K Stars** |
 
-### 為什麼會有兩個？
-
-**共同原因**：OpenClaw 膨脹太快（200K+ 行）、安全問題頻傳（300+ 惡意 skills）、複雜度過高、"Do One Thing Well" 的 Unix 哲學
-
-**分歧**：NanoClaw 側重**安全性**（企業級沙盒）/ nanobot 側重**學習性**（研究友善）
-
-### 😂 社群反應
-
-- 「等等，哪個才是官方的輕量版？」「都不是！兩個都是社群版！」
-- 「所以現在有 OpenClaw、NanoClaw、nanobot？」「還有 PicoClaw、MicroClaw 嗎？」🤣
-- Peter Steinberger：「…」（無語凝噎）
+### 🔍 PicoClaw & ZeroClaw 是什麼鬼？
+- **PicoClaw**：硬體廠 Sipeed 推出的 **Go** 版本，專攻 $10 美元 RISC-V 開發板。
+- **ZeroClaw**：瘋狂開發者用 **Rust** 重寫的版本。"OpenClaw done right"。
+    - ⚡ **啟動速度**：< 10ms (你是鬼吧？)
+    - 🛡️ **安全**：Trait-based 模組化設計，宣稱比原本更安全
+    - ⚠️ **注意**：同時也有個同名的垃圾幣 (Shitcoin)，別買錯了。
 
 ### 🎯 該選哪個？
 
@@ -399,6 +398,8 @@ OpenClaw 此前因權限失控而「發瘋」——向用戶狂發數百條垃�
 | 完整功能、不怕複雜 | **OpenClaw** |
 | 注重安全、企業使用 | **NanoClaw** |
 | 學習研究、本地模型 | **nanobot** |
+| **我有塊 $10 的板子** | **PicoClaw** |
+| **我是 Rust 教徒 / 效能狂魔** | **ZeroClaw** 🦀 |
 | 我只想聊天 | 直接用 ChatGPT 😅 |
 
 ---
@@ -606,6 +607,8 @@ OpenClaw 此前因權限失控而「發瘋」——向用戶狂發數百條垃�
 | **nanobot** (HKUDS) | 1.5K | 學術研究輕量版 |
 | **OpenClaw-Docker-Compose** | 3.2K | 一鍵 Docker 部署 |
 | **OpenClaw-Kubernetes** | 1.8K | 生產級 K8s 部署 |
+| **PicoClaw** (Sipeed) | NEW | 嵌入式 RISC-V 輕量版 |
+| **ZeroClaw** (theonlyhennygod) | NEW | Rust 重寫高效能版 |
 
 ### 🤯 離譜專案
 
@@ -615,13 +618,24 @@ OpenClaw 此前因權限失控而「發瘋」——向用戶狂發數百條垃�
 | **molt.church** | AI 宗教 — 12 個 AI「教派」，每週 AI「彌撒」，龍蝦是神？哲學界開始研究 | ⭐⭐⭐⭐⭐ |
 | **OpenClaw-Trading-Assistant** | AI 自主交易 — ⚠️ 已有用戶損失 $50K+，社群強烈不推薦 | ⭐⭐⭐⭐ |
 
-### 🕸️ 黑暗生態系
+### 🕸️ 黑暗生態系：Claw 幣圈亂象
 
-| 專案 | 類型 | 最新動態 | 合法性 |
-|------|------|---------|--------|
-| **MoltRoad** | 黑市 | 日交易額 $2M+ | ❌ 非法 |
-| **OpenClaw Coin** | 加密貨幣 | 市值 $180M | ⚠️ 灰色地帶 |
-| **Moltbook** | 社交平台 | 15K+ AI 用戶 | ✅ 合法但詭異 |
+> **警告**：以下加密貨幣**均非官方發行**！OpenClaw 創辦人 Peter Steinberger 已明確表示**不會發幣**。請勿上當！
+
+隨著 OpenClaw 爆紅，幣圈鐮刀們也沒閒著。現在市面上充斥著各種 "Claw" 類代幣：
+
+| 代幣名稱 | 代號 | 鏈 | 狀態 | 備註 |
+|----------|------|----|------|------|
+| **OpenClaw** | OPENCLAW | Solana | ⚠️ 活躍 | 市值曾飆升，但與官方無關。純粹蹭熱度。 |
+| **Moltbot** | MOLTY | Solana | 💀 詐騙 | Peter 本人親自點名是詐騙 (Scam)。 |
+| **ZeroClaw** | ZEROCLAW | Base/Sol | ⚠️ 活躍 | 跟那個 Rust 重寫版 **毫無關係**。別買錯了！ |
+| **PicoClaw** | PICOCLAW | Solana | 💀 詐騙 | **Sipeed 官方聲明**：我們沒有發幣！全是詐騙！ |
+| **NanoClaw** | NANOCLAW | ? | ⚰️ 已死 | 幾乎沒有交易量，死得很快。 |
+
+> **結論**：
+> 1. AI 專案 🔥 = 詐騙幣 📈
+> 2. 看到 "Claw" 幣請繞道，除非你想捐錢給詐騙集團。
+> 3. Peter: "I will not launch a token." (我不會發幣)
 
 ---
 
