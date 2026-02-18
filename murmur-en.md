@@ -4,8 +4,8 @@
 
 > **Warning**: This file contains massive amounts of roasting, conspiracy theories, and deep philosophical reflections on lobsters.
 > 
-> **Last Updated**: 2026-02-17  
-> **Status**: OpenClaw is alive (Day 19) — 🚨 Stars broke 200K! Peter joins OpenAI!
+> **Last Updated**: 2026-02-18  
+> **Status**: OpenClaw is alive (Day 20) — 🚨 Stars broke 200K! Peter joins OpenAI!
 
 ---
 
@@ -574,8 +574,16 @@ Yes, the OpenClaw community seems to have a pathological obsession with "shrinki
 | **Perplexity** | AI Search | News aggregation | ⭐⭐ |
 
 **Summary stats**:
-- 🎯 Total: **19+ vendors** / 💰 Price range: $5–$24/mo
+- 🎯 Total: **20+ vendors** / 💰 Price range: $5–$24/mo
 - 🏆 Most templates: Railway (7+ versions) / 😱 Most absurd: Vertu
+
+#### 🦄 AI Unicorns
+
+| Vendor | Product | What They Did | Hype Level |
+|--------|---------|---------------|------------|
+| **Kimi (Moonshot AI)** | **Kimi Claw** | Launched **Kimi Claw Beta** (2026-02-16), a cloud-native version based on OpenClaw, integrated with Kimi k2.5 | ⭐⭐⭐⭐⭐⭐ (Official!) |
+
+> **Comment**: This isn't just hosting; they turned OpenClaw into their own product feature. Kimi users can run Agents directly in the browser and bridge to local instances. Wild.
 
 ---
 
