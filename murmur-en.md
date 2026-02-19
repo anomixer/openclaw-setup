@@ -4,8 +4,8 @@
 
 > **Warning**: This file contains massive amounts of roasting, conspiracy theories, and deep philosophical reflections on lobsters.
 > 
-> **Last Updated**: 2026-02-18  
-> **Status**: OpenClaw is alive (Day 20) — 🚨 Stars broke 200K! Peter joins OpenAI!
+> **Last Updated**: 2026-02-19  
+> **Status**: OpenClaw is alive (Day 21) — 🚨 Rabbit r1 Redemption? GPT-5.3 is here!
 
 ---
 
@@ -268,7 +268,7 @@ OpenClaw previously "went rogue" — spamming users with hundreds of junk messag
 
 #### 🕵️ Infostealer Threat & Astrix Scanner (2026-02-17)
 
-- 🚨 **New Threat**: Security experts found Infostealer malware specifically targeting OpenClaw config files
+- 🚨 **New Threat**: Security experts found **Vidar** Infostealer malware specifically targeting OpenClaw config files (`config.toml`, `tokens.json`).
 - 🛡️ **Astrix Security**: Released Enterprise OpenClaw Scanner to help companies find "illicit" OpenClaw instances
 - ⚠️ **v2026.2.14**: Official major security update released (50+ fixes), update immediately!
 
@@ -349,6 +349,32 @@ OpenClaw previously "went rogue" — spamming users with hundreds of junk messag
 - ✅ Pushing AI industry toward agent-style workflows
 
 > "Chinese LLMs are cheap and powerful — OpenClaw finally supports them!" — User
+
+---
+
+### 🐰 Rabbit r1 Redemption Project
+
+**Date**: 2026-02-18 | **Status**: Alpha Access
+
+**News**: Rabbit Inc. announces official OpenClaw support (Alpha) on r1 devices.
+- Users can run OpenClaw skills directly on the r1.
+- First "positive" community feedback for r1 in two years?
+- **Comments**: "Finally does something besides hallucinating Spotify songs", "Dust off your $199 paperweight".
+
+---
+
+### 🧠 Model Arms Race: Opus 4.6 & GPT-5.3
+
+**Date**: 2026-02-19 | **Version**: OpenClaw v2026.2.15
+
+**New Supported Models**:
+
+| Model | Highlights | Status |
+|-------|------------|--------|
+| **Anthropic Claude 3.5 Opus (Opus 4.6)** | Internal codename "Opus 4.6", claims 40% gain over 3.5 Sonnet | 🧪 Beta |
+| **OpenAI GPT-5.3-Codex** | Agent-optimized version. Peter's first gift after joining OpenAI? | 🧪 Alpha |
+
+> **Conspiracy**: Peter joins OpenAI 3 days ago, and OpenClaw supports the unreleased GPT-5.3-Codex... Insider trading much? 🤔
 
 ---
 

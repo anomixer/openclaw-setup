@@ -4,8 +4,8 @@
 
 > **警告**: 本檔案包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-02-18  
-> **狀態**: OpenClaw 存活中（已存活 20 天）— 🚨 Stars 破 200K！ Peter 加入 OpenAI！
+> **最後更新**: 2026-02-19  
+> **狀態**: OpenClaw 存活中（已存活 21 天）— 🚨 Rabbit r1 終於有救了？ GPT-5.3 來了！
 
 ---
 
@@ -268,7 +268,7 @@ OpenClaw 此前因權限失控而「發瘋」——向用戶狂發數百條垃�
 
 #### 🕵️ Infostealer 威脅與 Astrix Scanner（2026-02-17）
 
-- 🚨 **新威脅**：資安專家發現 Infostealer 惡意軟體開始專門鎖定 OpenClaw 環境設定檔
+- 🚨 **新威脅**：資安專家發現 **Vidar** Infostealer 惡意軟體開始專門鎖定 OpenClaw 環境設定檔 (`config.toml`, `tokens.json`)。
 - 🛡️ **Astrix Security**：發布 Enterprise OpenClaw Scanner，幫助企業找出內網中的「非法」OpenClaw
 - ⚠️ **v2026.2.14**：官方釋出重大安全更新（50+ 修復），請立即更新！
 
@@ -349,6 +349,32 @@ OpenClaw 此前因權限失控而「發瘋」——向用戶狂發數百條垃�
 - ✅ 推動 AI 產業向 agent 工作流轉型
 
 > "中國 LLM 價格便宜量又大，OpenClaw 終於支援了！" — 網友
+
+---
+
+### 🐰 Rabbit r1 救贖計畫
+
+**發布日期**: 2026-02-18 | **合作狀態**: Alpha Access
+
+**消息**: Rabbit Inc. 宣布 r1 裝置正式支援 OpenClaw (Alpha)。
+- 用戶可以在 r1 上直接運行 OpenClaw skills。
+- 這是 r1 發布兩年來... 第一次獲得社群「正面」評價？
+- **網友評論**: "除了 Spotify 終於能幹點正事了"、"如果您有 $199 的鎮紙，現在可以把它拿出來了"。
+
+---
+
+### 🧠 模型軍備競賽：Opus 4.6 & GPT-5.3
+
+**發布日期**: 2026-02-19 | **版本**: OpenClaw v2026.2.15
+
+**新增支援模型**：
+
+| 模型 | 特色 | 狀態 |
+|------|------|------|
+| **Anthropic Claude 3.5 Opus (Opus 4.6)** | 傳說中的 "Opus 4.6" (內部代號)，號稱比 3.5 Sonnet 強 40% | 🧪 Beta |
+| **OpenAI GPT-5.3-Codex** | 專為 Agent 設計的版本，Peter 加入 OpenAI 後的首個禮物？ | 🧪 Alpha |
+
+> **陰謀論**: Peter 剛加入 3 天，OpenClaw 就支援了尚未公開的 GPT-5.3-Codex... 這沒有內線交易嗎？🤔
 
 ---
 
