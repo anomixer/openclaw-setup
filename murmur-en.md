@@ -59,7 +59,11 @@
 
 **Strategic Role**: The Anti-OpenClaw Nuke | **Status**: Total War
 
-**Event**: Meta has transformed **Manus** into the **ultimate weapon to snipe OpenClaw**. This is a direct declaration of war on the OpenClaw ecosystem.
+**Event**: Meta (who acquired Manus back in **Dec 2025**) has officially repurposed it as the **ultimate weapon to snipe OpenClaw**.
+
+**Timeline Correction**:
+- **2025-12-29**: Meta announced Manus acquisition ($2-3B), seen as a standard buy back then.
+- **2026-02-20**: In response to OpenClaw's viral growth, Meta deploys "Manus Agents" as a strategic counter.
 
 **What is Manus Agents?**
 - **Positioning**: "The Anti-OpenClaw"
@@ -71,7 +75,7 @@
 - **Platforms**: Launched on Telegram; WhatsApp, LINE, Slack, Discord coming in 30 days.
 
 **Zuck's Master Plan**:
-1.  **If you can't buy it, beat it**: After Peter rejected a multi-billion dollar offer, Meta bought a competitor.
+1.  **If you can't buy it, beat it**: After Peter rejected a multi-billion dollar offer, Meta dusted off the Manus acquisition from last year to fight back.
 2.  **Agentic Commerce**: Combining 3.5B users' data (FB/Insta) + WhatsApp Pay to build "AI that spends money for you".
 3.  **Market Segmentation**:
     - **OpenClaw**: For **Geeks / Developers** who love tinkering and control.
@@ -331,7 +335,7 @@ But the **OpenClaw Foundation** is the best outcome:
 
 ### 📝 Changelog
 
-- **2026-02-20**: 💥 Meta buys Manus! GitHub Stars break 200K!
+- **2026-02-20**: 💥 Meta deploys Manus (Ultimate Weapon)! GitHub Stars break 200K!
 - **2026-02-19**: 🐰 Rabbit r1 support / GPT-5.3 & Opus 4.6.
 - **2026-02-16**: Peter joins OpenAI / Foundation / Vidar threat.
 - **2026-02-13**: Chinese LLM support.

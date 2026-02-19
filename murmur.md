@@ -11,7 +11,7 @@
 
 ## ⏱️ TL;DR (30秒懶人包)
 
-1.  **主角**: **OpenClaw** (原名 Moltbot)，目前最火的開源 AI Agent (🔥 208K+ Stars)。
+1.  **主角**: **OpenClaw** (原名 Moltbot/Clawdbot)，目前最火的開源 AI Agent (🔥 208K+ Stars)。
 2.  **核心劇情**: 創辦人 Peter 被 **OpenAI** 挖走開發 Personal Agents，但 OpenClaw **永久開源**並轉由基金會運作。
 3.  **大反派(?)**: **Meta** 祭出 **Manus**，推出「反 OpenClaw 武器」要把極客市場搶回來。
 4.  **危機**: 安全問題頻傳 (Vidar 病毒鎖定、惡意 Skills)，請務必小心使用。
@@ -59,7 +59,11 @@
 
 **戰略定位**: 對抗 OpenClaw 的核彈 | **狀態**: 全面開戰
 
-**事件**: Meta 正式將 **Manus** 打造成**狙擊 OpenClaw 的終極武器**。這是針對 OpenClaw 生態系的直接宣戰。
+**事件**: Meta 早在 **2025 年 12 月**就已併購 Manus，現在正式將其轉型為**狙擊 OpenClaw 的終極武器**。
+
+**時間軸修正**:
+- **2025-12-29**: Meta 宣佈併購 Manus ($2-3B)，當時以為只是普通的收購。
+- **2026-02-20**: 針對 OpenClaw 爆紅，Meta 祭出「Manus Agents」作為戰略回應。
 
 **什麼是 Manus Agents?**
 - **定位**: "The Anti-OpenClaw" (反 OpenClaw 產品)
@@ -71,7 +75,7 @@
 - **平台**: 首發 Telegram，接下來 30 天內支援 WhatsApp、LINE、Slack、Discord。
 
 **小扎的戰略 (Zuck's Master Plan)**:
-1.  **得不到就毀掉 (或超越)**: 曾向 Peter 開出數十億美元收購邀約被拒，轉手買下競品。
+1.  **得不到就毀掉 (或超越)**: 曾向 Peter 開出數十億美元收購邀約被拒，轉手拿出去年底買好的 Manus 來對打。
 2.  **Agentic Commerce (代理式商務)**: 結合 Facebook/Instagram 35 億用戶數據 + WhatsApp Pay，打造「會幫你花錢的 AI」。
 3.  **市場區隔**:
     - **OpenClaw**: 給喜歡折騰、重視隱私與控制權的 **Geeks / Developers**。
@@ -331,7 +335,7 @@
 
 ### 📝 更新日誌
 
-- **2026-02-20**: 💥 Meta 併購 Manus！GitHub Stars 破 200K！
+- **2026-02-20**: 💥 Meta 祭出 Manus (終極武器)！GitHub Stars 破 200K！
 - **2026-02-19**: 🐰 Rabbit r1 支援 / GPT-5.3 & Opus 4.6。
 - **2026-02-16**: 彼得加入 OpenAI / 基金會成立 / Vidar 威脅。
 - **2026-02-13**: 中國 LLM 支援。
