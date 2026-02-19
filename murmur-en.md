@@ -4,8 +4,8 @@
 
 > **Warning**: This file contains massive amounts of roasting, conspiracy theories, and deep philosophical reflections on lobsters.
 > 
-> **Last Updated**: 2026-02-19  
-> **Status**: OpenClaw is alive (Day 21) — 🚨 Rabbit r1 Redemption? GPT-5.3 is here!
+> **Last Updated**: 2026-02-20  
+> **Status**: OpenClaw is alive (Day 22) — 🚨 Zuck Strikes Back! Meta acquires Manus to launch "Idiot-proof Agents"!
 
 ---
 
@@ -266,9 +266,15 @@ OpenClaw previously "went rogue" — spamming users with hundreds of junk messag
 
 > "Problem not solved yet, vendor selling solutions already 😂" — User
 
-#### 🕵️ Infostealer Threat & Astrix Scanner (2026-02-17)
+#### 🕵️ Vidar Infostealer Targets OpenClaw (2026-02-16)
 
-- 🚨 **New Threat**: Security experts found **Vidar** Infostealer malware specifically targeting OpenClaw config files (`config.toml`, `tokens.json`).
+- 🚨 **Confirmed Threat**: **Vidar** Infostealer malware is specifically targeting OpenClaw.
+- 🎯 **Targets**:
+  - `config.toml` (All settings)
+  - `tokens.json` (OAuth tokens)
+  - `API Keys` (OpenAI, Anthropic keys)
+- ⚠️ **More dangerous than malicious Skills**: Doesn't require installing anything specific; if your PC gets Vidar, your credentials are gone.
+- 🛡️ **Astrix Security**: Released Enterprise OpenClaw Scanner to help companies find "illicit" OpenClaw instances
 - 🛡️ **Astrix Security**: Released Enterprise OpenClaw Scanner to help companies find "illicit" OpenClaw instances
 - ⚠️ **v2026.2.14**: Official major security update released (50+ fixes), update immediately!
 
@@ -306,7 +312,62 @@ OpenClaw previously "went rogue" — spamming users with hundreds of junk messag
 
 ---
 
-### 📊 GitHub Stars Break 200K
+### 📊 GitHub Stars Record Breaking
+
+**Latest Data** (2026-02-20):
+
+| Rank | Project | Stars | Notes |
+|------|---------|-------|-------|
+| 1 | FreeCodeCamp | 400K+ | Education |
+| 2 | React | 243K | Frontend King |
+| 3 | Python (CPython) | 217K | The Language |
+| 4 | Linux | 217K | The Kernel |
+| 5 | Vue.js | 210K | Framework |
+| **6** | **OpenClaw** | **208K+** | 🚀 **Rocketing Up** |
+
+> **Prediction**: At current speed (+2K/day), **will surpass Linux and Python in two weeks**.
+> "Fastest growing project in GitHub history" — TechCrunch
+
+---
+
+### 🌍 Peter on EU Regulation (2026-02-18)
+
+**Event**: Peter Steinberger posted on X explaining why he joined OpenAI (USA) instead of staying in Europe.
+
+**Core Arguments**:
+- 🇪🇺 **EU AI Act**: "We spent more time writing legal docs than code."
+- 🛑 **Innovation Block**: "Deploying a new Skill in EU requires compliance review..."
+- 🇺🇸 **US Culture**: "At OpenAI, people work 7 days a week for a goal; in EU, that's illegal."
+
+> **Community Buzz**:
+> "Europe can't keep top AI talent because they're busy regulating things that haven't been invented yet."
+> "OpenClaw fled Europe to become an American Lobster 🇺🇸🦞"
+
+---
+
+### 🏛️ OpenClaw Foundation Details
+
+**Governance Model**: Modeled after **Linux Foundation** and **CNCF (Kubernetes)**.
+- Independent operation, not owned by OpenAI.
+- **Peter**: Honorary Board Member, no daily decision making.
+- **Maintainers**: Community core devs take over. (anomixer: "Glad I'm just a Setup Guide writer & news observer... 😅")
+
+---
+
+### 📰 International Media Coverage
+
+**Global Media**:
+- **Reuters**: "The AI Agent that scared Meta."
+- **CNBC**: "OpenClaw: The Linux of the AI era?"
+- **TechCrunch**: "Fastest growing repo ever."
+
+**Taiwan Media**:
+- **TechNews**: "OpenClaw viral, Edge AI opportunities booming for Taiwan supply chain?"
+- **INSIDE**: "From Moltbot to Manus: The War for AI Agency."
+
+---
+
+### 🧠 Model Arms Race: Opus 4.6 & GPT-5.3
 
 **Latest stats** (2026-02-17):
 
@@ -378,6 +439,34 @@ OpenClaw previously "went rogue" — spamming users with hundreds of junk messag
 
 ---
 
+### ⚔️ The Empire Strikes Back: Meta Acquires Manus
+
+**Date**: 2026-02-20 | **Seismic Level**: 🌋🌋🌋🌋 (Nuclear)
+
+**Event**: Just **one day** after OpenAI announced hiring Peter, Meta flash-announced the **acquisition of Manus** and immediately launched **Manus Agents**.
+
+**What is Manus Agents?**
+- **Positioning**: "The Anti-OpenClaw"
+- **Core Selling Point**: **Zero Technical Barrier**.
+    - OpenClaw: Buy VPS → Setup Docker → Config API Keys → Debug for hours (Geeks only)
+    - Manus: **Scan QR Code → Connect to Telegram in 1 min** (Grandma friendly)
+- **Architecture**: Cloud-First. Meta handles all compute and security isolation.
+- **Models**: Powered by **Manus 1.6 Max** (Reasoning) & **Manus 1.6 Lite** (Speed).
+- **Platforms**: Launched on Telegram; WhatsApp, LINE, Slack, Discord coming in 30 days.
+
+**Zuck's Master Plan**:
+1.  **If you can't buy it, beat it**: After Peter rejected a multi-billion dollar offer, Meta bought a competitor.
+2.  **Agentic Commerce**: Combining 3.5B users' data (FB/Insta) + WhatsApp Pay to build "AI that spends money for you".
+3.  **Market Segmentation**:
+    - **OpenClaw**: For **Geeks / Developers** who love tinkering and control.
+    - **Manus**: For the other 99% who just want it to **"work"**.
+
+> **Community Comments**:
+> "Meta: 'If I can't buy OpenClaw, I'll build something that makes OpenClaw look like Assembly language.'"
+> "Privacy? Meta says Manus is private... do you believe them? 😂"
+
+---
+
 ### 📖 Wikipedia Entry
 
 **Published**: 2026-02-11 | **Title**: "OpenClaw (software)" | **Status**: Actively edited
@@ -400,22 +489,26 @@ OpenClaw previously "went rogue" — spamming users with hundreds of junk messag
 
 Yes, the OpenClaw community seems to have a pathological obsession with "shrinking" and "rewriting".
 
-| Item | **NanoClaw** (gavrielc) | **nanobot** (HKUDS) | **PicoClaw** (Sipeed) | **ZeroClaw** (theonlyhennygod) |
-|------|------------------------|---------------------|-----------------------|--------------------------------|
-| **Language** | Python | Python | Go | **Rust** 🦀 |
-| **Released** | 2026-02-04 | 2026-01-31 | 2026-02-16 | **2026-02-17** |
-| **Code** | ~500 lines | ~4,000 lines | Single binary | **Rust Crates** |
-| **Size** | 99.7% smaller | 99% smaller | < 10MB | **< 5MB** |
-| **Focus** | Security | Research | Embedded/IoT | **Performance (<10ms boot)** |
-| **Hardware** | Laptop | Laptop | **$10 board** | **Anything (Beast Mode)** |
-| **GitHub** | **~6.7K Stars** | **~19.9K Stars** | **~14.1K Stars** | **~8.8K Stars** |
+| Item | **NanoClaw** (gavrielc) | **nanobot** (HKUDS) | **PicoClaw** (Sipeed) | **ZeroClaw** (theonlyhennygod) | **TinyClaw** (jlia0) |
+|------|------------------------|---------------------|-----------------------|--------------------------------|----------------------|
+| **Language** | Python | Python | Go | **Rust** 🦀 | **C/C++** |
+| **Released** | 2026-02-04 | 2026-01-31 | 2026-02-16 | **2026-02-17** | **2026-02-20** |
+| **Code** | ~500 lines | ~4,000 lines | Single binary | **Rust Crates** | **Embedded** |
+| **Size** | 99.7% smaller | 99% smaller | < 10MB | **< 5MB** | **256KB RAM** 🤯 |
+| **Focus** | Security | Research | Embedded/IoT | **Performance (<10ms boot)** | **Extreme shrinking** |
+| **Hardware** | Laptop | Laptop | **$10 board** | **Anything (Beast Mode)** | **MCU (ESP32?)** |
+| **GitHub** | **~6.7K Stars** | **~19.9K Stars** | **~14.1K Stars** | **~8.8K Stars** | **~3.2K Stars** |
 
-### 🔍 What the heck are PicoClaw & ZeroClaw?
+### 🔍 What the heck are PicoClaw & ZeroClaw & TinyClaw?
 - **PicoClaw**: Launched by hardware vendor **Sipeed** (Go version), targeting $10 RISC-V boards.
 - **ZeroClaw**: A crazy developer rewrote it in **Rust**. "OpenClaw done right".
     - ⚡ **Boot speed**: < 10ms (Are you a ghost?)
     - 🛡️ **Security**: Trait-based modular design, claims to be safer.
     - ⚠️ **Note**: There's also a shitcoin with the same name. Don't buy the wrong one.
+- **TinyClaw**: **256KB RAM**? Seriously?
+    - This project claims to run on **256KB RAM** environments (via API to LLM).
+    - Basically turns your **smart plug** into an Agent.
+    - User: "What's next? **FemtoClaw** running on bacteria?" 🦠
 
 ### 🎯 Which Should You Choose?
 
@@ -426,7 +519,8 @@ Yes, the OpenClaw community seems to have a pathological obsession with "shrinki
 | Learning, research, local models | **nanobot** |
 | **I have a $10 board** | **PicoClaw** |
 | **I'm a Rustacean / Performance Junkie** | **ZeroClaw** 🦀 |
-| I just want to chat | Just use ChatGPT 😅 |
+| **I want to put an Agent in my watch** | **TinyClaw** ⌚ |
+| I just want to chat | Just use ChatGPT / Gemini (Manus is pricey💸) |
 
 ---
 
