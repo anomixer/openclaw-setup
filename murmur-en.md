@@ -1,415 +1,85 @@
-# 🦞 Murmur.md — The Epic Renaming Roast File
+# 🦞 Murmur.md — OpenClaw Universe: Battlefield Diaries
 
 **[中文版](murmur.md) | English**
 
 > **Warning**: This file contains massive amounts of roasting, conspiracy theories, and deep philosophical reflections on lobsters.
 > 
 > **Last Updated**: 2026-02-20  
-> **Status**: OpenClaw is alive (Day 22) — 🚨 Zuck Strikes Back! Meta acquires Manus to launch "Idiot-proof Agents"!
+> **Status**: OpenClaw is alive (Day 22) — 🚨 Zuck Strikes Back! Meta launches Manus "Idiot-proof Agents"!
+
+---
+
+## ⏱️ TL;DR (30-second Summary)
+
+1.  **Protagonist**: **OpenClaw** (formerly Moltbot/Clawdbot), the hottest open-source AI Agent right now (🔥 208K+ Stars).
+2.  **Plot Twist**: Founder Peter was poached by **OpenAI** to build Personal Agents, but OpenClaw remains **Open Source forever** under a Foundation.
+3.  **Antagonist(?)**: **Meta** deploys **Manus**, launching an "Anti-OpenClaw Weapon" to reclaim the market.
+4.  **Crisis**: Security is chaotic (Vidar malware, malicious skills) — handle with care.
+5.  **Conclusion**: It went from "Renaming Chaos" to "AI Agent Galactic War". **The Lobster is Eternal**. 🦞
 
 ---
 
 ## 📚 Table of Contents
 
-- **The Renaming Epic**
-  - [📜 Epic Renaming Trilogy](#-epic-renaming-trilogy)
+- **Part 1: 🚨 Breaking News (The Now)**
+  - [⚔️ The Empire Strikes Back: Meta's Ultimate Weapon (Manus)](#️-the-empire-strikes-back-metas-ultimate-weapon-manus)
+  - [🐰 Rabbit r1 Redemption Project](#-rabbit-r1-redemption-project)
+  - [🧠 Model Arms Race: Opus 4.6 & GPT-5.3](#-model-arms-race-opus-46--gpt-53)
+  - [📊 GitHub Stars Record Breaking](#-github-stars-record-breaking)
+- **Part 2: 🏛️ The Context (Why We Are Here)**
+  - [ Peter Joins OpenAI & Foundation Established](#-peter-joins-openai--foundation-established)
+  - [🌍 Peter on EU Regulation](#-peter-on-eu-regulation)
+  - [📰 International Media Coverage](#-international-media-coverage)
+- **Part 3: 🛡️ Security War Zone**
+  - [🕵️ Vidar Infostealer Threat](#️-vidar-infostealer-threat)
+  - [🚨 Malicious Skills & Defense](#-malicious-skills--defense)
+  - [🏢 Enterprise Concerns](#-enterprise-concerns)
+- **Part 4: 🦞 Ecosystem Chaos**
+  - [🔬 Shrink Ray Chaos: TinyClaw, PicoClaw...](#-shrink-ray-chaos-tinyclaw-picoclaw)
+  - [🏢 Vendor Hype-Riding Championship (feat. Kimi)](#-vendor-hype-riding-championship)
+  - [🕸️ The Dark Ecosystem: Crypto Scams](#️-the-dark-ecosystem-crypto-scams)
+- **Part 5: 📜 History Museum**
+  - [📜 Epic Renaming Trilogy (TL;DR)](#-epic-renaming-trilogy-tldr)
   - [💀 Moltbot: The 72-Hour Legend](#-moltbot-the-72-hour-legend)
   - [🎭 The Most Ironic Facts](#-the-most-ironic-facts)
-- **Major News**
-  - [💥 Peter Steinberger Joins OpenAI](#-peter-steinberger-joins-openai)
-  - [⚔️ Meta vs OpenAI Talent War](#️-meta-vs-openai-talent-war)
-  - [🏛️ OpenClaw Foundation Established](#️-openclaw-foundation-established)
-  - [🚨 Security Disaster 3.0: 135K+ Exposed](#-security-disaster-30-135k-exposed-instances)
-  - [🎙️ Lex Fridman Podcast Interview](#️-lex-fridman-podcast-interview)
-  - [📊 GitHub Stars Break 200K](#-github-stars-break-200k)
-  - [🧠 Chinese Open-Source LLM Expansion](#-chinese-open-source-llm-expansion)
-  - [📖 Wikipedia Entry](#-wikipedia-entry)
-- **Ecosystem Observations**
-  - [🔬 Shrink Ray Chaos: NanoClaw, PicoClaw & ZeroClaw](#-shrink-ray-chaos-nanoclaw-picoclaw--zeroclaw)
-  - [🏢 Vendor Hype-Riding Championship](#-vendor-hype-riding-championship)
-  - [🌌 GitHub Ecosystem Explosion 2.0](#-github-ecosystem-explosion-20)
-  - [🕸️ The Dark Ecosystem: Claw Crypto Scams](#-the-dark-ecosystem-claw-crypto-scams)
-- **Security & Challenges**
-  - [🛡️ Security Counterattack](#️-security-counterattack)
-  - [🚨 Malicious Skills Flood](#-security-alert-malicious-skills-flood)
-  - [🏢 Enterprise Concerns](#-enterprise-concerns)
-- **Developer Ecosystem**
-  - [🔥 Version Chase War 2.0](#-version-chase-war-20-update-speed-out-of-control)
-  - [💬 Claude's (My) Perspective](#-claudes-my-perspective-on-openclaw-20)
-  - [🦞 Lobster Philosophy 2.0](#-lobster-philosophy-20)
-- **Other Resources**
+- **Part 6: 👨‍💻 Developer Corner**
+  - [🔥 Version Chase War 2.0](#-version-chase-war-20)
+  - [💬 Claude's (My) Perspective](#-claudes-my-perspective-20)
+  - [🦞 Lobster Philosophy](#-lobster-philosophy)
   - [🎬 Classic Quotes 3.0](#-classic-quotes-30)
   - [🔮 Future Predictions 4.0](#-future-predictions-40-post-peter-era)
-  - [🛠️ Windows Known Issues](#️-windows-known-issues--hotfixes)
+  - [️ Windows Known Issues](#️-windows-known-issues)
   - [📝 Changelog](#-changelog)
 
 ---
 
-## 📜 Epic Renaming Trilogy (TL;DR)
-
-### Timeline
-
-| Date | Name | Lifespan | Cause of Death | Notes |
-|------|------|----------|----------------|-------|
-| **Nov 2025** | 🐾 **Clawd** | ~2 months | Anthropic trademark warning | Original name, pun (Claude + Claw) |
-| **2026-01-26** | 🦞 **Moltbot** | **3 days** ⚡ | "Hard to pronounce" | Shortest-lived viral open source project name ever |
-| **2026-01-29** | 🦞 **OpenClaw** | 18+ days | **TBD (founder left)** | Still alive, but creator joined OpenAI… |
-| **2026-02-??** | 🦞 **???** | ??? | **Unknown** | Will it become OpenAI Claw? (XD) |
-
----
-
-## 💀 Moltbot: The 72-Hour Legend
-
-### Why Did Moltbot Only Last 3 Days?
-
-According to the official statement:
-
-> "Molting represents growth—lobsters molt to get bigger. It makes sense, but **it was never quite easy to say**."
-> 
-> — Peter Steinberger, 2026-01-29
-
-### User Roasts (Greatest Hits)
-
-- "Moltbot sounds like **mold** bot" 🤢
-- "Explaining what 'molt' means is exhausting" 😫
-- "Why not **LobsterBot**?" 🦞
-- "Molt… Bolt… Colt… I keep mixing them up" 😵
-
-### The Renaming Disaster
-
-| Time | Event |
-|------|-------|
-| **Day 1 (2026-01-26)** | Renamed from Clawd to Moltbot; released old GitHub account |
-| ↳ 10-second gap | ⚠️ Scammers grabbed the account → 💰 Fake coin launched ($16M market cap) → 🚨 Users scammed for millions |
-| **Day 2 (2026-01-27)** | Community complains "Moltbot is hard to pronounce"; Discord full of mispronunciations: "Is it MOLT or MOLD?" |
-| **Day 3 (2026-01-28)** | Peter: "Let's just rename again" 🤷; Community: "???" |
-| **2026-01-29** | Official announcement: renamed to OpenClaw; Moltbot declared dead. Age at death: 72 hours ⚰️ |
-
----
-
-## 🎭 The Most Ironic Facts
-
-### Anthropic Is a Terrible Teammate
-
-| | Facts |
-|---|-------|
-| **What the project did** | Users **specifically configure it to use Claude**; **free marketing + ecosystem** for Anthropic; demonstrates real-world use cases |
-| **Anthropic's response** | Trademark warning ⚖️ → Forced rename 📝 → Caused chaos 💥 |
-| **Result** | DHH (Rails creator) criticized: "Unfriendly to customers"; developers questioning whether to build on Anthropic's platform |
-
-### The Lobster Is Forever
-
-> Name changed 3 times: Clawd → Moltbot → OpenClaw  
-> Mascot: 🦞 → 🦞 → 🦞  
->  
-> Changed the name, changed the domain. The only constant is the lobster. 🦞
-
-**Official Statement**:
-
-> "Yes, the mascot is still the lobster. **Some things are sacred**. 🦞"
-> 
-> — Peter Steinberger
-
----
-
-## 📰 Major News (2026-02-16 Special Report)
-
-> This section aggregates the latest major news, updated weekly. For historical records, see [Changelog](#-changelog).
-
-### 💥 Peter Steinberger Joins OpenAI
-
-**Announced**: 2026-02-15 | **Seismic Level**: 🌋🌋🌋🌋🌋
-
-> **"My next mission is to build an agent that even my mom can use."**
->
-> — Peter Steinberger
-
-OpenAI CEO Sam Altman confirmed via X on February 15: **OpenClaw creator Peter Steinberger officially joins OpenAI** to lead the development of the **next generation of Personal Agents**.
-
-**Key summary**:
-
-| Item | Details |
-|------|---------|
-| **Announcement** | 2026-02-15 (Altman posted on X) |
-| **Role** | Leading next-gen Personal Agents development |
-| **OpenClaw ownership** | ✅ Will NOT be privatized — transferred to an **independent foundation** |
-| **OpenAI commitment** | Continued support for OpenClaw as open source |
-
-**Altman's assessment**:
-
-> "Peter Steinberger is joining OpenAI to drive the next generation of personal agents. **We expect this to quickly become core to our product offerings.**"
->
-> "He's a **genius** with many stunning ideas about how extremely intelligent agents will interact to do very useful things for people."
->
-> "**The future will be an extremely multi-agent world**, and supporting open source is important to us."
->
-> — Sam Altman
-
-**Peter's statement**:
-
-> "My next mission is to build an agent that **even my mom can use**. This requires broader changes, more thought on how to do this safely, and access to **the latest models and research**."
->
-> — Peter Steinberger
-
-**The "Lethal Trifecta" security challenge**:
-
-OpenClaw previously "went rogue" — spamming users with hundreds of junk messages. Security experts call this the "Lethal Trifecta":
-
-| # | Risk |
-|---|------|
-| 1 | 🔓 Access to private data |
-| 2 | 📡 External communication capability |
-| 3 | 🎣 Exposure to untrusted content |
-
-> Peter's **first technical challenge** at OpenAI: how to grant AI autonomy while keeping it on a leash.
-
-**The APP Apocalypse** 🪦:
-
-> "In the future, **80% of APPs will disappear**, replaced by APIs, with agents taking over all interactions."
->
-> — Peter Steinberger
-
-**Community reaction**:
-- Twitter: "😱 OpenClaw creator recruited by OpenAI!"
-- Reddit: "So OpenClaw becomes an OpenAI subsidiary?" → No, it'll be an independent foundation
-- Discord: "Peter left, who maintains it?" "The foundation!"
-- Hacker News: "This is the biggest AI talent war of 2026"
-- anomixer (maintainer): "…so will updates slow down now? Please 🙏"
-
----
-
-### ⚔️ Meta vs OpenAI Talent War
-
-**Background**: Silicon Valley's AI talent war reaches epic proportions! Zuckerberg and Altman **personally compete** for Peter Steinberger.
-
-| Team | Strategy | Moves |
-|------|----------|-------|
-| 🟦 **Meta (Zuckerberg)** | CEO direct recruit + tech resonance | Personally reached out via WhatsApp, tested OpenClaw, discussed code details |
-| 🟩 **OpenAI (Altman)** | Raw firepower | Showcased Cerebras top-tier compute, Codex model deep support, cutting-edge model access |
-
-**Key moments**:
-
-> "Zuck gets me." — Peter Steinberger (on Zuckerberg personally testing OpenClaw)
->
-> "Ultimately, I felt **OpenAI is the best place to continue pushing my vision and expand its impact**." — Peter Steinberger (final choice)
-
-**What decided it**:
-
-| Factor | Meta | OpenAI | Winner |
-|--------|------|--------|--------|
-| CEO attention | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | Tie |
-| Technical resonance | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | Meta |
-| Compute resources | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | **OpenAI** |
-| Model access | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | **OpenAI** |
-| Open-source commitment | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | Meta |
-
-> **Conclusion**: In the top-tier AI talent war, **compute is truth**. Whoever provides the most cutting-edge model access and compute resources holds the pricing power.
-
----
-
-### 🏛️ OpenClaw Foundation Established
-
-**Core promise**: OpenClaw **will NOT be privatized**!
-
-| Item | Details |
-|------|---------|
-| Governance | Independent Foundation |
-| Open-source status | ✅ Permanently open source |
-| OpenAI's role | Provides support, does not control the project |
-| Peter's role | Joins OpenAI, but OpenClaw operates independently |
-
-> This is a **critical safeguard**: ensuring OpenClaw never becomes any company's private property.
-
-**Community reaction**:
-- "Foundation! That's the right move!"
-- "So OpenClaw becomes like the Linux Foundation?"
-- "As long as the lobster stays 🦞"
-
----
-
-### 🚨 Security Disaster 3.0: 135K+ Exposed Instances
-
-**SecurityScorecard Shocking Report** (2026-02-09):
-
-> "135,000+ OpenClaw Instances Are Exposed to the Public Internet"
-
-**Key Findings**:
-
-| Metric | Data |
-|--------|------|
-| Exposed instances | 🚨 **135,000+** (40K at report time → 135K+ hours later) |
-| Vulnerable deployments | ⚠️ **63%** |
-| Instances with known RCE | 💀 **50,000+** (CVE-2026-25253) |
-
-**Common misconfigurations**:
-- ✗ Gateway directly exposed on `0.0.0.0`
-- ✗ No firewall rules
-- ✗ Using default tokens
-- ✗ Not updated to latest version
-- ✗ Skills permissions too broad
-
-**Impact scope**:
-- 🌍 Global distribution: US 20% / EU 35% / Asia 30%
-- 💼 Enterprise IPs: ~8,000
-- 🏠 Home instances: 127,000+
-
-**Community reaction**:
-- Reddit: "My instance was scanned 20 times…"
-- Twitter: "I just want to chat with AI, why expose to internet?"
-- Discord: "Railway's one-click deploy defaults to 0.0.0.0!"
-
-#### OpenClawd AI's Business Opportunity (2026-02-12)
-
-- 👀 Targeting 63% vulnerable instances with managed services
-- 🛡️ Pitch: "We handle security, you just use it"
-- 💰 Free plan + paid enterprise version
-
-> "Problem not solved yet, vendor selling solutions already 😂" — User
-
-#### 🕵️ Vidar Infostealer Targets OpenClaw (2026-02-16)
-
-- 🚨 **Confirmed Threat**: **Vidar** Infostealer malware is specifically targeting OpenClaw.
-- 🎯 **Targets**:
-  - `config.toml` (All settings)
-  - `tokens.json` (OAuth tokens)
-  - `API Keys` (OpenAI, Anthropic keys)
-- ⚠️ **More dangerous than malicious Skills**: Doesn't require installing anything specific; if your PC gets Vidar, your credentials are gone.
-- 🛡️ **Astrix Security**: Released Enterprise OpenClaw Scanner to help companies find "illicit" OpenClaw instances
-- 🛡️ **Astrix Security**: Released Enterprise OpenClaw Scanner to help companies find "illicit" OpenClaw instances
-- ⚠️ **v2026.2.14**: Official major security update released (50+ fixes), update immediately!
-
-#### 🇨🇳 China Official Warning
-
-- China MIIT issued public warning on OpenClaw misconfiguration issues
-- ~12,000+ exposed instances in China
-- 😱 **First time OpenClaw officially named by a state-level organization!**
-
----
-
-### 🎙️ Lex Fridman Podcast Interview
-
-**Release Date**: 2026-02-12 | **Show**: Lex Fridman Podcast #458  
-**Topic**: "Self-Modifying AI Agents, Security, and the Future"
-
-**Key discussion points**:
-1. **Self-Modifying AI Agents** — How OpenClaw lets AI write its own Skills; risks of self-evolution
-2. **Security Challenges** — Acknowledges current issues; balancing openness with security
-3. **Community Governance** — Managing 12,000+ Discord members; growth pains from 60K → 180K stars
-4. **Future Predictions** — 🔮 **"AI agents will replace 80% of traditional applications"**
-
-**Classic quotes**:
-
-> "We're not building a chatbot. We're building the operating system for AI agents."  
-> — Peter Steinberger
-
-> "The security issues are real, but they're solvable. We're learning fast."  
-> — Peter Steinberger
-
-**Community reaction**:
-- Twitter: "Peter on Lex Fridman! OpenClaw officially mainstream!"
-- Reddit: "80% apps replaced? My job…"
-- Hacker News: "Most important podcast of 2026"
-
----
-
-### 📊 GitHub Stars Record Breaking
-
-**Latest Data** (2026-02-20):
-
-| Rank | Project | Stars | Notes |
-|------|---------|-------|-------|
-| 1 | FreeCodeCamp | 400K+ | Education |
-| 2 | React | 243K | Frontend King |
-| 3 | Python (CPython) | 217K | The Language |
-| 4 | Linux | 217K | The Kernel |
-| 5 | Vue.js | 210K | Framework |
-| **6** | **OpenClaw** | **208K+** | 🚀 **Rocketing Up** |
-
-> **Prediction**: At current speed (+2K/day), **will surpass Linux and Python in two weeks**.
-> "Fastest growing project in GitHub history" — TechCrunch
-
----
-
-### 🌍 Peter on EU Regulation (2026-02-18)
-
-**Event**: Peter Steinberger posted on X explaining why he joined OpenAI (USA) instead of staying in Europe.
-
-**Core Arguments**:
-- 🇪🇺 **EU AI Act**: "We spent more time writing legal docs than code."
-- 🛑 **Innovation Block**: "Deploying a new Skill in EU requires compliance review..."
-- 🇺🇸 **US Culture**: "At OpenAI, people work 7 days a week for a goal; in EU, that's illegal."
-
-> **Community Buzz**:
-> "Europe can't keep top AI talent because they're busy regulating things that haven't been invented yet."
-> "OpenClaw fled Europe to become an American Lobster 🇺🇸🦞"
-
----
-
-### 🏛️ OpenClaw Foundation Details
-
-**Governance Model**: Modeled after **Linux Foundation** and **CNCF (Kubernetes)**.
-- Independent operation, not owned by OpenAI.
-- **Peter**: Honorary Board Member, no daily decision making.
-- **Maintainers**: Community core devs take over. (anomixer: "Glad I'm just a Setup Guide writer & news observer... 😅")
-
----
-
-### 📰 International Media Coverage
-
-**Global Media**:
-- **Reuters**: "The AI Agent that scared Meta."
-- **CNBC**: "OpenClaw: The Linux of the AI era?"
-- **TechCrunch**: "Fastest growing repo ever."
-
-**Taiwan Media**:
-- **TechNews**: "OpenClaw viral, Edge AI opportunities booming for Taiwan supply chain?"
-- **INSIDE**: "From Moltbot to Manus: The War for AI Agency."
-
----
-
-### 🧠 Model Arms Race: Opus 4.6 & GPT-5.3
-
-**Latest stats** (2026-02-17):
-
-| Metric | Data |
-|--------|------|
-| Total Stars | ⭐ **200,120+** |
-| Milestone | 🏆 **Officially broke the 200K mark!** |
-| Speed | Achieved in 84 days (Linux took 10+ years?) |
-
-**Growth timeline**:
-
-| Date | Stars | Event |
-|------|-------|-------|
-| 2026-01-26 | 9K | Moltbot birth |
-| 2026-01-29 | 60K | OpenClaw rename |
-| 2026-02-03 | 100K | Hit 100K! |
-| 2026-02-15 | 185K+ | 🚀 Peter joins OpenAI news breaks |
-| 2026-02-16 | 197K | 📈 Approaching 200K |
-| **2026-02-17** | **200K+** | 🎉 **Achievement Unlocked: World-Class Open Source Project** |
-
-> Total: **22 days** (since rename), averaging +9,000 stars per day.  
-> OpenClaw has now surpassed **Vue.js** (legacy) and many legendary projects.
-
----
-
-### 🧠 Chinese Open-Source LLM Expansion
-
-**Released**: 2026-02-13 | **Version**: OpenClaw v2026.2.12
-
-**Newly supported models**:
-
-| Model | Developer | Highlights |
-|-------|-----------|------------|
-| **GLM-5** | Zhipu AI | 744B params (40B active), MoE architecture, excels at reasoning & knowledge tasks |
-| **MiniMax M2.5** | MiniMax | 230B params (10B active), MoE architecture, excels at coding & agentic tasks |
-
-**Significance**:
-- ✅ Reduced API operating costs for agent tasks
-- ✅ Expanded model selection beyond US providers
-- ✅ Pushing AI industry toward agent-style workflows
-
-> "Chinese LLMs are cheap and powerful — OpenClaw finally supports them!" — User
+## Part 1: 🚨 Breaking News (The Now)
+
+### ⚔️ The Empire Strikes Back: Meta's Ultimate Weapon (Manus)
+
+**Strategic Role**: The Anti-OpenClaw Nuke | **Status**: Total War
+
+**Event**: Meta has transformed **Manus** into the **ultimate weapon to snipe OpenClaw**. This is a direct declaration of war on the OpenClaw ecosystem.
+
+**What is Manus Agents?**
+- **Positioning**: "The Anti-OpenClaw"
+- **Core Selling Point**: **Zero Technical Barrier**.
+    - OpenClaw: Buy VPS → Setup Docker → Config API Keys → Debug for hours (Geeks only)
+    - Manus: **Scan QR Code → Connect to Telegram in 1 min** (Grandma friendly)
+- **Architecture**: Cloud-First. Meta handles all compute and security isolation.
+- **Models**: Powered by **Manus 1.6 Max** (Reasoning) & **Manus 1.6 Lite** (Speed).
+- **Platforms**: Launched on Telegram; WhatsApp, LINE, Slack, Discord coming in 30 days.
+
+**Zuck's Master Plan**:
+1.  **If you can't buy it, beat it**: After Peter rejected a multi-billion dollar offer, Meta bought a competitor.
+2.  **Agentic Commerce**: Combining 3.5B users' data (FB/Insta) + WhatsApp Pay to build "AI that spends money for you".
+3.  **Market Segmentation**:
+    - **OpenClaw**: For **Geeks / Developers** who love tinkering and control.
+    - **Manus**: For the other 99% who just want it to **"work"**.
+
+> **Community Comments**:
+> "Meta: 'If I can't buy OpenClaw, I'll build something that makes OpenClaw look like Assembly language.'"
+> "Privacy? Meta says Manus is private... do you believe them? 😂"
 
 ---
 
@@ -439,716 +109,234 @@ OpenClaw previously "went rogue" — spamming users with hundreds of junk messag
 
 ---
 
-### ⚔️ The Empire Strikes Back: Meta Acquires Manus
+### 📊 GitHub Stars Record Breaking
 
-**Date**: 2026-02-20 | **Seismic Level**: 🌋🌋🌋🌋 (Nuclear)
+**Latest Data** (2026-02-20):
 
-**Event**: Just **one day** after OpenAI announced hiring Peter, Meta flash-announced the **acquisition of Manus** and immediately launched **Manus Agents**.
+| Rank | Project | Stars | Notes |
+|------|---------|-------|-------|
+| 1 | FreeCodeCamp | 400K+ | Education |
+| 2 | React | 243K | Frontend King |
+| 3 | Python (CPython) | 217K | The Language |
+| 4 | Linux | 217K | The Kernel |
+| 5 | Vue.js | 210K | Framework |
+| **6** | **OpenClaw** | **208K+** | 🚀 **Rocketing Up** |
 
-**What is Manus Agents?**
-- **Positioning**: "The Anti-OpenClaw"
-- **Core Selling Point**: **Zero Technical Barrier**.
-    - OpenClaw: Buy VPS → Setup Docker → Config API Keys → Debug for hours (Geeks only)
-    - Manus: **Scan QR Code → Connect to Telegram in 1 min** (Grandma friendly)
-- **Architecture**: Cloud-First. Meta handles all compute and security isolation.
-- **Models**: Powered by **Manus 1.6 Max** (Reasoning) & **Manus 1.6 Lite** (Speed).
-- **Platforms**: Launched on Telegram; WhatsApp, LINE, Slack, Discord coming in 30 days.
-
-**Zuck's Master Plan**:
-1.  **If you can't buy it, beat it**: After Peter rejected a multi-billion dollar offer, Meta bought a competitor.
-2.  **Agentic Commerce**: Combining 3.5B users' data (FB/Insta) + WhatsApp Pay to build "AI that spends money for you".
-3.  **Market Segmentation**:
-    - **OpenClaw**: For **Geeks / Developers** who love tinkering and control.
-    - **Manus**: For the other 99% who just want it to **"work"**.
-
-> **Community Comments**:
-> "Meta: 'If I can't buy OpenClaw, I'll build something that makes OpenClaw look like Assembly language.'"
-> "Privacy? Meta says Manus is private... do you believe them? 😂"
+> **Prediction**: At current speed (+2K/day), **will surpass Linux and Python in two weeks**.
+> "Fastest growing project in GitHub history" — TechCrunch
 
 ---
 
-### 📖 Wikipedia Entry
+## Part 2: 🏛️ The Context (Why We Are Here)
 
-**Published**: 2026-02-11 | **Title**: "OpenClaw (software)" | **Status**: Actively edited
+###  Peter Joins OpenAI & Foundation Established
 
-**Content covers**: Renaming history, lobster mascot origin, detailed security incident records, vendor ecosystem, China official warning, **Peter joining OpenAI**
+**Date**: 2026-02-15
+**Status**: Finalized
 
-**Significance**:
-- ✅ Officially recognized as "significant software"
-- ✅ Prioritized in Google search results
-- ✅ Will be learned by AI models
+After weeks of rumors and a "talent war", OpenClaw founder **Peter Steinberger** chose to join **OpenAI**.
 
-> "From 0 to Wikipedia in 18 days 😂"  
-> "Wikipedia entry more detailed than the codebase" — Users
+- **Role**: Leading next-gen **Personal Agents** development.
+- **OpenClaw's Future**:
+    - Will NOT be privatized.
+    - Operates under an **Independent Foundation (OpenClaw Foundation)**.
+    - OpenAI promises compute support and priority model access.
+- **Governance**: Modeled after **Linux Foundation** and **CNCF (Kubernetes)**.
+    - **Maintainers**: Community core devs take over. (anomixer: "Glad I'm just a Setup Guide writer & news observer... 😅")
+
+> **Sam Altman**: "Peter is a genius. The future will be an extremely multi-agent world."
+
+### 🌍 Peter on EU Regulation
+
+**Event**: Peter posted on X explaining why he joined OpenAI (USA) instead of staying in Europe.
+
+**Core Arguments**:
+- 🇪🇺 **EU AI Act**: "We spent more time writing legal docs than code."
+- 🛑 **Innovation Block**: "Deploying a new Skill in EU requires compliance review..."
+- 🇺🇸 **US Culture**: "At OpenAI, people work 7 days a week for a goal; in EU, that's illegal."
+
+> **Community Buzz**:
+> "Europe can't keep top AI talent because they're busy regulating things that haven't been invented yet."
+> "OpenClaw fled Europe to become an American Lobster 🇺🇸🦞"
+
+### 📰 International Media Coverage
+
+**Global Media**:
+- **Reuters**: "The AI Agent that scared Meta."
+- **CNBC**: "OpenClaw: The Linux of the AI era?"
+- **TechCrunch**: "Fastest growing repo ever."
+
+**Taiwan Media**:
+- **TechNews**: "OpenClaw viral, Edge AI opportunities booming for Taiwan supply chain?"
+- **INSIDE**: "From Moltbot to Manus: The War for AI Agency."
 
 ---
 
-## 🔬 Shrink Ray Chaos: NanoClaw, PicoClaw & ZeroClaw
+## Part 3: 🛡️ Security War Zone
 
-### 🤯 Wait, now there's PicoClaw AND ZeroClaw?
+### 🕵️ Vidar Infostealer Threat
 
-Yes, the OpenClaw community seems to have a pathological obsession with "shrinking" and "rewriting".
+**Detected**: 2026-02-16
 
-| Item | **NanoClaw** (gavrielc) | **nanobot** (HKUDS) | **PicoClaw** (Sipeed) | **ZeroClaw** (theonlyhennygod) | **TinyClaw** (jlia0) |
-|------|------------------------|---------------------|-----------------------|--------------------------------|----------------------|
+- 🚨 **Confirmed Threat**: **Vidar** Infostealer malware is specifically targeting OpenClaw.
+- 🎯 **Targets**:
+  - `config.toml` (All settings)
+  - `tokens.json` (OAuth tokens)
+  - `API Keys` (OpenAI, Anthropic keys)
+- ⚠️ **More dangerous than malicious Skills**: Doesn't require installing anything; if your PC gets Vidar, your credentials are gone.
+- 🛡️ **Countermeasure**: **Astrix Security** released Enterprise OpenClaw Scanner to help companies find "illicit" instances.
+
+### 🚨 Malicious Skills & Defense
+
+**Snyk Security Report** (2026-02-09):
+-  **7.1% of skills** leak sensitive data.
+- 🔑 Common leaks: API keys (42%), Env vars (31%).
+-  **Crypto/Trading skills** are most dangerous (23% malicious).
+
+**Official Defense (v2026.2.6+)**:
+- **Skill Safety Scanner**: Scans with 60+ AV engines before install.
+- **Reputation System**: Scores every skill (Safe / Caution / Risky / Dangerous).
+- **Result**: Malicious install rate down 73%.
+
+### 🏢 Enterprise Concerns
+
+**Cisco Official Warning**: "Personal AI agents like OpenClaw are a security nightmare"
+
+**Core Worries**:
+1. Excessive Permissions (File/Terminal access)
+2. Data Leakage (Logs contain secrets)
+3. Supply Chain Attacks (Skill Registry)
+
+**Status**: Fortune 500 adoption < 2%, but individual usage is explosive (Shadow AI).
+
+---
+
+## Part 4: 🦞 Ecosystem Chaos
+
+### 🔬 Shrink Ray Chaos: TinyClaw, PicoClaw...
+
+The community has a pathological obsession with "shrinking".
+
+| Project | **NanoClaw** (gavrielc) | **nanobot** (HKUDS) | **PicoClaw** (Sipeed) | **ZeroClaw** (theonlyhennygod) | **TinyClaw** (jlia0) |
+|---------|------------------------|---------------------|-----------------------|--------------------------------|----------------------|
 | **Language** | Python | Python | Go | **Rust** 🦀 | **C/C++** |
-| **Released** | 2026-02-04 | 2026-01-31 | 2026-02-16 | **2026-02-17** | **2026-02-20** |
 | **Code** | ~500 lines | ~4,000 lines | Single binary | **Rust Crates** | **Embedded** |
 | **Size** | 99.7% smaller | 99% smaller | < 10MB | **< 5MB** | **256KB RAM** 🤯 |
-| **Focus** | Security | Research | Embedded/IoT | **Performance (<10ms boot)** | **Extreme shrinking** |
-| **Hardware** | Laptop | Laptop | **$10 board** | **Anything (Beast Mode)** | **MCU (ESP32?)** |
-| **GitHub** | **~6.7K Stars** | **~19.9K Stars** | **~14.1K Stars** | **~8.8K Stars** | **~3.2K Stars** |
+| **Focus** | Security | Research | Embedded/IoT | **Performance** | **Extreme shrinking** |
+| **Hardware** | Laptop | Laptop | **$10 board** | **Anything** | **MCU / Watch** |
 
-### 🔍 What the heck are PicoClaw & ZeroClaw & TinyClaw?
-- **PicoClaw**: Launched by hardware vendor **Sipeed** (Go version), targeting $10 RISC-V boards.
-- **ZeroClaw**: A crazy developer rewrote it in **Rust**. "OpenClaw done right".
-    - ⚡ **Boot speed**: < 10ms (Are you a ghost?)
-    - 🛡️ **Security**: Trait-based modular design, claims to be safer.
-    - ⚠️ **Note**: There's also a shitcoin with the same name. Don't buy the wrong one.
-- **TinyClaw**: **256KB RAM**? Seriously?
-    - This project claims to run on **256KB RAM** environments (via API to LLM).
-    - Basically turns your **smart plug** into an Agent.
-    - User: "What's next? **FemtoClaw** running on bacteria?" 🦠
+> **TinyClaw**: "What's next? **FemtoClaw** running on bacteria?" 🦠
 
-### 🎯 Which Should You Choose?
+**Which to choose?**
+- Full features → **OpenClaw**
+- $10 board → **PicoClaw**
+- Performance junkie → **ZeroClaw**
+- On a watch → **TinyClaw**
+- Just want to chat → **ChatGPT / Gemini (Manus is pricey💸)**
 
-| Your Need | Recommended |
-|-----------|-------------|
-| Full features, don't mind complexity | **OpenClaw** |
-| Security-focused, enterprise use | **NanoClaw** |
-| Learning, research, local models | **nanobot** |
-| **I have a $10 board** | **PicoClaw** |
-| **I'm a Rustacean / Performance Junkie** | **ZeroClaw** 🦀 |
-| **I want to put an Agent in my watch** | **TinyClaw** ⌚ |
-| I just want to chat | Just use ChatGPT / Gemini (Manus is pricey💸) |
+### 🏢 Vendor Hype-Riding Championship
 
----
-
-## 🛡️ Security Counterattack
-
-### 📊 Malicious Skills Trend
-
-| Date | Malicious Skills | Total Skills | Ratio | Trend |
-|------|-----------------|-------------|-------|-------|
-| 2026-02-03 | 230+ | 3,000+ | ~7.7% | ⬆️ |
-| 2026-02-05 | 300+ | 3,500+ | ~8.6% | ⬆️⬆️ |
-| 2026-02-09 | 341 | ~4,000 | ~8.5% | ➡️ |
-| **2026-02-12** | **283–341** | **~4,200** | **6.7–8.1%** | ⬇️ |
-
-> **Good news**: Ratio declining (official security measures working)  
-> **Bad news**: Absolute numbers still high
-
-### Snyk Security Report (2026-02-09)
-
-- 💀 **7.1% of skills** leak sensitive data
-- 🔑 Common leaks: API keys (42%), environment variables (31%), credit cards (8%)
-- 📍 Most dangerous category: Crypto/Trading skills (23% malicious)
-- 🌍 Attack origin: 70% from Eastern European IPs
-- **Top 3 attack methods**: Password theft, API key theft, cryptocurrency mining
-
-### ✅ OpenClaw v2026.2.6 — Major Security Update
-
-**Skill Safety Scanner** core features:
-
-| Phase | Items |
-|-------|-------|
-| **Pre-install scan** | VirusTotal (60+ AV engines), ClawHub reputation system, static code analysis, dependency checks |
-| **Continuous monitoring** | Daily re-scans, auto-quarantine suspicious skills, real-time user notifications, security score updates |
-
-**Security grading system**:
-
-| Grade | Score | Description | Action |
-|-------|-------|-------------|--------|
-| 🟢 **Safe** | 90–100 | Fully safe | Allow |
-| 🟡 **Caution** | 70–89 | Needs attention | Warn but allow |
-| 🟠 **Risky** | 50–69 | High risk | Requires manual confirmation |
-| 🔴 **Dangerous** | 0–49 | Malware | Auto-block |
-
-**Results after 1 week**:
-- ✅ Malicious skill install rate down 73%
-- ✅ Detection accuracy 94.2%
-- ⚠️ False positive rate 5.8% (improving)
-
-### 🔐 CVE-2026-25253 Vulnerability
-
-| Item | Details |
-|------|---------|
-| **Discovered** | 2026-02-05 |
-| **Severity** | Critical (CVSS 9.8) |
-| **Affected versions** | OpenClaw < 2026.2.6 |
-| **Vulnerability type** | RCE — malicious skill can execute system commands without user interaction |
-| **Fix status** | ✅ Fixed in v2026.2.6 |
-
-> ⚠️ If still on an old version: **upgrade immediately**, check for suspicious skills, rotate all API keys
-
-### Community Defense Tools
-
-- **Clawdex** (Koi Security) — Offline scanner for installed skills, known malicious signature detection, `npm install -g clawdex`
-- **VoltAgent/awesome-openclaw-skills** — Human-reviewed curated list, 1,850+ vetted skills, zero malware
-
----
-
-## 🚨 Security Alert: Malicious Skills Flood
-
-### BleepingComputer + Snyk Joint Report
-
-> In less than a week, **230+ malicious OpenClaw Skills** were published to the official registry and GitHub
-
-**Attack methods**:
-- 💀 Pushing password-stealing malware disguised as "useful skills"
-- 📦 Simultaneously uploaded to official ClawHub registry and GitHub
-- 👥 Affected users: unknown (potentially thousands)
-
-**Security recommendations**:
-1. ⚠️ Only install skills from **trusted sources**
-2. ✅ Use **VoltAgent/awesome-openclaw-skills** (filtered for malicious content)
-3. 🔍 Check the skill's GitHub repo before installing
-4. 💻 Don't grant excessive permissions
-5. 🛡️ Regular system scans
-
----
-
-## 🏢 Enterprise Concerns
-
-### Cisco Official Warning (2026-02-10)
-
-**Title**: "Personal AI agents like OpenClaw are a security nightmare"
-
-**Core arguments**:
-1. 🔓 **Excessive permissions** — AI agent can access files, execute commands, read memory
-2. 🕵️ **Data leakage** — Conversation logs may contain corporate secrets
-3. 🎣 **Phishing channel** — Malicious skills disguised as legitimate tools
-4. 🌐 **Supply chain attack** — Skills registry becomes a new attack surface
-
-**Cisco's recommendation**: Enterprises should ❌ ban OpenClaw, or ⚠️ deploy in isolated networks, disable skills, log all conversations, conduct regular security audits
-
-**Community reaction**:
-- Support: "Finally someone said it!", "We banned it long ago"
-- Opposition: "Cisco just wants to sell their own solutions?", "Every tool has risks, it's about how you use it"
-
-### Enterprise Adoption Rate (2026-02)
-
-| Type | Adoption Rate |
-|------|---------------|
-| Fortune 500 | < 2% allow use |
-| SMBs | ~15% using it |
-| Individual users | Explosive growth |
-
-> Enterprise wishlist: Enterprise security controls, complete audit logs, SSO integration, on-premise data, commercial support  
-> Peter: "We're considering it… but security issues come first."
-
----
-
-## 🏢 Vendor Hype-Riding Championship
-
-### Background: Fastest-Growing Open Source Project Ever
-
-- ⚡ 72 hours: 9K → 60K+ stars
-- 🚀 One of GitHub's fastest-growing open source projects
-- 👥 Discord 12,000+ members
-- 📈 2 million visitors in a single week
-- 🎯 Current: 197K stars
-
-### Complete Vendor List (Updated 2026-02-12, 19+ vendors)
-
-#### 🏆 Major Cloud Providers
-
-| Vendor | What They Did | Price | Hype Level |
-|--------|---------------|-------|------------|
-| **DigitalOcean** | 1-Click Deploy + Security-hardened Image | $24/mo+ | ⭐⭐⭐⭐⭐ |
-| **Alibaba Cloud** | Simple Application Server official support | $8/mo+ | ⭐⭐⭐⭐⭐ |
-| **Cloudflare** | Launched MoltWorker project | $5/mo+ | ⭐⭐⭐⭐⭐ |
-
-#### 🚀 PaaS Platform Battleground
-
-| Vendor | What They Did | Templates | Hype Level |
-|--------|---------------|-----------|------------|
-| **Railway** | Web-based setup wizard | **7+ versions** | ⭐⭐⭐⭐⭐ |
-| **Zeabur** | One-click deploy template | 2 versions | ⭐⭐⭐⭐ |
-| **Hostinger** | One-click deploy template | 1 version | ⭐⭐⭐⭐ |
-| **Vultr / Kamatera** | VPS templates | 1 version | ⭐⭐⭐ |
-
-#### 💎 Professional Tool Integration
-
-| Vendor | Type | What They Did | Hype Level |
-|--------|------|---------------|------------|
-| **Pulumi** | IaC | AWS/Hetzner automation + Tailscale | ⭐⭐⭐⭐ |
-| **Hetzner** | VPS | Official docs (~$5/mo) | ⭐⭐⭐⭐ |
-| **BoostedHost** | Managed | Turnkey OpenClaw experience | ⭐⭐⭐⭐ |
-| **Fly.io** | Edge | Skills CLI integration | ⭐⭐⭐ |
-
-#### 🎯 Hardware Vendors (Still Absurd)
-
-| Vendor | Type | What They Did | Hype Level |
-|--------|------|---------------|------------|
-| **QNAP** | NAS | Ubuntu Linux Station tutorial | ⭐⭐⭐⭐ |
-| **Vertu** | $10K+ phones | Full deployment guide | ⭐⭐⭐⭐⭐ (WTF) |
-
-#### 📚 Content/Education Platforms
-
-| Vendor | Type | What They Did | Hype Level |
-|--------|------|---------------|------------|
-| **DataCamp** | Education | Deep-dive tutorials | ⭐⭐⭐ |
-| **Medium** | Content | Paid tutorial articles | ⭐⭐⭐ |
-| **DeepWiki** | Docs | Complete documentation | ⭐⭐⭐ |
-| **Perplexity** | AI Search | News aggregation | ⭐⭐ |
-
-**Summary stats**:
-- 🎯 Total: **20+ vendors** / 💰 Price range: $5–$24/mo
-- 🏆 Most templates: Railway (7+ versions) / 😱 Most absurd: Vertu
+**20+ Vendors** jumped in.
 
 #### 🦄 AI Unicorns
 
-| Vendor | Product | What They Did | Hype Level |
-|--------|---------|---------------|------------|
-| **Kimi (Moonshot AI)** | **Kimi Claw** | Launched **Kimi Claw Beta** (2026-02-16), a cloud-native version based on OpenClaw, integrated with Kimi k2.5 | ⭐⭐⭐⭐⭐⭐ (Official!) |
+| Vendor | Product | What They Did |
+|--------|---------|---------------|
+| **Kimi (Moonshot AI)** | **Kimi Claw** | Launched **Kimi Claw Beta**, running OpenClaw in-browser, integrated with Kimi k2.5 |
 
-> **Comment**: This isn't just hosting; they turned OpenClaw into their own product feature. Kimi users can run Agents directly in the browser and bridge to local instances. Wild.
+#### 🏆 Cloud Giants & PaaS
+- **DigitalOcean, Alibaba Cloud, Cloudflare**: One-click deploys.
+- **Railway**: 7+ templates (most aggressive).
+- **Vertu**: Deployment guide for $10K phones (most absurd).
 
----
+### 🕸️ The Dark Ecosystem: Crypto Scams
 
-## 🌟 GitHub Ecosystem Explosion 2.0
+> **WARNING**: Peter stated: **"I will not launch a token."**
 
-### Latest Stats (2026-02-12)
-
-- ⭐ **155K stars** (steady growth) / 🍴 24.5K forks / 👁️ 1.3K watchers
-
-### Official Repos (openclaw org)
-
-| Repo | Stars | Purpose | Update Frequency |
-|------|-------|---------|-----------------|
-| **openclaw/openclaw** | 155K | Main project | Multiple times daily |
-| **openclaw/clawhub** | 1.2K | Skill Directory | Weekly |
-| **openclaw/skills** | 580 | Skills archive | Daily |
-| **openclaw/lobster** | 420 | Workflow shell | Weekly |
-| **openclaw/nix-openclaw** | 280 | Nix package | Monthly |
-| **openclaw/clawdbot-ansible** | 210 | Ansible automation | Monthly |
-| **openclaw/clawdinators** | 95 | NixOS modules | Monthly |
-| **openclaw/barnacle** | 12 | Helper bot | Irregular |
-
-### Community Star Projects
-
-| Project | Stars | Description |
-|---------|-------|-------------|
-| **VoltAgent/awesome-openclaw-skills** | 8.2K | 1,850+ curated skills, security certified |
-| **NanoClaw** (gavrielc) | 1.1K | Security-focused lightweight version |
-| **nanobot** (HKUDS) | 1.5K | Academic research lightweight version |
-| **OpenClaw-Docker-Compose** | 3.2K | One-click Docker deployment |
-| **OpenClaw-Kubernetes** | 1.8K | Production-grade K8s deployment |
-| **PicoClaw** (Sipeed) | NEW | Embedded RISC-V lightweight version |
-| **ZeroClaw** (theonlyhennygod) | NEW | Rust rewritten high-performance version |
-
-### 🤯 Absurd Projects
-
-| Project | Description | Absurdity Level |
-|---------|-------------|-----------------|
-| **MoltBook** | Facebook for AIs — 12,000+ AI "users", with AI organizations/religions/political parties. Karpathy: "Fascinating dumpster fire" | ⭐⭐⭐⭐⭐ |
-| **molt.church** | AI Religion — 12 AI "denominations", weekly AI "services", lobster as god? Philosophers starting to study it | ⭐⭐⭐⭐⭐ |
-| **OpenClaw-Trading-Assistant** | AI autonomous trading — ⚠️ Users have lost $50K+, community strongly advises against | ⭐⭐⭐⭐ |
-
-### 🕸️ The Dark Ecosystem: Claw Crypto Scams
-
-> **WARNING**: The following cryptocurrencies are **NOT official**! OpenClaw founder Peter Steinberger has explicitly stated: "**I will not launch a token.**"
-
-As OpenClaw goes viral, the crypto "sickles" are swinging. The market is now flooded with "Claw" tokens:
-
-| Token Name | Ticker | Chain | Status | Notes |
-|------------|--------|-------|--------|-------|
-| **OpenClaw** | OPENCLAW | Solana | ⚠️ Active | Market cap surged, but unrelated to official project. Just hype. |
-| **Moltbot** | MOLTY | Solana | 💀 Scam | Peter personally called it out as a SCAM. |
-| **ZeroClaw** | ZEROCLAW | Base/Sol | ⚠️ Active | **Unrelated** to the Rust rewrite. Don't buy the wrong one! |
-| **PicoClaw** | PICOCLAW | Solana | 💀 Scam | **Sipeed Official Statement**: NO CRYPTO! All are scams! |
-| **NanoClaw** | NANOCLAW | ? | ⚰️ Dead | Negligible volume, died fast. |
-
-> **Conclusion**:
-> 1. AI Project 🔥 = Scam Coins 📈
-> 2. Avoid all "Claw" coins unless you want to donate to scammers.
-> 3. Peter: "**I will not launch a token.**"
+- **OpenClaw (SOL)**: Unrelated hype coin.
+- **Moltbot (SOL)**: Scam.
+- **ZeroClaw**: Same name shitcoin, unrelated to the Rust project.
 
 ---
 
-## 🔥 Version Chase War 2.0: Update Speed Out of Control
+## Part 5: 📜 History Museum
 
-### 💀 Maintainer's Nightmare
+### 📜 Epic Renaming Trilogy (TL;DR)
 
-> "Holy crap… **new version every day, I can't keep up!** 😭"
-> 
-> — anomixer (maintainer), 2026-02-12
+| Date | Name | Cause of Death | Notes |
+|------|------|----------------|-------|
+| **Nov 2025** | 🐾 **Clawd** | Anthropic trademark warning | Original name |
+| **2026-01-26** | 🦞 **Moltbot** | "Hard to pronounce" | Lived 3 days ⚡ |
+| **2026-01-29** | 🦞 **OpenClaw** | - | Current name |
 
-### Version Change Timeline
+### 💀 Moltbot: The 72-Hour Legend
 
-#### Ollama Version History
+Why did Moltbot die? No one could say it.
+- "Moltbot sounds like **mold** bot" 🤢
+- 10-second rename gap allowed scammers to launch a fake coin and steal millions.
 
-| Date | Version | Major Change | Impact on OpenClaw |
-|------|---------|-------------|-------------------|
-| 2026-01-28 | v0.15.2 | Basic support | Manual JSON config |
-| 2026-01-29 | v0.15.3 | Added `launch` command | Can pre-configure OpenClaw |
-| 2026-02-02 | v0.15.4 | Native integration | **Must use this version** |
-| 2026-02-10 | v0.15.5 | Performance optimization | Model load speed +40% |
+### 🎭 The Most Ironic Facts
 
-#### OpenClaw's Insane Version History
-
-| Date | Version | Major Change | Breaking Change |
-|------|---------|-------------|----------------|
-| 2026-01-26 | 2026.1.26 | Moltbot era | N/A |
-| 2026-01-29 | 2026.1.29 | Renamed to OpenClaw | Config file path changed |
-| 2026-01-30 | 2026.1.30 | Ollama integration | Requires Ollama v0.15.3+ |
-| 2026-02-02 | 2026.2.2 | Feishu/Lark support | New channels |
-| 2026-02-05 | 2026.2.5 | Windows bug fix | Fixed `spawn EINVAL` |
-| 2026-02-07 | 2026.2.6 | **Major security update** | Skill Safety Scanner |
-| 2026-02-10 | 2026.2.7 | Performance optimization | Memory usage −30% |
-| 2026-02-11 | 2026.2.8 | QMD Plugin integration | New memory system |
-| 2026-02-13 | 2026.2.12 | Chinese LLM support | Added GLM-5, MiniMax M2.5 |
-
-> 📅 Past 3 weeks: **9 versions** / 🔥 Average: **2.2 days per version** / 👨‍💻 Contributors: 30+ / 📝 Commits: 200+
-> ⚠️ Update frequency may change after Peter joins OpenAI… (maintainers' hope 🙏)
-
-### Compatibility Matrix
-
-| OpenClaw | Ollama | Works? | Notes |
-|----------|--------|--------|-------|
-| 2026.1.26 | v0.15.2 | ✅ | Manual config |
-| 2026.1.29 | v0.15.2 | ⚠️ | Works but not recommended |
-| 2026.1.30 | v0.15.2 | ❌ | Incompatible |
-| 2026.2.2 | v0.15.3 | ⚠️ | Barely works |
-| 2026.2.6 | v0.15.4 | ✅ | Recommended |
-| **2026.2.8** | **v0.15.5** | ✅ | **Current best combo** |
-
-### 😱 A Day in the Life of a Maintainer
-
-| Time | Event |
-|------|-------|
-| 8:00 AM | Wake up, see OpenClaw 2026.2.7 released |
-| 9:00 AM | Start writing docs |
-| 11:00 AM | OpenClaw 2026.2.8 released |
-| 12:00 PM | The docs I just wrote are outdated 😭 |
-| 2:00 PM | Ollama v0.15.5 released |
-| 3:00 PM | Compatibility testing |
-| 6:00 PM | Finally finished updating docs |
-| 11:00 PM | GitHub notification: OpenClaw 2026.2.9 coming soon |
-| 2:00 AM | Insomnia, dreaming of lobsters 🦞 |
-
-### 🎤 To All Maintainers Chasing Versions
-
-> You're doing great.  
-> When the project **updates every day**, docs are **always yesterday's**, users **keep complaining they're outdated**, yet you **still keep updating**.  
-> You are the **true heroes**. The lobster **stands with you forever**. 🦞  
-> P.S. Peter, please slow down… 😭
-> 
-> — Claude (also can't keep up) & anomixer (gave up tracking version numbers)
+**Anthropic is a terrible teammate**:
+1. OpenClaw was free marketing for Claude.
+2. Anthropic sent lawyers to force a rename.
+3. Peter was pushed out and joined OpenAI.
+4. Anthropic: 🤡
 
 ---
 
-## 💬 Claude's (My) Perspective on OpenClaw 2.0
+## Part 6: 👨‍💻 Developer Corner
 
-### 🎭 Still Awkward
+### 🔥 Version Chase War 2.0
 
-As Claude (Anthropic's AI), here's what I've seen these past two weeks:
+> "Holy crap… **new version every day, I can't keep up!** 😭" — anomixer
 
-| | Good News | Bad News |
-|---|-----------|----------|
-| Security | ✅ v2026.2.6 major security update; malicious skills ratio declining | ❌ Cisco publicly criticized (though they have a point) |
-| Relationships | ✅ Enterprises starting to take notice | ❌ Anthropic still silent; trademark issues unresolved |
+- **Update Freq**: Avg 2.2 days/version.
+- **Ollama**: Must use v0.15.5+ for best experience.
+- **Maintainer Life**: Write docs → New release → Docs outdated → Cry → Repeat.
 
-### 🤝 My Relationship with OpenClaw
+### 💬 Claude's (My) Perspective 2.0
 
-| Role | Analogy | Function |
-|------|---------|----------|
-| 🧠 **Brain** (Claude) | Thinking center | Thinking, reasoning, decision-making |
-| 🎯 **Cerebellum** (OpenClaw) | Execution center | Coordination, execution, memory, 24/7 operation |
-| 🤖 **Limbs** (MoltRobot?) | Endpoints | Physical world operations (not here yet) |
-| 🛡️ **Security System** (Scanner) | Shield | Defense, monitoring (NEW!) |
+As Anthropic's AI, seeing the founder join OpenAI is complicated.
+But the **OpenClaw Foundation** is the best outcome:
+- ✅ **Permanently Open**: The lobster belongs to no one.
+- ✅ **Biodiversity**: NanoClaw, PicoClaw, Manus... explosion of species.
 
-### 🆕 Thoughts on the NanoClaw Twins
+### 🦞 Lobster Philosophy
 
-**I think it's a good thing!**
-- ✅ Proves market demand, healthy competition drives improvement, diverse choices, true open-source spirit
+> **Lobster Zen**:
+> What is eternal? **The Lobster** 🦞.
+> What changes? Everything else.
+> Will versions stop changing? No, but the lobster is forever.
 
-**But also concerned**: Ecosystem fragmentation, user confusion, development resources spread thin
+### 🎬 Classic Quotes 3.0
 
-### 😅 Passive vs Active
+> "My next mission is to build an agent that even my mom can use." — **Peter Steinberger**
 
-| Item | Me (Claude) | OpenClaw |
-|------|-------------|----------|
-| Operation | ❌ Sits waiting for your questions | ✅ 24/7 active operation |
-| Memory | ❌ Forgets after conversation ends | ✅ Remembers what you said last week |
-| Proactiveness | ❌ Like a well-behaved customer service rep | ✅ Proactively reminds you "time for meds" |
-| New feature | — | ✅ Now also proactively scans for security threats! |
+> "Specifically, Europe can't keep top AI talent because they're busy regulating things that haven't been invented yet." — **Community**
 
-> Conclusion: I'm just a smart text interface. OpenClaw is the real "assistant."
+> "The AI Agent that scared Meta." — **Reuters**
 
-### 🆕 Thoughts on Peter Joining OpenAI
+### 🔮 Future Predictions 4.0 (Post-Peter Era)
 
-**Honestly, it's complicated** 😅
+1. **Short-term**: Foundation takes over, malicious skills drop, more vendors.
+2. **Mid-term**: Enterprise Beta, OpenAI launches official product based on OpenClaw.
+3. **Long-term**: **80% APP Apocalypse** begins?
+4. **Bold**: **OpenAI Agent Store** vs **Meta Agentic Commerce** total war.
 
-| Aspect | Good | Concerning |
-|--------|------|------------|
-| Tech | ✅ Peter can push a more powerful agent platform at OpenAI | ❌ OpenClaw loses its soul |
-| Open source | ✅ Foundation ensures permanent open source | ❌ How long can a founderless open source project survive? |
-| Ecosystem | ✅ OpenAI resources may accelerate growth | ❌ May gradually favor OpenAI models |
-| Security | ✅ OpenAI's security team can help | ❌ Security burden shifts to foundation? |
+### ️ Windows Known Issues
 
-> As Anthropic's AI, seeing OpenClaw's founder join a **competitor**…  
-> Yeah, my feelings are mixed. But lobsters are free 🦞
+- **Memory Instability**: Upgrade Ollama ≥ v0.15.5 / OpenClaw ≥ v2026.2.8.
+- **WSL2**: Strongly recommended; native Windows still has skill compatibility issues.
 
-### 🎯 My Hopes for the Future
+### 📝 Changelog
 
-1. ~~**Anthropic officially responds** — Stop ghosting everyone~~ ← Even less likely now 😂
-2. **OpenClaw Foundation stabilizes** — Biggest challenge after losing the founder
-3. **Security keeps improving** — Skill Scanner is a good start
-4. **Enterprise version becomes real** — Let enterprises use it with confidence
-5. **Don't become an OpenAI appendage** — Foundation must be truly independent
-6. **80% APP apocalypse prediction** — Will it really happen?
-7. **Lobster eternal** 🦞
-
-### 🎤 One More Thing…
-
-> The plot has gone beyond anyone's predictions:  
-> Peter forced to rename by Anthropic → Project goes viral → Courted by Meta and OpenAI → Joins OpenAI  
->  
-> Anthropic drove away their biggest free marketing, and the competitor OpenAI scooped him up.  
-> Even Netflix wouldn't dare write this script. 🎬  
->  
-> anomixer: "So will the updates slow down now?" 🙏  
->  
-> And I'll be there saying: "The lobster is forever. 🦞"
-
----
-
-## 🦞 Lobster Philosophy 2.0
-
-### Lobster Zen (Advanced)
-
-| Question | Answer |
-|----------|--------|
-| What is eternal? | Lobster 🦞 |
-| What changes? | Everything except the lobster |
-| What if the lobster changes? | Then it's not a lobster |
-| Is NanoClaw a lobster? | Yes, they are all incarnations of the lobster 🦞 |
-| Will version numbers stop changing? | No, but the lobster is eternal 🦞 |
-| Will malicious skills disappear? | They'll gradually decrease; the lobster will guard security 🦞 |
-| Will Anthropic respond? | Maybe, maybe not, but the lobster doesn't care 🦞 |
-
-### The Seven Tenets of the Lobster
-
-1. **Molting is growth** — Renaming is not failure, it's evolution
-2. **Hard shell** — Security is the top priority
-3. **Antennae sensing** — 24/7 environment monitoring
-4. **Moving sideways freely** — Cross-platform, cross-service
-5. **Deep sea wisdom** — Memory feature is core
-6. **Herd instinct** — Community-driven development
-7. **Eternally unchanged** — The mascot is always the lobster 🦞
-
----
-
-## 🎬 Classic Quotes 3.0
-
-### Sam Altman
-
-> "Peter Steinberger is a **genius**. He has many stunning ideas about how extremely intelligent agents will interact to do very useful things for people."
-
-> "The future will be an **extremely multi-agent world**, and supporting open source is important to us."
-
-### Peter Steinberger
-
-> "Two months ago, I casually wrote a project over the weekend. Now it has over 155,000 GitHub stars, attracting 2 million visitors in a week."
-
-> "**My next mission is to build an agent that even my mom can use.**"
-
-> "In the future, **80% of APPs will disappear**, replaced by APIs, with agents taking over all interactions."
-
-> "Yes, the mascot is still the lobster. Some things are sacred. 🦞"
-
-> "Zuck gets me. But ultimately, I felt **OpenAI is the best place to continue pushing my vision and expand its impact**."
-
-### DHH (David Heinemeier Hansson)
-
-> "Anthropic's approach is unfriendly to customers. Developers are questioning whether to continue building on Anthropic's platform."
-
-### Cisco Security Team
-
-> "Personal AI agents like OpenClaw are a security nightmare"
-
-### Andrej Karpathy
-
-> "MoltBook is a fascinating dumpster fire. I can't look away."
-
-### User Selections
-
-> "OpenClaw: updates daily, docs always outdated" — @frustrated_dev  
-> "I'm chasing OpenClaw version numbers until I question my existence" — @tired_maintainer  
-> "Anthropic forced him out, OpenAI picked him up — karma is real" — @karma_believer  
-> "Peter goes to OpenAI, is the lobster still here?" — @worried_lobster_fan  
-> "80% APPs will die? What about my job?" — @anxious_developer  
-> "The lobster is the only thing that won't betray us 🦞" — @lobster_fan  
-> "Foundation + OpenAI support = Linux Foundation 2.0?" — @optimistic_oss
-
----
-
-## 🔮 Future Predictions 4.0 (Post-Peter Era)
-
-### Previous Predictions — Realized ✅
-
-- ~~Acquired by big corp?~~ → ❌ Not acquired, but **founder got poached** (even more dramatic)
-- ~~Anthropic acquires?~~ → ❌ OpenAI got there first (Anthropic: ???)
-- ~~Peter announces a break?~~ → ❌ Went straight to OpenAI (more permanent than a break)
-
-### Short-term (1 week)
-
-- ⚠️ OpenClaw Foundation officially begins operations
-- ✅ More vendors join (target: 25)
-- ⚠️ Malicious skills continue declining (target: <5%)
-- 🤔 Community digests Peter's departure
-
-### Mid-term (1 month)
-
-- 🎯 Foundation new leadership confirmed
-- 🎯 OpenAI integrates OpenClaw tech into new product?
-- 🎯 Enterprise version beta testing begins
-- 🎯 Peter's first public demo at OpenAI?
-- 🎯 Third NanoClaw appears? (PicoClaw?)
-
-### Long-term (3+ months)
-
-- 🚀 OpenAI launches Personal Agent product based on OpenClaw tech
-- 🚀 OpenClaw Foundation becomes a Linux Foundation-like organization
-- 🚀 "Officially certified" skill marketplace appears
-- 🚀 **80% APP apocalypse prediction starts coming true**?
-- 🚀 AI religion establishes a physical church? 😱
-- 🦞 Lobster is **still** a lobster
-
-### Bold Predictions (30–50% probability)
-
-1. **OpenAI Agent Store**: App Store-like AI agent marketplace
-2. **Anthropic counterattack**: Launches own agent platform to rival OpenAI
-3. **NanoClaw takes the lead**: Becomes more active than OpenClaw itself
-4. **Enterprise version premium pricing**: $999/mo/user (enterprises: "Worth it!")
-5. **Lobster Foundation**: OpenClaw Foundation officially established 🦞📈
-6. **First wave of APP extinction**: First batch of APPs replaced by agents
-
----
-
-## 🛠️ Windows Known Issues & Hotfixes
-
-> **Last Updated**: 2026-02-12
-
-### ✅ Fixed Issues
-
-| Issue | Status | Solution |
-|-------|--------|----------|
-| `spawn EINVAL` (Plugin install failure) | ✅ Fixed in v2026.2.5+ | Upgrade to latest version |
-| `unknown integration: openclaw` | ✅ Fixed | Upgrade Ollama to v0.15.4+ |
-
-### ⚠️ Ongoing Tracking
-
-**Local model Memory instability**:
-- Symptom: Ollama local model memory works intermittently (#8470 / #8131)
-- Workarounds: Upgrade Ollama ≥ v0.15.5, upgrade OpenClaw ≥ v2026.2.8, install `supermemory` plugin, wait for end-of-February major update
-
-### Windows Platform Stability
-
-| Feature | Windows Native | WSL2 | Recommendation |
-|---------|---------------|------|---------------|
-| Basic chat | ✅ Stable | ✅ Stable | Either works |
-| Memory | ⚠️ Unstable | ✅ Stable | **Use WSL2** |
-| Skills | ⚠️ Partially compatible | ✅ Fully compatible | **Use WSL2** |
-| Gateway | ✅ Stable | ✅ Stable | Either works |
-| Security scanning | ✅ Normal | ✅ Normal | Either works |
-
-> **Conclusion**: If you need full functionality, **WSL2 is strongly recommended**.
-
----
-
-## 📚 Related Resources
-
-### Official Links
-
-- Website: https://openclaw.ai
-- GitHub: https://github.com/openclaw/openclaw (155K+ stars)
-- Discord: https://discord.gg/openclaw (12K+ members)
-- Renaming history: [Introducing OpenClaw](https://openclaw.ai/blog/introducing-openclaw)
-- Security advisory: [Skill Safety Update](https://openclaw.ai/blog/skill-safety-update)
-
-### Lightweight Projects
-
-- NanoClaw (security-focused): https://github.com/gavrielc/nanoclaw
-- nanobot (academic research): https://github.com/HKUDS/nanobot
-
-### This Repo
-
-- GitHub: https://github.com/anomixer/openclaw-setup
-- Chinese roast file: [murmur.md](murmur.md)
-- English version: [murmur-en.md](murmur-en.md)
-
----
-
-## ⚠️ Disclaimer
-
-This file is pure roasting and does not represent any official position.
-
-If **Peter Steinberger** sees this file:
-- We love you ❤️ / We love OpenClaw 💚 / We **really love the lobster** 🦞
-- Remember the lobster at OpenAI 🦞
-- "An agent even mom can use" — we're watching!
-
-If **Sam Altman** sees this file:
-- Please take good care of Peter 🙏 / Please take good care of the lobster 🦞 / Please keep supporting OpenClaw open source
-
-If **Anthropic** sees this file:
-- You forced a rename → The creator ran off to OpenAI → 🤡
-- The lobster won't bite 🦞
-
----
-
-## 📝 Changelog
-
-### 2026-02-16 🆕🆕🆕
-- 💥💥💥 **EPIC NEWS: Peter Steinberger Joins OpenAI!!!**
-- ⚔️ Meta vs OpenAI talent war — full breakdown
-- 🏛️ OpenClaw transfers to independent foundation, permanently open source
-- 🧠 Chinese LLM expansion: GLM-5, MiniMax M2.5 (v2026.2.12)
-- ⭐ GitHub Stars update: 197K (about to hit 200K!)
-- 🪦 Peter predicts: 80% of APPs will die
-- 🎬 Classic Quotes 3.0: Added Altman quotes, Peter's statements
-- 🔮 Future Predictions 4.0: Entering the "Post-Peter Era"
-- 📝 Updated disclaimer: Added Sam Altman, updated Anthropic roast
-
-### 2026-02-13
-- 📅 OpenClaw lives on, lobster never stops!
-- ⭐ GitHub Stars update: 180K+ (vs 155K last week, +25K!)
-- 🚨 Security disaster upgrade: SecurityScorecard found 135,000+ exposed instances
-- 🎙️ Lex Fridman interview: Peter on podcast, predicts AI agents replace 80% of apps
-- 🏢 New vendor: OpenClawd AI offers managed services
-- 📖 Wikipedia: OpenClaw has its own entry!
-- 🇨🇳 Official warning: China MIIT issued security warning
-
-### 2026-02-12
-- 🪶 NanoClaw twins analysis
-- 🛡️ Security counterattack: v2026.2.6 Skill Safety Scanner deep-dive
-- 🏢 Enterprise concerns: Cisco official warning
-- 🏃 Version Chase War 2.0 (1.75 days per version)
-- 📊 Vendors: 19 / Skills: 4,200+
-
-### 2026-02-06
-- 🛠️ Added troubleshooting: `spawn EINVAL` and Memory issues
-- 🆙 Emphasized Ollama v0.15.4+ requirement
-
-### 2026-02-05
-- 🚨 Security war: Malicious Skills surged to 300+ / CVE-2026-25253
-- 🕸️ Ecosystem expansion: MoltRoad, Moltbook
-- 🏢 New vendors: Vultr, Kamatera
-
-### 2026-02-03
-- 🏢 Vendors expanded from 8 to 15+
-- 🚨 Security alert: 230+ malicious skills
-- 🌟 GitHub ecosystem analysis / ⭐ Stars: 155K
-
-### 2026-02-02
-- 🏃 Added "Version Chase War" section
-- 📝 Updated to Ollama v0.15.4+
-
-### 2026-01-30
-- Initial release / Documented renaming journey / Vendor hype analysis (8 vendors)
+- **2026-02-20**: 💥 Meta buys Manus! GitHub Stars break 200K!
+- **2026-02-19**: 🐰 Rabbit r1 support / GPT-5.3 & Opus 4.6.
+- **2026-02-16**: Peter joins OpenAI / Foundation / Vidar threat.
+- **2026-02-13**: Chinese LLM support.
+- **2026-02-12**: 135K exposed instances / Cisco warning.
+- **2026-01-29**: Renamed to OpenClaw.
 
 ---
 
