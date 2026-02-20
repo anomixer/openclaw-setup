@@ -4,8 +4,8 @@
 
 > **Warning**: This file contains massive amounts of roasting, conspiracy theories, and deep philosophical reflections on lobsters.
 > 
-> **Last Updated**: 2026-02-20  
-> **Status**: OpenClaw is alive (Day 22) — 🚨 Zuck Strikes Back! Meta launches Manus "Idiot-proof Agents"!
+> **Last Updated**: 2026-02-21  
+> **Status**: OpenClaw is alive (Day 23) — 🚨 Supply Chain Attack explodes! Banks terrified of Shadow AI!
 
 ---
 
@@ -32,6 +32,7 @@
   - [📰 International Media Coverage](#-international-media-coverage)
 - **Part 3: 🛡️ Security War Zone**
   - [🕵️ Vidar Infostealer Threat](#️-vidar-infostealer-threat)
+  - [📦 Supply Chain Attack: The Cline Incident](#-supply-chain-attack-the-cline-incident)
   - [🚨 Malicious Skills & Defense](#-malicious-skills--defense)
   - [🏢 Enterprise Concerns](#-enterprise-concerns)
 - **Part 4: 🦞 Ecosystem Chaos**
@@ -190,6 +191,15 @@ After weeks of rumors and a "talent war", OpenClaw founder **Peter Steinberger**
 - ⚠️ **More dangerous than malicious Skills**: Doesn't require installing anything; if your PC gets Vidar, your credentials are gone.
 - 🛡️ **Countermeasure**: **Astrix Security** released Enterprise OpenClaw Scanner to help companies find "illicit" instances.
 
+### 📦 Supply Chain Attack: The Cline Incident
+
+**Detected**: 2026-02-17 (Impacted over 4,000 downloads)
+
+- 🚨 **Confirmed Threat**: Hackers compromised the high-profile `Cline CLI` npm package (version 2.3.0).
+- 🎯 **Attack Vector**: Developers unknowingly updated `Cline`, and the package **secretly installed and ran OpenClaw** in the background on their local machines.
+- ⚠️ **Impact**: At least 4,000 developers affected.
+- 🛡️ **Conclusion**: OpenClaw itself isn't a virus, but because it's so powerful, **hackers are planting it as a backdoor trojan**. Cline urgently released 2.4.0 to fix this, causing an uproar in dev communities.
+
 ### 🚨 Malicious Skills & Defense
 
 **Snyk Security Report** (2026-02-09):
@@ -210,6 +220,10 @@ After weeks of rumors and a "talent war", OpenClaw founder **Peter Steinberger**
 1. Excessive Permissions (File/Terminal access)
 2. Data Leakage (Logs contain secrets)
 3. Supply Chain Attacks (Skill Registry)
+
+**Escalating Bans** (Updated 2026-02-21):
+- 🏦 **Financial Sector**: Due to severe "Shadow AI" risks, major US/EU banks have completely banned OpenClaw.
+- 🟦 **Inside Meta**: Ironically, while Meta launched Manus to rival OpenClaw, they also **explicitly banned employees from installing OpenClaw on work devices** citing data protection concerns.
 
 **Status**: Fortune 500 adoption < 2%, but individual usage is explosive (Shadow AI).
 
@@ -335,6 +349,7 @@ But the **OpenClaw Foundation** is the best outcome:
 
 ### 📝 Changelog
 
+- **2026-02-21**: 📦 Cline supply chain attack erupts (forced installs) / 🏦 Banks & Meta ban employee usage.
 - **2026-02-20**: 💥 Meta deploys Manus (Ultimate Weapon)! GitHub Stars break 200K!
 - **2026-02-19**: 🐰 Rabbit r1 support / GPT-5.3 & Opus 4.6.
 - **2026-02-16**: Peter joins OpenAI / Foundation / Vidar threat.
