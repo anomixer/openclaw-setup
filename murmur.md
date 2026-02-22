@@ -275,12 +275,12 @@
 | **[manifest](https://github.com/mnfst/manifest)** | 3.3K | TypeScript | OpenClaw Agent 即時成本監控 | Cost Observability | [連結](https://github.com/mnfst/manifest) |
 | **[mimiclaw](https://github.com/memovai/mimiclaw)** | 2.9K | C | 跑在 $5 晶片上，無需 OS/Node.js | 極限嵌入式、成本優先 | [連結](https://github.com/memovai/mimiclaw) |
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 2.9K | JavaScript | Antigravity 模型 Proxy | 使用 Antigravity 模型 | [連結](https://github.com/badrisnarayanan/antigravity-claude-proxy) |
+| **[ironclaw](https://github.com/nearai/ironclaw)** | 2.9K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 | [連結](https://github.com/nearai/ironclaw) |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 2.2K | Python | 跨 LLM 與平台的長期記憶 OS | 記憶體管理進階版 | [連結](https://github.com/EverMind-AI/EverMemOS) |
+| **[moltis](https://github.com/moltis-org/moltis)** | 1.3K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 | [連結](https://github.com/moltis-org/moltis) |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | - | Python | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 | - |
 | **[ZeroClaw](https://github.com/xxx/zeroclaw)** | - | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 | - |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | - | C/C++ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 | - |
-| **[IronClaw](https://github.com/nearai/ironclaw)** | 2.9K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 | [連結](https://github.com/nearai/ironclaw) |
-| **[Moltis](https://github.com/moltis-org/moltis)** | 1.3K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 | [連結](https://github.com/moltis-org/moltis) |
 
 #### 🎯 選購指南：該選哪個？
 
