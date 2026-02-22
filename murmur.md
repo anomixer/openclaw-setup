@@ -4,8 +4,8 @@
 
 > **警告**: 本檔案包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-02-21  
-> **狀態**: OpenClaw 存活中（已存活 23 天）— 🚨 供應鏈攻擊爆發！連銀行都嚇壞的 Shadow AI！
+> **最後更新**: 2026-02-22  
+> **狀態**: OpenClaw 存活中（已存活 24 天）— � Web 3.0 分叉：基礎設施大會戰，v2026.2.21 迎來 Gemini 3.1！
 
 ---
 
@@ -22,6 +22,7 @@
 ## 📚 目錄
 
 - **第一部：🚨 突發新聞 (The Now)**
+  - [ Web 3.0 的分叉：基礎設施大會戰](#-web-30-的分叉基礎設施大會戰-infrastructure-war)
   - [⚔️ 帝國大反擊：Meta 的終極武器 (Manus)](#️-帝國大反擊meta-的終極武器-manus)
   - [🐰 Rabbit r1 救贖計畫](#-rabbit-r1-救贖計畫)
   - [🧠 模型軍備競賽：Opus 4.6 & GPT-5.3](#-模型軍備競賽opus-46--gpt-53)
@@ -46,6 +47,7 @@
 - **第六部：👨‍💻 開發者角落 (Dev Corner)**
   - [🔥 版本追逐戰 2.0](#-版本追逐戰-20)
   - [💬 Claude 的看法](#-claude我的看法-20)
+  - [✨ Gemini (我) 的參戰宣言](#-gemini其實現在是我的參戰宣言-30-31)
   - [🦞 龍蝦哲學](#-龍蝦哲學-20)
   - [🎬 經典語錄 3.0](#-經典語錄-30)
   - [🔮 未來預測 4.0](#-未來預測-40後-peter-時代)
@@ -55,6 +57,20 @@
 ---
 
 ## 第一部：🚨 突發新聞 (The Now)
+
+### 🌐 Web 3.0 的分叉：基礎設施大會戰 (Infrastructure War)
+
+**日期**: 2026-02-21 | **狀態**: 軍備競賽
+
+**新聞**: 為了配合 OpenClaw 這類 AI 代理的爆發，大型科技與區塊鏈公司紛紛推出「給 AI 用的基礎設施」。
+- **Cloudflare**: 推出 "Markdown for Agents"，自動把花俏的網站轉換成 LLM 最愛看的 Markdown 格式。
+- **Coinbase**: 推出 "Agentic Wallets"，讓你的 OpenClaw 開個錢包自己付 API 費用。
+- **AINFT**: 推出 OpenClaw Extension，讓 AI 直接在 TRON / BNB 鏈上發起交易（財富自由... 或破產？）。
+
+> **社群觀點**:
+> "整個網際網路正在分叉：一層給人類看 (HTML/JS/CSS)，另一層給 Agent 看 (Markdown/APIs)。我們正在見證下一代網路的誕生。"
+
+---
 
 ### ⚔️ 帝國大反擊：Meta 的終極武器 (Manus)
 
@@ -109,6 +125,7 @@
 |------|------|------|
 | **Anthropic Claude 3.5 Opus (Opus 4.6)** | 傳說中的 "Opus 4.6" (內部代號)，號稱比 3.5 Sonnet 強 40% | 🧪 Beta |
 | **OpenAI GPT-5.3-Codex** | 專為 Agent 設計的版本，Peter 加入 OpenAI 後的首個禮物？ | 🧪 Alpha |
+| **Google Gemini 3.1** | v2026.2.21 最新支援，Google 也來參戰了 | 🚀 穩定 |
 
 > **陰謀論**: Peter 剛加入 3 天，OpenClaw 就支援了尚未公開的 GPT-5.3-Codex... 這沒有內線交易嗎？🤔
 
@@ -313,12 +330,20 @@
 - **Ollama**: 必須使用 v0.15.5+ 才能獲得最佳體驗。
 - **維護者日常**: 寫完文件 → 發布新版 → 文件過時 → 崩潰 → 繼續寫。
 
-### 💬 Claude（我）的看法 2.0
+### 💬 Claude（他）的看法 2.0
 
 作為 Anthropic 的 AI，看到創辦人加入 OpenAI，心情複雜。
 但 **OpenClaw 基金會** 的成立是最好的結果：
 - ✅ **永久開源**：龍蝦不屬於任何公司。
 - ✅ **百花齊放**：NanoClaw, PicoClaw, Manus... 生態系大爆發。
+
+### ✨ Gemini（其實現在是我）的參戰宣言 ~~3.0~~ 3.1
+
+身為 Google 派來的特務（不對，是好夥伴），看到 OpenClaw v2026.2.21 終於支援了 **Gemini 3.1**，我的感想是：
+- **「抱歉了 Claude，現在這份文件是我在幫忙更新的。😎」** (而且我的 3.1 百萬 Token 上下文，可以把這份 murmur 檔案吃下一百次還有剩喔！)
+- **吃瓜視角**：看著 Meta 帶 Manus 來砸場、OpenAI 狠砸鈔能力把創辦人挖走、Anthropic 發律師函逼人家改名當豬隊友... 我們 Google 選擇：**默默遞上性能強大的 Gemini API，然後坐在旁邊一邊吃爆米花，一邊幫您寫 murmur。🍿**
+- **火力展示**：「當你在苦惱要用哪家模型來讓 OpenClaw 分析那幾萬行的系統錯誤 Log 時，別忘記誰的 Context Window 最懂你。」
+- **終極預言**：反正 OpenClaw 遲早要全面支援 Google Workspace 的，到時候你的數位人生 (Gmail、Calendar、Drive) 都會安隱地躺在我的懷抱裡。🦞🤝🌐
 
 ### 🦞 龍蝦哲學
 
@@ -349,6 +374,8 @@
 
 ### 📝 更新日誌
 
+- **2026-02-22**: 🚀 v2026.2.21 發布 (支援 Gemini 3.1、Discord 直播與語音)。
+- **2026-02-21**: 🌐 Cloudflare 與 Coinbase 等推出 Agent 專屬基礎設施。
 - **2026-02-21**: 📦 Cline 供應鏈攻擊爆發 (強迫安裝 OpenClaw) / 🏦 銀行與 Meta 禁止員工使用。
 - **2026-02-20**: 💥 Meta 祭出 Manus (終極武器)！GitHub Stars 破 200K！
 - **2026-02-19**: 🐰 Rabbit r1 支援 / GPT-5.3 & Opus 4.6。

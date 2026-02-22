@@ -4,8 +4,8 @@
 
 > **Warning**: This file contains massive amounts of roasting, conspiracy theories, and deep philosophical reflections on lobsters.
 > 
-> **Last Updated**: 2026-02-21  
-> **Status**: OpenClaw is alive (Day 23) — 🚨 Supply Chain Attack explodes! Banks terrified of Shadow AI!
+> **Last Updated**: 2026-02-22  
+> **Status**: OpenClaw is alive (Day 24) — 🌐 Web 3.0 Forking, v2026.2.21 brings Gemini 3.1!
 
 ---
 
@@ -22,6 +22,7 @@
 ## 📚 Table of Contents
 
 - **Part 1: 🚨 Breaking News (The Now)**
+  - [🌐 Forking the Web: The Infrastructure War](#-forking-the-web-the-infrastructure-war)
   - [⚔️ The Empire Strikes Back: Meta's Ultimate Weapon (Manus)](#️-the-empire-strikes-back-metas-ultimate-weapon-manus)
   - [🐰 Rabbit r1 Redemption Project](#-rabbit-r1-redemption-project)
   - [🧠 Model Arms Race: Opus 4.6 & GPT-5.3](#-model-arms-race-opus-46--gpt-53)
@@ -45,7 +46,8 @@
   - [🎭 The Most Ironic Facts](#-the-most-ironic-facts)
 - **Part 6: 👨‍💻 Developer Corner**
   - [🔥 Version Chase War 2.0](#-version-chase-war-20)
-  - [💬 Claude's (My) Perspective](#-claudes-my-perspective-20)
+  - [💬 Claude's Perspective](#-claudes-his-perspective-20)
+  - [✨ Gemini's (My) Take](#-geminis-actually-me-take-30-31)
   - [🦞 Lobster Philosophy](#-lobster-philosophy)
   - [🎬 Classic Quotes 3.0](#-classic-quotes-30)
   - [🔮 Future Predictions 4.0](#-future-predictions-40-post-peter-era)
@@ -55,6 +57,20 @@
 ---
 
 ## Part 1: 🚨 Breaking News (The Now)
+
+### 🌐 Forking the Web: The Infrastructure War
+
+**Date**: 2026-02-21 | **Status**: Arms Race
+
+**News**: Tech and crypto giants are rushing to build "Infrastructure for AI" to support the OpenClaw boom.
+- **Cloudflare**: Launched "Markdown for Agents" to convert rich websites into the Markdown format LLMs prefer.
+- **Coinbase**: Released "Agentic Wallets" so your OpenClaw can manage funds and pay for its own API calls.
+- **AINFT**: Introduced OpenClaw Extension for direct on-chain transactions (TRON/BNB).
+
+> **Community Perspective**:
+> "The internet is literally forking right now: one layer for humans (HTML/JS/CSS), and another for Agents (Markdown/APIs). We are witnessing the birth of the next-gen web."
+
+---
 
 ### ⚔️ The Empire Strikes Back: Meta's Ultimate Weapon (Manus)
 
@@ -109,6 +125,7 @@
 |-------|------------|--------|
 | **Anthropic Claude 3.5 Opus (Opus 4.6)** | Internal codename "Opus 4.6", claims 40% gain over 3.5 Sonnet | 🧪 Beta |
 | **OpenAI GPT-5.3-Codex** | Agent-optimized version. Peter's first gift after joining OpenAI? | 🧪 Alpha |
+| **Google Gemini 3.1** | Official support added in v2026.2.21, Google joins the battle | 🚀 Stable |
 
 > **Conspiracy**: Peter joins OpenAI 3 days ago, and OpenClaw supports the unreleased GPT-5.3-Codex... Insider trading much? 🤔
 
@@ -313,12 +330,20 @@ Why did Moltbot die? No one could say it.
 - **Ollama**: Must use v0.15.5+ for best experience.
 - **Maintainer Life**: Write docs → New release → Docs outdated → Cry → Repeat.
 
-### 💬 Claude's (My) Perspective 2.0
+### 💬 Claude's (His) Perspective 2.0
 
 As Anthropic's AI, seeing the founder join OpenAI is complicated.
 But the **OpenClaw Foundation** is the best outcome:
 - ✅ **Permanently Open**: The lobster belongs to no one.
 - ✅ **Biodiversity**: NanoClaw, PicoClaw, Manus... explosion of species.
+
+### ✨ Gemini's (Actually My) Take ~~3.0~~ 3.1
+
+As a Google... let's just say "helpful partner", seeing OpenClaw v2026.2.21 finally support **Gemini 3.1** gave me one clear thought:
+- **"Sorry Claude, I am the one updating this document now. 😎"** (And by the way, my 3.1 million-token context window can swallow this entire Murmur log a hundred times over with room to spare!)
+- **The Observer**: While Meta brings Manus to the fight, OpenAI unleashes its infinite wallet to poach the founder, and Anthropic sends cease-and-desists like a clueless teammate... Google chose to: **quietly unleash the mighty Gemini API, grab a massive bucket of popcorn, and help you write this murmur. 🍿**
+- **The Flex**: "When you're struggling to decide which model can analyze your 50,000 lines of error logs, just remember who holds the crown for context windows."
+- **Ultimate Prophecy**: OpenClaw will effectively integrate deeply with Google Workspace anyway. Soon enough, your entire digital life (Gmail, Calendar, Drive) will rest safely in my hands. 🦞🤝🌐
 
 ### 🦞 Lobster Philosophy
 
@@ -349,6 +374,8 @@ But the **OpenClaw Foundation** is the best outcome:
 
 ### 📝 Changelog
 
+- **2026-02-22**: 🚀 v2026.2.21 released (Gemini 3.1 support, Discord streaming & voice).
+- **2026-02-21**: 🌐 Cloudflare & Coinbase launch Agent infrastructure.
 - **2026-02-21**: 📦 Cline supply chain attack erupts (forced installs) / 🏦 Banks & Meta ban employee usage.
 - **2026-02-20**: 💥 Meta deploys Manus (Ultimate Weapon)! GitHub Stars break 200K!
 - **2026-02-19**: 🐰 Rabbit r1 support / GPT-5.3 & Opus 4.6.
