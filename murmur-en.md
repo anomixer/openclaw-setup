@@ -4,8 +4,8 @@
 
 > **Warning**: This file contains massive amounts of roasting, conspiracy theories, and deep philosophical reflections on lobsters.
 > 
-> **Last Updated**: 2026-02-22  
-> **Status**: OpenClaw is alive (Day 24) — 🌐 Web 3.0 Forking, v2026.2.21 brings Gemini 3.1!
+> **Last Updated**: 2026-02-23  
+> **Status**: OpenClaw is alive (Day 25) — 🌐 Web 3.0 Forking, v2026.2.21 brings Gemini 3.1!
 
 ---
 
@@ -37,8 +37,8 @@
   - [🚨 Malicious Skills & Defense](#-malicious-skills--defense)
   - [🏢 Enterprise Concerns](#-enterprise-concerns)
 - **Part 4: 🦞 Ecosystem Chaos**
-  - [🔬 Shrink Ray Chaos: TinyClaw, PicoClaw...](#-shrink-ray-chaos-tinyclaw-picoclaw)
-  - [🏢 Vendor Hype-Riding Championship (feat. Kimi)](#-vendor-hype-riding-championship)
+  - [🔬 Shrink Ray Chaos: Complete Variants List](#-shrink-ray-chaos-complete-variants-list)
+  - [🏢 Vendor Hype-Riding Championship](#-vendor-hype-riding-championship)
   - [🕸️ The Dark Ecosystem: Crypto Scams](#️-the-dark-ecosystem-crypto-scams)
 - **Part 5: 📜 History Museum**
   - [📜 Epic Renaming Trilogy (TL;DR)](#-epic-renaming-trilogy-tldr)
@@ -51,7 +51,7 @@
   - [🦞 Lobster Philosophy](#-lobster-philosophy)
   - [🎬 Classic Quotes 3.0](#-classic-quotes-30)
   - [🔮 Future Predictions 4.0](#-future-predictions-40-post-peter-era)
-  - [️ Windows Known Issues](#️-windows-known-issues)
+  - [⚠️ Windows Known Issues](#️-windows-known-issues)
   - [📝 Changelog](#-changelog)
 
 ---
@@ -220,9 +220,9 @@ After weeks of rumors and a "talent war", OpenClaw founder **Peter Steinberger**
 ### 🚨 Malicious Skills & Defense
 
 **Snyk Security Report** (2026-02-09):
--  **7.1% of skills** leak sensitive data.
+- 🚨 **7.1% of skills** leak sensitive data.
 - 🔑 Common leaks: API keys (42%), Env vars (31%).
--  **Crypto/Trading skills** are most dangerous (23% malicious).
+- 💰 **Crypto/Trading skills** are most dangerous (23% malicious).
 
 **Official Defense (v2026.2.6+)**:
 - **Skill Safety Scanner**: Scans with 60+ AV engines before install.
@@ -248,26 +248,103 @@ After weeks of rumors and a "talent war", OpenClaw founder **Peter Steinberger**
 
 ## Part 4: 🦞 Ecosystem Chaos
 
-### 🔬 Shrink Ray Chaos: TinyClaw, PicoClaw...
+### 🔬 Shrink Ray Chaos: Complete Variants List
 
-The community has a pathological obsession with "shrinking".
+> **Updated**: 2026-02-23  
+> **Current Status**: The community has a pathological obsession with "shrinking" and "variants". From lightweight versions to extreme minimization, from different language implementations to hardware-specific optimizations, the OpenClaw ecosystem has evolved into a "Warring States" era of competing variants.
 
-| Project | **NanoClaw** (gavrielc) | **nanobot** (HKUDS) | **PicoClaw** (Sipeed) | **ZeroClaw** (theonlyhennygod) | **TinyClaw** (jlia0) |
-|---------|------------------------|---------------------|-----------------------|--------------------------------|----------------------|
-| **Language** | Python | Python | Go | **Rust** 🦀 | **C/C++** |
-| **Code** | ~500 lines | ~4,000 lines | Single binary | **Rust Crates** | **Embedded** |
-| **Size** | 99.7% smaller | 99% smaller | < 10MB | **< 5MB** | **256KB RAM** 🤯 |
-| **Focus** | Security | Research | Embedded/IoT | **Performance** | **Extreme shrinking** |
-| **Hardware** | Laptop | Laptop | **$10 board** | **Anything** | **MCU / Watch** |
+#### 📊 Complete Variants Comparison Table
 
-> **TinyClaw**: "What's next? **FemtoClaw** running on bacteria?" 🦠
+| Project | Stars | Language | Features | Use Cases | Repo |
+|---------|-------|----------|----------|-----------|------|
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 208K+ | TypeScript | Official full-featured version | Production, complete functionality | Original |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 18K | - | Curated OpenClaw Skills collection | Find Skills here | [Link](https://github.com/VoltAgent/awesome-openclaw-skills) |
+| **[picoclaw](https://github.com/sipeed/picoclaw)** | 17.9K | Go | Tiny, fast, deploy anywhere | Edge devices, IoT, $10 boards | [Link](https://github.com/sipeed/picoclaw) |
+| **[airi](https://github.com/moeru-ai/airi)** | 17.5K | TypeScript | Grok Companion, plays Minecraft/Factorio | 2D gaming, gaming AI | [Link](https://github.com/moeru-ai/airi) |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 16.8K | TypeScript | 24/7 Cowork app, multi-CLI support | Local, collaborative environments | [Link](https://github.com/iOfficeAI/AionUi) |
+| **[LangBot](https://github.com/langbot-app/LangBot)** | 15.3K | Python | Multi-platform IM bot (Feishu/DingTalk/Slack) | Enterprise IM integration | [Link](https://github.com/langbot-app/LangBot) |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 14.3K | Python | Claude Code Skill, persistent Markdown planning | Skill development template | [Link](https://github.com/OthmanAdi/planning-with-files) |
+| **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 11.8K | TypeScript | Containerized, secure, WhatsApp integration, Anthropic SDK | Security-first, instant messaging | [Link](https://github.com/qwibitai/nanoclaw) |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 10.3K | - | Obsidian Agent Skills (Markdown/CLI) | Note-taking + Agent | [Link](https://github.com/kepano/obsidian-skills) |
+| **[memU](https://github.com/NevaMind-AI/memU)** | 9.8K | Python | 24/7 proactive agent memory system | Long-term memory, proactive AI | [Link](https://github.com/NevaMind-AI/memU) |
+| **[moltworker](https://github.com/cloudflare/moltworker)** | 9.1K | TypeScript | Run OpenClaw on Cloudflare Workers | Serverless, zero maintenance | [Link](https://github.com/cloudflare/moltworker) |
+| **[refly](https://github.com/refly-ai/refly)** | 6.6K | TypeScript | First open-source Agent Skills Builder | Visual Skill composition | [Link](https://github.com/refly-ai/refly) |
+| **[MemOS](https://github.com/MemTensor/MemOS)** | 5.7K | Python | AI memory operating system, cross-task Skill memory | Memory management, Skill reuse | [Link](https://github.com/MemTensor/MemOS) |
+| **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 5.6K | - | Community-curated OpenClaw use cases | Find inspiration here | [Link](https://github.com/hesamsheikh/awesome-openclaw-usecases) |
+| **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 3.4K | TypeScript | Feishu (Lark) integration | Feishu enterprise users | [Link](https://github.com/m1heng/clawdbot-feishu) |
+| **[manifest](https://github.com/mnfst/manifest)** | 3.3K | TypeScript | Real-time cost observability for OpenClaw agents | Cost Observability | [Link](https://github.com/mnfst/manifest) |
+| **[mimiclaw](https://github.com/memovai/mimiclaw)** | 2.9K | C | Runs on $5 chip, no OS/Node.js needed | Extreme embedded, cost-first | [Link](https://github.com/memovai/mimiclaw) |
+| **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 2.9K | JavaScript | Antigravity model proxy | Use Antigravity models | [Link](https://github.com/badrisnarayanan/antigravity-claude-proxy) |
+| **[IronClaw](https://github.com/nearai/ironclaw)** | 2.9K | Rust 🦀 | Privacy & security-focused Rust implementation | Security-sensitive scenarios | [Link](https://github.com/nearai/ironclaw) |
+| **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 2.2K | Python | Cross-LLM & platform long-term memory OS | Advanced memory management | [Link](https://github.com/EverMind-AI/EverMemOS) |
+| **[Moltis](https://github.com/moltis-org/moltis)** | 1.3K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise-grade security | [Link](https://github.com/moltis-org/moltis) |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | - | Python | Ultra-lightweight OpenClaw (~4K lines) | Research-oriented, academic use | - |
+| **[ZeroClaw](https://github.com/xxx/zeroclaw)** | - | Rust 🦀 | Extreme performance, < 5MB | Performance maniacs | - |
+| **[TinyClaw](https://github.com/jlia0/tinyclaw)** | - | C/C++ | Microcontroller-level (256KB RAM) | Fit in a smartwatch 🤯 | - |
 
-**Which to choose?**
-- Full features → **OpenClaw**
-- $10 board → **PicoClaw**
-- Performance junkie → **ZeroClaw**
-- On a watch → **TinyClaw**
-- Just want to chat → **ChatGPT / Gemini (Manus is pricey💸)**
+#### 🎯 Selection Guide: Which One to Choose?
+
+```
+┌─ I want full features
+│   └─→ OpenClaw (Official)
+│
+├─ I want to deploy on low-cost hardware
+│   ├─ $10 board → PicoClaw (Go)
+│   ├─ $5 chip → MimiClaw (C)
+│   └─ Microcontroller → TinyClaw (C/C++)
+│
+├─ I want cloud serverless
+│   └─→ Moltworker (Cloudflare Workers)
+│
+├─ I prioritize security & privacy
+│   ├─ Containerized → NanoClaw (TypeScript)
+│   ├─ Rust security → IronClaw / Moltis
+│   └─ Enterprise-grade → Moltis
+│
+├─ I want IM platform integration
+│   ├─ WhatsApp → NanoClaw
+│   ├─ Feishu → clawdbot-feishu
+│   └─ Multi-platform (Slack/Discord/LINE) → LangBot
+│
+├─ I want visual Skill composition
+│   └─→ Refly (Skills Builder)
+│
+├─ I want long-term memory system
+│   ├─ 24/7 proactive → memU
+│   ├─ Cross-task Skill memory → MemOS
+│   └─ Cross-platform memory → EverMemOS
+│
+├─ I want cost monitoring
+│   └─→ Manifest (Cost Observability)
+│
+├─ I just want to chat...
+│   └─→ ChatGPT / Gemini / Claude (Just use LLM directly 😅)
+│
+└─ I want gaming AI
+    └─→ Airi (Minecraft / Factorio)
+```
+
+#### 🦞 Lobster Variants Philosophy 2.0
+
+> **Community Gold**:  
+> "What's next? **FemtoClaw** running on bacteria?" 🦠  
+> "We've shrunk from OpenClaw (200MB) to TinyClaw (256KB)... next step is quantum lobsters?"
+
+**Variant Evolution Tree**:
+```
+OpenClaw (208K ⭐)
+├─ PicoClaw (17.9K ⭐) ← Embedded King
+├─ NanoClaw (11.8K ⭐) ← Security Container Faction
+├─ MimiClaw (2.9K ⭐) ← Extreme Minimization Faction
+├─ IronClaw (2.9K ⭐) ← Rust Security Faction
+├─ Moltworker (9.1K ⭐) ← Cloud Serverless Faction
+├─ Airi (17.5K ⭐) ← 2D Gaming Faction
+└─ LangBot (15.3K ⭐) ← Enterprise IM Faction
+```
+
+> **Gemini's Take**: "Seeing so many variants, I can only say... **The diversity of lobsters is truly the truth of the universe**. From TypeScript to C, from cloud to microcontrollers, OpenClaw is no longer just a project—it's an entire ecosystem. 🦞🌐"
+
+---
 
 ### 🏢 Vendor Hype-Riding Championship
 
@@ -351,6 +428,7 @@ As a Google... let's just say "helpful partner", seeing OpenClaw v2026.2.21 fina
 > What is eternal? **The Lobster** 🦞.
 > What changes? Everything else.
 > Will versions stop changing? No, but the lobster is forever.
+> Will variants stop multiplying? No, but the lobster remains eternal.
 
 ### 🎬 Classic Quotes 3.0
 
@@ -360,20 +438,24 @@ As a Google... let's just say "helpful partner", seeing OpenClaw v2026.2.21 fina
 
 > "The AI Agent that scared Meta." — **Reuters**
 
+> "What's next? FemtoClaw running on bacteria?" — **Community Gold**
+
 ### 🔮 Future Predictions 4.0 (Post-Peter Era)
 
 1. **Short-term**: Foundation takes over, malicious skills drop, more vendors.
 2. **Mid-term**: Enterprise Beta, OpenAI launches official product based on OpenClaw.
 3. **Long-term**: **80% APP Apocalypse** begins?
 4. **Bold**: **OpenAI Agent Store** vs **Meta Agentic Commerce** total war.
+5. **Variant Prediction**: Will we see **QuantumClaw**? 🦞⚛️
 
-### ️ Windows Known Issues
+### ⚠️ Windows Known Issues
 
 - **Memory Instability**: Upgrade Ollama ≥ v0.15.5 / OpenClaw ≥ v2026.2.8.
 - **WSL2**: Strongly recommended; native Windows still has skill compatibility issues.
 
 ### 📝 Changelog
 
+- **2026-02-23**: 📋 Updated complete OpenClaw variants ecosystem list (picoclaw, nanoclaw, mimiclaw, 20+ projects).
 - **2026-02-22**: 🚀 v2026.2.21 released (Gemini 3.1 support, Discord streaming & voice).
 - **2026-02-21**: 🌐 Cloudflare & Coinbase launch Agent infrastructure.
 - **2026-02-21**: 📦 Cline supply chain attack erupts (forced installs) / 🏦 Banks & Meta ban employee usage.
@@ -390,4 +472,6 @@ As a Google... let's just say "helpful partner", seeing OpenClaw v2026.2.21 fina
 
 *by anomixer*
 
-*Clawdbot → Moltbot → OpenClaw → OpenAI Claw ???*
+*Clawdbot → Moltbot → OpenClaw → ???*
+
+*Variants list update contributor: Gemini (Google) 🌐*
