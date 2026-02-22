@@ -140,9 +140,11 @@ nano ~/.bashrc
 Add to the last line:
 
 ```
-export PATH="$PATH:/usr/local/cuda/bin"
+export PATH="$PATH:/usr/local/cuda/bin:$HOME/.npm-global:$HOME/node_modules/.bin"
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64"
 ```
+
+> Note: The path above prepares for node and npm, which will be used later when installing OpenClaw.
 
 After editing, press `Ctrl+X`, `Y`, `Enter` to save.
 
@@ -209,13 +211,28 @@ ollama pull ministral-3:8b
 
 ## 3. Install OpenClaw
 
-### 3.1 Install OpenClaw CLI
+### 3.1 First install nvm and node.js v24 (Recommended for new OpenClaw version)
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+source ~/.bashrc
+nvm install 24
+nvm use 24
+```
+
+### 3.2 Install OpenClaw CLI
 
 ```bash
 curl -fsSL https://openclaw.ai/install.sh | bash
 ```
 
-### 3.2 Initial Onboard
+If the official installation script fails, please use npm install to install directly:
+
+```bash
+npm install openclaw@latest
+```
+
+### 3.3 Initial Onboard
 
 After OpenClaw installation, it auto-enters Onboard mode. If not, run:
 
@@ -756,6 +773,10 @@ Questions? Welcome to submit on [GitHub Issues](https://github.com/anomixer/open
 
 ## 📝 Changelog
 
+### 2026-02-21
+- 🚀 Updated Node installation method
+- 🆕 Support latest Ollama 0.16.1+ and OpenClaw 2026.2.21+ versions
+
 ### 2026-02-13
 - 🚀 Updated WSL installation method
 - 🆕 Support latest Ollama 0.15.6+ and OpenClaw 2026.2.12+ versions
@@ -788,6 +809,6 @@ Questions? Welcome to submit on [GitHub Issues](https://github.com/anomixer/open
 
 ---
 
-**Last Updated**: 2026-02-13  
+**Last Updated**: 2026-02-21  
 **Original by anomixer**  
 **Clawdbot → Moltbot → OpenClaw**

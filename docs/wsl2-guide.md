@@ -140,9 +140,11 @@ nano ~/.bashrc
 在最後一行那邊加入以下內容:
 
 ```
-export PATH="$PATH:/usr/local/cuda/bin"
+export PATH="$PATH:/usr/local/cuda/bin:$HOME/.npm-global:$HOME/node_modules/.bin"
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64"
 ```
+
+> 註: 上面路徑有預先幫 node, npm 打好，以便稍後安裝 OpenClaw 時用到
 
 改好之後，按 `Ctrl+X`、`Y`、`Enter`鈕，把檔案存回。
 
@@ -209,13 +211,28 @@ ollama pull ministral-3:8b
 
 ## 3. 安裝 OpenClaw
 
-### 3.1 安裝 OpenClaw CLI
+### 3.1 先安裝 nvm 與 node.js v24 (新版 OpenClaw 建議)
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+source ~/.bashrc
+nvm install 24
+nvm use 24
+```
+
+### 3.2 安裝 OpenClaw CLI
 
 ```bash
 curl -fsSL https://openclaw.ai/install.sh | bash
 ```
 
-### 3.2 初始 Onboard
+若使用官方安裝腳本失敗，請改使用 npm install 方式直接安裝
+
+```bash
+npm install openclaw@latest
+```
+
+### 3.3 初始化 Onboard
 
 OpenClaw 安裝完成後，會自動進入 Onboard 模式。若沒有的話，可以執行以下指令:
 
@@ -304,10 +321,10 @@ Set ELEVENLABS_API_KEY for sag?
 
 #### 6. 啟用 Hooks (若出現的話)
 
-
 ```
 Enable hooks?
 > [+] 🚀 boot-md (Run BOOT.md on gateway startup)
+> [+] 📎 bootstrap-extra-files (Injects additional workspace bootstrap files)
 > [+] 📝 command-logger (Log all command events to a centralized audit file)
 > [+] 💾 session-memory (Save session context to memory when /new command is issued)
 ```
@@ -756,6 +773,10 @@ glm-4.7-flash:latest    baa9f0d690c1    22 GB    100% GPU     32768      Forever
 
 ## 📝 更新日誌
 
+### 2026-02-21
+- 🚀 更新 Node 安裝方法
+- 🆕 支援最新 Ollama 0.16.1+ 與 OpenClaw 2026.2.21+ 版本
+
 ### 2026-02-13
 - 🚀 更新 WSL 安裝方法
 - 🆕 支援最新 Ollama 0.15.6+ 與 OpenClaw 2026.2.12+ 版本
@@ -788,6 +809,6 @@ glm-4.7-flash:latest    baa9f0d690c1    22 GB    100% GPU     32768      Forever
 
 ---
 
-**最後更新**: 2026-02-13  
+**最後更新**: 2026-02-21
 **原創 by anomixer**  
 **Clawdbot → Moltbot → OpenClaw**
