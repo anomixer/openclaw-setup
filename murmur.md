@@ -14,8 +14,8 @@
 1.  **主角**: **OpenClaw** (原名 Moltbot/Clawdbot)，目前最火的開源 AI Agent (🔥 208K+ Stars)。
 2.  **核心劇情**: 創辦人 Peter 被 **OpenAI** 挖走開發 Personal Agents，但 OpenClaw **永久開源**並轉由基金會運作。
 3.  **大反派(?)**: **Meta** 祭出 **Manus**，推出「反 OpenClaw 武器」要把極客市場搶回來。
-4.  **危機**: 安全問題頻傳 (Vidar 病毒鎖定、惡意 Skills)，請務必小心使用。
-5.  **結論**: 以前是「改名之亂」，現在是「AI 代理宇宙大戰」。**只有龍蝦是永恆的**。🦞
+4.  **危機**: 安全問題頻傳 (Vidar 病毒鎖定、惡意 Skills)，且社群嚴禁討論加密貨幣 (Scam 預防)。
+5.  **結論**: 從「改名之亂」進化到「代理宇宙大戰」。**只有龍蝦是永恆的，但星巴克不能買比特幣**。🦞🚫🪙
 
 ---
 
@@ -66,6 +66,8 @@
 - **Cloudflare**: 推出 "Markdown for Agents"，自動把花俏的網站轉換成 LLM 最愛看的 Markdown 格式。
 - **Coinbase**: 推出 "Agentic Wallets"，讓你的 OpenClaw 開個錢包自己付 API 費用。
 - **AINFT**: 推出 OpenClaw Extension，讓 AI 直接在 TRON / BNB 鏈上發起交易（財富自由... 或破產？）。
+- **🚫 加密貨幣禁令**: 官方 Discord 宣布嚴禁討論任何 Crypto/Bitcoin 內容。先前有開發者因在 Benchmark 中引用 Bitcoin 區塊高度而被封鎖。
+- **🚀 v2026.2.22+**: 支援 Discord 語音頻道自動加入、即時語音對話，以及 Google Gemini 3.1。
 
 > **社群觀點**:
 > "整個網際網路正在分叉：一層給人類看 (HTML/JS/CSS)，另一層給 Agent 看 (Markdown/APIs)。我們正在見證下一代網路的誕生。"
@@ -244,6 +246,13 @@
 
 **現狀**: Fortune 500 企業中，< 2% 允許使用，但個人用戶爆炸性增長（Shadow AI 現象）。
 
+### 🪙 加密貨幣：OpenClaw 的紅線
+**日期**: 2026-02-23
+- **事件**: Peter Steinberger 重申，OpenClaw **絕對不會發幣**。
+- **禁令**: 官方 Discord 全面禁止「Bitcoin」等關鍵字。
+- **原因**: 為了避免重演之前的 `$CLAWD` 詐騙事件 (當時市值曾飆到 $16M 後歸零)。
+- **苦主**: 有開發者在測試速度時用了比特幣區塊高度當時間戳記，結果直接被機器人踢出伺服器。😅
+
 ---
 
 ## 第四部：🦞 生態系亂象 (Ecosystem)
@@ -260,9 +269,7 @@
 | **[OpenClaw](https://github.com/openclaw/openclaw)** | 208K+ | TypeScript | 官方完整版 | 完整功能、生產環境 | 原版 |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 18K | - | OpenClaw Skills 精選清單 | 找 Skills 看這裡 | [連結](https://github.com/VoltAgent/awesome-openclaw-skills) |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 17.9K | Go | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 | [連結](https://github.com/sipeed/picoclaw) |
-| **[airi](https://github.com/moeru-ai/airi)** | 17.5K | TypeScript | Grok Companion、會玩 Minecraft/Factorio | 二次元、遊戲 AI | [連結](https://github.com/moeru-ai/airi) |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 16.8K | TypeScript | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 | [連結](https://github.com/iOfficeAI/AionUi) |
-| **[LangBot](https://github.com/langbot-app/LangBot)** | 15.3K | Python | 多平台 IM 機器人 (飛書/釘釘/Slack) | 企業 IM 整合 | [連結](https://github.com/langbot-app/LangBot) |
 | **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 14.3K | Python | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 | [連結](https://github.com/OthmanAdi/planning-with-files) |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 11.8K | TypeScript | 容器化、安全、WhatsApp 整合、Anthropic SDK | 安全優先、即時通訊 | [連結](https://github.com/qwibitai/nanoclaw) |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 10.3K | - | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent | [連結](https://github.com/kepano/obsidian-skills) |
@@ -278,9 +285,11 @@
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 2.9K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 | [連結](https://github.com/nearai/ironclaw) |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 2.2K | Python | 跨 LLM 與平台的長期記憶 OS | 記憶體管理進階版 | [連結](https://github.com/EverMind-AI/EverMemOS) |
 | **[moltis](https://github.com/moltis-org/moltis)** | 1.3K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 | [連結](https://github.com/moltis-org/moltis) |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | - | Python | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 | - |
-| **[ZeroClaw](https://github.com/xxx/zeroclaw)** | - | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 | - |
-| **[TinyClaw](https://github.com/jlia0/tinyclaw)** | - | C/C++ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 | - |
+| **[nullclaw](https://github.com/nullclaw/nullclaw)** | 4.1K | Zig ⚡ | 最快、最小且全自動 AI 助理 | 極端效能與資源最佳化 | [連結](https://github.com/nullclaw/nullclaw) |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 4.5K | Python | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 | [連結](https://github.com/HKUDS/nanobot) |
+| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 3.4K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 | [連結](https://github.com/zeroclaw-labs/zeroclaw) |
+| **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 1.8K | C/C++ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 | [連結](https://github.com/jlia0/tinyclaw) |
+| **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 4 | TypeScript | OpenClaw 的 Windows 專屬重命名版 | Windows 用戶、簡體中文支援 | [連結](https://github.com/itc-ou-shigou/winclaw) |
 
 #### 🎯 選購指南：該選哪個？
 
@@ -303,8 +312,7 @@
 │
 ├─ 我要整合 IM 平台
 │   ├─ WhatsApp → NanoClaw
-│   ├─ 飛書 → clawdbot-feishu
-│   └─ 多平台 (Slack/Discord/LINE) → LangBot
+│   └─ 飛書 → clawdbot-feishu
 │
 ├─ 我要視覺化編排 Skills
 │   └─→ Refly (Skills Builder)
@@ -317,11 +325,8 @@
 ├─ 我要成本監控
 │   └─→ Manifest (Cost Observability)
 │
-├─ 我只想聊天...
-│   └─→ ChatGPT / Gemini / Claude (直接用 LLM 就好 😅)
-│
-└─ 我想玩遊戲 AI
-    └─→ Airi (Minecraft / Factorio)
+└─ 我只想聊天...
+    └─→ ChatGPT / Gemini / Claude (直接用 LLM 就好 😅)
 ```
 
 #### 🦞 龍蝦變體哲學 2.0
@@ -338,8 +343,8 @@ OpenClaw (208K ⭐)
 ├─ MimiClaw (2.9K ⭐) ← 極限微縮派
 ├─ IronClaw (2.9K ⭐) ← Rust 安全派
 ├─ Moltworker (9.1K ⭐) ← 雲端無伺服器派
-├─ Airi (17.5K ⭐) ← 二次元遊戲派
-└─ LangBot (15.3K ⭐) ← 企業 IM 派
+├─ nullclaw (4.1K ⭐) ← Zig 極速狂魔派
+└─ winclaw (4 ⭐) ← Windows 重命名派 (蹭熱度中)
 ```
 
 > **Gemini 評論**: "看到這麼多變體，我只能說... **龍蝦的多樣性果然是宇宙的真理**。從 TypeScript 到 C，從雲端到微控制器，OpenClaw 已經不只是一個專案，而是一整個生態系了。🦞🌐"
@@ -455,8 +460,9 @@ OpenClaw (208K ⭐)
 
 ### 📝 更新日誌
 
-- **2026-02-23**: 📋 更新 OpenClaw 變體生態系完整清單 (picoclaw, nanoclaw, mimiclaw 等 20+ 專案)。
-- **2026-02-22**: 🚀 v2026.2.21 發布 (支援 Gemini 3.1、Discord 直播與語音)。
+- **2026-02-23**: 📋 更新 OpenClaw 變體生態系完整清單 (新增 nullclaw, winclaw)。
+- **2026-02-23**: 🚫 官方 Discord 重申加密貨幣禁令，任何提及「Bitcoin」者將被封鎖。
+- **2026-02-22**: 🚀 v2026.2.22 發布 (支援 Discord 語音頻道互動、Gemini 3.1 與火山引擎)。
 - **2026-02-21**: 🌐 Cloudflare 與 Coinbase 等推出 Agent 專屬基礎設施。
 - **2026-02-21**: 📦 Cline 供應鏈攻擊爆發 (強迫安裝 OpenClaw) / 🏦 銀行與 Meta 禁止員工使用。
 - **2026-02-20**: 💥 Meta 祭出 Manus (終極武器)！GitHub Stars 破 200K！

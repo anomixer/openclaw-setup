@@ -14,8 +14,8 @@
 1.  **Protagonist**: **OpenClaw** (formerly Moltbot/Clawdbot), currently the hottest open-source AI Agent (🔥 208K+ Stars).
 2.  **Core Plot**: Founder Peter was poached by **OpenAI** to develop Personal Agents, but OpenClaw remains **permanently open source** and operates under a Foundation.
 3.  **Antagonist(?)**: **Meta** unleashes **Manus**, launching an "Anti-OpenClaw Weapon" to reclaim the geek market.
-4.  **Crisis**: Security issues abound (Vidar malware targeting, malicious Skills) — please use with caution.
-5.  **Conclusion**: From "Renaming Chaos" to "AI Agent Universe War". **Only the Lobster is Eternal**. 🦞
+4.  **Crisis**: Security issues abound (Vidar malware, malicious Skills), and cryptocurrency discussions are strictly banned (Scam prevention).
+5.  **Conclusion**: From "Renaming Chaos" to "AI Agent Universe War". **Only the Lobster is Eternal, but you can't buy Bitcoin at Starbucks**. 🦞🚫🪙
 
 ---
 
@@ -65,7 +65,9 @@
 **News**: To support the OpenClaw AI agent explosion, major tech and blockchain companies are launching "Infrastructure for AI".
 - **Cloudflare**: Released "Markdown for Agents", automatically converting fancy websites into LLM-friendly Markdown format.
 - **Coinbase**: Launched "Agentic Wallets", letting your OpenClaw open a wallet and pay its own API fees.
-- **AINFT**: Released OpenClaw Extension, allowing AI to directly initiate transactions on TRON / BNB chains (financial freedom... or bankruptcy?).
+- **AINFT**: Released OpenClaw Extension, allowing AI to directly initiate transactions on TRON / BNB chains.
+- **🚫 Crypto Ban**: Official Discord announced a strict ban on any Crypto/Bitcoin discussions. A developer was recently banned for referencing Bitcoin block height in a technical benchmark.
+- **🚀 v2026.2.22+**: Added Discord Voice Channel auto-join, real-time voice conversations, and support for Google Gemini 3.1 and BytePlus.
 
 > **Community Perspective**:
 > "The entire internet is forking: one layer for humans (HTML/JS/CSS), another for Agents (Markdown/APIs). We are witnessing the birth of the next-generation web."
@@ -244,6 +246,13 @@ After weeks of rumors and the "Talent War", OpenClaw founder **Peter Steinberger
 
 **Current Status**: < 2% of Fortune 500 companies allow usage, but individual user growth is explosive (Shadow AI phenomenon).
 
+### 🪙 Cryptocurrency: OpenClaw's Red Line
+**Date**: 2026-02-23
+- **Event**: Peter Steinberger reaffirmed that OpenClaw **will never launch a token**.
+- **Ban**: Official Discord has a zero-tolerance policy for "Bitcoin" and related keywords.
+- **Reason**: To prevent the recurrence of the `$CLAWD` scam (which peaked at $16M market cap before collapsing).
+- **Victim**: A developer was kicked for using Bitcoin block height as a timestamp during performance testing. 😅
+
 ---
 
 ## Part 4: 🦞 Ecosystem Chaos
@@ -260,9 +269,7 @@ After weeks of rumors and the "Talent War", OpenClaw founder **Peter Steinberger
 | **[OpenClaw](https://github.com/openclaw/openclaw)** | 208K+ | TypeScript | Official full-featured version | Complete functionality, production | Original |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 18K | - | Curated OpenClaw Skills collection | Find Skills here | [Link](https://github.com/VoltAgent/awesome-openclaw-skills) |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 17.9K | Go | Tiny, fast, deploy anywhere | Edge devices, IoT, $10 boards | [Link](https://github.com/sipeed/picoclaw) |
-| **[airi](https://github.com/moeru-ai/airi)** | 17.5K | TypeScript | Grok Companion, plays Minecraft/Factorio | 2D, gaming AI | [Link](https://github.com/moeru-ai/airi) |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 16.8K | TypeScript | 24/7 Cowork app, supports multiple CLIs | Local, collaborative environments | [Link](https://github.com/iOfficeAI/AionUi) |
-| **[LangBot](https://github.com/langbot-app/LangBot)** | 15.3K | Python | Multi-platform IM bot (Feishu/DingTalk/Slack) | Enterprise IM integration | [Link](https://github.com/langbot-app/LangBot) |
 | **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 14.3K | Python | Claude Code Skill, persistent Markdown planning | Skill development template | [Link](https://github.com/OthmanAdi/planning-with-files) |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 11.8K | TypeScript | Containerized, secure, WhatsApp integration, Anthropic SDK | Security-first, instant messaging | [Link](https://github.com/qwibitai/nanoclaw) |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 10.3K | - | Obsidian Agent Skills (Markdown/CLI) | Note-taking + Agent | [Link](https://github.com/kepano/obsidian-skills) |
@@ -278,9 +285,11 @@ After weeks of rumors and the "Talent War", OpenClaw founder **Peter Steinberger
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 2.9K | Rust 🦀 | Privacy & security-focused Rust implementation | Security-sensitive scenarios | [Link](https://github.com/nearai/ironclaw) |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 2.2K | Python | Cross-LLM & platform long-term memory OS | Advanced memory management | [Link](https://github.com/EverMind-AI/EverMemOS) |
 | **[moltis](https://github.com/moltis-org/moltis)** | 1.3K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise-grade security | [Link](https://github.com/moltis-org/moltis) |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | - | Python | Ultra-lightweight OpenClaw (~4K lines) | Research-oriented, academic | - |
-| **[ZeroClaw](https://github.com/xxx/zeroclaw)** | - | Rust 🦀 | Extreme performance, < 5MB | Performance maniacs | - |
-| **[TinyClaw](https://github.com/jlia0/tinyclaw)** | - | C/C++ | Microcontroller-level (256KB RAM) | Fit in smartwatch 🤯 | - |
+| **[nullclaw](https://github.com/nullclaw/nullclaw)** | 4.1K | Zig ⚡ | Fastest, smallest, autonomous AI | Extreme performance & resource optimization | [Link](https://github.com/nullclaw/nullclaw) |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 4.5K | Python | Ultra-lightweight OpenClaw (~4K lines) | Research-oriented, academic | [Link](https://github.com/HKUDS/nanobot) |
+| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 3.4K | Rust 🦀 | Extreme performance, < 5MB | Performance maniacs | [Link](https://github.com/zeroclaw-labs/zeroclaw) |
+| **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 1.8K | C/C++ | Microcontroller-level (256KB RAM) | Fit in smartwatch 🤯 | [Link](https://github.com/jlia0/tinyclaw) |
+| **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 4 | TypeScript | Windows-specific rebrand of OpenClaw | Windows users, Chinese support | [Link](https://github.com/itc-ou-shigou/winclaw) |
 
 #### 🎯 Selection Guide: Which One Should You Choose?
 
@@ -303,8 +312,7 @@ After weeks of rumors and the "Talent War", OpenClaw founder **Peter Steinberger
 │
 ├─ I want IM platform integration
 │   ├─ WhatsApp → NanoClaw
-│   ├─ Feishu → clawdbot-feishu
-│   └─ Multi-platform (Slack/Discord/LINE) → LangBot
+│   └─ Feishu → clawdbot-feishu
 │
 ├─ I want visual Skill composition
 │   └─→ Refly (Skills Builder)
@@ -317,11 +325,8 @@ After weeks of rumors and the "Talent War", OpenClaw founder **Peter Steinberger
 ├─ I want cost monitoring
 │   └─→ Manifest (Cost Observability)
 │
-├─ I just want to chat...
-│   └─→ ChatGPT / Gemini / Claude (just use LLM directly 😅)
-│
-└─ I want gaming AI
-    └─→ Airi (Minecraft / Factorio)
+└─ I just want to chat...
+    └─→ ChatGPT / Gemini / Claude (just use LLM directly 😅)
 ```
 
 #### 🦞 Lobster Variants Philosophy 2.0
@@ -338,8 +343,8 @@ OpenClaw (208K ⭐)
 ├─ MimiClaw (2.9K ⭐) ← Extreme Minimization Faction
 ├─ IronClaw (2.9K ⭐) ← Rust Security Faction
 ├─ Moltworker (9.1K ⭐) ← Cloud Serverless Faction
-├─ Airi (17.5K ⭐) ← 2D Gaming Faction
-└─ LangBot (15.3K ⭐) ← Enterprise IM Faction
+├─ nullclaw (4.1K ⭐) ← Zig Speed Maniac Faction
+└─ winclaw (4 ⭐) ← Windows Rebrand Faction (Hype riding)
 ```
 
 > **Gemini's Take**: "Seeing so many variants, I can only say... **The diversity of lobsters truly is the universal truth**. From TypeScript to C, from cloud to microcontrollers, OpenClaw is no longer just a project—it's an entire ecosystem. 🦞🌐"
@@ -455,8 +460,9 @@ As Google's emissary (no wait, friendly partner), seeing OpenClaw v2026.2.21 fin
 
 ### 📝 Changelog
 
-- **2026-02-23**: 📋 Updated complete OpenClaw variants ecosystem list (picoclaw, nanoclaw, mimiclaw, 20+ projects).
-- **2026-02-22**: 🚀 v2026.2.21 released (Gemini 3.1, Discord streaming & voice support).
+- **2026-02-23**: 📋 Updated complete OpenClaw variants ecosystem list (Added nullclaw, winclaw).
+- **2026-02-23**: 🚫 Official Discord reaffirms Crypto ban; mentioning "Bitcoin" results in an immediate ban.
+- **2026-02-22**: 🚀 v2026.2.22 released (Discord Voice interaction, Gemini 3.1, and BytePlus support).
 - **2026-02-21**: 🌐 Cloudflare & Coinbase launch Agent-specific infrastructure.
 - **2026-02-21**: 📦 Cline supply chain attack outbreak (forced OpenClaw install) / 🏦 Banks & Meta ban employee usage.
 - **2026-02-20**: 💥 Meta unleashes Manus (Ultimate Weapon)! GitHub Stars break 200K!
