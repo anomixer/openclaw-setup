@@ -278,17 +278,17 @@
 | **[refly](https://github.com/refly-ai/refly)** | 6.6K | TypeScript | 第一個開源 Agent Skills Builder | 視覺化 Skill 編排 | [連結](https://github.com/refly-ai/refly) |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 5.7K | Python | AI 記憶體作業系統，跨任務 Skill 記憶 | 記憶管理、Skill 複用 | [連結](https://github.com/MemTensor/MemOS) |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 5.6K | - | OpenClaw 使用案例社群蒐集 | 找靈感看這裡 | [連結](https://github.com/hesamsheikh/awesome-openclaw-usecases) |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 4.5K | Python | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 | [連結](https://github.com/HKUDS/nanobot) |
+| **[nullclaw](https://github.com/nullclaw/nullclaw)** | 4.1K | Zig ⚡ | 最快、最小且全自動 AI 助理 | 極端效能與資源最佳化 | [連結](https://github.com/nullclaw/nullclaw) |
 | **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 3.4K | TypeScript | 飛書 (Lark) 整合 | 飛書企業用戶 | [連結](https://github.com/m1heng/clawdbot-feishu) |
+| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 3.4K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 | [連結](https://github.com/zeroclaw-labs/zeroclaw) |
 | **[manifest](https://github.com/mnfst/manifest)** | 3.3K | TypeScript | OpenClaw Agent 即時成本監控 | Cost Observability | [連結](https://github.com/mnfst/manifest) |
 | **[mimiclaw](https://github.com/memovai/mimiclaw)** | 2.9K | C | 跑在 $5 晶片上，無需 OS/Node.js | 極限嵌入式、成本優先 | [連結](https://github.com/memovai/mimiclaw) |
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 2.9K | JavaScript | Antigravity 模型 Proxy | 使用 Antigravity 模型 | [連結](https://github.com/badrisnarayanan/antigravity-claude-proxy) |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 2.9K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 | [連結](https://github.com/nearai/ironclaw) |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 2.2K | Python | 跨 LLM 與平台的長期記憶 OS | 記憶體管理進階版 | [連結](https://github.com/EverMind-AI/EverMemOS) |
-| **[moltis](https://github.com/moltis-org/moltis)** | 1.3K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 | [連結](https://github.com/moltis-org/moltis) |
-| **[nullclaw](https://github.com/nullclaw/nullclaw)** | 4.1K | Zig ⚡ | 最快、最小且全自動 AI 助理 | 極端效能與資源最佳化 | [連結](https://github.com/nullclaw/nullclaw) |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 4.5K | Python | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 | [連結](https://github.com/HKUDS/nanobot) |
-| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 3.4K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 | [連結](https://github.com/zeroclaw-labs/zeroclaw) |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 1.8K | C/C++ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 | [連結](https://github.com/jlia0/tinyclaw) |
+| **[moltis](https://github.com/moltis-org/moltis)** | 1.3K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 | [連結](https://github.com/moltis-org/moltis) |
 | **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 4 | TypeScript | OpenClaw 的 Windows 專屬重命名版 | Windows 用戶、簡體中文支援 | [連結](https://github.com/itc-ou-shigou/winclaw) |
 
 #### 🎯 選購指南：該選哪個？

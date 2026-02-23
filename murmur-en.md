@@ -278,17 +278,17 @@ After weeks of rumors and the "Talent War", OpenClaw founder **Peter Steinberger
 | **[refly](https://github.com/refly-ai/refly)** | 6.6K | TypeScript | First open-source Agent Skills Builder | Visual Skill composition | [Link](https://github.com/refly-ai/refly) |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 5.7K | Python | AI memory OS, cross-task Skill memory | Memory management, Skill reuse | [Link](https://github.com/MemTensor/MemOS) |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 5.6K | - | Community OpenClaw use case collection | Find inspiration here | [Link](https://github.com/hesamsheikh/awesome-openclaw-usecases) |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 4.5K | Python | Ultra-lightweight OpenClaw (~4K lines) | Research-oriented, academic | [Link](https://github.com/HKUDS/nanobot) |
+| **[nullclaw](https://github.com/nullclaw/nullclaw)** | 4.1K | Zig ⚡ | Fastest, smallest, autonomous AI | Extreme performance & resource optimization | [Link](https://github.com/nullclaw/nullclaw) |
 | **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 3.4K | TypeScript | Feishu (Lark) integration | Feishu enterprise users | [Link](https://github.com/m1heng/clawdbot-feishu) |
+| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 3.4K | Rust 🦀 | Extreme performance, < 5MB | Performance maniacs | [Link](https://github.com/zeroclaw-labs/zeroclaw) |
 | **[manifest](https://github.com/mnfst/manifest)** | 3.3K | TypeScript | Real-time cost observability for OpenClaw agents | Cost Observability | [Link](https://github.com/mnfst/manifest) |
 | **[mimiclaw](https://github.com/memovai/mimiclaw)** | 2.9K | C | Runs on $5 chip, no OS/Node.js/Pi needed | Extreme embedded, cost-first | [Link](https://github.com/memovai/mimiclaw) |
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 2.9K | JavaScript | Antigravity model proxy | Use Antigravity models | [Link](https://github.com/badrisnarayanan/antigravity-claude-proxy) |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 2.9K | Rust 🦀 | Privacy & security-focused Rust implementation | Security-sensitive scenarios | [Link](https://github.com/nearai/ironclaw) |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 2.2K | Python | Cross-LLM & platform long-term memory OS | Advanced memory management | [Link](https://github.com/EverMind-AI/EverMemOS) |
-| **[moltis](https://github.com/moltis-org/moltis)** | 1.3K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise-grade security | [Link](https://github.com/moltis-org/moltis) |
-| **[nullclaw](https://github.com/nullclaw/nullclaw)** | 4.1K | Zig ⚡ | Fastest, smallest, autonomous AI | Extreme performance & resource optimization | [Link](https://github.com/nullclaw/nullclaw) |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 4.5K | Python | Ultra-lightweight OpenClaw (~4K lines) | Research-oriented, academic | [Link](https://github.com/HKUDS/nanobot) |
-| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 3.4K | Rust 🦀 | Extreme performance, < 5MB | Performance maniacs | [Link](https://github.com/zeroclaw-labs/zeroclaw) |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 1.8K | C/C++ | Microcontroller-level (256KB RAM) | Fit in smartwatch 🤯 | [Link](https://github.com/jlia0/tinyclaw) |
+| **[moltis](https://github.com/moltis-org/moltis)** | 1.3K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise-grade security | [Link](https://github.com/moltis-org/moltis) |
 | **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 4 | TypeScript | Windows-specific rebrand of OpenClaw | Windows users, Chinese support | [Link](https://github.com/itc-ou-shigou/winclaw) |
 
 #### 🎯 Selection Guide: Which One Should You Choose?
