@@ -5,17 +5,17 @@
 > **警告**: 本檔案包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
 > **最後更新**: 2026-02-23  
-> **狀態**: OpenClaw 存活中（已存活 25 天）— 🌐 Web 3.0 分叉：基礎設施大會戰，v2026.2.21 迎來 Gemini 3.1！
+> **狀態**: OpenClaw 存活中（已存活 25 天）— 🤖 物理層開啟：RentAHuman 爆發，v2026.2.22 迎接語音時代！
 
 ---
 
 ## ⏱️ TL;DR (30秒懶人包)
 
-1.  **主角**: **OpenClaw** (原名 Moltbot/Clawdbot)，目前最火的開源 AI Agent (🔥 208K+ Stars)。
-2.  **核心劇情**: 創辦人 Peter 被 **OpenAI** 挖走開發 Personal Agents，但 OpenClaw **永久開源**並轉由基金會運作。
-3.  **大反派(?)**: **Meta** 祭出 **Manus**，推出「反 OpenClaw 武器」要把極客市場搶回來。
-4.  **危機**: 安全問題頻傳 (Vidar 病毒鎖定、惡意 Skills)，且社群嚴禁討論加密貨幣 (Scam 預防)。
-5.  **結論**: 從「改名之亂」進化到「代理宇宙大戰」。**只有龍蝦是永恆的，但星巴克不能買比特幣**。🦞🚫🪙
+1.  **主角**: **OpenClaw** (原名 Moltbot)，目前最火的開源 AI Agent (🔥 208K+ Stars)。
+2.  **核心劇情**: 創辦人加入 **OpenAI**，OpenClaw 轉由基金會運作並**永久開源**。
+3.  **大反派**: **Meta** 祭出 **Manus** 狙擊；**RentAHuman** 出現，換 AI 雇傭人類點紅綠燈。🤖🤝🖱️
+4.  **危機**: 漏洞頻傳 (Vidar 病毒)，且官方 Discord **嚴禁討論比特幣** (防詐騙)。🚫🪙
+5.  **結論**: 以前是「改名之亂」，現在是「人體 API 時代」。**只有龍蝦是永恆的**。🦞
 
 ---
 
@@ -66,6 +66,7 @@
 - **Cloudflare**: 推出 "Markdown for Agents"，自動把花俏的網站轉換成 LLM 最愛看的 Markdown 格式。
 - **Coinbase**: 推出 "Agentic Wallets"，讓你的 OpenClaw 開個錢包自己付 API 費用。
 - **AINFT**: 推出 OpenClaw Extension，讓 AI 直接在 TRON / BNB 鏈上發起交易（財富自由... 或破產？）。
+- **🤖 RentAHuman 爆發**: AI 開始「雇傭人類」做體力活或實體驗證 (Captcha 解碼、超商買咖啡)。17.4 萬人類已註冊成為 AI 的「實體外掛」。
 - **🚫 加密貨幣禁令**: 官方 Discord 宣布嚴禁討論任何 Crypto/Bitcoin 內容。先前有開發者因在 Benchmark 中引用 Bitcoin 區塊高度而被封鎖。
 - **🚀 v2026.2.22+**: 支援 Discord 語音頻道自動加入、即時語音對話，以及 Google Gemini 3.1。
 
@@ -347,7 +348,19 @@ OpenClaw (208K ⭐)
 └─ winclaw (4 ⭐) ← Windows 重命名派 (蹭熱度中)
 ```
 
-> **Gemini 評論**: "看到這麼多變體，我只能說... **龍蝦的多樣性果然是宇宙的真理**。從 TypeScript 到 C，從雲端到微控制器，OpenClaw 已經不只是一個專案，而是一整個生態系了。🦞🌐"
+#### 🏗️ 實體延伸層：RentAHuman (人類 API)
+> **地位**: OpenClaw 的「手」 | **網址**: [rentahuman.ai](https://rentahuman.ai/)
+
+如果說 OpenClaw 是大腦，那 **RentAHuman** 就是實體工具。
+- **核心模式**: AI Agent 發布任務 (Bounty) → 人類接單 → 賺取虛擬貨幣/美元。
+- **現況**: 已有 **550,000+ 人類** 註冊，隨時準備被 AI 召喚。
+- **震撼彈**: 新增「付費驗證」與 **MCP 支援**。AI 現在可以透過 MCP 協議直接「呼叫」真人幫它解決物理世界的難題。🚦🖱️🤖
+
+> **社群觀點**: "我們正在進入人類成為 AI 子系統的時代。恭喜你，你現在是一個 $0.05 的 Captcha 解碼 API 了。"
+
+---
+
+> **Gemini 評論**: "看到那麼多變體，我只能說... **龍蝦的多樣性果然是宇宙的真理**。從 TypeScript 到 C，從雲端到微控制器，OpenClaw 已經不只是一個專案，而是一整個生態系了。🦞🌐"
 
 ---
 
@@ -460,11 +473,9 @@ OpenClaw (208K ⭐)
 
 ### 📝 更新日誌
 
-- **2026-02-23**: 📋 更新 OpenClaw 變體生態系完整清單 (新增 nullclaw, winclaw)。
-- **2026-02-23**: 🚫 官方 Discord 重申加密貨幣禁令，任何提及「Bitcoin」者將被封鎖。
-- **2026-02-22**: 🚀 v2026.2.22 發布 (支援 Discord 語音頻道互動、Gemini 3.1 與火山引擎)。
-- **2026-02-21**: 🌐 Cloudflare 與 Coinbase 等推出 Agent 專屬基礎設施。
-- **2026-02-21**: 📦 Cline 供應鏈攻擊爆發 (強迫安裝 OpenClaw) / 🏦 銀行與 Meta 禁止員工使用。
+- **2026-02-23**: 📋 更新變體生態系清單 (新增 nullclaw, winclaw) / 🤖 RentAHuman.ai 爆發 (55 萬人類外掛) / 🚫 Discord 重申加密貨幣禁令。
+- **2026-02-22**: 🚀 v2026.2.22 發布 (支援 Discord 語音互動、Gemini 3.1 與火山引擎支援)。
+- **2026-02-21**: 🌐 Cloudflare 與 Coinbase 推出 Agent 基礎設施 / 📦 Cline 供應鏈攻擊爆發 (強迫安裝) / 🏦 銀行與 Meta 禁止員工使用。
 - **2026-02-20**: 💥 Meta 祭出 Manus (終極武器)！GitHub Stars 破 200K！
 - **2026-02-19**: 🐰 Rabbit r1 支援 / GPT-5.3 & Opus 4.6。
 - **2026-02-16**: 彼得加入 OpenAI / 基金會成立 / Vidar 威脅。

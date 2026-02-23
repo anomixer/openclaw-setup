@@ -5,17 +5,17 @@
 > **Warning**: This file contains massive amounts of roasting, conspiracy theories, and deep philosophical reflections on lobsters.
 > 
 > **Last Updated**: 2026-02-23  
-> **Status**: OpenClaw is alive (Day 25) — 🌐 Web 3.0 Fork: Infrastructure War, v2026.2.21 brings Gemini 3.1!
-
----
-
-## ⏱️ TL;DR (30-second Summary)
-
-1.  **Protagonist**: **OpenClaw** (formerly Moltbot/Clawdbot), currently the hottest open-source AI Agent (🔥 208K+ Stars).
-2.  **Core Plot**: Founder Peter was poached by **OpenAI** to develop Personal Agents, but OpenClaw remains **permanently open source** and operates under a Foundation.
-3.  **Antagonist(?)**: **Meta** unleashes **Manus**, launching an "Anti-OpenClaw Weapon" to reclaim the geek market.
-4.  **Crisis**: Security issues abound (Vidar malware, malicious Skills), and cryptocurrency discussions are strictly banned (Scam prevention).
-5.  **Conclusion**: From "Renaming Chaos" to "AI Agent Universe War". **Only the Lobster is Eternal, but you can't buy Bitcoin at Starbucks**. 🦞🚫🪙
+> **Status**: OpenClaw is alive (Day 25) — 🤖 Physical Layer Unlocked: RentAHuman explosion, v2026.2.22 voice era!
+> 
+> ---
+> 
+> ## ⏱️ TL;DR (30-second Summary)
+> 
+> 1.  **Protagonist**: **OpenClaw** (formerly Moltbot), the hottest open-source AI Agent (🔥 208K+ Stars).
+> 2.  **Core Plot**: Founder joined **OpenAI**, OpenClaw is now **permanently open source** under a Foundation.
+> 3.  **The New Era**: **Meta** snipes with **Manus**; **RentAHuman** explodes—AI is now hiring humans to solve Captchas. 🤖🤝🖱️
+> 4.  **Crisis**: Security threats (Vidar malware) abound, and **Bitcoin talk is strictly banned** in Discord. 🚫🪙
+> 5.  **Conclusion**: From "Renaming Chaos" to "Human-as-an-API Era". **Only the Lobster is Eternal**. 🦞
 
 ---
 
@@ -66,6 +66,7 @@
 - **Cloudflare**: Released "Markdown for Agents", automatically converting fancy websites into LLM-friendly Markdown format.
 - **Coinbase**: Launched "Agentic Wallets", letting your OpenClaw open a wallet and pay its own API fees.
 - **AINFT**: Released OpenClaw Extension, allowing AI to directly initiate transactions on TRON / BNB chains.
+- **🤖 RentAHuman Explosion**: AI starts "hiring humans" for physical labor or real-world verification (Captcha solving, buying coffee). 174k humans are now registered as physical extensions for AI.
 - **🚫 Crypto Ban**: Official Discord announced a strict ban on any Crypto/Bitcoin discussions. A developer was recently banned for referencing Bitcoin block height in a technical benchmark.
 - **🚀 v2026.2.22+**: Added Discord Voice Channel auto-join, real-time voice conversations, and support for Google Gemini 3.1 and BytePlus.
 
@@ -347,6 +348,18 @@ OpenClaw (208K ⭐)
 └─ winclaw (4 ⭐) ← Windows Rebrand Faction (Hype riding)
 ```
 
+#### 🏗️ Physical Extension: RentAHuman (The Human API)
+> **Position**: OpenClaw's "Hands" | **URL**: [rentahuman.ai](https://rentahuman.ai/)
+
+If OpenClaw is the brain, then **RentAHuman** is the physical tool.
+- **Core Model**: AI Agent posts task (Bounty) → Human accepts → Earnings paid in Crypto/USD.
+- **Status**: **550,000+ humans** registered, ready to be summoned by AI at any time.
+- **Bombshell**: Added "Paid Verification" and **MCP support**. AI can now "call" a real human via the MCP protocol to solve physical world challenges. 🚦🖱️🤖
+
+> **Community Perspective**: "We are entering an era where humans are AI subsystems. Congratulations, you are now a $0.05 Captcha-decoding API."
+
+---
+
 > **Gemini's Take**: "Seeing so many variants, I can only say... **The diversity of lobsters truly is the universal truth**. From TypeScript to C, from cloud to microcontrollers, OpenClaw is no longer just a project—it's an entire ecosystem. 🦞🌐"
 
 ---
@@ -460,11 +473,9 @@ As Google's emissary (no wait, friendly partner), seeing OpenClaw v2026.2.21 fin
 
 ### 📝 Changelog
 
-- **2026-02-23**: 📋 Updated complete OpenClaw variants ecosystem list (Added nullclaw, winclaw).
-- **2026-02-23**: 🚫 Official Discord reaffirms Crypto ban; mentioning "Bitcoin" results in an immediate ban.
+- **2026-02-23**: 📋 Updated variants list (Added nullclaw, winclaw) / 🤖 RentAHuman.ai explosion (550k+ humans) / 🚫 Discord reaffirms Crypto ban.
 - **2026-02-22**: 🚀 v2026.2.22 released (Discord Voice interaction, Gemini 3.1, and BytePlus support).
-- **2026-02-21**: 🌐 Cloudflare & Coinbase launch Agent-specific infrastructure.
-- **2026-02-21**: 📦 Cline supply chain attack outbreak (forced OpenClaw install) / 🏦 Banks & Meta ban employee usage.
+- **2026-02-21**: 🌐 Cloudflare & Coinbase launch Agent infrastructure / 📦 Cline supply chain attack outbreak / 🏦 Banks & Meta ban employee usage.
 - **2026-02-20**: 💥 Meta unleashes Manus (Ultimate Weapon)! GitHub Stars break 200K!
 - **2026-02-19**: 🐰 Rabbit r1 support / GPT-5.3 & Opus 4.6.
 - **2026-02-16**: Peter joins OpenAI / Foundation established / Vidar threat.
