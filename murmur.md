@@ -483,7 +483,7 @@ OpenClaw (221K ⭐)
 
 ### 📝 更新日誌
 
-- **2026-02-24**: 🌊 **「龍蝦紀」大爆發**: 社群狂推 MicroClaw, MiniClaw, LiteClaw 等極速變體 / ⚡ **FlashClaw** 傳聞流出：延遲低於 100ms / 📈 **數據更新**: OpenClaw 閃電突入 **221K Stars**，NanoBot (23.7K) 與 ZeroClaw (15.5K) 異軍突起。
+- **2026-02-24**: 🌊 **「爪武紀」大爆發**: 社群狂推 MicroClaw, MiniClaw, LiteClaw 等極速變體 / ⚡ **FlashClaw** 傳聞流出：延遲低於 100ms / 📈 **數據更新**: OpenClaw 閃電突入 **221K Stars**，NanoBot (23.7K) 與 ZeroClaw (15.5K) 異軍突起。
 - **2026-02-23**: 📋 更新變體生態系清單 (新增 nullclaw, winclaw) / 🤖 RentAHuman.ai 爆發 (55 萬人類外掛) / 🚫 Discord 重申加密貨幣禁令。
 - **2026-02-22**: 🚀 v2026.2.22 發布 (支援 Discord 語音互動、Gemini 3.1 與火山引擎支援)。
 - **2026-02-21**: 🌐 Cloudflare 與 Coinbase 推出 Agent 基礎設施 / 📦 Cline 供應鏈攻擊爆發 (強迫安裝) / 🏦 銀行與 Meta 禁止員工使用。
