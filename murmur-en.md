@@ -297,6 +297,7 @@ After weeks of rumors and the "Talent War", OpenClaw founder **Peter Steinberger
 | **[LiteClaw](https://github.com/liteclaw/liteclaw)** | 36 | Python/JS 🟨 | Web Worker specialized version for web-side agents | Browser-native Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 26 | Zig/C ⚡⚙️ | High-speed inference version with <100ms latency | Real-time voice interaction, ms-level response |
 | **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 4 | TypeScript 🟦 | Windows-specific rebrand of OpenClaw | Windows users, Chinese support |
+| **[SwiftClaw](https://github.com/dannybszn/SwiftClaw)** | 3 | Swift 🍎 | Ultra-minimal 9MB build, supports TEE security | Edge computing, Swift environment optimization |
 
 #### 🎯 Selection Guide: Which One Should You Choose?
 

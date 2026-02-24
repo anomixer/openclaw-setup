@@ -297,6 +297,7 @@
 | **[LiteClaw](https://github.com/liteclaw/liteclaw)** | 36 | Python/JS 🟨 | 網頁端 Web Worker 專屬版 | 純網頁端 Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 26 | Zig/C ⚡⚙️ | 號稱 <100ms 延遲的極速推理版 | 即時語音互動、毫秒級反應 |
 | **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 4 | TypeScript 🟦 | OpenClaw 的 Windows 專屬重命名版 | Windows 用戶、簡體中文支援 |
+| **[SwiftClaw](https://github.com/dannybszn/SwiftClaw)** | 3 | Swift 🍎 | 9-MB 極微版，支援 TEE 安全執行 | 邊緣運算、Swift 環境優化 |
 
 #### 🎯 選購指南：該選哪個？
 
