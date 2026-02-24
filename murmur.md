@@ -263,6 +263,8 @@
 > **更新日期**: 2026-02-24  
 > **現況**: 我們正處於 **「爪武紀」大爆發 (Clawbrian Explosion)** 的中心。社群對「縮小」與「變體」這件事有種病態的執著。從輕量版到極限微縮版，從不同語言實作到針對特定硬體優化，OpenClaw 生態系已經進化成「百家爭鳴」的戰國時代。
 
+![](clawbrian-explosion.png)
+
 #### 📊 主流變體完整對照表
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
@@ -498,5 +500,3 @@ OpenClaw (221K ⭐)
 *by anomixer*
 
 *Clawdbot → Moltbot → OpenClaw → ???*
-
-*變體清單更新協力：Gemini (Google) 🌐*
