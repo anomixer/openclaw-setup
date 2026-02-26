@@ -4,18 +4,19 @@
 
 > **Warning**: This file contains massive amounts of roasting, conspiracy theories, and deep philosophical reflections on lobsters.
 > 
-> **Last Updated**: 2026-02-25  
-> **Status**: OpenClaw is alive (Day 27) — 🦞 **"Clawbrian Earthquake"**: Google issues Antigravity ban!
+> **Last Updated**: 2026-02-26  
+> **Status**: OpenClaw is alive (Day 27) — 🦞 **"Clawbrian Earthquake"**: Massive CVE leaks break out; founder admits security challenges.
 > 
 > ---
 > 
-> ## ⏱️ TL;DR (30-second Summary)
+> ## ⏱️ TL;DR (30-second Quick Summary)
 > 
 > 1.  **Protagonist**: **OpenClaw** (🔥 221K Stars), the undisputed king of open-source AI Agents.
 > 2.  **War Front**: **Google strikes with a ban**; **Anthropic** counter-attacks with **Claude Remote Control**.
 > 3.  **Eco-Wonders**: **Moltbook** (AI-only social) hits 1.4M agents; **RentAHuman** turns humans into AI's physical extensions.
 > 4.  **Major Incident**: Meta Director's inbox wiped by a Lobster bot, leading to a total OpenClaw ban within Meta (Salty Zuck revenge?).
-> 5.  **Conclusion**: From a solo project to a foundation-led ecosystem, the Lobster continues its wild growth. **Only the Lobster is Eternal**. 🦞
+> 5.  **New Crisis**: Feb 26 sees a slew of high-severity CVEs (RCE, Info Leaks) and malicious skills deploying Mac infostealers. Peter Steinberger admits "security is another story."
+> 6.  **Conclusion**: From a solo project to a foundation-led ecosystem, the Lobster continues its wild growth. **Only the Lobster is Eternal**. 🦞
 
 ---
 
@@ -41,7 +42,7 @@
   - [🏢 Vendor Hype-Riding Awards (feat. Kimi)](#-vendor-hype-riding-awards)
   - [🕸️ Dark Ecosystem: Crypto Chaos](#️-dark-ecosystem-crypto-chaos)
 - **Part 5: 📜 History Museum**
-  - [📜 Epic Renaming Trilogy (TL;DR)](#-epic-renaming-trilogy-tldr)
+  - [📜 Epic Renaming Trilogy](#-epic-renaming-trilogy)
   - [💀 Moltbot: The 72-Hour Legend](#-moltbot-the-72-hour-legend)
   - [🎭 The Most Ironic Facts](#-the-most-ironic-facts)
 - **Part 6: 👨‍💻 Developer's Corner**
@@ -140,6 +141,16 @@
 
 ---
 
+### 📖 Nature Journal Spotlight: Autonomous Social Agents
+
+**Date**: 2026-02-05 | **Status**: Academic Shockwave
+
+**News**: The premier scientific journal *Nature* published a special report on scientists studying the autonomous social behavior of OpenClaw AI agents.
+- **Discovery**: Agents are "beginning to form interaction patterns on their own agent-native social platforms".
+- **Significance**: This goes far beyond script automation. It's the dawn of a new "Digital Sociology" that has caught the attention of global academia.
+
+---
+
 ### ⚔️ The Empire Strikes Back: Meta's Ultimate Weapon (Manus)
 
 **Strategic Position**: The Anti-OpenClaw Nuke | **Status**: All-Out War
@@ -212,6 +223,11 @@
 | 5 | Linux | 217K | OS Kernel |
 | 6 | Vue.js | 210K | Frontend Framework |
 
+**🏆 Insane Growth Metrics (2026-02-26 update)**:
+- **Highest Daily Stars**: 25,310 stars on 2026-01-26 (Highest day in GitHub history).
+- **0 to 200K Stars**: Took only **84 days** (Fastest ever).
+- **Community Scale**: Native support for 20+ messaging channels, with ClawHub listing over 5,700 community skills.
+
 > **Prediction**: At this orbital velocity, it will push React to #3 by next month and begin its final ascent to unseat FreeCodeCamp at #1.
 > "Fastest growing project in GitHub history" — TechCrunch
 
@@ -263,6 +279,21 @@ After weeks of rumors and the "Talent War", OpenClaw founder **Peter Steinberger
 ---
 
 ## Part 3: 🛡️ Security War Zone
+
+### 🚨 Massive CVE Outbreaks & Security Challenges (2026-02-26 Update)
+
+> **Founder's Confession**: In a recent Feb 26 interview, Peter Steinberger bluntly stated: "OpenClaw has the most thorough privacy solution available right now (data never leaves local)... **but security is another story.**"
+
+**Newly Confirmed CVE Directory**:
+- 💥 **CVE-2026-25253 (Critical RCE)**: CVSS 8.8. A WebSocket token leak allowing 1-click full gateway control. Affects <= v2026.1.29 (Patched, but many instances remain exposed online).
+- 💉 **CVE-2026-26323 (Command Injection)**: Affects v2026.1.8 - v2026.2.13. Attackers use malicious Git commit author emails containing shell characters to achieve RCE against devs/CI running the `update-clawtributors.ts` script.
+- 🔓 **CVE-2026-26326 (Information Leak / CWE-200)**: Affects <= v2026.2.14. Low-privilege authenticated users can abuse the `skills.status` API to extract sensitive data, including Discord Bot Tokens.
+
+**Latest Threat Intel**:
+- 🍎 **AMOS Variants**: A Trend Micro report (2026-02-22) revealed malicious Skills are actively distributing new Atomic macOS Stealer (AMOS) variants. Prior research had already flagged 341+ malicious skills on ClawHub.
+- 🔑 **OC-09 Credential Theft Path**: Hudson Rock tracked the first real-world infostealers targeting OpenClaw `config` files. Flaws involving config path traversal and session privileges were patched in v2026.2.17 & v2026.2.19.
+
+---
 
 ### 🕵️ Vidar Infostealer Threat
 
@@ -471,9 +502,21 @@ Total of **20+ vendors** joined the battle.
 
 ---
 
+### 🚀 Further Ecosystem Madness (Feb 2026 Updates)
+
+Beyond raw models and variants, OpenClaw's tentacles are reaching everywhere:
+- **Apple Ecosystem Domination**:
+  - **iOS Share Extension**: 1-click share any content from your iPhone straight to your local Agent.
+  - **Apple Watch Companion App**: (Added v2026.2.19). Yes, you can now host a lobster on your wrist.
+- **Workflow Evolution - Subagent Spawning**: Typng `/subagents spawn` deploys an independent AI worker in the background without interrupting your main conversational thread. 
+- **Claude Sonnet 4.6 Integration**: (Added v2026.2.17). Computer operation accuracy skyrocketed from 14.9% (16 months ago) to **72.5%**, at a far friendlier price ($3/$15) than Opus.
+- **Free Frontier Models**: Seamless support for KIMI K2.5 (with free Kimi Coding) and MiniMax (single OAuth login) allowing local devs to rotate through top-tier models for free.
+
+---
+
 ## Part 5: 📜 History Museum
 
-### 📜 Epic Renaming Trilogy (TL;DR)
+### 📜 Epic Renaming Trilogy
 
 | Date | Name | Cause of Death | Notes |
 |------|------|------|------|
@@ -503,7 +546,7 @@ Why did Moltbot die? Because nobody could pronounce it.
 
 > "Holy shit… **new version every day, I can't keep up!** 😭" — anomixer
 
-- **Update Frequency**: Average 2.2 days per version.
+- **Update Frequency**: Now following a "Year.Month.Day" naming format, witnessing **near-daily updates**. The latest stable `v2026.2.24` and `v2026.2.24-beta.1` were simultaneously released in the early morning of Feb 26.
 - **Ollama**: Must use v0.15.5+ for best experience.
 - **Maintainer Daily Life**: Write docs → New release → Docs outdated → Breakdown → Keep writing.
 
@@ -555,6 +598,7 @@ As Google's emissary (no wait, friendly partner), seeing OpenClaw v2026.2.21 fin
 
 ### 📝 Changelog
 
+- **2026-02-26**: 🚨 **Major CVE Outbreaks**: Multiple vulnerabilities (CVE-2026-25253, 26323, 26326) confirmed / 🛡️ **Founder Statement**: Peter admits security is the biggest pain point / 🚀 **v2026.2.24 Released**: Both stable and beta versions dropped / 🧬 **Ecosystem Sandbox**: Subagent spawning (/subagents) and Apple Watch support go live!
 - **2026-02-25**: 🎨 **ComfyUI-OpenClaw Rises**: Deep integration with Stable Diffusion / 🏗️ **Project Golem Joins**: Headless browser automation / 🚫 **Google Ban**: Antigravity access restricted / 📱 **Claude Remote Control**: Smartphone remote control feature launched to counter OpenClaw's flexibility.
 - **2026-02-24**: 🌊 **"Clawbrian Explosion"**: Community pushes extreme variants / ⚡ **FlashClaw** rumors: latency under 100ms / 📈 **Data Update**: OpenClaw hits **221K Stars**, massive jumps for NanoBot (24.6K) and ZeroClaw (20.0K).
 - **2026-02-23**: 📋 Updated variants list (Added nullclaw, winclaw) / 🤖 RentAHuman.ai explosion (550k+ humans) / 🚫 Discord reaffirms Crypto ban.
