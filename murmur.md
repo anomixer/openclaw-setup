@@ -257,8 +257,8 @@ Google 正式對 OpenClaw 使用者發起限制，以「惡意使用行為」為
 ```
 OpenClaw (236.5K ⭐)
 ├─ nanobot (26.4K ⭐) ← 學術新寵 🎓
-├─ ZeroClaw (20.4K ⭐) ← Rust 暴漲黑馬 🚀
 ├─ PicoClaw (20.8K ⭐) ← 嵌入式之王
+├─ ZeroClaw (20.4K ⭐) ← Rust 暴漲黑馬 🚀
 ├─ NanoClaw (15.9K ⭐) ← 安全容器派
 ├─ nullclaw (2.6K ⭐) ← Zig 極速狂魔派
 ├─ ComfyUI-OpenClaw (408 ⭐) ← 安全編排指揮官 🎨

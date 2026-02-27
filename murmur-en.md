@@ -265,8 +265,8 @@ Gemini-powered headless browser agent featuring direct Google login to eliminate
 ```
 OpenClaw (236.5K ⭐)
 ├─ nanobot (26.4K ⭐) ← Academic Darling 🎓
-├─ ZeroClaw (20.4K ⭐) ← Rust Rising Star 🚀
 ├─ PicoClaw (20.8K ⭐) ← Embedded King
+├─ ZeroClaw (20.4K ⭐) ← Rust Rising Star 🚀
 ├─ NanoClaw (15.9K ⭐) ← Security Container Faction
 ├─ nullclaw (2.6K ⭐) ← Zig Speed Maniac Faction
 ├─ ComfyUI-OpenClaw (408 ⭐) ← Secure Orchestration Commander 🎨
