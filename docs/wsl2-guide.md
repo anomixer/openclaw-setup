@@ -12,13 +12,35 @@
 
 ## 目錄
 
-1. [安裝 WSL2](#1-安裝-wsl2)  
-2. [安裝 Ollama](#2-安裝-ollama)  
-3. [安裝 OpenClaw](#3-安裝-openclaw)  
-4. [配置 Gateway](#4-配置-gateway)  
-5. [測試與驗證](#5-測試與驗證)  
-6. [進階配置](#6-進階配置)  
-7. [常見問題](#7-常見問題)
+1. [安裝 WSL2 (若您使用 Windows 10/11，請從這裡開始)](#1-安裝-wsl2-若您使用-windows-1011請從這裡開始)
+   - [1.1 啟用 WSL2](#11-啟用-wsl2)
+   - [1.2 初次安裝並啟動 Ubuntu](#12-初次安裝並啟動-ubuntu)
+   - [1.3 啟用 systemd（必要）](#13-啟用-systemd必要)
+   - [1.4 若是 Data Center 卡，要切換成 MCDM 模式 (可選)](#14-若是-data-center-卡要切換成-mcdm-模式-可選)
+   - [1.5 安裝 WSL Ubuntu 專用的 CUDA Driver（必要）](#15-安裝-wsl-ubuntu-專用的-cuda-driver必要)
+2. [安裝 Ollama (若您使用 Linux 或 macOS，請直接這裡開始)](#2-安裝-ollama-若您使用-linux-或-macos請直接這裡開始)
+   - [2.1 安裝 Ollama](#21-安裝-ollama-裝進-ubuntu-wsl--linux-裡面別裝在-windows-下)
+   - [2.2 啟動 Ollama 服務](#22-啟動-ollama-服務)
+   - [2.3 驗證安裝](#23-驗證安裝)
+   - [2.4 拉模型](#24-拉模型)
+3. [安裝 OpenClaw](#3-安裝-openclaw)
+   - [3.1 先安裝 nvm 與 node.js v24](#31-先安裝-nvm-與-nodejs-v24-新版-openclaw-建議)
+   - [3.2 安裝 OpenClaw CLI](#32-安裝-openclaw-cli)
+   - [3.3 初始化 Onboard](#33-初始化-onboard)
+   - [3.4 設定 OpenClaw 使用 Ollama](#34-設定-openclaw-使用-ollama)
+4. [進階配置](#4-進階配置)
+   - [4.1 安裝 Skills](#41-安裝-skills)
+   - [4.2 Memory 功能](#42-memory-功能)
+   - [4.3 Telegram Bot 設定](#43-telegram-bot-設定)
+   - [4.4 配對 Telegram 頻道](#44-配對-telegram-頻道)
+   - [4.5 其他進階設定 (可選)](#45-其他進階設定-可選)
+5. [🗑️ 完整移除指南](#5-️-完整移除指南)
+6. [📄 配置檔案參考](#6--配置檔案參考)
+7. [🎯 快速參考](#7--快速參考)
+8. [💡 實用技巧](#8--實用技巧)
+9. [📚 相關連結](#9--相關連結)
+10. [💬 社群支援](#10--社群支援)
+11. [📝 更新日誌](#11--更新日誌)
 
 ---
 
@@ -211,6 +233,8 @@ ollama pull ministral-3:8b
 
 ## 3. 安裝 OpenClaw
 
+註：若您安裝的是 Ollama v0.17.0+，該版本會自動幫您安裝好 OpenClaw，請直接跳至 **3.3 初始化 Onboard** 章節。
+
 ### 3.1 先安裝 nvm 與 node.js v24 (新版 OpenClaw 建議)
 
 ```bash
@@ -360,7 +384,7 @@ How do you want to hatch your bot?
 > ● Hatch in TUI (recommended)
 ```
 
-### 9. 設定 OpenClaw 使用 Ollama ###
+### 3.4 設定 OpenClaw 使用 Ollama
 
 此時，OpenClaw 會孵化機器人，此時先按 Ctrl+C 鈕數次停止，先退出 WSL (輸入 `exit`)，然後再進入 WSL (輸入 `wsl`)，此時 OpenClaw 就可以使用了。
 
@@ -457,9 +481,7 @@ openclaw memory rebuild
 
 ---
 
-## 4️⃣ 進階配置
-
-### Telegram Bot 設定
+### 4.3 Telegram Bot 設定
 
 #### 建立 Telegram 機器人
 
@@ -479,7 +501,7 @@ Use this token to access the HTTP API:
 
 > 🔑 **記住這個 Token**，稍後配置時需要！
 
-### 配對 Telegram 頻道
+### 4.4 配對 Telegram 頻道
 
 1. 進入手機 Telegram 中的 bot 頻道，查看是否有下列訊息 （若沒有，請發送任意訊息)
 
@@ -502,7 +524,7 @@ openclaw pairing approve telegram abcdefgh
 
 ✅ **Bot 應該可以正常回覆了！** 🎉
 
-### 其他進階設定 (可選)
+### 4.5 其他進階設定 (可選)
 
 以一般使用者身份開啟 WSL：
 
@@ -536,7 +558,7 @@ Enable web_fetch (keyless HTTP fetch)?
 
 ---
 
-## 🗑️ 完整移除指南
+## 5. 🗑️ 完整移除指南
 
 若需要完全移除 OpenClaw / Moltbot / Clawdbot：
 
@@ -560,7 +582,7 @@ npm uninstall -g clawdbot
 
 ---
 
-## 📄 配置檔案參考
+## 6. 📄 配置檔案參考
 
 ### 檔案路徑
 
@@ -643,7 +665,7 @@ npm uninstall -g clawdbot
 
 ---
 
-## 🎯 快速參考
+## 7. 🎯 快速參考
 
 | 指令 | 用途 |
 |------|------|
@@ -660,9 +682,9 @@ npm uninstall -g clawdbot
 
 ---
 
-## 💡 實用技巧
+## 8. 💡 實用技巧
 
-### 1. 防止 Ollama 自動卸載模型
+### 8.1 防止 Ollama 自動卸載模型
 
 Ollama 自定 5 分鐘無活動後自動卸載模型，為提升下次對話的速度，建議設定成永不卸載。
 
@@ -697,7 +719,7 @@ launchctl setenv OLLAMA_KEEP_ALIVE "-1"
 然後重啟 Ollama 應用程式。 
 
 
-### 2. 調整 Ollama 的上下文長度
+### 8.2 調整 Ollama 的上下文長度
 
 Ollama 的 Context Length 自定值是 4096 ，對 OpenClaw 來說實在太少了。建議調高至 16384～32768 以上 (注意：增加 Context Size也會增加GPU VRAM的耗用量)，可以透過下列指令來修改模型。
 
@@ -734,7 +756,7 @@ glm-4.7-flash:latest    baa9f0d690c1    22 GB    100% GPU     32768      Forever
 注意看 CONTEXT 和 UNTIL 就可以了。
 
 
-### 3. 更新 Ollama 模型配置
+### 8.3 更新 Ollama 模型配置
 
 若需要更換 Ollama 模型：
 
@@ -752,7 +774,7 @@ glm-4.7-flash:latest    baa9f0d690c1    22 GB    100% GPU     32768      Forever
 
 ---
 
-## 📚 相關連結
+## 9. 📚 相關連結
 
 - [👍 Windows 基本安裝指南](../README.md)
 - [🔄 從 Windows 遷移到 WSL2](migration-guide.md)
@@ -765,13 +787,17 @@ glm-4.7-flash:latest    baa9f0d690c1    22 GB    100% GPU     32768      Forever
 
 ---
 
-## 💬 社群支援
+## 10. 💬 社群支援
 
 遇到問題？歡迎在 [GitHub Issues](https://github.com/anomixer/openclaw-setup/issues) 提出！
 
 ---
 
-## 📝 更新日誌
+## 11. 📝 更新日誌
+
+### 2026-02-27
+- 🔄 更新 Ollama v0.17.0+ 自動安裝 OpenClaw 說明
+- 🦞 Ollama 跟龍蝦更綁定了
 
 ### 2026-02-21
 - 🚀 更新 Node 安裝方法
@@ -800,7 +826,7 @@ glm-4.7-flash:latest    baa9f0d690c1    22 GB    100% GPU     32768      Forever
 
 ---
 
-## 相關連結
+## 9. 相關連結
 
 - [主 README](../README.md) - Windows 原生教學
 - [為什麼需要 WSL2？](why-wsl2.md) - 技術背景
@@ -809,6 +835,8 @@ glm-4.7-flash:latest    baa9f0d690c1    22 GB    100% GPU     32768      Forever
 
 ---
 
-**最後更新**: 2026-02-21
+**最後更新**: 2026-02-27
+
 **原創 by anomixer**  
+
 **Clawdbot → Moltbot → OpenClaw**
