@@ -65,6 +65,7 @@ Because the battle is too fierce, to save everyone from scrolling through update
   - **The Action Revolution**: Jensen pointed out that the era of simple queries is over; interaction is now defined by actions (create, build, write). Agents can reason, plan, and even "read the manual" when they encounter new tools.
   - **Token Guzzlers**: He gleefully noted that OpenClaw agents, running continuously in the background, consume roughly **1 million times more tokens** than previous generative AI. No wonder Nvidia GPUs are selling so well! 💸
   - **Flexing on Enterprise Bans**: While Cisco and Meta are banning it, Jensen casually revealed that Nvidia itself uses "a whole bunch of OpenClaw" internally for software development.
+  - 💥 **Jensen's Boomerang (Community Roast)**: Right after bragging about using lobsters to write code, Nvidia's driver team caught fire! They had to release three emergency GPU drivers in a single week (595.59 broke the fans → 595.71 locked overclock voltages → 595.76 finally fixed it). The community is dying laughing: "**Wait, are these the bugs written by OpenClaw? Did the lobster mistake the RTX 5090's fan for a WebSocket and close it?! XDD**" 🦞
 - 🏫 **SMU Issues Ban Order**: Following Meta and the federal government, Southern Methodist University (SMU) officially banned OpenClaw on university-owned devices. They cited severe risks of prompt injection and data exfiltration due to its system-level permissions and public extensions. This marks the first major blockade from the academic sector.
 - ☁️ **AWS Lightsail Official Integration**: On the flip side, AWS announced general availability of OpenClaw on Amazon Lightsail, pairing it directly with Amazon Bedrock out-of-the-box. Cloud giants are moving to "normalize" and monetize the lobster with secure 1-click deployments.
 
@@ -405,7 +406,7 @@ OpenClaw (260.4K ⭐)
 - **Kimi (Moonshot AI)**: Launched **Kimi Claw Beta**, running OpenClaw directly on the web, seamlessly switching models. This "Chinese Model Free War" also included MiniMax.
 - **MiniMax MaxClaw** (2026-02-25): 10-second 1-click deploy, locked to M2.5 models, serverless. Even the small shrimp wrapper [MaxClaw](https://github.com/Lichas/maxclaw) came to ride the name hype, causing huge confusion 😂
 - **Clawbot AI SaaS** (2026-02-28): [clawbot.ai](https://clawbot.ai/) Automatic model selection, solving "choice paralysis," 1-click SaaS-ified OpenClaw.
-- **Tier 1 Cloud Giants**: DigitalOcean, Alibaba Cloud, Cloudflare pushing 1-click deployments hard.
+- **Tier 1 Cloud Giants**: AWS Lightsail, DigitalOcean, Alibaba Cloud, Cloudflare pushing 1-click official deployments hard.
 - **Most Absurd**: Vertu even published a deployment guide for their $10K luxury phones.
 
 ### 🕸️ Dark Ecosystem: Crypto Chaos

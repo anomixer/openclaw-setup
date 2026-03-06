@@ -65,6 +65,7 @@
   - **行動革命**：老黃指出，過去是「查詢解答」的時代，現在則是「執行任務」（建立、規劃、執行）的時代。Agent 在遇到不會的工具時，甚至會自己去「讀手冊」。
   - **吃算力怪獸**：老黃樂開懷地表示，OpenClaw 這類 Agent 長期在背景執行任務，消耗的 token 數量是過去生成式 AI 的 **100 萬倍**。難怪輝達的 GPU 賣得這麼好！💸
   - **打臉企業封殺**：當 Cisco 和 Meta 都在封殺 OpenClaw 時，老黃自爆輝達內部「用了一大堆 OpenClaw」來寫程式和開發工具。
+  - 💥 **老黃的迴力鏢 (社群炎上)**：前腳剛說用龍蝦寫程式，後腳 Nvidia 的驅動團隊就被社群笑瘋了！因為他們在短短一週內連發了三次緊急修復驅動（595.59 風扇停轉 → 595.71 超頻電壓鎖死 → 595.76 才終於修好）。網友無情開嘲諷：「**這該不會就是用 OpenClaw 寫出來的 Bug 吧？龍蝦把 RTX 5090 的風扇當成 WebSocket 關掉了嗎？ XDD**」 🦞
 - 🏫 **南美以美大學 (SMU) 發佈封鎖令**：繼 Meta 與聯邦政府後，南美以美大學 (SMU) 發布公告，禁止在校園設備上使用 OpenClaw。理由是其系統權限與第三方擴充套件可能引發「提示詞注入 (Prompt Injection)」，導致機密外洩。這是學術界開出的防堵第一槍。
 - ☁️ **AWS Lightsail 官方擁抱**：另一邊，AWS 宣佈 Amazon Lightsail 正式整合 OpenClaw，預設綁定 Amazon Bedrock 模型。雲端巨頭開始將這隻龍蝦「正規化」與「商業化」，提供一鍵部署與安全保護。
 
@@ -405,7 +406,7 @@ OpenClaw (260.4K ⭐)
 - **Kimi (月之暗面)**: 推出 **Kimi Claw Beta**，直接在網頁跑 OpenClaw，無縫切換模型。這場「中國模型免費戰」還包含了 MiniMax。
 - **MiniMax MaxClaw** (2026-02-25)：一鍵 10 秒部署，鎖定 M2.5 模型，免伺服器管理。連小蝦套山 [MaxClaw](https://github.com/Lichas/maxclaw) 都跨來蹭名，譯相大外奧😂
 - **Clawbot AI SaaS** (2026-02-28)：[clawbot.ai](https://clawbot.ai/) 自動模型選擇，解決「選模型困難症」，一鍵 SaaS 化 OpenClaw。
-- **一線雲端大廠**: DigitalOcean, Alibaba Cloud, Cloudflare 狂推一鍵部署。
+- **一線雲端大廠**: AWS Lightsail、DigitalOcean、Alibaba Cloud、Cloudflare 狂推官方/一鍵部署。
 - **最離譜**: Vertu 連 $10K 的奢華手機都出部署教學。
 
 ### 🕸️ 黑暗生態系：幣圈亂象
