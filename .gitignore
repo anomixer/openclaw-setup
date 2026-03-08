@@ -4,7 +4,8 @@ code/node_modules/
 
 # MkDocs 網站暫存與構建目錄
 site/
-build_docs/
+build_docs_zh/
+build_docs_en/
 
 # 環境變數與個人設定 (以防萬一)
 .env
