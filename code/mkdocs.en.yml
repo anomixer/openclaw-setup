@@ -2,6 +2,9 @@ site_name: 🦞 OpenClaw Battlefield Log (with 🦙 Ollama Setup)
 site_description: The chaotic, cynical, and utterly biased war log of the OpenClaw universe.
 site_url: ""
 
+repo_url: https://github.com/anomixer/openclaw-setup
+repo_name: anomixer/openclaw-setup
+
 theme:
   name: material
   logo: pic/clawbrian-explosion.png
