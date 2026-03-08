@@ -37,6 +37,10 @@ OpenClaw 的 memory 子系統（RAG / vector DB）在 Windows 原生環境常見
 
 ## Skills 相容性
 
+![The Matrix: Windows vs WSL2](matrix-claw-skills.png)
+
+> *"你吞下藍色藥丸——留在原生 Windows，繼續相信你想相信的幻覺。你吞下紅色藥丸——安裝 WSL2，我會讓你看看 OpenClaw Skills 的兔子洞到底有多深……"* 💊🦞
+
 ### Skills 的運作機制
 
 Skills 的 `metadata.openclaw.os` 欄位與 installer 機制決定了可用性：
@@ -142,5 +146,5 @@ Homebrew 官方明確表示：
 
 ---
 
-**最後更新**: 2026-02-13  
+**最後更新**: 2026-03-08  
 **by anomixer**

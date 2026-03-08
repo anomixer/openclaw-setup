@@ -37,6 +37,10 @@ In WSL2 these issues are essentially non-existent, as it's a standard Linux envi
 
 ## Skills Compatibility
 
+![The Matrix: Windows vs WSL2](matrix-claw-skills.png)
+
+> *"You take the blue pill -- you stay on native Windows, and you believe whatever you want to believe. You take the red pill -- you install WSL2 and I show you how deep the OpenClaw Skills rabbit hole goes..."* 💊🦞
+
 ### How Skills Work
 
 The `metadata.openclaw.os` field and installer mechanism in skills determine availability:
@@ -142,5 +146,5 @@ Homebrew officially states:
 
 ---
 
-**Last Updated**: 2026-02-13  
+**Last Updated**: 2026-03-08
 **by anomixer**
