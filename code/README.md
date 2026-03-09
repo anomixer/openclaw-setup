@@ -18,10 +18,15 @@
 # 設定金鑰環境變數
 $env:GEMINI_API_KEY="你的_金鑰_放這裡"
 
-# 餵給它今天想紀錄的新聞 (建議濃縮過的大事件)
-node generate_murmur.js "今天的新聞: Apple 準備推出自己的代理人，Anthropic 大當機被社群罵爆，但 OpenClaw 星星數突破了27萬。"
+# 選項 A: 全自動模式 (推薦 🚀)
+# 不帶參數時，AI 會自動搜尋過去 24 小時全球 AI 與 OpenClaw 相關大事並產生報導。
+node generate_murmur.js
+
+# 選項 B: 手動指定模式
+# 餵給它今天想紀錄的新聞，AI 會根據你提供的資訊進行毒舌評論。
+node generate_murmur.js "今天的新聞: Apple 準備推出自己的代理人..."
 ```
-執行完畢後，直接使用 `git diff` 檢查 `murmur*.md` 確認內容是否滿意。
+執行完畢後，它不但會自動寫入日誌內容，還會**自動更新 `murmur.md` 的目錄 (Table of Contents)**。你可以直接使用 `git diff` 檢查確認。
 
 ### 2. `update_stars.js`: Github Stars 自動更新器
 
