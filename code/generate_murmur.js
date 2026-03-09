@@ -19,11 +19,6 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 const args = process.argv.slice(2);
 const newsInput = args[0];
 
-if (!newsInput) {
-    console.error("❌ 請提供今日新聞或變更作為參數！\n用法: node generate_murmur.js \"輸入今天的客觀新聞...\"");
-    process.exit(1);
-}
-
 const API_KEY = process.env.GEMINI_API_KEY;
 if (!API_KEY) {
     console.error("❌ 找不到 GEMINI_API_KEY 環境變數。請先設定！");
@@ -31,35 +26,56 @@ if (!API_KEY) {
 }
 
 const genAI = new GoogleGenerativeAI(API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+
+// 啟用 Google Search 輔助搜尋最新動態
+const model = genAI.getGenerativeModel({
+    model: "gemini-2.0-flash",
+    tools: [
+        {
+            googleSearch: {},
+        },
+    ],
+});
 
 const today = new Date();
 const dateStr = today.toISOString().slice(0, 10);
 
 const SYSTEM_PROMPT_ZH = `
 你現在是 OpenClaw 宇宙的觀察家「anomixer」。
-請根據以下發生的客觀事件，以充滿洞察力、略帶幽默、且支持 OpenClaw 生態系的語氣，寫出今天的一篇「戰況日誌」。
+你的任務是撰寫今天的「戰況日誌」。
+
+如果是全自動模式（未提供新聞輸入）：
+1. 請主動運用搜尋工具，查找過去 24 小時內全球最重要的 AI、AI Agent (如 Claude, GPT, Gemini) 以及 OpenClaw 相關新聞。
+2. 確保資訊準確，特別是模型版本號（如 GPT-5.4, Claude 4.6, Gemini 3.1 等）。
+
+如果是手動模式（提供了新聞輸入）：
+1. 請以提供的客觀新聞為主進行評論。
 
 內容要求：
-1. 嚴格檢查版本號：確保提到的 AI 模型版本（如 GPT-5.4, Claude 4.6, Gemini 3.1 等）是真實發表的。
-2. 禁令：不要在日誌中輸出任何新聞網址連結 (URLs) 或來源名稱。只需要敘述事件本身與評論。
-3. 保持專業口吻，重點在於戰略觀察。
-4. 輸出純 Markdown，不要包含 \`\`\`markdown 的外框。
-5. 標題必須是： ### 🟢 ${dateStr}: [一個簡潔有力的全球觀察標題]
-6. 內容使用 bullet points ( - )。
+1. 以充滿洞察力、略帶幽默、且支持 OpenClaw 生態系的語氣寫作。
+2. 禁令：不要在日誌中輸出任何連結 (URLs) 或來源名稱。只需要敘述事件本身與評論。
+3. 輸出純 Markdown，不要包含 \`\`\`markdown 的外框。
+4. 標題必須是： ### 🟢 ${dateStr}: [一個簡潔有力的全球觀察標題]
+5. 內容使用 bullet points ( - )。
 `;
 
 const SYSTEM_PROMPT_EN = `
 You are "anomixer", a sharp-witted observer of the OpenClaw universe.
-Based on the following objective events, write a daily log entry with an insightful tone that champions the OpenClaw ecosystem.
+Your task is to write today's "Battlefield Log."
+
+If in Fully Automated Mode (no news input provided):
+1. Use your search tool to find the most important global AI, AI Agent (Claude, GPT, Gemini), and OpenClaw news from the last 24 hours.
+2. Ensure factual accuracy, especially model versions (e.g., GPT-5.4, Claude 4.6, Gemini 3.1).
+
+If in Manual Mode (news input provided):
+1. Focus your commentary on the provided objective events.
 
 Requirements:
-1. STRICT FACT-CHECKING: Ensure all AI model versions (e.g., GPT-5.4, Claude 4.6, Gemini 3.1) are real.
+1. Use an insightful, slightly humorous tone that champions the OpenClaw ecosystem.
 2. NO LINKS: Do NOT include any URLs or source names in the output. Just describe the events and provide your commentary.
-3. Maintain a professional yet punchy tone focusing on strategic shifts.
-4. Output MUST be pure Markdown, do NOT wrap inside \`\`\`markdown blocks.
-5. The title MUST be: ### 🟢 ${dateStr}: [A concise, impactful global observation title]
-6. Use bullet points (- ).
+3. Output MUST be pure Markdown, do NOT wrap inside \`\`\`markdown blocks.
+4. The title MUST be: ### 🟢 ${dateStr}: [A concise, impactful global observation title]
+5. Use bullet points (- ).
 `;
 
 function slugify(text) {
@@ -69,7 +85,7 @@ function slugify(text) {
         .trim()
         .replace(/[:：!！?？]/g, '')
         .replace(/\s+/g, '-')
-        .replace(/[^\w\s\u4e00-\u9fa5🦞👑-]/g, '') // Keep dashes, alphanumeric, Chinese and emojis
+        .replace(/[^\w\s\u4e00-\u9fa5🦞👑-]/g, '')
         .replace(/-+/g, '-');
 }
 
@@ -111,15 +127,23 @@ function injectLog(filePath, newLog) {
 }
 
 async function generateLogs() {
-    console.log("🦞 正在呼叫 Gemini 撰寫龍蝦聖經中...");
+    console.log(newsInput ? "🦞 正在根據手動輸入撰寫日誌..." : "🦞 正在自動搜尋並撰寫今日戰報...");
+
+    const promptZh = newsInput
+        ? `${SYSTEM_PROMPT_ZH}\n\n今日客觀新聞：\n${newsInput}`
+        : `${SYSTEM_PROMPT_ZH}\n\n請搜尋並撰寫 ${dateStr} 的全球 AI 大事日誌。`;
+
+    const promptEn = newsInput
+        ? `${SYSTEM_PROMPT_EN}\n\nToday's objective news:\n${newsInput}`
+        : `${SYSTEM_PROMPT_EN}\n\nPlease search and write the global AI battlefield log for ${dateStr}.`;
 
     try {
-        const resultZh = await model.generateContent(`${SYSTEM_PROMPT_ZH}\n\n今日客觀新聞：\n${newsInput}`);
+        const resultZh = await model.generateContent(promptZh);
         const logZh = resultZh.response.text().trim();
         console.log("\n================ [ 中文版日誌預覽 ] ================\n");
         console.log(logZh);
 
-        const resultEn = await model.generateContent(`${SYSTEM_PROMPT_EN}\n\nToday's objective news:\n${newsInput}`);
+        const resultEn = await model.generateContent(promptEn);
         const logEn = resultEn.response.text().trim();
         console.log("\n================ [ 英文版日誌預覽 ] ================\n");
         console.log(logEn);
