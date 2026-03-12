@@ -20,22 +20,20 @@ OpenClaw is model-agnostic, but the community's "heart" is quite vocal. Here is 
 
 If you're torn between local and cloud, here's the collective wisdom from the Lobster farming community:
 
-1. **< 30B Parameters (e.g., 9B, 14B, 27B)**:
-   - **Capability**: Great for chatting, but **fails to meet human "Agent" expectations** in OpenClaw. Expect broken tool-calling logic and frequent instruction failures.
-2. **30B - 70B Parameters**:
-   - **Capability**: **Basic operations and life assistant OK**. Competent for web searches, setting reminders, and simple single-step tasks. The "sweet spot" for mid-range local setups.
-3. **70B - 100B Parameters**:
-   - **Capability**: **Advanced apps and workflow processing**. Can handle Office automation and moderately complex business processes. Can write "extremely simple" code, but may struggle with large Skill libraries or complex async collaboration.
-4. **> 100B+ Cloud SOTA Models (e.g., Claude 4.5, GPT-5.4, Gemini 3.1)**:
-   - **Capability**: **The Ultimate Lobster King**. Multimodal and fully capable. From writing code on GitHub and raising PRs to direct pushing and iterative debugging. Currently the only tier that truly achieves "Set it and forget it" autonomy.
+| Parameters | Tier | Field Notes (Lobster Power) |
+| :--- | :--- | :--- |
+| **< 30B** (e.g., 9B, 14B, 27B) | 💬 Chatty | Great for chatting, but **fails to meet human "Agent" expectations**. Tool-calling logic is often broken. |
+| **30B - 70B** | 🛠️ Assistant | **Basic operations OK**. Competent for searches, reminders, and simple tasks. The "sweet spot" for mid-range local. |
+| **70B - 100B** | 💼 Professional | **Handles complex workflows**. Good for Office automation and business processes. Can write simple code, but struggles with large Skills. |
+| **> 100B+** (Cloud SOTA) | 🦞 **The Ultimate King** | **True Agentic Freedom**. Multimodal; handles coding/PRs/iteration solo. The only tier for "Set it and forget it" autonomy. |
 
-> **Lobster Insight**: Local is for privacy and thrift; Cloud is for true "Agentic Freedom." Unless you have 128GB+ RAM at home, leave the heavy lifting to the cloud brains. 🦞💡
+**Lobster Insight**: Local is for privacy and thrift; Cloud is for true "Agentic Freedom." Unless you have 128GB+ RAM at home, leave the heavy lifting to the cloud brains. 🦞💡
 
-> **Quick Tip**: 
-> 1. For beginners, start with **Claude Sonnet** for maximum stability. When handling massive project repos, switching to **Gemini 1.5 Pro** will feel like a different dimension.
-> 2. **⚠️ Security Warning**: If you're using cloud models, guard your **API Keys** with your life! The recent $82,000 hijacking incident is a brutal wake-up call (see [Latest Crisis](#-latest-crisis)); always set strict usage quotas.
-> 3. **Local Players**: The latest **Ollama** now supports the **MiniMax**, **Kimi**, **GLM**, and **Qwen3** families. This is ideal for users with **Mac mini (64GB+ RAM suggested)** or **DGX Spark (128GB)**, allowing you to forget about API bills entirely while ensuring maximum privacy. Even if you don't run them locally, their cloud APIs are extremely budget-friendly. It's the best option for Lobster Farmers to avoid bill shock. 🦞✨
-> 4. **Context Size**: Regardless of the model, it is recommended to set the Context Size to **at least 64K** to ensure the Lobster maintains its "memory" during long sessions. 🦞🧠
+**Quick Tip**: 
+1. For beginners, start with **Claude Sonnet** for maximum stability. When handling massive project repos, switching to **Gemini 1.5 Pro** will feel like a different dimension.
+2. **⚠️ Security Warning**: If you're using cloud models, guard your **API Keys** with your life! The recent $82,000 hijacking incident is a brutal wake-up call (see [Latest Crisis](#-latest-crisis)); always set strict usage quotas.
+3. **Local Players**: The latest **Ollama** now supports the **MiniMax**, **Kimi**, **GLM**, and **Qwen3** families. This is ideal for users with **Mac mini (64GB+ RAM suggested)** or **DGX Spark (128GB)**, allowing you to forget about API bills entirely while ensuring maximum privacy. Even if you don't run them locally, their cloud APIs are extremely budget-friendly. It's the best option for Lobster Farmers to avoid bill shock. 🦞✨
+4. **Context Size**: Regardless of the model, it is recommended to set the Context Size to **at least 64K** to ensure the Lobster maintains its "memory" during long sessions. 🦞🧠
 
 ---
 
