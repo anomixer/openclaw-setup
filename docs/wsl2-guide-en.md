@@ -801,6 +801,7 @@ If you need to switch Ollama models:
 - [👍 Basic Windows Installation Guide](../README-EN.md)
 - [🔄 Migrating from Windows to WSL2](migration-guide-en.md)
 - [🤔 Why do we need WSL2?](why-wsl2-en.md)
+- [🧠 Deployment & Field Experience Guide: Which Model to Pick?](what-model-en.md)
 
 - [🦙 Ollama Website](https://ollama.com/)
 - [🦞 OpenClaw Website](https://openclaw.ai/)

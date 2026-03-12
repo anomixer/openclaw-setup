@@ -142,7 +142,7 @@ Homebrew 官方明確表示：
 
 ---
 
-**回到**：[主要 README](../README.md) | [WSL2 安裝指南](wsl2-guide.md) | [遷移指南](migration-guide.md)
+**回到**：[主要 README](../README.md) | [WSL2 安裝指南](wsl2-guide.md) | [遷移指南](migration-guide.md) | [部署指南](what-model.md)
 
 ---
 

@@ -153,7 +153,7 @@ ollama signin
 ollama pull gemini-3-flash-preview:cloud
 ```
 
-> 💡 **提示**: 雲端模型有用量限制，不要過於頻繁使用。
+> 💡 **提示**: 雲端模型有用量限制，不要過於頻繁使用。詳見 [模型選用與部署指南](docs/what-model.md)。
 
 ---
 
@@ -579,6 +579,7 @@ OLLAMA_CONTEXT_LENGTH=32768
 - [👍 WSL2 完整安裝指南](docs/wsl2-guide.md)
 - [🔄 從 Windows 遷移到 WSL2](docs/migration-guide.md)
 - [🤔 為什麼需要 WSL2?](docs/why-wsl2.md)
+- [🧠 部署與實戰經驗指南：該選哪個模型？](docs/what-model.md)
 
 - [🦙 Ollama 官網](https://ollama.com/)
 - [🦞 OpenClaw 官網](https://openclaw.ai/)

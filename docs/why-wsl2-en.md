@@ -142,7 +142,7 @@ Homebrew officially states:
 
 ---
 
-**Back to**: [Main README](../README-EN.md) | [WSL2 Installation Guide](wsl2-guide-en.md) | [Migration Guide](migration-guide-en.md)
+**Back to**: [Main README](../README-EN.md) | [WSL2 Installation Guide](wsl2-guide-en.md) | [Migration Guide](migration-guide-en.md) | [Model Guide](what-model-en.md)
 
 ---
 

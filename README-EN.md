@@ -153,7 +153,7 @@ ollama signin
 ollama pull gemini-3-flash-preview:cloud
 ```
 
-> 💡 **Tip**: Cloud models have usage limits, do not use them too frequently.
+> 💡 **Tip**: Cloud models have usage limits, do not use them too frequently. See [Model Guide & Deployment](docs/what-model-en.md) for details.
 
 ---
 
@@ -580,6 +580,7 @@ If you need to change Ollama models:
 - [👍 Complete WSL2 Installation Guide](docs/wsl2-guide-en.md)
 - [🔄 Migrating from Windows to WSL2](docs/migration-guide-en.md)
 - [🤔 Why do we need WSL2?](docs/why-wsl2-en.md)
+- [🧠 Deployment & Field Experience Guide: Which Model to Pick?](docs/what-model-en.md)
 
 - [🦙 Ollama Website](https://ollama.com/)
 - [🦞 OpenClaw Website](https://openclaw.ai/)

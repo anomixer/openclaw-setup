@@ -802,6 +802,7 @@ glm-4.7-flash:latest    baa9f0d690c1    22 GB    100% GPU     32768      Forever
 - [👍 Windows 基本安裝指南](../README.md)
 - [🔄 從 Windows 遷移到 WSL2](migration-guide.md)
 - [🤔 為什麼需要 WSL2?](why-wsl2.md)
+- [🧠 部署與實戰經驗指南：該選哪個模型？](what-model.md)
 
 - [🦙 Ollama 官網](https://ollama.com/)
 - [🦞 OpenClaw 官網](https://openclaw.ai/)

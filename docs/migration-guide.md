@@ -347,6 +347,7 @@ openclaw doctor --verbose
 - [主 README](../README.md) - Windows 原生版教學
 - [為什麼需要 WSL2？](why-wsl2.md) - 技術說明
 - [WSL2 完整安裝指南](wsl2-guide.md) - 從零開始安裝
+- [🧠 部署與實戰經驗指南：該選哪個模型？](what-model.md)
 
 ---
 
