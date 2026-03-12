@@ -20,7 +20,8 @@ const zhMaps = {
     'README.md': 'setup.md',
     'docs/why-wsl2.md': 'docs/why-wsl2.md',
     'docs/wsl2-guide.md': 'docs/wsl2-guide.md',
-    'docs/migration-guide.md': 'docs/migration-guide.md'
+    'docs/migration-guide.md': 'docs/migration-guide.md',
+    'docs/what-model.md': 'docs/what-model.md'
 };
 
 const enMaps = {
@@ -28,7 +29,8 @@ const enMaps = {
     'README-EN.md': 'setup.md',
     'docs/why-wsl2-en.md': 'docs/why-wsl2.md',
     'docs/wsl2-guide-en.md': 'docs/wsl2-guide.md',
-    'docs/migration-guide-en.md': 'docs/migration-guide.md'
+    'docs/migration-guide-en.md': 'docs/migration-guide.md',
+    'docs/what-model-en.md': 'docs/what-model.md'
 };
 
 // For ZH, we mostly want to replace 'murmur.md' linked in README etc. to 'index.md'
@@ -44,7 +46,8 @@ const enReplacements = {
     'README\\.md': 'setup.md',
     'why-wsl2-en\\.md': 'why-wsl2.md',
     'wsl2-guide-en\\.md': 'wsl2-guide.md',
-    'migration-guide-en\\.md': 'migration-guide.md'
+    'migration-guide-en\\.md': 'migration-guide.md',
+    'what-model-en\\.md': 'what-model.md'
 };
 
 fs.mkdirSync('build_docs_zh', { recursive: true });

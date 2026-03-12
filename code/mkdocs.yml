@@ -40,6 +40,7 @@ extra:
 nav:
   - 🦞 戰況日誌 (Murmur): index.md
   - 📖 README (Windows Setup): setup.md
+  - 🎯 模型選用: docs/what-model.md
   - 🚀 WSL2 教學: docs/wsl2-guide.md
   - 🤔 為什麼需要 WSL2: docs/why-wsl2.md
   - 🔄 遷移指南: docs/migration-guide.md
