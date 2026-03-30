@@ -24,7 +24,10 @@ const REPOS = [
     'miantiao-me/cloud-claw', 'XposeMarket/SmallClaw', 'zofrasca/lightclaw',
     'machinae/awesome-claws',
     // TOP Global Repos
-    'freeCodeCamp/freeCodeCamp', 'facebook/react', 'torvalds/linux',
+    'codecrafters-io/build-your-own-x', 'sindresorhus/awesome', 'freeCodeCamp/freeCodeCamp',
+    'public-apis/public-apis', 'EbookFoundation/free-programming-books',
+    'kamranahmedse/developer-roadmap', 'donnemartin/system-design-primer',
+    'openclaw/openclaw', 'facebook/react', 'torvalds/linux',
     'TheAlgorithms/Python', 'vuejs/vue'
 ];
 
@@ -146,7 +149,21 @@ function updateFile(filePath, starsMap) {
         }
         if (tStart !== -1 && tEnd >= tStart) {
             let topRows = [];
-            let mapNameRepo = { 'FreeCodeCamp': 'freeCodeCamp/freeCodeCamp', 'OpenClaw': 'openclaw/openclaw', 'React': 'facebook/react', 'Linux': 'torvalds/linux', 'Python (TheAlgorithms)': 'TheAlgorithms/Python', 'Vue.js': 'vuejs/vue' };
+            let mapNameRepo = {
+                'build-your-own-x': 'codecrafters-io/build-your-own-x',
+                'awesome': 'sindresorhus/awesome',
+                'FreeCodeCamp': 'freeCodeCamp/freeCodeCamp',
+                'freeCodeCamp': 'freeCodeCamp/freeCodeCamp',
+                'public-apis': 'public-apis/public-apis',
+                'free-programming-books': 'EbookFoundation/free-programming-books',
+                'developer-roadmap': 'kamranahmedse/developer-roadmap',
+                'system-design-primer': 'donnemartin/system-design-primer',
+                'OpenClaw': 'openclaw/openclaw',
+                'React': 'facebook/react',
+                'Linux': 'torvalds/linux',
+                'Python (TheAlgorithms)': 'TheAlgorithms/Python',
+                'Vue.js': 'vuejs/vue'
+            };
             for (let i = tStart; i <= tEnd; i++) {
                 let cols = lines[i].split('|').map(s => s.trim());
                 if (cols.length >= 5) {
