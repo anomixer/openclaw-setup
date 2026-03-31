@@ -4,8 +4,8 @@
 
 > **警告**: 本檔案包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-03-30
-> **狀態**: OpenClaw 存活中，目前已衝破 340.6 萬星大關！登頂 GitHub #1 倒數計時中！🦞🚀
+> **最後更新**: 2026-03-31
+> **狀態**: OpenClaw 存活中，目前已衝破  34.2 萬星大關！挺進 GitHub #7！🦞🚀
 
 > **OpenClaw 版本**: v2026.3.28 (最新穩定版)｜xAI 接入 Responses API、Alibaba Model Studio 遷移、71 位貢獻者 🦞🛡️
 
@@ -13,11 +13,11 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 340.6K Stars，**穩坐歷史第二**)，與榜首差距縮至 **98.6K**。
-2. **今日重點**: **阿里巴巴官方稱 AI 代理為「虛擬知識員工」**；Peter 喊話美國應學習中國 AI 普及速度。
+1. **主角**: **OpenClaw** (🔥 342K Stars，**穩坐歷史第七**)，與榜首差距縮至 ** 142.9K**。
+2. **今日重點**: **Google 內部 AI 工具 「Agent Smith」曝光**；中國掀起「一人公司」創業潮，龍蝦成運營骨幹。
 3. **生態擴張**: ClawHub 突破 **13,729 個**插件、每月活躍用戶達 **200 萬**，龍蝦生態持續爆發。
 4. **官方版本**: 最新穩定版 **v2026.3.28**，由全球 71 位開發者共同開發。
-5. **最新進展**: Stars 突破 34 萬大關，距離 GitHub #1 僅剩 **9.8 萬星**，登頂倒數中。
+5. **最新進展**: Stars 突破 34.2 萬，挺進 GitHub 總榜 **第 7 名**！
 6. **結論**: 從「寫代碼」到「管代理人」，龍蝦正重新定義未來的工作模式。🦞🚀
 
 ---
@@ -25,6 +25,7 @@
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-03-31: Google 內部工具 「Agent Smith」曝光、中國掀起「一人公司」龍蝦創業潮 🦞🚀
   - 🟢 2026-03-30: 阿里巴巴官方稱 AI 代理為「虛擬知識員工」、Peter 喊話美國應學習中國 AI 速度 🦞🚀
   - 🟢 2026-03-29: OpenClaw v2026.3.28 正式發布！71 位貢獻者、xAI 全面接入、MiniMax 圖像生成 🦞🚀
   - 🟢 2026-03-28: ClawHub 惡意插件清場、MS Teams/Discord 修復、人才挖角戰白熱化 🦞🛡️⚡
@@ -69,13 +70,20 @@
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
 
+### 🟢 2026-03-31: Google 內部工具 「Agent Smith」曝光、中國掀起「一人公司」龍蝦創業潮 🦞🚀
+
+- **🏢 Google 內部 AI 「史密斯特工」(Agent Smith) 曝光**：據 Technews 報導，Google 正運用名為「Agent Smith」的內部 AI 工具來自動化程式撰寫任務。這顯示矽谷巨頭正加速開發對標 OpenClaw 的企業級私有代理人，代理人大戰進入白熱化。
+- **🛍️ 中國「一人公司 (OPC)」創業潮**：OpenClaw 正成為電商領域「數位員工」的首選。許多創業者利用龍蝦處理庫存、社群與客服，實現真正的「24/7 自動化商店」。
+- **🛡️ 安全警報：中方警示辦公養蝦風險**：針對 OpenClaw 的高速普及，中國當局近期向國企發布警示，提醒在辦公電腦運行具備高權限的開源代理人可能導致系統性風險。
+- **📈 GitHub 里程碑 (342K Stars)**：OpenClaw 今日正式突破 34.2 萬星，超越了 `system-design-primer`，晉升 **GitHub 全球總榜第 7 名**！距離榜首 build-your-own-x 還有 14.2 萬星。
+
 ### 🟢 2026-03-30: 阿里巴巴官方稱 AI 代理為「虛擬知識員工」、Peter 喊話美國應學習中國 AI 速度 🦞🚀
 
 - **🏢 阿里巴巴：AI 代理是「虛擬知識員工」**：官方指出，AI 代理本質上是「虛擬知識型員工」，潛在市場規模將全面提升全球 50 兆美元的白領勞動力市場，其規模甚至可能超越「所有其他產業的總和」。阿里巴巴正全面重塑自身，捕捉這場萬億美元級的新機遇。
 - **🦞 創辦人籲美「向中看齊」**：Peter Steinberger 今日受訪指出，美國在監管陰雲下顯得步履維艱，應學習中國對 AI 代理人「先普及、再優化」的採用速度。他警告若不加速實裝 AI 代理人，美方將失掉下一代數位主權。
 - **針對昨日 v2026.3.28 更新補充**：xAI 遷移至 Responses API 並同步啟用 `x_search` 給所有用戶。此外，Qwen 模型也正式遷移至 Alibaba Model Studio，架構更趨穩定。
 - **📰 媒體瘋傳「龍蝦普惠」**：AOL 與 UNU 今日刊文報導，OpenClaw 正讓「人人皆有 Agent」的時代提早降臨，尤其是 WhatsApp/Telegram 的集成讓非開發者用戶也能輕鬆「養蝦」。
-- **📈 GitHub 里程碑 (340.6K Stars)**：與榜首 FreeCodeCamp 的差距已縮小至 **98.6K**。龍蝦基金會（OpenClaw Foundation）正朝著 5 月登頂的目標穩步前行。
+- **📈 GitHub 里程碑 (340.6K Stars)**：與榜首 build-your-own-x 的差距已縮小至 **98.6K**。龍蝦基金會（OpenClaw Foundation）正朝著 5 月登頂的目標穩步前行。
 
 ### 🟢 2026-03-29: OpenClaw v2026.3.28 正式發布！xAI/MiniMax/Gemini CLI 全面升級 🦞🚀
 
@@ -134,7 +142,7 @@
 - **📱 傳音 (TECNO) 推出 EllaClaw 移動代理人**：TECNO 宣佈將在其移動設備中內置基於 OpenClaw 的 **EllaClaw** 代理人，主攻新興市場生產力，標誌著代理人移動化新階段。
 - **💼 AI 勞動力市集崛起，龍蝦大軍可以出差賺錢了！**：Monday.com 發表了 **Agentalent.ai**，讓企業直接「聘用」AI 代理人處理工作的市集平台。這不只是「龍蝦營業」的概念——而是讓你把自己的龍蝦大軍「發包」給外部雇主，直接就鈴鈴鈴搖錢。誰說養龍蝦只會花錢？從今天起你的龍蝦連工資都自己賺了！🦞💰
 - **🎨 3D 生成流自動化**：Hitem3D 圖像轉 3D 工具正式登陸 ClawHub，指派龍蝦全自動把草圖轉成 3D 模型，設計師的睡眠有救了。
-- **📈 GitHub 逼近 33.2 萬星 (332,400 Stars)**：與榜首 FreeCodeCamp 的差距持續縮小至 **10.6 萬星**。
+- **📈 GitHub 逼近 33.2 萬星 (332,400 Stars)**：與榜首 build-your-own-x 的差距持續縮小至 **10.6 萬星**。
 
 ### 🟢 2026-03-23: 騰訊「微信龍蝦」12 億全線鋪開與 Meta 「CEO 代理人」社死現場 🦞📲
 
@@ -277,44 +285,44 @@
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 341.0K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 42.6K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 36.7K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 342K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 43.2K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 37.2K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 29K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
-| **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 27.7K | Markdown | OpenClaw 使用案例社群蒐集 | 找靈感看這裡 |
-| **[picoclaw](https://github.com/sipeed/picoclaw)** | 26.4K | Go 🐹 | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 |
-| **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 25.7K | TypeScript 🟦 | 容器化、安全、WhatsApp 整合、Anthropic SDK | 安全優先、即時通訊 |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 20.3K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 17.6K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
-| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 17.5K | JavaScript 🟨 | NVIDIA 企業級安全沙箱 | 企業部署、安全優先 |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 17.5K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
+| **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 28.1K | Markdown | OpenClaw 使用案例社群蒐集 | 找靈感看這裡 |
+| **[picoclaw](https://github.com/sipeed/picoclaw)** | 26.8K | Go 🐹 | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 |
+| **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 26K | TypeScript 🟦 | 容器化、安全、WhatsApp 整合、Anthropic SDK | 安全優先、即時通訊 |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 20.6K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 18.4K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
+| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 17.8K | JavaScript 🟨 | NVIDIA 企業級安全沙箱 | 企業部署、安全優先 |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 17.7K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 13.2K | Python 🐍 | 24/7 主動式 Agent 的記憶系統 | 長期記憶、主動式 AI |
-| **[ironclaw](https://github.com/nearai/ironclaw)** | 11K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 |
+| **[ironclaw](https://github.com/nearai/ironclaw)** | 11.2K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 9.8K | TypeScript 🟦 | 在 Cloudflare Workers 上跑 OpenClaw | 無伺服器、零維護 |
-| **[MemOS](https://github.com/MemTensor/MemOS)** | 7.9K | Python 🐍 | AI 記憶體作業系統，跨任務 Skill 記憶 | 記憶管理、Skill 複用 |
+| **[MemOS](https://github.com/MemTensor/MemOS)** | 8K | Python 🐍 | AI 記憶體作業系統，跨任務 Skill 記憶 | 記憶管理、Skill 複用 |
 | **[refly](https://github.com/refly-ai/refly)** | 7.1K | TypeScript 🟦 | 第一開源 Agent Skills Builder | 視覺化 Skill 編排 |
-| **[nullclaw](https://github.com/nullclaw/nullclaw)** | 6.9K | Zig ⚡ | 最快、最小且全自動 AI 助理 | 極端效能與資源最佳化 |
-| **[mimiclaw](https://github.com/memovai/mimiclaw)** | 4.9K | C ⚙️ | 跑在 $5 晶片上，無需 OS/Node.js | 極限嵌入式、成本優先 |
+| **[nullclaw](https://github.com/nullclaw/nullclaw)** | 7K | Zig ⚡ | 最快、最小且全自動 AI 助理 | 極端效能與資源最佳化 |
+| **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5K | C ⚙️ | 跑在 $5 晶片上，無需 OS/Node.js | 極限嵌入式、成本優先 |
 | **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.3K | TypeScript 🟦 | 飛書 (Lark) 整合 | 飛書企業用戶 |
 | **[manifest](https://github.com/mnfst/manifest)** | 4.1K | TypeScript 🟦 | OpenClaw Agent 即時成本監控 | Cost Observability |
+| **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 3.5K | Python 🐍 | 跨 LLM 與平台的長期記憶 OS | 記憶體管理進階版 |
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 3.3K | JavaScript 🟨 | Antigravity 模型 Proxy | 使用 Antigravity (遭封殺 🚫) |
-| **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 3.3K | Python 🐍 | 跨 LLM 與平台的長期記憶 OS | 記憶體管理進階版 |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.4K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 1.9K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 2K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 1.5K | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
-| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 965 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 597 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 545 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
-| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 494 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
-| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 380 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 352 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
-| **[Project Golem](https://github.com/Arvincreator/project-golem)** | 330 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
+| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 929 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 611 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 552 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
+| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 499 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
+| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 385 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 363 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
+| **[Project Golem](https://github.com/Arvincreator/project-golem)** | 335 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
 | **[cloud-claw](https://github.com/miantiao-me/cloud-claw)** | 246 | TypeScript 🟦 | Cloudflare + OpenClaw | 雲端邊緣運算 |
-| **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 226 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
-| **[lightclaw](https://github.com/zofrasca/lightclaw)** | 202 | Rust 🦀/Shell 🐚 | 輕盈蝦 | 輕量解決方案 |
-| **[MaxClaw](https://github.com/Lichas/maxclaw)** | 183 | Go 🐹/TS 🟦 | 小蝦 (與廠商 MiniMax 撞名) | 輕量 Agent |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 178 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
+| **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 227 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
+| **[lightclaw](https://github.com/zofrasca/lightclaw)** | 203 | Rust 🦀/Shell 🐚 | 輕盈蝦 | 輕量解決方案 |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 200 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
+| **[MaxClaw](https://github.com/Lichas/maxclaw)** | 190 | Go 🐹/TS 🟦 | 小蝦 (與廠商 MiniMax 撞名) | 輕量 Agent |
 | **[MiniClawd](https://github.com/FoundDream/miniclawd)** | 116 | Python 🐍 | 零依賴、純 Python 實作 | 腳本集成、快速原型 |
 | **[LiteClaw](https://github.com/liteclaw/liteclaw)** | 55 | Python/JS 🟨 | 網頁端 Web Worker 專屬版 | 純網頁端 Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 26 | Zig/C ⚡⚙️ | 號稱 <100ms 延遲的極速推理版 | 即時語音互動、毫秒級反應 |
@@ -485,23 +493,25 @@ OpenClaw
 | **2026/03/28** | **338.8K** | 即時抓取更新 | 🦞 |
 | **2026/03/29** | **340.5K** | 即時抓取更新 | 🦞 |
 | **2026/03/30** | **340.6K** | 即時抓取更新 | 🦞 |
+| **2026/03/31** | **342K** | 最新抓取星數 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-03-30 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-03-31 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 484.4K | 各種實作大成 |
-| 2 | awesome | 450.0K | 資源大本營 |
-| 3 | freeCodeCamp | 439.2K | 教程大本營 |
-| 4 | public-apis | 417.3K | 免費 API 集合 |
+| 1 | build-your-own-x | 484.9K | 各種實作大成 |
+| 2 | awesome | 450.3K | 資源大本營 |
+| 3 | freeCodeCamp | 439.8K | 教程大本營 |
+| 4 | public-apis | 417.6K | 免費 API 集合 |
 | 5 | free-programming-books | 384.7K | 程式書籍匯集 |
-| 6 | developer-roadmap | 351.8K | 開發者路徑圖 |
-| 7 | system-design-primer | 341.0K | 系統設計入門 |
-| **8** | **OpenClaw** | **340.6K** | **🏆 已超越 React 與 Linux！與第 7 名僅差 400 星！** |
-| 14 | React | 244.4K | 前端霸主 |
-| 15 | Linux | 225.6K | 系統核心 |
+| 6 | developer-roadmap | 351.9K | 開發者路徑圖 |
+| **7** | **OpenClaw** | **342K** | **🏆 已超越 React 與 Linux！與第 6 名僅差 9.9K 星！** |
+| 8 | system-design-primer | 340.7K | 系統設計入門 |
+| 9 | coding-interview-university | 300.2K | CS 面試準備指南 |
+| 10 | React | 244.3K | 前端霸主 |
+| 11 | Linux | 225.8K | 系統核心 |
 
-> **下一個目標**: developer-roadmap (351.8K)。目前差距 **11.2K**。以目前日增 ~2K-3K 的速度，預計在 **4-5 天內** 完成超越，挺進歷史前六！🦞🚀
+> **下一個目標**: developer-roadmap (351.9K)。目前差距 **9.9K**。以目前日增 ~2K-3K 的速度，預計在 **3-5 天內** 完成超越，挺進歷史前六！🦞🚀
 
 ### 🏛️ 彼得加入 OpenAI 與歐洲監管
 - **動向**: 創辦人 Peter Steinberger 拒絕 Meta，加入 OpenAI 負責 Personal Agents 開發。OpenClaw 轉入獨立基金會。
