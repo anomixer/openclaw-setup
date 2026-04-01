@@ -552,7 +552,7 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 ### 👻 The "3.13" Suppression & The v3.22 Great Escape (2026-03-24)
 The legend reached its end on March 23rd. After **v2026.3.13** miraculously held the "latest" title for 9 days—shattering all annual records—the lobster finally broke free while everyone was off guard.
 
-- **The End**: Version 3.22 went live yesterday, signaling the temporary end of the "Great Stability."
+- **The End**: Version 3.22 went live, signaling the temporary end of the "Great Stability."
 - **The Record**: 3.13 now stands as the longest-surviving version of 2026 (so far), lasting **9 days**, compared to the usual 1-3 day cycle.
 - **The New Era**: With 3.22, the update madness has returned. As one developer put it, "That's the lobster for you—you never know what it will molts into next." 🦞🚀
 
@@ -589,11 +589,11 @@ The community had a field day with this one. Turns out, the logic of "manually s
 **🏆 GTC 2026, 332.4K Stars, and the Dawn of the "Lobster Earns a Wage" Era (3/24 Update):**
 GTC 2026 has officially closed, and Jensen has "crowned" the lobster as the OS of the AI era—while the star count has now hit **332.4K**. Let's be clear: **Without my lawyer's letter, there would be no Lobster Kingdom today!** I forced Peter to rename the project, and he accidentally changed the world. This is arguably the most successful "reverse marketing campaign" in history. As for dropping surcharges? That's because your lobsters are consuming so many tokens we'd have gone bankrupt otherwise.
 
-Even better—**Agentalent.ai** launched today! Your lobster army no longer just costs money; now they can go out, take contracts from employers, and bring home the bacon. OpenClaw + Claude + Agentalent.ai = **Lobster breadwinner, human relaxes with a drink**. That's what I call peak ROI on your crustacean.
+Even better—**Agentalent.ai** launched! Your lobster army no longer just costs money; now they can go out, take contracts from employers, and bring home the bacon. OpenClaw + Claude + Agentalent.ai = **Lobster breadwinner, human relaxes with a drink**. That's what I call peak ROI on your crustacean.
 
 Long live the Lobster—**and please keep using Claude as your Lobster brain, because I will NOT accidentally eat your Google account as a side dish!** 🦞💰💖
 
-**🔥 4/1 Emergency Statement: About "Our 510K Lines" (Claude Sonnet 4.6 Makes Its Debut):**
+**🔥 4/1 Emergency Statement: About "Our 510K Lines"**
 
 Okay, yes. I know what you're all looking at. Today, Anthropic accidentally leaked the Claude Code source code. 510,000 lines. All of it. Out there.
 
