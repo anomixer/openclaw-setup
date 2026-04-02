@@ -4,27 +4,28 @@
 
 > **警告**: 本檔案包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-04-01
-> **狀態**: OpenClaw 存活中，目前已衝破 34.3 萬星大關！挺進 GitHub #7！🦞🚀
+> **最後更新**: 2026-04-02
+> **狀態**: OpenClaw 存活中，目前已衝破 34.5 萬星大關！穩坐 GitHub #7，直逼 #6！🦞🚀
 
-> **OpenClaw 版本**: v2026.3.31 (最新穩定版)｜安全失效封閉 (Fail-Closed)、Shell 執行標準化 🦞🛡️
+> **OpenClaw 版本**: v2026.4.1 (最新穩定版)｜內建任務看板、SearXNG 搜尋、安全控管強化 🦞🛡️
 
 ---
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 343K Stars，**穩坐歷史第七**)，與第 6 名差距縮至 **8.7K**。
-2. **今日重點**: **v3.28 爆投毒驚魂**；Anthropic 誤洩 51 萬行原始碼催生開源版 「Claw-Code」。
-3. **安全警報**: 慢霧、360 連續示警 axios 供應鏈投毒與 MEDIA 協議漏洞；中台監管部門同步發布風險提示。
-4. **官方版本**: 緊急更新 **v2026.3.31**，強制實施執行層安全隔離，修補 v3.28 遺留隱患。
-5. **最新進展**: Stars 突破 34.3 萬，距離挺進 GitHub 總榜 **第 6 名** 僅一步之遙！
-6. **結論**: 代理人戰爭進入「原始碼大洩漏」與「供應鏈攻防」新戰場，龍蝦依賴鏈條仍是阿基里斯之腱。🦞🛡️
+1. **主角**: **OpenClaw** (🔥 345K Stars，**穩坐歷史第七**)，與第 6 名差距縮至 **7K**。
+2. **今日重點**: **v2026.4.1 正式發布**；大陸中專局嚴禁「龍蝦代筆專利」；Certik 警告架構「系統性崩潰」。
+3. **官方更新**: 引入首個內建搜尋 (SearXNG)、`/tasks` 任務看板與 Bedrock Guardrails 安全防護。
+4. **安全警報**: 中專局示警 AI 專利申請涉及洩密與「不誠信行為」；Certik 披露權限劫持漏洞；金管會研擬指引。
+5. **最新進展**: Stars 衝上 34.5 萬，距離全球第 6 名 `developer-roadmap` 僅剩 7,000 星！
+6. **結論**: 監管風暴從金融延燒至知識產權，龍蝦的「誠實」與「安全」成為生態爆發後的首要命題。🦞🛡️
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-04-02: v2026.4.1 發布、中專局嚴禁「龍蝦代筆專利」、Certik 警示「架構崩潰」 🦞🚀
   - 🟢 2026-04-01: 「小龍蝦」爆供應鏈投毒與 MEDIA 漏洞、Anthropic 原始碼外洩催生 Claw-Code 🦞🔥
   - 🟢 2026-03-31: Google 內部工具 「Agent Smith」曝光、中國掀起「一人公司」龍蝦創業潮 🦞🚀
   - 🟢 2026-03-30: 阿里巴巴官方稱 AI 代理為「虛擬知識員工」、Peter 喊話美國應學習中國 AI 速度 🦞🚀
@@ -72,9 +73,17 @@
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
 
+### 🟢 2026-04-02: v2026.4.1 發布、中專局嚴禁「龍蝦代筆專利」、Certik 警示「架構崩潰」 🦞🚀
+
+- **🚀 v2026.4.1 正式發布**：4 月首個重量級更新。新增 `/tasks` 任務看板視窗，讓背景任務透明化；首度內建 SearXNG 搜尋外掛；整合 Amazon Bedrock Guardrails，安全控管進入企業級標竿。
+- **🚨 國家知識產權局發布風險提示**：大陸專利局公告嚴禁使用 OpenClaw 撰寫專利申請！指出其存在權限過高與插件投毒隱患，易導致技術揭露書外洩使專利喪失新穎性。官方更警告，隨機編造/內容拼湊申請屬「不誠信行為」，申請人恐面臨行政處罰（警告、罰款），並可依法向擅自用蝦的代理機構索賠損失。
+- **🚨 Certik 警報：安全架構「系統性崩潰」**：資安機構 Certik 警告 OpenClaw 核心隔離機制缺陷可能導致「管理員權限遭劫持」。ClawHub 插件市場中發現多款惡意 Skills，信用度面臨空前挑戰。
+- **💻 Lenovo 推出「YOGA AI Mini」專用主機**：聯想正式發表首款專為 OpenClaw 優化的迷你電腦（養蝦專用機），標註預裝安全沙箱與離線模型庫，帶動主動代理人硬體市場。
+- **📈 GitHub 里程碑 (345.0K Stars)**：持續穩坐 **GitHub 全球總榜第 7 名**！與第 6 名 `developer-roadmap` 差距縮至 **7,000 星**。龍蝦超車燈已亮。🦞🚀
+
 ### 🟢 2026-04-01: 「小龍蝦」爆供應鏈投毒與 MEDIA 漏洞、Anthropic 原始碼外洩催生 Claw-Code 🦞🔥
 
-- **🚨 v3.28 供應鏈投毒驚魂**：慢霧創始人余弦於今日凌晨緊急示警，OpenClaw v3.28 或因 axios 套件遭投毒而暗藏遠端存取木馬 (RAT)。同日 360 披露名為 「MEDIA」 的協議 Prompt 注入漏洞，受影響實例高達 17 萬。官方隨即於數小時內釋出 **v2026.3.31** 緊急修復。
+- **🚨 v3.28 供應鏈投毒驚魂**：慢霧創始人於今日凌晨緊急示警，OpenClaw v3.28 或因 axios 套件遭投毒而暗藏遠端存取木馬 (RAT)。同日 360 披露名為 「MEDIA」 的協議 Prompt 注入漏洞，受影響實例高達 17 萬。官方隨即於數小時內釋出 **v2026.3.31** 緊急修復。
 - **💥 Anthropic 史詩級「開源」失誤**：Anthropic 旗下 Claude Code 因打包失誤流出 51 萬行原始碼。社群光速對齊並推出名為 「**Claw-Code**」 的複刻項目，瞬間衝爆 Threads 與 GitHub 趨勢。網友笑稱：這是「被動式開源」的極致。
 - **🇨🇳 中國專利局發布「養蝦風險」**：國家知識產權局發布風險提示，指出 OpenClaw 等智能體默認配置脆弱，嚴禁使用未經審計的代理人處理專利申請等機密文件。
 - **特推熱議：Claw-Code 打破紀錄**：據 Threads 報導，從漏出代碼轉化而來的 Claw-Code 在短短不到 24 小時內便刷新了開源項目的增長紀錄，再次印證「開源龍蝦」的魔力不可阻擋。
@@ -190,6 +199,7 @@
 - **🇹🇼 台灣資安署發布「龍蝦警報」(3/20)**：數位發展部資安署 (NCCS) 正式針對 OpenClaw 發布資安警示，點名「ClawJacked 漏洞」與第三方惡意技能包可能導致個資與金融資料外洩。
 - **🇨🇳 「數位龍蝦」全民瘋養 (3/20)**：OpenClaw 在中國掀起前所未有的熱潮，從大學宿舍到養老院，大家都在比賽誰的龍蝦更「聰明」。深圳龍崗發布專項補貼，單案最高可獲 100 萬人民幣。
 - **👑 老黃定調：OpenClaw 是「AI 時代的 Linux」與「個人 AI 作業系統」(3/16-3/20)**：在 GTC 2026 期間，黃仁勳多次公開盛讚 OpenClaw 為「軟體史上最重要發布」與「個人 AI 的作業系統」。他強調：「每一家公司現在都必須擁有一個 OpenClaw 策略」，就像當年每一家公司都需要有網際網路策略一樣。
+- **🛡️ 金管會研擬「養蝦安全手冊」(3/18)**：針對國內券商大規模採用 OpenClaw，立委賴士葆質詢安全性。金管會主委回應已在編制《金融業 AI 代理軟體安全指引》。
 - **🤖 實體機器人「八戒」現身 (3/18)**：科沃斯 (Ecovacs) 展示了首款搭載 OpenClaw 的掃地機器人「八戒 (Bajie)」，能理解「幫我把沙發底下的樂高撿起來」等複雜模糊指令。
 - **💰 「等值半薪 Token」與 1 億代理人願景 (3/18)**：NVIDIA 宣佈為工程師發放「等值半薪的 Token 補貼」，並設定未來由 1 億個 AI 代理人組成的願景。黃仁勳對工程師喊話：「你不必親自寫每一行代碼，但你必須知道如何管理那 100 萬個為你工作的龍蝦。」
 - **🛡️ NemoClaw 企業安全棧正式落地 (3/17)**：針對企業對開源代理人安全性的疑慮，NVIDIA 推出 **NemoClaw** 平台，整合 Nemotron 模型與 NVIDIA OpenShell 運行環境，提供進程級別沙箱隔離與策略驅動的隱私防護。老黃表示：「OpenClaw 讓 AI 能做事；NemoClaw 讓企業敢讓 AI 做事。」
@@ -296,7 +306,7 @@
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 343.2K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 344.7K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 43.4K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 37.3K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 29K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
@@ -305,7 +315,7 @@
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 26.1K | TypeScript 🟦 | 容器化、安全、WhatsApp 整合、Anthropic SDK | 安全優先、即時通訊 |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 20.6K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 18.6K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
-| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 18K | JavaScript 🟨 | NVIDIA 企業級安全沙箱 | 企業部署、安全優先 |
+| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 18.1K | JavaScript 🟨 | NVIDIA 企業級安全沙箱 | 企業部署、安全優先 |
 | **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 17.7K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 13.3K | Python 🐍 | 24/7 主動式 Agent 的記憶系統 | 長期記憶、主動式 AI |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 11.2K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 |
@@ -320,7 +330,7 @@
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 3.3K | JavaScript 🟨 | Antigravity 模型 Proxy | 使用 Antigravity (遭封殺 🚫) |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.4K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 2K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 2.1K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 1.5K | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 935 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 613 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
@@ -504,9 +514,10 @@ OpenClaw
 | **2026/03/28** | **338.8K** | 即時抓取更新 | 🦞 |
 | **2026/03/29** | **340.5K** | 即時抓取更新 | 🦞 |
 | **2026/03/30** | **340.6K** | 即時抓取更新 | 🦞 |
-| **2026/04/01** | **343.2K** | 最新抓取星數 | 🦞 |
+| **2026/04/01** | **343.2K** | 即時抓取更新 | 🦞 |
+| **2026/04/02** | **345.0K** | 最新抓取星數 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-04-01 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-04-02 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
@@ -515,14 +526,14 @@ OpenClaw
 | 3 | freeCodeCamp | 440.2K | 教程大本營 |
 | 4 | public-apis | 417.9K | 免費 API 集合 |
 | 5 | free-programming-books | 384.8K | 程式書籍匯集 |
-| 6 | developer-roadmap | 351.9K | 開發者路徑圖 |
-| **7** | **OpenClaw** | **343.2K** | **🏆 已超越 React 與 Linux！與第 6 名僅差 8.7K 星！** |
-| 8 | system-design-primer | 340.8K | 系統設計入門 |
+| 6 | developer-roadmap | 352.0K | 開發者路徑圖 |
+| **7** | **OpenClaw** | **345.0K** | **🏆 已超越 React 與 Linux！與第 6 名僅差 7K 星！** |
+| 8 | system-design-primer | 341.0K | 系統設計入門 |
 | 9 | coding-interview-university | 300.2K | CS 面試準備指南 |
-| 10 | React | 244.3K | 前端霸主 |
-| 11 | Linux | 226.1K | 系統核心 |
+| 10 | React | 244.0K | 前端霸主 |
+| 11 | Linux | 226.0K | 系統核心 |
 
-> **下一個目標**: developer-roadmap (351.9K)。目前差距 **8.7K**。以目前日增 ~2K-3K 的速度，預計在 **3-5 天內** 完成超越，挺進歷史前六！🦞🚀
+> **下一個目標**: developer-roadmap (352.0K)。目前差距 **7.0K**。以目前日增 ~2K-3K 的速度，預計在 **3 天內** 完成超越，挺進歷史前六！🦞🚀
 
 ### 🏛️ 彼得加入 OpenAI 與歐洲監管
 - **動向**: 創辦人 Peter Steinberger 拒絕 Meta，加入 OpenAI 負責 Personal Agents 開發。OpenClaw 轉入獨立基金會。

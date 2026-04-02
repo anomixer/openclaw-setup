@@ -4,26 +4,27 @@
 
 > **WARNING**: This file contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-04-01
-> **Status**: OpenClaw is alive, now past 343.2K stars! GitHub #7 and climbing! 🦞🚀
+> **Last Updated**: 2026-04-02
+> **Status**: OpenClaw is alive, now past 345K stars! GitHub #7 and closing in on #6! 🦞🚀
 
-> **OpenClaw Version**: v2026.3.31 (Latest Stable) | Security Fail-Closed, Shell Host Standardization 🦞🛡️
+> **OpenClaw Version**: v2026.4.1 (Latest Stable) | Task Board, SearXNG Search, Security Guardrails 🦞🛡️
 
 ---
 ## ⏱️ TL;DR (30-second summary)
 
-1. **Protagonist**: **OpenClaw** (🔥 343.2K Stars, **ranked #7**), gap to #6 is **8.7K**.
-2. **24h Focus**: **v3.28 Supply Chain Poisoning Scare**; Anthropic's leak of 510K source lines births "Claw-Code".
-3. **Security Alert**: SlowMist & 360 warn of axial supply chain poisoning and MEDIA protocol vulnerabilities; regulatory agencies issuing risk alerts.
-4. **Official Version**: Emergency **v2026.3.31** enforces execution-layer isolation, patching v3.28 exploits.
-5. **Latest Progress**: 343.2K stars, one step away from **GitHub Top 6**.
-6. **Conclusion**: Agentic warfare shifts to "Source Leaks" and "Supply Chain Defense," lobster's dependencies remain its Achilles' heel. 🦞🛡️
+1. **Protagonist**: **OpenClaw** (🔥 345K Stars, **ranked #7**), gap to #6 is **7K**.
+2. **24h Focus**: **v2026.4.1 Released**; China's CNIPA bans "Lobster-written patents"; Certik warns of "systemic collapse."
+3. **Official Update**: First native search (SearXNG), `/tasks` task board, and Bedrock Guardrails security integration.
+4. **Security Alert**: CNIPA warns of AI patent application risks; Certik discloses privilege hijacking; FSC mulls security guide.
+5. **Latest Progress**: 345K stars, narrowing gap to #6 `developer-roadmap` to just 7,000.
+6. **Conclusion**: Regulatory storm spreads from finance to IP; "honesty" and "security" become the primary mandates after the ecosystem explosion. 🦞🛡️
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-04-02: v2026.4.1 Released, CNIPA Bans "Lobster Patent Drafting", Certik Warns of "Collapse" 🦞🚀
   - 🟢 2026-04-01: Supply Chain Poisoning & MEDIA Flaws, Anthropic Leak Sparks Claw-Code 🦞🔥
   - 🟢 2026-03-31: Google's "Agent Smith" Exposed, Chinese "One-Person Company" Lobster Frenzy 🦞🚀
   - 🟢 2026-03-30: Alibaba Official Defines AI Agents as "Virtual Knowledge Workers", Peter Urges US to Learn from China 🦞🚀
@@ -71,9 +72,17 @@
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
 
+### 🟢 2026-04-02: v2026.4.1 Released, CNIPA Bans "Lobster Patent Drafting", Certik Warns of "Collapse" 🦞🚀
+
+- **🚀 v2026.4.1 Officially Released**: The first major update of April. Introduces a native `/tasks` board for background task visibility; bundles the SearXNG search plugin; integrates Amazon Bedrock Guardrails for enterprise-grade safety.
+- **🚨 CNIPA Issues Risk Alert**: China's National Intellectual Property Administration (CNIPA) issued a major alert banning OpenClaw usage in patent drafting! Officials cited "excessive privileges and plugin poisoning" risks leading to core technical disclosure leaks and loss of novelty or "AI hallucinations." Warning: randomly generated or "stitched" applications are "dishonest conduct" subject to administrative penalties (fines/warnings), and applicants may claim damages from agencies using agents without authorization.
+- **🚨 Certik Alert: "Systemic Collapse" of Security Boundaries**: Security firm Certik warned that flaws in OpenClaw's core isolation mechanism could lead to "Administrative Hijacking." With malicious extensions appearing on ClawHub, the project's credibility is being tested.
+- **💻 Lenovo Launches "YOGA AI Mini" Dedicated Host**: Lenovo launched the first "OpenClaw-optimized" mini PC, pre-installed with security sandboxes and offline model libraries, sparking the "Agentic Hardware" trend.
+- **📈 GitHub Milestone (345.0K Stars)**: Holding **GitHub #7**! Gap to `developer-roadmap` narrowed to **7,000 stars**. The Lobster's overtaking blinker is on. 🦞🚀
+
 ### 🟢 2026-04-01: Supply Chain Poisoning & MEDIA Flaws, Anthropic Leak Sparks Claw-Code 🦞🔥
 
-- **🚨 v3.28 Supply Chain Poisoning Scare**: SlowMist founder Yu Xian issued an emergency alert early today—OpenClaw v3.28 may harbor a Remote Access Trojan (RAT) via a poisoned axios package. Simultaneously, 360 disclosed "MEDIA" protocol prompt injection affecting 170k instances. Official v2026.3.31 released hours later.
+- **🚨 v3.28 Supply Chain Poisoning Scare**: SlowMist founder issued an emergency alert early today—OpenClaw v3.28 may harbor a Remote Access Trojan (RAT) via a poisoned axios package. Simultaneously, 360 disclosed "MEDIA" protocol prompt injection affecting 170k instances. Official v2026.3.31 released hours later.
 - **💥 Anthropic's Epic "Open Source" Fiasco**: Anthropic's Claude Code accidentally leaked 510,000 lines of source code. The community quickly aligned to launch "**Claw-Code**", a replica project that instantly broke growth records on Threads and GitHub. "Passive Open Source" at its peak.
 - **🇨🇳 China Patent Office Issues "Lobster Warning"**: MIIT risk alert identifies weak default security in agents, banning un-audited agents from handling sensitive patent filings.
 - **🇹🇼 Taiwan Digital Industry Warning**: Warns of OpenClaw appearing on e-commerce platforms (plug-and-play), highlighting risks of scam and privacy theft.
@@ -189,6 +198,7 @@ Because the battle is too fierce, to save everyone from scrolling through update
 - **🇹🇼 Taiwan's NCCS Issues "Lobster Alert" (3/20)**: Taiwan's National Cyber Security Agency (NCCS) officially issued a cybersecurity warning regarding OpenClaw, specifically highlighting the "ClawJacked" vulnerability and malicious third-party skills.
 - **🇨🇳 "Digital Lobster" Mania in China (3/20)**: OpenClaw has ignited an unprecedented craze in China, affectionately dubbed the "Digital Lobster" by netizens. Shenzhen Longgang announced dedicated subsidies up to 1M RMB.
 - **👑 Jensen's Final Declaration: OpenClaw is the OS of the AI Era (3/16-3/20)**: In his closing keynote at GTC 2026, Jensen Huang elevated OpenClaw's status once again, calling it "The Operating System for Personal AI." He emphasized that "every company today must have an OpenClaw strategy."
+- **🛡️ FSC (Taiwan) Developing "Lobster Safety Handbook"** (3/18): In response to widespread adoption in finance, the FSC is drafting security guidelines to prevent agents from becoming cybersecurity liabilities.
 - **🤖 Real-World Integration: "Bajie" the Robot (3/18)**: Ecovacs showcased its first OpenClaw-powered robot vacuum, "Bajie," capable of understanding complex, vague instructions like "pick up the Lego under the sofa."
 - **💰 "Half-Salary Equivalent in Tokens" to Power Lobster Armies (3/18)**: Jensen Huang announced a "half-salary equivalent Token subsidy" for NVIDIA engineers. He declared that productivity is now measured in Tokens.
 - **🛡️ NemoClaw Revealed: The "Bulletproof Vest" for OpenClaw (3/17)**: Addressing enterprise concerns over OpenClaw's openness, NVIDIA unveiled NemoClaw. Built on top of OpenClaw, it adds enterprise-grade security, sandboxing, and privacy controls.
@@ -296,7 +306,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 343.2K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 345.0K | TypeScript 🟦 | Official Full Version | Full features, production |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 43.4K | Markdown | Curated openclaw skills list | Finding skills |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 37.3K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 29K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
@@ -305,7 +315,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 26.1K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 20.6K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 18.6K | Markdown | Obsidian Agent Skills | Notes + Agent |
-| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 18K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
+| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 18.1K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 17.7K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 13.3K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 11.2K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
@@ -320,7 +330,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 3.3K | JavaScript 🟨 | Antigravity model proxy | Using Antigravity (Banned🚫) |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.4K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 2K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 2.1K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 1.5K | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 935 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 613 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
@@ -504,8 +514,9 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/03/30** | **340.6K** | Live fetch update | 🦞 |
 | **2026/03/31** | **342K** | Live fetch update | 🦞 |
 | **2026/04/01** | **343.2K** | Live fetch update | 🦞 |
+| **2026/04/02** | **345.0K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-03-31)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-04-02)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
@@ -514,14 +525,14 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | 3 | freeCodeCamp | 440.2K | Tutorial Hub |
 | 4 | public-apis | 417.9K | Collection of Free APIs |
 | 5 | free-programming-books | 384.8K | Books collection |
-| 6 | developer-roadmap | 351.9K | Learning Paths |
-| **7** | **OpenClaw** | **343.2K** | **🏆 Overtook React and Linux! Just 8.7K stars to #6!** |
-| 8 | system-design-primer | 340.8K | System Design Primer |
+| 6 | developer-roadmap | 352.0K | Learning Paths |
+| **7** | **OpenClaw** | **345.0K** | **🏆 Overtook React and Linux! Just 7K stars to #6!** |
+| 8 | system-design-primer | 341.0K | System Design Primer |
 | 9 | coding-interview-university | 300.2K | CS study plan |
-| 10 | React | 244.3K | Frontend Overlord |
-| 11 | Linux | 226.1K | Operating System Core |
+| 10 | React | 244.0K | Frontend Overlord |
+| 11 | Linux | 226.0K | Operating System Core |
 
-> **Next Goal**: developer-roadmap (351.9K). Current gap is **8.7K**. At the current growth rate of ~2K-3K/day, we expect to overtake this in **3-5 days** and break into the top 6! 🦞🚀
+> **Next Goal**: developer-roadmap (352.0K). Current gap is **7.0K**. At the current growth rate of ~2K-3K/day, we expect to overtake this in **3 days** and break into the top 6! 🦞🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **Move**: Founder Peter Steinberger rejected Meta, joined OpenAI to head Personal Agents. OpenClaw transitioned to an independent foundation.
