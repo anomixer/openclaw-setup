@@ -7,13 +7,13 @@
 > **Last Updated**: 2026-04-06
 > **Status**: OpenClaw is alive, now past 347.4K stars! GitHub #7 and closing in on #6! 🦞🚀
 
-> **OpenClaw Version**: v2026.4.2 (Latest Stable) | Standardized xAI Plugin Paths, Task Flow Substrate Restoration, Durable State Tracking 🦞🛡️
+> **OpenClaw Version**: v2026.4.5 (Latest Stable) | Built-in Video/Music Generation, 12-Language Control UI, ComfyUI Workflows, Qwen/Fireworks/StepFun Providers 🦞🎬
 
 ---
 ## ⏱️ TL;DR (30-second summary)
 
-1. **Protagonist**: **OpenClaw** (🔥 349.2K Stars, **ranked #7**), gap to #6 is **3.1K**.
-2. **Today's Tremor**: **Anthropic Blocks Claude Subscription Connection**; Peter Steinberger's negotiations fail, risking "brain supply" for 3rd party tools.
+1. **Protagonist**: **OpenClaw** (🔥 349.2K Stars, **ranked #7**), gap to #6 is **3.1K**. v2026.4.5 released tonight!
+2. **Today's Tremor**: **Anthropic Blocks Claude Subscription Connection**; **v2026.4.5 Released** (video/music generation, 12-language UI, ComfyUI workflows); Peter Steinberger's negotiations fail, risking "brain supply" for 3rd party tools.
 3. **Model Dynamics**: **Google Gemma-4 Released**; NVIDIA RTX AI Garage integration live, Agent Harness test results are exceptional.
 4. **Latest Progress**: 349.2K stars, narrowing gap to #6 `developer-roadmap` to just 3,100.
 5. **Background**: v2026.4.2 architectural optimization maintenance.
@@ -24,7 +24,7 @@
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
-  - 🟢 2026-04-06: v2026.4.2 Stability Verified, Claw Code 72K Stars Explosion, Stars Approach 350K 🦞🚀
+  - 🟢 2026-04-06: v2026.4.5 Gen-Video/Music, Claw Code 72K Stars Explosion, Stars Approach 350K 🦞🚀
   - 🟢 2026-04-05: Ars Technica Warns "Assume Compromise", Stars Break 348K, v2026.4.2 Stability Verified 🦞🛡️
   - 🟢 2026-04-04: Anthropic Blocks Claude Subs, Gemma-4 & RTX AI Join the Fray, Stars Hit 34.7K 🦞🔥
   - 🟢 2026-04-03: v2026.4.2 Released, Plugin Config Path Standardization, Task Flow Durable Substrate Restored 🦞🚀
@@ -76,14 +76,17 @@
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
 
-$(cat temp_0405_en.md)
-### 🟢 2026-04-06: v2026.4.2 Stability Verified, Claw Code 72K Stars Explosion, Stars Approach 350K 🦞🚀
+### 🟢 2026-04-06: v2026.4.5 Gen-Video/Music, Claw Code 72K Stars Explosion, Stars Approach 350K 🦞🚀
 
-- **🔧 v2026.4.2 Stability Verified**: After 4 days of large-scale testing, the v2026.4.2 version released on 4/2 has been verified for stability. The Task Flow Durable substrate recovery function performed excellently in reload testing, with plugin path standardization migration success rate reaching 98.7%.
-- **📈 GitHub Stars (349.2K)**: Successfully broke through **349K stars**! Currently ranked **7th globally on GitHub**, only **3.1K** stars away from 6th place `developer-roadmap` (352.3K). Lobster overtaking countdown begins! 🦞🚀
+- **🎬 OpenClaw v2026.4.5 Built-in Video/Music Generation**: Added `video_generate` and `music_generate` tool enabling agents to create videos and music.
+- **🎨 ComfyUI Workflow Plugin**: New bundled ComfyUI workflow media plugin for local ComfyUI and Comfy Cloud workflows, including `image_generate`, `video_generate`, and workflow-driven `music_generate`.
+- **🌍 Control UI 12 Languages**: Added localized Control UI support for Simplified Chinese, Traditional Chinese, Brazilian Portuguese, German, Spanish, Japanese, Korean, French, Turkish, Indonesian, Polish, and Ukrainian.
+- **🔧 New Providers**: Added bundled Qwen, Fireworks AI, StepFun providers, plus MiniMax TTS, Ollama Web Search, and MiniMax Search integrations.
+- **📦 Amazon Bedrock Integration**: Added bundled Mantle support and inference-profile discovery with automatic request-region injection, simplifying Bedrock-hosted Claude, GPT-OSS, Qwen, Kimi, GLM routing.
+- **📱 iOS/Matrix Approval Notifications**: Added iOS APNs approval notifications and Matrix-native exec approval prompts with account-scoped approvers and channel/DM delivery.
+- **🎯 Context Visibility Control**: Added configurable `contextVisibility` per channel (all, allowlist, allowlist_quote) to filter supplemental quote, thread, and fetched history context by sender allowlists.
 - **🦞 Claw Code 72K Stars Explosion**: Claw Code (open-source AI coding agent framework) released on 4/2 broke through **72K stars** and **72.6K forks** in just a few days, demonstrating the powerful appeal of the open-source lobster ecosystem. The project uses Python + Rust architecture, focusing on open-source implementation of the 'agent harness layer'.
 - **🌍 Ecosystem Dynamics**: ClawHub plugin count exceeded 10,700, with 180+ new community contributors. NVIDIA NemoClaw enterprise security suite adoption rate increased by 27%, showing continued growth in enterprise demand for security hardening.
-- **📊 Ranking Reference**: OpenClaw (349.2K, #7) closely pursues `developer-roadmap` (352.3K, #6). Top 5: `build-your-own-x` (486.5K), `awesome` (452.3K), `freeCodeCamp` (441.6K), `public-apis` (419.5K), `free-programming-books` (385.1K). Lobster has surpassed React (#14) and Linux (#15)! 🦞🚀
 
 ### 🟢 2026-04-05: Ars Technica Warns "Assume Compromise", Stars Break 348K, v2026.4.2 Stability Verified 🦞🛡️
 

@@ -7,14 +7,14 @@
 > **最後更新**: 2026-04-06
 > **狀態**: OpenClaw 存活中，目前已衝破 34.7 萬星大關！穩坐 GitHub #7，直逼 #6！🦞🚀
 
-> **OpenClaw 版本**: v2026.4.2 (最新穩定版)｜標準化 xAI 插件路徑、Task Flow 基底恢復、Durable State 追蹤 🦞🛡️
+> **OpenClaw 版本**: v2026.4.5 (最新穩定版)｜內建影片/音樂生成、12 國語言 Control UI、ComfyUI 工作流、Qwen/Fireworks/StepFun 提供商 🦞🎬
 
 ---
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 349.2K Stars，**穩坐歷史第七**)，與第 6 名差距縮至 **3.1K**。
-2. **今日震盪**: **Anthropic 封殺 Claude 訂閱串接**；Peter Steinberger 談判破裂，第三方工具大腦恐面臨「斷供」風險。
+1. **主角**: **OpenClaw** (🔥 349.2K Stars，**穩坐歷史第七**)，與第 6 名差距縮至 **3.1K**。v2026.4.5 今晚重磅發布！
+2. **今日震盪**: **Anthropic 封殺 Claude 訂閱串接**；**v2026.4.5 發布**（影片/音樂生成、12 國語言 UI、ComfyUI 工作流）；Peter Steinberger 談判破裂，第三方工具大腦恐面臨「斷供」風險。
 3. **模型動態**: **Google Gemma-4 正式發布**；NVIDIA RTX AI Garage 火速支援，Agent Harness 測試成績亮眼。
 4. **最新進展**: Stars 衝上 34.9 萬，距離全球第 6 名 `developer-roadmap` 僅剩 3,100 星！
 5. **背景**: v2026.4.2 維持架構優化，Task Flow 基底恢復確保大腦穩健運作。
@@ -25,7 +25,7 @@
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
-  - 🟢 2026-04-06: v2026.4.2 穩定性驗證通過、Claw Code 72K 星爆發、Stars 逼近 35 萬大關 🦞🚀
+  - 🟢 2026-04-06: v2026.4.5 支援多媒體、Claw Code 72K 星爆發、Stars 逼近 35 萬大關 🦞🚀
   - 🟢 2026-04-05: Ars Technica 示警「假定淪陷」、Stars 突破 34.8 萬、v2026.4.2 穩定性驗證 🦞🛡️
   - 🟢 2026-04-04: Anthropic 封鎖 Claude 訂閱串接、Gemma-4 與 RTX AI 參戰、Stars 衝刺 34.7 萬 🦞🔥
   - 🟢 2026-04-03: v2026.4.2 發布、插件配置路徑標準化、Task Flow Durable 基底恢復 🦞🚀
@@ -77,13 +77,17 @@
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
 
-### 🟢 2026-04-06: v2026.4.2 穩定性驗證通過、Claw Code 72K 星爆發、Stars 逼近 35 萬大關 🦞🚀
+### 🟢 2026-04-06 v2026.4.5 支援多媒體、Claw Code 72K 星爆發、Stars 逼近 35 萬大關 🦞🚀
 
-- **🔧 v2026.4.2 穩定性驗證**：4/2 發布的 v2026.4.2 版本經過 4 天大規模測試，穩定性獲得驗證。Task Flow Durable 基底恢復功能在重載測試中表現優異，插件路徑標準化遷移成功率達 98.7%。
-- **📈 GitHub Stars (349.2K)**：成功突破 **34.9 萬星**！目前位居 **GitHub 全球總榜第 7 名**，距離第 6 名 `developer-roadmap` (352.3K) 僅剩 **3.1K**。龍蝦超車倒計時！🦞🚀
+- **🎬 OpenClaw v2026.4.5 內建影片/音樂生成工具**：新增 `video_generate` 與 `music_generate` 工具，代理人可透過配置的提供商生成影片與音樂。
+- **🎨 ComfyUI 工作流插件**：新增捆綁的 ComfyUI 工作流媒體插件，支援本地 ComfyUI 和 Comfy Cloud 工作流，包括 `image_generate`、`video_generate` 和工作流驅動的 `music_generate`。
+- **🌍 Control UI 12 國語言**：新增簡體中文、繁體中文、巴西葡萄牙語、德語、西班牙語、日語、韓語、法語、土耳其語、印尼語、波蘭語和烏克蘭語的本地化 Control UI 支援。
+- **🔧 新增提供商**：添加捆綁的 Qwen、Fireworks AI、StepFun 提供商，以及 MiniMax TTS、Ollama Web Search、MiniMax Search 整合。
+- **📦 Amazon Bedrock 整合**：添加捆綁的 Mantle 支援和推理配置文件發現，自動注入請求區域，讓 Bedrock 託管的 Claude、GPT-OSS、Qwen、Kimi、GLM 等路由更易配置。
+- **📱 iOS/Matrix 審批通知**：添加 iOS APNs 審批通知和 Matrix 原生 exec 審批提示，支援帳號範圍的審批者和頻道/DM 交付。
+- **🎯 上下文可見性控制**：為每個頻道添加可配置的 `contextVisibility`（all, allowlist, allowlist_quote），讓補充引用、主題和獲取的歷史上下文可以按發送者允許列表過濾。
 - **🦞 Claw Code 72K 星爆發**：4/2 發布的 Claw Code（開源 AI 編碼代理框架）在短短幾天內突破 **72K stars** 和 **72.6K forks**，展現了開源龍蝦生態的強大號召力。該項目採用 Python + Rust 架構，專注於「代理 harness 層」的開源實現。
 - **🌍 生態系動態**：ClawHub 插件數量突破 10,700 個，社區貢獻者新增 180+。NVIDIA NemoClaw 企業安全套件採用率上升 27%，顯示企業對安全加固的需求持續增長。
-- **📊 排名參考**：OpenClaw (349.2K, #7) 緊追 `developer-roadmap` (352.3K, #6)。前 5 名：`build-your-own-x` (486.5K), `awesome` (452.3K), `freeCodeCamp` (441.6K), `public-apis` (419.5K), `free-programming-books` (385.1K)。龍蝦已超越 React (#14) 與 Linux (#15)！🦞🚀
 
 ### 🟢 2026-04-05: Ars Technica 示警「假定淪陷」、Stars 突破 34.8 萬、v2026.4.2 穩定性驗證 🦞🛡️
 
