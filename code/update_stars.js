@@ -125,13 +125,15 @@ function updateFile(filePath, starsMap) {
         }
         if (hiEnd !== -1) {
             let row = lines[hiEnd];
-            if (row.includes('最新抓取星數') || row.includes('Latest fetch')) {
-                let m = row.match(/^\| \*\*(\d{4}\/\d{2}\/\d{2})\*\* \|/);
-                let newDate = (m && m[1] === ts) ? ts : ts;
-                lines[hiEnd] = row.replace(/^\| \*\*\d{4}\/\d{2}\/\d{2}\*\* \| \*\*([0-9.]+K?)\*\* \|/, `| **${newDate}** | **${ocF}** |`);
+            let m = row.match(/^\| \*\*(\d{4}\/\d{2}\/\d{2})\*\* \|/);
+            let lastDate = m ? m[1] : null;
+
+            if (lastDate === ts && (row.includes('即時抓取更新') || row.includes('Live fetch update'))) {
+                // If the last row is today's fetch row, update it
+                lines[hiEnd] = row.replace(/^\| \*\*\d{4}\/\d{2}\/\d{2}\*\* \| \*\*([0-9.]+K?)\*\* \|/, `| **${ts}** | **${ocF}** |`);
             } else {
-                // If the last row is NOT a latest fetch row, append one
-                let newRowDesc = filePath.includes('-en') ? "Live fetch update" : "最新抓取星數";
+                // If the last row is NOT today's fetch row, append a new one
+                let newRowDesc = filePath.includes('-en') ? "Live fetch update" : "即時抓取更新";
                 lines.splice(hiEnd + 1, 0, `| **${ts}** | **${ocF}** | ${newRowDesc} | 🦞 |`);
             }
         }
