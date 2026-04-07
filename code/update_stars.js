@@ -141,7 +141,7 @@ function updateFile(filePath, starsMap) {
         // 3. Global Top Ranking
         let tStart = -1, tEnd = -1;
         for (let i = 0; i < lines.length; i++) {
-            if (lines[i].includes('當前 GitHub Stars 總榜排名') || lines[i].includes('Current GitHub Stars Ranking')) {
+            if (lines[i].includes('當前 GitHub Stars 總榜排名') || lines[i].includes('Global GitHub Stars Ranking')) {
                 lines[i] = lines[i].replace(/\(\d{4}-\d{2}-\d{2} [^\)]+\)/, `(${th} 更新)`).replace(/\(Updated \d{4}-\d{2}-\d{2}\)/, `(Updated ${th})`);
             }
             if (/^\| 排名 \|/.test(lines[i]) || /^\| Rank \|/.test(lines[i])) tStart = i + 2;

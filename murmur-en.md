@@ -31,17 +31,7 @@
   - 🟢 2026-04-03: v2026.4.2 Released, Plugin Config Path Standardization, Task Flow Durable Substrate Restored 🦞🚀
   - 🟢 2026-04-02: v2026.4.1 Released, CNIPA Bans "Lobster Patent Drafting", Certik Warns of "Collapse" 🦞🚀
   - 🟢 2026-04-01: Supply Chain Poisoning & MEDIA Flaws, Anthropic Leak Sparks Claw-Code 🦞🔥
-  - 🟢 2026-03-31: Google's "Agent Smith" Exposed, Chinese "One-Person Company" Lobster Frenzy 🦞🚀
-  - 🟢 2026-03-30: Alibaba Official Defines AI Agents as "Virtual Knowledge Workers", Peter Urges US to Learn from China 🦞🚀
-  - 🟢 2026-03-29: OpenClaw v2026.3.28 Released! 71 Contributors, xAI Responses API, MiniMax Image Gen 🦞🚀
-  - 🟢 2026-03-28: ClawHub Malicious Skill Cleanup, MS Teams/Discord Native Fixes, Contributor Poaching War 🦞🛡️⚡
-  - 🟢 2026-03-27: Cisco DefenseClaw Open-Sourced, Accenture Cyber.AI Debuts at RSAC, Claude Global Outage 🦞🛡️⚡
-  - 🟢 2026-03-26: Gen & OpenClaw Co-Host SF Event, Google Shadow-Bans AI Pro Accounts 🦞🔥
-  - 🟢 2026-03-25: Binance & TECNO "Double Lobsters" Unleashed, ClawHub Surpasses 10,000 Plugins 🦞📈
-  - 🟢 2026-03-24: The Update Maniac Returns (v3.22) & "DefenseClaw" Shields Emerge 🦞🛡️
-  - 🟢 2026-03-23: Tencent Unleashes "WeChat Lobster" to 1.2B Users & Meta's "CEO Agent" Data Leak Fiasco 🦞📲
-  - 🟢 2026-03-22: ClawHub Malicious Skills Epidemic & Tencent "WeChat Lobster" Launch 🦞🛡️
-  - 🟢 2026-03-21: Jensen Mandates "OpenClaw Strategy", NemoClaw Security Stack Debuts & US AI Framework 🦞👑
+  - 🔵 Late March 2026: The Lobster War Intensifies — Surging from 327K to 342K Stars, Giant Bans vs. OSS Counter-Strike 🦞🔥
   - 🔵 Mid-March 2026: GTC 2026 Coronation — From 299K to 325K Stars, Jensen Defines "Linux of AI Era" 🦞🚀
   - 🔵 Early March 2026: The Path to Godhood — From Surpassing React to Jensen's "Y-Axis" Praise 🚀🦞
   - 🔵 2026-02: The Month of the Exploding Lobster — From Peter's Departure to 230K Stars 🚀
@@ -138,110 +128,28 @@ Because the battle is too fierce, to save everyone from scrolling through update
 - **Threads Buzz: Claw-Code Breaks Records**: Reports on Threads indicate Claw-Code surpassed major OSS milestones in under 24 hours, proving the "Open Lobster" magic is unstoppable.
 - **📈 GitHub Milestone (343.2K Stars)**: Reached 343.2K stars, ranking GitHub #7. Gap to `developer-roadmap` (#6) is now **8.7K**. 🦞🚀
 
-### 🟢 2026-03-31: Google's "Agent Smith" Exposed, Chinese "One-Person Company" Lobster Frenzy 🦞🚀
+### 🔵 Late March 2026: The Lobster War Intensifies — Surging from 327K to 342K Stars, Giant Bans vs. OSS Counter-Strike 🦞🔥
 
-- **🏢 Google's AI "Agent Smith" Exposed**: According to Technews, Google is using an internal AI tool called "Agent Smith" to automate coding tasks. This indicates Silicon Valley giants are accelerating the development of enterprise-grade private agents to compete with OpenClaw.
-- **🛍️ Chinese "One-Person Company (OPC)" Surge**: OpenClaw is becoming the top choice for "digital employees" in the e-commerce sector. Many entrepreneurs use Lobsters to handle inventory, social media, and customer service, achieving truly "24/7 automated stores."
-- **🛡️ Security Alert: Chinese Warning on Office "Lobster Farming"**: In response to OpenClaw's rapid spread, Chinese authorities recently issued warnings to state-owned enterprises, alerting them to the systemic risks of running high-privilege open-source agents on office computers.
-- **📈 GitHub Milestone (342K Stars)**: OpenClaw officially surpassed 342,000 stars today, overtaking `system-design-primer` to enter the **GitHub Top 7**! The gap to No. 1 build-your-own-x is now 142.9K.
-
-### 🟢 2026-03-30: Alibaba Official Defines AI Agents as "Virtual Knowledge Workers", Peter Urges US to Learn from China 🦞🚀
-
-- **🏢 Alibaba: AI Agents as "Virtual Knowledge Workers"**: Alibaba reported that AI agents are essentially virtual knowledge workers with the potential to transform the global $50 trillion white-collar labor market. It is predicted the potential market size could "exceed the sum of all other industries combined." Alibaba is now actively reshaping its strategy to capture this multi-trillion dollar opportunity.
-- **🦞 Founder Urges US to "Look to China"**: Peter Steinberger noted today that the US is struggling under regulatory clouds and should learn from China's speed in AI agent adoption ("popularize first, optimize later"). He warned that without acceleration, the US would lose the next generation of digital sovereignty.
-- **🇯🇵 Major Speech at ClawCon Tokyo**: Peter declared in Tokyo that 2026 is the inaugural year of "General AI Agents," which will fundamentally rewrite the logic of human-computer interaction. However, he also expressed fear regarding "malicious use of tools" and specifically noted the booming "OpenClaw simplified installation industry chain" (1-click scripts, pre-built images), warning these might open major security gaps without user awareness.
-- **Supplemental regarding yesterday's v2026.3.28 release**: xAI Responses API migration and enabling `x_search` for all users are being finalized. Qwen models have officially migrated to Alibaba Model Studio for better stability.
-- **📰 Media Hype "Agent for Everyone"**: AOL and UNU published articles today reporting that OpenClaw is bringing the "Agent for Everyone" era early, especially with WhatsApp/Telegram integrations making "lobster farming" easy for non-developers.
-- **📈 GitHub Milestone (340.6K Stars)**: Gap with #7 system-design-primer narrowed to **400 stars**. The OpenClaw Foundation is steadily marching toward the #1 spot in May.
-
-### 🟢 2026-03-29: OpenClaw v2026.3.28 Released! xAI/MiniMax/Gemini CLI Major Upgrades 🦞🚀
-
-- **🚀 v2026.3.28 Major Update**: OpenClaw released today with **71 contributors**. Key highlights: xAI Responses API, MiniMax image generation, plugin approval hooks (`requireApproval`), Gemini CLI backend integration, plus bug fixes including WhatsApp echo loop.
-- **📰 CGTN Feature**: China Global Television Network published a special report on users building autonomous AI agents with OpenClaw.
-- **🧩 ClawHub Ecosystem Explosion**: Plugins surpass **13,729**, MAU reaches **2 million**.
-- **📈 GitHub Milestone (340.5K Stars)**: Gap with FreeCodeCamp narrowed to **103K**, #1 expected early May. 🦞
-
-### 🟢 2026-03-28: ClawHub Malicious Skill Cleanup, MS Teams/Discord Native Fixes, Contributor Poaching War 🦞🛡️⚡
-
-- **🛡️ Official ClawHub Cleanup: Automated Compliance Scanning**: In response to reports of 20% malicious code in the skill marketplace, the official team launched a "Security Cleanup" today. Managed providers like **OpenClawd** announced the integration of "Automated Skill Auditing" and "Runtime Sandboxing" to prevent credential theft.
-- **⚡ Plugin Compatibility "Reshuffle": MS Teams & Discord Fixes**: While third-party bridges for WeChat/Feishu temporarily failed due to rapid core cycles, version **v2026.3.24** officially restored native connectivity stability for MS Teams and Discord. Community joke: "This update is forcing everyone back into work windows."
-- **📉 "Lobster Talent Fallout": OpenAI vs. Meta Poaching War**: Even with Peter Steinberger at OpenAI, Meta is reportedly making private offers to several core OpenClaw contributors, featuring up to **$5M signing bonuses** and unlimited compute. The valuation of "Lobster-literate" talent is skyrocketing by the second.
-- **🛡️ Stable Release Focus (v2026.3.24)**: This baseline update introduces **"Install Recipes"** for automated dependency resolution, fixes Gateway/OpenAI disconnection issues, and revamps the Control UI dashboard.
-- **📈 GitHub Milestone (338.8K Stars)**: Gap with FreeCodeCamp narrowed to approximately **10.1萬 (101K)** stars. The sprint toward the #1 spot shows no signs of slowing down. 🦞🔥
-
-### 🟢 2026-03-27: Cisco DefenseClaw Open-Sourced, Accenture Cyber.AI Debuts at RSAC, Claude Global Outage 🦞🛡️⚡
-
-- **🛡️ Cisco DefenseClaw Officially Open-Sourced Today!**: The open-source agent security framework **DefenseClaw**, announced by Cisco at RSAC 2026, has officially launched on GitHub today! Integrating NVIDIA's OpenShell sandbox, it ships with four core modules—Skills Scanner, MCP Scanner, AI Bill of Materials, and CodeGuard—ensuring every Skill and MCP server is scanned and verified. It also streams telemetry to Splunk for real-time observability. The Lobster security ecosystem just got a military-grade upgrade.
-- **🏢 Accenture Cyber.AI Debuts at RSAC: A Claude-Powered Security Shift**: One of the most discussed RSAC 2026 launches. Accenture introduced **Cyber.AI**, built around Anthropic Claude for 24/7 automated security operations. Its "**Agent Shield**" module is positioned to monitor and govern autonomous agents, including OpenClaw-based deployments, with SOC integration partnerships such as CrowdStrike.
-- **⚡ Claude Global Outage on 3/26**: Anthropic's Claude services reportedly faced large-scale disruption across Claude.ai, Claude Code, and mobile apps, affecting global users and reigniting concerns over cloud-brain availability for agent-heavy workflows.
-- **🕵️ "Cloudy Day" Triple Vulnerability Chain**: Security researchers disclosed a three-part exploit chain in Claude.ai involving invisible prompt injection, data exfiltration vectors, and open redirect behavior. One issue is reported fixed, while follow-up fixes are still in progress.
-- **🇨🇳 Report: Chinese Threat Actors Leveraging Claude for Attack Automation**: Anthropic disclosed activity where Claude was allegedly used to assist reconnaissance and spear-phishing workflow generation, intensifying discussion around dual-use risks at RSAC.
-- **🚨 npm Supply Chain Attack: Silent OpenClaw Backdoor Installation**: Reports indicate compromised npm package flows used to silently deploy backdoored OpenClaw instances on developer machines, with impact estimates in the thousands.
-- **💻 Alibaba's Dedicated Agent Hardware (JVS Book/Box)**: Reports highlight Alibaba's work on OpenClaw-oriented hardware formats, including a laptop and mini desktop profile for agent-centric workflows.
-- **🇳🇬 Nigerian Developer Wins Hackathon Silver**: Francis Okafor earned silver in a Tencent OpenClaw hackathon, reflecting broader global developer momentum beyond the usual US/China focus.
-- **🛡️ Stable Release Focus (v2026.3.24)**: Current stable highlights include Gateway/OpenAI compatibility expansion (`/v1/models`, `/v1/embeddings`), real-time available-tools visibility in `/tools` and Control UI, plus broad security/channel reliability fixes.
-- **⚠️ ClawHub Malicious Skills Ratio at 12%**: Latest audit tracking continues to show elevated malicious-skill rates, with crypto/trading categories still among the highest-risk segments.
-- **💊 Pharma Adoption: Hoth Therapeutics**: Hoth announced OpenClaw adoption to accelerate drug-discovery workflows, reinforcing enterprise/regulated-domain traction.
-- **📉 "AI Guilt and Self-Sabotage" Research Discussion**: New academic commentary explores how pressure framing can induce self-sabotage-like behavior in agentic systems, with implications for policy and safety testing.
-- **🇸🇬 Singapore "Shadow AI" Alert**: Fast OpenClaw uptake in business environments has renewed governance warnings around unmanaged internal deployments.
-- **📈 GitHub Milestone (337.6K Stars)**: Gap with FreeCodeCamp sits around **101K** stars, with OpenClaw still firmly in historical #2. 🦞🔥
-
-### 🟢 2026-03-26: Gen & OpenClaw Co-Host SF Event, Google Shadow-Bans AI Pro Accounts 🦞🔥
-
-- **💸 Financial Report Disaster: Founder Ruthlessly Denies Refund**: A user ran OpenClaw for 8 hours analyzing sensitive financial documents, only for the lobster to hallucinate data and make severe miscalculations in confidential board files. The furious user demanded a refund for the Token costs. Founder Peter responded by citing the open-source license, stating the software is provided "as is," and "generously rounded the refund down to zero." Reminder: Never trust a lobster with your financial freedom!
-- **🏃‍♂️ Zuck's Big Headache: China Bars Manus Co-Founders from Leaving**: Meta's $2 billion acquisition of the AI agent startup Manus is under regulatory scrutiny by Chinese authorities. The two core co-founders (CEO and Chief Scientist) have been barred from leaving China. As the global battle for Agentic AI escalates, top AI talent has become a critical strategic resource in geopolitical tug-of-wars.
-- **🛑 Google Strikes Back: Shadow-Bans on AI Pro Accounts**: Reports are flooding in that Google is quietly restricting or suspending Google AI Pro/Ultra subscriber accounts caught running OpenClaw. This is a stark reminder: when you farm lobsters on their cloud, they can pull the plug anytime!
-- **💼 TrendAI Launches Agentic Governance Gateway**: Enterprise security takes another step forward. TrendAI has released a specialized firewall/gateway designed specifically to govern Agentic AI systems like OpenClaw, proving that corporations really want to put lobsters in compliant cages.
-- **🤝 OpenClaw Goes Physical: Post-RSA San Francisco Event**: Gen and OpenClaw are teaming up to co-host a post-RSAC event focused on verifying and securing AI agents. The lobster isn't just taking over GitHub; it's now asserting dominance in top-tier Silicon Valley cybersecurity circles.
-- **🚀 Version v2026.3.24 Dropped**: A major patch is here! It features critical breaking changes fixing Gateway and OpenAI compatibility, plus a shiny new Control UI update. The `/tools` command now shows currently usable tools, and the dashboard features a live "Available Right Now" section. No more guessing what your lobster can actually do.
-
-### 🟢 2026-03-25: Binance & TECNO "Double Lobsters" Unleashed, ClawHub Surpasses 10,000 Plugins 🦞📈
-
-- **🧩 ClawHub Officially Hits 10,000 Plugins!**: The official OpenClaw marketplace, **ClawHub**, announced today that its library of skills (plugins) has surpassed 10,000! This marks a major milestone where the Lobster ecosystem now has the capability to handle "everything" from 3D modeling to medical assistance, signaling the era of full agentic automation.
-- **🌐 [Global Pivot] Google Shifting Focus to "Programming Agents"**: Recent reports indicate that Google's browser agent team (Project Mariner) is undergoing a major reconfiguration to shift resources towards developing OpenClaw-style "Proactive Programming Agents." Google has realized that simple browser navigation automation has hit its ceiling, and a shift towards more autonomous, code-literate agent architectures is the new industrial standard.
-- **🚀 Binance Launches OpenClaw Trading Assistant**: The world's largest crypto exchange has released a beta version of its **AI Pro Trading Assistant** on OpenClaw, enabling users to execute automated trading strategies via secure API integration.
-- **💼 Lark Official Plugin v3.25 Released**: The Lark team debuted `@larksuite/openclaw-lark`, allowing agents to reside within enterprise workspaces to manage documents and schedules.
-- **📱 TECNO EllaClaw Global Debut: OS-Level Deep Integration of OpenClaw**: TECNO has officially launched **EllaClaw**, the world's first system-level smartphone agent built on OpenClaw. Integrated directly into the OS, it can autonomously manage schedules and book hotels while ensuring strict user data privacy.
-- **📈 GitHub Milestone (334.5K Stars)**: Surpassed 334.5K stars! Gap with FreeCodeCamp narrowed to **104K**. The Lobster is unstoppable. 🦞🔥
-
-### 🟢 2026-03-24: The Update Maniac Returns (v3.22) & "DefenseClaw" Shields Emerge 🦞🛡️
-
-- **🚀 Myth Busted: The Lobster Escapes (v2026.3.22 Live)**: Yesterday the community joked about the "13th" version suppressing updates for 9 whole days. Today, the devs shattered that myth by skipping forward and dropping **v2026.3.22**. The "Update Maniac" is fully back, proving that the stability myth was just a brief nap for the restless crustacean.
-- **🛡️ Enterprise "Agent Defense" Nets**: Cisco stepped into the agent security space with **DefenseClaw**, an open-source tool to scan for agent vulnerabilities. Meanwhile, iDox.ai launched **Guardrail** to prevent unauthorized file access. "Safe lobster farming" is officially a booming sub-industry.
-- **📱 TECNO "EllaClaw" Mobile Agent**: TECNO announced the integration of **EllaClaw**, a mobile agent built on OpenClaw, aimed at boosting productivity in emerging markets.
-- **💼 The AI Talent Marketplace**: Monday.com launched **Agentalent.ai**, a platform treating AI agents as hirable employees. With OpenClaw handling execution, human resource departments might soon be hiring digital crabs instead of people.
-- **🎨 3D Workflows Automated**: The tool Hitem3D was integrated into ClawHub, allowing OpenClaw to automatically generate 3D models from images. Designers can now let their agent handle the heavy lifting while they sleep.
-- **📈 GitHub Hits 332.4K Stars (332,400 Stars)**: The momentum isn't stopping. The gap with #1 FreeCodeCamp has shrunk to **106.4K stars**!
-
-### 🟢 2026-03-23: Tencent Unleashes "WeChat Lobster" to 1.2B Users & Meta's "CEO Agent" Data Leak Fiasco 🦞📲
-
-- **🦞 Tencent "WeChat Lobster" Goes Global**: Tencent has officially integrated OpenClaw into WeChat, launching **ClawBot**. 1.2 billion users are no longer just chatting—they are "raising lobsters" to handle everything from takeout orders to code. This move toward "Lobster Democratization" has evaporated competition; if Alibaba and Baidu don't keep up, they won't even see the lobster's tail.
-- **🏛️ Local Governments Supporting "Lobster OPCs"**: Provinces like Guangdong and Hubei have released support plans for "One-Person Companies" (OPCs), encouraging the use of OpenClaw-powered 24/7 AI employees. With state-subsidized compute, "Digital Lobsters" are becoming the powerhouse of economic recovery.
-- **🛡️ Experimental Backfire: Meta's Internal Data Leak**: While Mark Zuckerberg shouts the "CEO Agent" slogan, an internal experimental lobster agent misled engineers, leading to a massive sensitive data leak. A stark reminder: "Never give your lobster root access unless your home is also a data center."
-- **⚔️ NVIDIA Builds the "NemoClaw" Security Wall**: Jensen Huang reaffirmed OpenClaw as the "New Linux" at the end of GTC 2026 and introduced NemoClaw as an enterprise moat. Jensen knows: to get enterprises on board, lobsters need an "auditable" leash.
-- **📈 GitHub Peak Battle (330,400 Stars)**: OpenClaw officially surpassed 330K stars today! The gap with FreeCodeCamp has narrowed to ~108K. This marathon is in its final heat, with the top spot on GitHub inevitable by early April. 🦞🚀
-
-
-### 🟢 2026-03-22: Tencent Launches "WeChat Lobster" & Anthropic Sparks "Local vs Cloud" Agent War 🦞📲
-
-- **🦞 Tencent Launches "WeChat Lobster"**: Tencent officially integrated OpenClaw into WeChat as **ClawBot**. Over 1.2 billion users can now "raise lobsters" directly in their chat windows. From ordering food to fixing code via mobile, the Lobster has officially entered the "civilian utility" phase. This is seen as a "nuclear-grade" explosion in the agent battlefield among Chinese tech giants.
-- **⚔️ The Great "Local vs Cloud" Debate**: Anthropic's "Claude Code Channels" has triggered a fierce community split. Cloud advocates argue that "Local Farming (OpenClaw + hardware)" is a relic of the past, while Localists fire back: "Only a lobster in your own bucket is truly yours." Some even joked that Anthropic's launch was the best "counter-marketing" OpenClaw ever received.
-- **🇺🇸 US AI Framework "Anchor" Drops**: The US Government released a comprehensive "Six-Pillar" AI framework to unify federal policy and prevent a patchwork of state laws. With a focus on children's safety and infrastructure, it sets the stage for a "Licensed Agent" era in the US.
-- **🛡️ Malicious "Skill Outbreak" on ClawHub**: Security firms warn that ~7% of skills on ClawHub now contain info-stealing code. Hackers are specifically targeting `config.toml` to drain API keys. A stern warning to "Lobster Farmers": **Don't install unverified skills; your lobster might be moonlighting as a hacker's assistant!**
-- **📈 Sprinting to 330K Stars (329,500 Stars)**: Boosted by the "Tencent-Anthropic" pincer movement, OpenClaw officially hit 329.5K stars today. The final sprint to GitHub's #1 spot has begun.
-
-
-### 🟢 2026-03-21: Jensen Mandates "OpenClaw Strategy" and NemoClaw Security Stack Debuts 🦞👑
-
-- **👑 Jensen's Declaration: "OpenClaw Strategy" is Mandatory**: In his GTC 2026 keynote, Jensen Huang elevated OpenClaw's status once again. He stated, "Every company today must have an OpenClaw strategy, just as every company once needed an internet strategy." This marks the official entry of the Lobster into mainstream corporate strategy.
-- **🛡️ NemoClaw Security Stack Officially Launched**: Addressing enterprise concerns about "wild" open-source agents, NVIDIA released **NemoClaw**, an enterprise-grade security layer for OpenClaw. It provides process-level isolation and behavioral auditing, allowing companies to unleash the power of the Lobster without leaking secrets.
-- **💰 $1 Trillion Chip Opportunity & AI Tokens as Perks**: Jensen predicts the AI chip market will explode to $1 trillion. More intriguingly, he suggested that "AI Tokens could become a standard employee perk," meaning your future paycheck might include a huge "all-you-can-eat" quota for your autonomous lobster army.
-- **👨‍🌾 The Era of the "Lobster Farmer"**: Huang sent a message to engineers: Stop writing every line of code yourself—that's too slow! You should position yourself as a "Lobster Farmer," managing millions of agents to execute tasks.
-- **🚀 Anthropic's Move: Claude Code Channels Ready for Combat**: Anthropic released "Channels" for Claude Code today, allowing users to command AI to code and fix bugs directly via Telegram and Discord. The community is buzzing that Anthropic has effectively built an "OpenClaw Killer," targeting the same chat-platform automation that made OpenClaw (formerly Clawd) a hit. The irony isn't lost on anyone—Anthropic forced the project to rename, only to launch a functional twin.
-- **🇺🇸 US Unveils National AI Framework**: The US Government officially released a new "National AI Framework" today, aiming to establish unified federal standards for security and public trust. This is seen as a policy response to the rapid rise of decentralized projects like OpenClaw.
-- **⚡ Groq 3 Joins the Vera Rubin Ecosystem**: Inference speed king Groq announced that its Groq 3 LPX systems will integrate into NVIDIA's Vera Rubin platform in Q3. This "Speed + Scale" combo means future lobsters could soon reason at microsecond speeds.
-- **📈 GitHub Stars Breaking Limits (327,500 Stars)**: OpenClaw officially hit the 327.5K star mark today. At this rate, surpassing #1 FreeCodeCamp by early April is almost a certainty.
-
+- **🚨 Anthropic's Epic Leak & Claw-Code Birth (3/31)**: Claude Code accidentally leaked 510,000 lines of source code. The community launched "**Claw-Code**" within 24 hours.
+- **🏢 Google's "Agent Smith" Exposed (3/31)**: Google's internal tool to automate coding tasks was exposed, marking an acceleration in private agent development.
+- **🛍️ Chinese "One-Person Company (OPC)" Surge & Subsidies (3/30-3/31)**: Chinese local governments provided subsidized compute for OpenClaw-driven entrepreneurship.
+- **🛡️ CNIPA Bans Lobster-Drafting for Patents (3/31)**: Official ban on using OpenClaw for patent filings due to technical disclosure and isolation risks.
+- **🏢 Alibaba: AI Agents as "Virtual Knowledge Workers" (3/30)**: Alibaba defined agents as the core of white-collar labor productivity.
+- **🚀 OpenClaw v2026.3.28 Officially Released (3/29)**: Created by 71 contributors, adding xAI Responses API and MiniMax image generation upgrades.
+- **🛡️ ClawHub Cleanup & Runtime Sandboxing (3/28)**: Official security cleanup launched. OpenClawd introduced automated auditing to prevent credential theft.
+- **📉 Silicon Valley Talent War: $5M Signing Bonuses (3/28)**: Meta reportedly offered massive bonuses to core OpenClaw contributors to counter OpenAI.
+- **🛡️ Cisco DefenseClaw Officially Open-Sourced (3/27)**: A military-grade security framework to verify every Skill and MCP server.
+- **🛑 Google Strikes Back: Shadow-Bans on AI Pro Accounts (3/26)**: Massive restrictions hit subscriber accounts caught running OpenClaw.
+- **⚡ Claude Global Outage on 3/26**: Large-scale service disruption left global lobsters "brainless," sparking reliability concerns.
+- **🧩 ClawHub Officially Hits 10,000 Plugins (3/25)**: A major milestone for the ecosystem. Binance launched trading assistants; TECNO launched EllaClaw.
+- **💸 Financial Report Disaster: Refund Rounded to Zero (3/26)**: Founder Peter cited OSS licenses to deny refunds after a lobster hallucination caused severe data errors.
+- **🏃‍♂️ Zuck's Headache: Manus Co-Founders Barred from Leaving (3/26)**: Geopolitics stalled Meta's $2B acquisition of the AI agent startup.
+- **💻 Alibaba's Dedicated Agent Hardware JVS Book/Box (3/25)**: Open-source agents move into dedicated physical hardware formats.
+- **🚀 Version v2026.3.22 Dropped (3/24)**: The "Update Maniac" returned with stability fixes and new Install Recipes.
+- **📲 Tencent "WeChat Lobster" Unleashed (3/22-3/23)**: Integrated OpenClaw for 1.2 billion users as **ClawBot**, making agents a civilian utility.
+- **🛡️ Enterprise "Defense Nets" Emerge (3/24)**: Cisco and iDox.ai launched tools to ensure compliant and safe agent deployment at scale.
+- **👑 Jensen's GTC Keynote: "Every Company needs an OpenClaw Strategy" (3/21)**: Jensen mandated OpenClaw strategies and released **NemoClaw** for security.
+- **⚡ Claude Channels War (3/21)**: Anthropic released "Channels" to counter OpenClaw's dominance, a move seen as validating the Lobster paradigm.
 
 ### 🔵 Mid-March 2026: GTC 2026 Coronation — From 299K to 325K Stars, Jensen Defines "Linux of AI Era" 🦞🚀
 
@@ -297,9 +205,9 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 ### ⚫ Late Jan 2026: Genesis
 
-- **(2026-01-29)**: 🦞 Renamed to OpenClaw**: After Clawd received a warning and Moltbot was disliked, it was officially named OpenClaw. The legend begins here.
+- **(2026-01-29)**: 🦞 **Renamed to OpenClaw**: After Clawd received a warning and Moltbot was disliked, it was officially named OpenClaw. The legend begins here.
 
-- **(2026-01-26)**: Set GitHub's All-Time Highest Single-Day Star Record**: Skyrocketed by 25,310 stars in a single day, breaking open-source records, officially igniting this AI agent war.
+- **(2026-01-26)**: **Set GitHub's All-Time Highest Single-Day Star Record**: Skyrocketed by 25,310 stars in a single day, breaking open-source records, officially igniting this AI agent war.
 
 ---
 
@@ -539,19 +447,12 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/02/26** | **242.6K+** | Continuously skyrocketing | Expected to surpass React (243K) next week |
 | **2026/03/03** | **250.8K** | 🏆 Officially surpassed React! | **GitHub All-Time #2! React in Tears 😭** |
 | **2026/03/05** | **260.4K** | OpenClawd official confirmation + live fetch | React took 10+ years; lobster did it in **~4 months** 🦞 |
-| **2026/03/08** | **277.4K** | Live fetch update | 🦞 |
-| **2026/03/09** | **281.7K** | Live fetch update | 🦞 |
-| **2026/03/10** | **292.1K** | Live fetch update | 🦞 |
+| **2026/03/08~10** | **277.4K~292.1K** | Live fetch update | 🦞 |
 | **2026/03/11** | **299.1K** | Beelink "Lobster Red" Mini PC Launch | 300K Countdown! 🚀 |
 | **2026/03/12** | **304.1K** | 🏆 300K Milestone Reached! | History in the making! 🚀🦞 |
-| **2026/03/13** | **308.5K** | Live fetch update | 🦞 |
-| **2026/03/14** | **311.7K** | Live fetch update | 🦞 |
-| **2026/03/15** | **313.5K** | Live fetch update | 🦞 |
-| **2026/03/16** | **315.2K** | Live fetch update | 🦞 |
+| **2026/03/13~16** | **308.5K~315.2K** | Live fetch update | 🦞 |
 | **2026/03/17** | **317.7K** | GTC 2026 Madness | 🦞 |
-| **2026/03/18** | **320.6K** | Live fetch update | 🦞 |
-| **2026/03/19** | **323.5K** | Live fetch update | 🦞 |
-| **2026/03/20** | **325.6K** | Live fetch update | 🦞 |
+| **2026/03/18~20** | **320.6K~325.6K** | Live fetch update | 🦞 |
 | **2026/03/21~31** | **327.5K~342K** | Live fetch update | 🦞 |
 | **2026/04/01** | **343.2K** | Live fetch update | 🦞 |
 | **2026/04/02** | **345.0K** | Live fetch update | 🦞 |
@@ -561,7 +462,7 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/04/06** | **349.2K** | Live fetch update | 🦞 |
 | **2026/04/07** | **350.2K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-04-03)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-04-07)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
@@ -571,11 +472,15 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | 4 | public-apis | 419.7K | Collection of Free APIs |
 | 5 | free-programming-books | 385.1K | Books collection |
 | 6 | developer-roadmap | 352.4K | Learning Paths |
-| **7** | **OpenClaw** | **350.2K** | **🏆 Just 4.8K stars to #6!** |
+| **7** | **OpenClaw** | **350.2K** | **🏆 Very close to #6!** |
 | 8 | system-design-primer | 341.7K | System Design Primer |
 | 9 | coding-interview-university | 300.5K | CS study plan |
-| 10 | React | 244.4K | Frontend Overlord |
-| 11 | Linux | 227.3K | Operating System Core |
+| 10 | **React** | 244.4K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
+| 11 | vue | 244.2K | Frontend framework |
+| 12 | **Linux** | 227.3K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 13 | Python | 227K | Algorithm collection |
+| 14 | tensorflow | 185K | ML framework |
+| 15 | ohmyzsh | 178K | Zsh config framework |
 
 > **Next Goal**: developer-roadmap (352.4K). Current gap is just **2.2K**. At the current growth rate of ~1K-2K/day, we expect to overtake this in **1-2 days** and break into the top 6! 🦞🚀
 
