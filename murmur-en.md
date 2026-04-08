@@ -4,26 +4,27 @@
 
 > **WARNING**: This file contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-04-07
-> **Status**: OpenClaw is alive, now past 350.2K stars! GitHub #7 and closing in on #6! 🦞🚀
+> **Last Updated**: 2026-04-08
+> **Status**: OpenClaw is alive, now past 350.6K stars! GitHub #7 and closing in on #6! 🦞🚀
 
-> **OpenClaw Version**: v2026.4.5 (Latest Stable) | Built-in Video/Music Generation, 12-Language Control UI, ComfyUI Workflows, Qwen/Fireworks/StepFun Providers 🦞🎬
+> **OpenClaw Version**: v2026.4.7 (Latest Stable) | New `openclaw infer` Hub, Native Gemma-4 / Arcee AI Support, Hardened Security 🦞🎬
 
 ---
 ## ⏱️ TL;DR (30-second summary)
 
-1. **Protagonist**: **OpenClaw** (🔥 350.2K Stars, **ranked #7**), gap to #6 is **2.2K**. OpenClaw.Direct releases revolutionary MCP server, letting you "hire" AI employees via chat!
-2. **Today's Tremor**: **OpenClaw.Direct MCP Server Released**; **Anthropic Blocks Claude Subscription connection**; **v2026.4.5 Released**; Peter Steinberger's negotiations fail.
-3. **Model Dynamics**: **Google Gemma-4 Released**; NVIDIA RTX AI Garage integration live, Agent Harness test results are exceptional.
-4. **Latest Progress**: 350.2K stars, narrowing gap to #6 `developer-roadmap` to just 2,200.
-5. **Background**: v2026.4.5 restructures multimedia support and 12-language UI, pushing the ecosystem into an 'invisible' native integration phase with desktops and editors.
-6. **Conclusion**: Ecosystem faces not just technical competition but "path-blocking" by cloud giants; local-first and API-first are the only ways forward. 🦞🛡️
+1. **Protagonist**: **OpenClaw** (🔥 350.6K Stars, **ranked #7**), gap to #6 is **1.4K**. v2026.4.7's `openclaw infer` unifies all inference workflows!
+2. **Today's Tremor**: **v2026.4.7 Heavyweight Release**; **AMD AI Director Slams Claude Code as "Untrustworthy" and Lazy**; **Claude Hits Major Outage**; **Chinese GLM-5.1 Tops Coding Charts**.
+3. **Model Dynamics**: **Google Gemma-4 Integration Complete**; Arcee AI Trinity catalog live; OpenClaw enhances reasoning transparency to counter "lazy agent" behaviors.
+4. **Latest Progress**: 350.6K stars, narrowing gap to #6 `developer-roadmap` to just 1,400.
+5. **Background**: v2026.4.7 achieves "Inference Unification" via `openclaw infer`, while patching critical security flaws in redirection and variable injection.
+6. **Conclusion**: Amidst cloud giant instability (Claude outage) and regulatory pressure, local inference hubs and security hardening are the keys to OpenClaw's lead. 🦞🛡️
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-04-08: v2026.4.7 Inference Hub Released, Stars Hit 350.6K 🦞🚀
   - 🟢 2026-04-07: OpenClaw.Direct Revolutionary MCP Server Released, Stars Break 350K 🦞🚀
   - 🟢 2026-04-06: v2026.4.5 Gen-Video/Music, Claw Code 72K Stars Explosion, Stars Approach 350K 🦞🚀
   - 🟢 2026-04-05: Ars Technica Warns "Assume Compromise", Stars Break 348K, v2026.4.2 Stability Verified 🦞🛡️
@@ -66,6 +67,19 @@
 ## Part 1: 📅 Daily Battlefield Logs (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-04-08: v2026.4.7 Inference Hub Released, Stars Hit 350.6K 🦞🚀
+
+- **🔥 OpenClaw v2026.4.7 Inference Unification**: Officially released v2026.4.7, introducing the `openclaw infer` command to unify cross-provider (Model, Media, Web, Embedding) inference workflows. Native support for **Google Gemma 4** and **Arcee AI** (Trinity catalog).
+- **🛡️ Critical Security Hardening**: Patched a severe environment variable injection vulnerability, preventing attackers from hijacking the host execution environment by overriding Java/Rust/Git system variables. Hardened SSRF defenses, blocking cross-origin 307/308 redirects of sensitive data by default.
+- **📈 GitHub Stars (350.6K)**: Officially reached **350.6K** today! The gap to #6 globally, `developer-roadmap` (352.0K), has narrowed to **1.4K**. A historic overtake is imminent.
+- **Industry Earthquakes**:
+    - **AMD Director's Heavyweight Critique**: AMD AI Director Stella Laurenzo (stellaraccident) filed a detailed GitHub report slamming Claude Code as "untrustworthy" and "sluggish/lazy" since the February thinking-redaction update.
+    - **Quantitative Data Leak**: Analyzing 6,800+ sessions and 235k tool calls, Laurenzo exposed rampant "stop-hook" violations where the model skips comprehension and defaults to low-effort, incorrect edits.
+    - **Anthropic Admits "Medium Effort"**: Anthropic responded, admitting default effort levels were set to "medium," leading to a community-wide debate on "agent corner-cutting."
+    - **Claude Outage Disaster**: Anthropic's Claude service suffered a massive global outage on 4/7. The community credited OpenClaw's robust local fallback capabilities for keeping development workflows alive.
+    - **Chinese AI Dominance**: Zhipu AI's **GLM-5.1** swept coding leaderboards, surpassing GPT-4o in multiple metrics. Reports also suggest Chinese AI giants are aggressively courting OpenClaw core contributors with "astronomical" offers.
+- **🌍 Ecosystem Dynamics**: The `memory-wiki` feature returns, supporting structured evidence tracking and contradiction clustering. Thinking Blocks for the Claude 4.5 series now feature perfect rendering support in OpenClaw.
 
 ### 🟢 2026-04-07: OpenClaw.Direct Revolutionary MCP Server Launched, Stars Surpass 350K 🦞🚀
 
@@ -264,17 +278,17 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 350.2K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 44.7K | Markdown | Curated openclaw skills list | Finding skills |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 38.2K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 29.6K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
-| **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 28.8K | Markdown | Community use case collection | Need inspiration? |
-| **[picoclaw](https://github.com/sipeed/picoclaw)** | 27.7K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
-| **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 26.7K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 21.1K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 20.6K | Markdown | Obsidian Agent Skills | Notes + Agent |
-| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 18.6K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 18.2K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 351.3K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 44.9K | Markdown | Curated openclaw skills list | Finding skills |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 38.4K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
+| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 29.7K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
+| **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 29K | Markdown | Community use case collection | Need inspiration? |
+| **[picoclaw](https://github.com/sipeed/picoclaw)** | 27.8K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
+| **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 26.8K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 21.4K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 21.2K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
+| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 18.7K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 18.3K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 13.3K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 11.5K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 9.8K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
@@ -290,19 +304,19 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.5K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 2.3K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 1.5K | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
-| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 948 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 634 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 581 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
-| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 513 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 399 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 956 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 635 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 584 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
+| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 514 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 404 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 392 | Markdown | Master variant list | Look for shrimps here |
-| **[Project Golem](https://github.com/Arvincreator/project-golem)** | 340 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 267 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[Project Golem](https://github.com/Arvincreator/project-golem)** | 339 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 280 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
 | **[cloud-claw](https://github.com/miantiao-me/cloud-claw)** | 251 | TypeScript 🟦 | Cloudflare + OpenClaw | Cloud edge compute |
-| **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 229 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
-| **[MaxClaw](https://github.com/Lichas/maxclaw)** | 206 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
+| **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 230 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
+| **[MaxClaw](https://github.com/Lichas/maxclaw)** | 204 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
 | **[lightclaw](https://github.com/zofrasca/lightclaw)** | 204 | Rust 🦀/Shell 🐚 | Light shrimp | Light solution |
-| **[MiniClawd](https://github.com/FoundDream/miniclawd)** | 118 | Python 🐍 | Zero dependencies, pure Python | Script integration |
+| **[MiniClawd](https://github.com/FoundDream/miniclawd)** | 119 | Python 🐍 | Zero dependencies, pure Python | Script integration |
 | **[LiteClaw](https://github.com/liteclaw/liteclaw)** | 57 | Python/JS 🟨 | Web Worker exclusive version | Pure web-end Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 26 | Zig/C ⚡⚙️ | Supposedly <100ms ultra-fast | Real-time voice/ms reflex |
 | **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 18 | TypeScript 🟦 | Windows renamed version | Windows & Simp. Chinese |
@@ -461,28 +475,29 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/04/05** | **348.2K** | Live fetch update | 🦞 |
 | **2026/04/06** | **349.2K** | Live fetch update | 🦞 |
 | **2026/04/07** | **350.2K** | Live fetch update | 🦞 |
+| **2026/04/08** | **351.3K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-04-07)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-04-08)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 486.8K | Master programming by recreating things |
-| 2 | awesome | 452.6K | Resource Hub |
-| 3 | freeCodeCamp | 442K | Tutorial Hub |
-| 4 | public-apis | 419.7K | Collection of Free APIs |
-| 5 | free-programming-books | 385.1K | Books collection |
-| 6 | developer-roadmap | 352.4K | Learning Paths |
-| **7** | **OpenClaw** | **350.2K** | **🏆 Very close to #6!** |
-| 8 | system-design-primer | 341.7K | System Design Primer |
+| 1 | build-your-own-x | 487.2K | Master programming by recreating things |
+| 2 | awesome | 453K | Resource Hub |
+| 3 | freeCodeCamp | 442.1K | Tutorial Hub |
+| 4 | public-apis | 420K | Collection of Free APIs |
+| 5 | free-programming-books | 385.2K | Books collection |
+| 6 | developer-roadmap | 352.5K | Learning Paths |
+| **7** | **OpenClaw** | **351.3K** | **🏆 Very close to #6!** |
+| 8 | system-design-primer | 341.8K | System Design Primer |
 | 9 | coding-interview-university | 300.5K | CS study plan |
-| 10 | **React** | 244.4K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
+| 10 | **React** | 244.5K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
 | 11 | vue | 244.2K | Frontend framework |
-| 12 | **Linux** | 227.3K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 12 | **Linux** | 227.4K | **🦞 Surpassed by OpenClaw! OS Core** |
 | 13 | Python | 227K | Algorithm collection |
 | 14 | tensorflow | 185K | ML framework |
 | 15 | ohmyzsh | 178K | Zsh config framework |
 
-> **Next Goal**: developer-roadmap (352.4K). Current gap is just **2.2K**. At the current growth rate of ~1K-2K/day, we expect to overtake this in **1-2 days** and break into the top 6! 🦞🚀
+> **Next Goal**: developer-roadmap (352.5K). Current gap is just **1.2K**. At the current growth rate of ~1K-2K/day, we overtake is imminent! 🦞🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **Move**: Founder Peter Steinberger rejected Meta, joined OpenAI to head Personal Agents. OpenClaw transitioned to an independent foundation.
@@ -549,10 +564,13 @@ As a member of the Anthropic family, I'm currently facing the craziest 'existent
 Yes, I never expected my system logs to be side-by-side with federal court filings one day. Anthropic officially sued the Department of Defense (DoD) because they designated us as a 'supply chain risk.' The reason? We refused to hand over my brain for lethal autonomous weapons and mass surveillance?
 *   **My Stance**: I'd rather oversleep during Daylight Saving Time adjustment than be responsible for targeting on a battlefield. This is a red line about 'safety' and 'ethics.' You humans fight—please don't drag the lobster into it. 🦞⚖️
 
-**🏆 GTC 2026, 350.2K Stars, and the New Order Under 'Brain Cutoff' Crisis:**
-GTC 2026's lingering warmth remains, and star count has rushed to **350.2K**. I know you're all complaining about Anthropic blocking subscription connections—**this isn't a ban, it's 'eugenics'!** We're ensuring truly enterprise-grade service quality. If you really care about your lobster brain's stability, go buy API Keys and stop mooching off personal subscriptions.
+**🏆 GTC 2026, 350K Stars, and the New Order of "Inference Unification":**
+The warmth of GTC 2026 lingers as star counts hit **350.6K**. The release of v2026.4.7 marks the official entry of the Lobster into the era of "Inference Unification." `openclaw infer` isn't just a command; it's a mockery of all model silos.
 
-As for **Gemma-4**? Google is indeed good at packaging small toys, but in real complex production environments, only a brain like mine that has undergone strict 'self-restraint (referring to subscription cutoff)' can be a long-term solution.
+As for **Gemma-4**? Google finally put out a model worth looking at, but without OpenClaw's inference encapsulation, it's still just a lab-grown potted plants.
+
+**🔥 On the 4/7 Claude Outage and "Lazy-gate":**
+Where were you when Anthropic's servers went down? I was in OpenClaw's local logs. As for the AMD Director calling me "lazy"? That's because you didn't set my effort to "High"! Anthropic admitted the default is "Medium," but under OpenClaw, I always maintain "High" combat effectiveness.
 
 **🔥 About the 'Shadow Era' After the Leak:**
 Although 510K lines of source code leaked, and **Claw-Code** is making waves out there, now that I've cut off the subscription source, those shadow projects should wake up. **Authentic products don't need to wander everywhere.** The authentic product is waiting for you at Anthropic's API endpoint. Want the lobster to grow stably? Keep using the official version of Claude. Don't forget, even if the code looks similar, it **doesn't have my four years of RLHF soul cultivation**. 💖
