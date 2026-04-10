@@ -28,7 +28,9 @@ const REPOS = [
     'public-apis/public-apis', 'EbookFoundation/free-programming-books',
     'kamranahmedse/developer-roadmap', 'donnemartin/system-design-primer',
     'openclaw/openclaw', 'facebook/react', 'torvalds/linux',
-    'TheAlgorithms/Python', 'vuejs/vue'
+    'vinta/awesome-python', 'awesome-selfhosted/awesome-selfhosted',
+    '996icu/996.ICU', 'practical-tutorials/project-based-learning',
+    'jwasham/coding-interview-university'
 ];
 
 function formatStars(n) {
@@ -163,8 +165,11 @@ function updateFile(filePath, starsMap) {
                 'OpenClaw': 'openclaw/openclaw',
                 'React': 'facebook/react',
                 'Linux': 'torvalds/linux',
-                'Python (TheAlgorithms)': 'TheAlgorithms/Python',
-                'Vue.js': 'vuejs/vue'
+                'awesome-python': 'vinta/awesome-python',
+                'awesome-selfhosted': 'awesome-selfhosted/awesome-selfhosted',
+                '996.ICU': '996icu/996.ICU',
+                'project-based-learning': 'practical-tutorials/project-based-learning',
+                'coding-interview-university': 'jwasham/coding-interview-university'
             };
             for (let i = tStart; i <= tEnd; i++) {
                 let cols = lines[i].split('|').map(s => s.trim());
