@@ -20,6 +20,10 @@ OpenClaw is model-agnostic, but the community's "heart" is quite vocal. Here is 
 5 🏠 **Ollama (Local) — The "Privacy Guard"**:
   - **Why**: The latest version now supports **MiniMax**, **Kimi**, **GLM**, and **Qwen3**. Perfect for privacy-conscious developers wanting to explore the latest model ecosystem locally.
 
+6 🆓 **Zero Token — The "Cost-Free Pioneer"**:
+  - **Popular Choice**: **[openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)**, **[Project Golem](https://github.com/Arvincreator/project-golem)**.
+  - **Why**: The latest 2026 trend aiming for **Zero Token fees**. `openclaw-zero-token` supports broad model proxying, while `Project Golem` focuses on web and browser automation. Ideal for users wanting top-tier AI without the hefty API bills.
+
 #### 🧠 Field Notes: Model Parameters vs. "Lobster Power"
 
 ##### 🖥️ Official NVIDIA Recommendations: DGX Spark Local Setup Guide

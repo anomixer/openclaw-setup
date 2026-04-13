@@ -19,6 +19,7 @@ const REPOS = [
     'TinyAGI/tinyclaw', 'nullclaw/nullclaw', 'EverMind-AI/EverMemOS', 'moltis-org/moltis',
     'microclaw/microclaw', 'rookiestar28/ComfyUI-OpenClaw', 'qhkm/zeptoclaw',
     'Arvincreator/project-golem', 'FoundDream/miniclawd', 'liteclaw/liteclaw',
+    'linuxhsj/openclaw-zero-token',
     'GuLu9527/flashclaw', 'swarmclawai/swarmclaw', 'itc-ou-shigou/winclaw',
     'DmacMcgreg/psibot', 'wende/miniclaw', 'dannybszn/SwiftClaw', 'Lichas/maxclaw',
     'sseanliu/VisionClaw', 'xjtulyc/MedgeClaw', 'automateyournetwork/netclaw',
