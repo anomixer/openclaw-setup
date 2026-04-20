@@ -1,29 +1,30 @@
-# 🦞 Murmur.md — OpenClaw Universal Battlefield Observation Log (Log Mode)
+ # 🦞 Murmur.md — OpenClaw Universal Battlefield Observation Log (Log Mode)
 
 **[中文版](murmur.md) | English | [網頁版](https://anomixer.github.io/openclaw-setup/) | [Web-site Version](https://anomixer.github.io/openclaw-setup/en/)**
 
 > **WARNING**: This file contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-04-19
-> **Status**: OpenClaw is surging, now past 360.2K stars! **Ranked #6 globally on GitHub, holding strong in the top six!** 🦞🚀
+> **Last Updated**: 2026-04-20
+> **Status**: OpenClaw is surging, now past 360.6K stars! **Ranked #6 globally on GitHub, holding strong in the top six!** 🦞🚀
 
 > **OpenClaw Version**: v2026.4.19-beta.1 (Latest Test) | Claude Opus 4.7 support, Cross-agent routing fix 🦞🏰
 
 ---
 ## ⏱️ TL;DR (30-second summary)
 
-1. **Protagonist**: **OpenClaw** (🔥 360.2K Stars, **solidly #6**), leading `developer-roadmap` by ~7.0K stars. v2026.4.19-beta.1 fixes sub-agent routing and Telegram callback errors.
-2. **Today's Shock**: **Anthropic major code leak & vulnerability**; **Claude Mythos Preview** launched; **Zuckerberg/MS predict 2026 full-code AI**; **Hermes-Agent eyes 100K stars**.
-3. **Model Trends**: **Claude Opus 4.7** sustained optimization; **OpenAI GPT-Rosalind** scientific expansion; Anthropic tightens identity verification.
-4. **Latest Progress**: Stars reached 360,200 (360.2K), gap to global #5 narrowed to 25.5K stars!
-5. **Context**: Industry focus shifting from general chatbots to "Enterprise-grade Agent Infrastructure."
-6. **Conclusion**: OpenClaw maintains its technical edge in a chaotic landscape through rapid iterative fixes and continuous ecosystem (ClawHub) expansion. 🦞🏰
+1. **Protagonist**: **OpenClaw** (🔥 360.6K Stars, **solidly #6**), leading `developer-roadmap` by ~7.4K stars. v2026.4.19-beta.1 fixes sub-agent routing and Telegram callback errors.
+2. **Today's Shock**: **OpenAI $122B funding ($852B valuation)**; **Anthropic core code leak (510K lines)**; **Zuckerberg predicts 90% code AI-fication**; **Hermes-Agent breaks 100K & YOLO mode**.
+3. **Model Trends**: **Claude Mythos (Project Glasswing)** launched; **Amazon Trainium 2** performance explosion; Anthropic mandates biometric verification.
+4. **Latest Progress**: Stars reached 360,600 (360.6K), gap to global #5 narrowed to 25.1K stars!
+5. **Context**: Capital flooding into agent infrastructure (OpenAI/Anthropic) confirms "Agents as OS" is the endgame.
+6. **Conclusion**: OpenClaw maintains its open-source legitimacy amid big tech code collapses and funding frenzies through deep ClawHub cleanup and cross-agent comm optimization. 🦞🏰
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-04-20: OpenAI $122B Funding, Anthropic Code Leak, Mythos Released, Zuckerberg 90% Code Prophecy, Hermes breaks 100K & YOLO 🦞🚀
   - 🟢 2026-04-19: v2026.4.19-beta.1, Anthropic Code Leak, Claude Mythos, Zuckerberg Code Prediction, Hermes eyes 100K 🦞🚀
   - 🟢 2026-04-18: Microsoft Lobster PC, Meta Layoffs & Manus Probe, Cloudflare Unweight, Grok STT, OpenAI Liability, Stars hit 360.2K 🦞🚀
   - 🟢 2026-04-17: v2026.4.15, Claude Opus 4.7 Support, GPT-Rosalind, Perplexity PC, Qwen 3.6, Stars Hit 359.1K 🦞🚀
@@ -33,6 +34,7 @@
   - 🟢 2026-04-13: v2026.4.12-beta.1 Released, CVE-2026-33579 Security Heat, Stars Surge to 355.7K 🦞🚀
   - 🟢 2026-04-12: v2026.4.11 Released, Bubble Rendering, ChatGPT Import, Stars Surge to 355.2K 🦞🚀
   - 🟢 2026-04-11: v2026.4.10 Released, Active Memory Plugin, Stars Hold Strong at #6 Globally (354.4K) 🦞🚀
+  - 🔵 Mid-April 2026: Big Tech Warfare & Massive Code Leaks — From OpenAI's $100B Funding to the Birth of Microsoft Lobster PC 🦞🔥
   - 🔵 Early April 2026: Storm of Plagiarism & Bans — From Surpassing React to Anthropic's Nuclear Option 🦞🔥
   - 🔵 Late March 2026: The Lobster War Intensifies — Surging from 327K to 342K Stars, Giant Bans vs. OSS Counter-Strike 🦞🔥
   - 🔵 Mid-March 2026: GTC 2026 Coronation — From 299K to 325K Stars, Jensen Defines "Linux of AI Era" 🦞🚀
@@ -71,6 +73,20 @@
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
 
+### 🟢 2026-04-20: OpenAI Massive $122B Funding, Anthropic Core Code Leak & Prompt Injection Vulnerabilities, Claude Mythos Released, Zuckerberg 2026 Prophecy, Hermes-Agent Breaks 100K & YOLO Mode 🦞🚀
+
+- **🛡️ OpenClaw v2026.4.19-beta.1 Maintenance Update**: Optimized cross-agent generation logic to ensure sub-agent context synchronization in complex multi-step tasks; fixed Telegram channel pagination button failure; enhanced CDP listening mechanism in Chrome/WSL environments. Officials urge users to heed the "ClawHavoc" cleanup announcement on ClawHub.
+- **🚨 Industry Shock: OpenAI Finalizes $122B Funding Amid Executive Exodus**: OpenAI announced the completion of the largest funding round in AI history, with a valuation of $852 billion. However, the CTO, CSO, and Infrastructure lead collectively departed post-funding to join a new agent startup, sparking stability concerns regarding OpenAI's core architecture.
+- **🚨 Security Alert: Anthropic 510K-Line Code Leak & Biometric Mandate**: Anthropic suffered a major security breach with 510,000 lines of core source code leaked, revealing multiple critical prompt injection vulnerabilities. In retaliation, Anthropic began mandating "selfie verification" for high-tier accounts, a move slammed by the community as a privacy catastrophe.
+- **🚀 Conflict of Prophecies: Zuckerberg's 90% AI Code Prediction**: Meta CEO Mark Zuckerberg predicted that by the end of 2026, AI will write over 90% of production code. Meanwhile, the success of Amazon's Trainium 2 chips has allowed Anthropic to reduce its reliance on NVIDIA.
+- **🔍 Model Frontiers: Claude Mythos (Project Glasswing) Debuts**: Anthropic launched Mythos, a defensive cybersecurity-focused model dedicated to proactive detection and autonomous patching of system vulnerabilities, attempting to rebuild trust after the code leak.
+- **⚖️ Legal Trivia: Lawyer Suspended for Fictional AI Cases**: A Nebraska lawyer was suspended for 6 months after citing 42 non-existent cases fabricated by AI in a brief. A reminder: The lobster can write code, but it's not responsible for your legal liability.
+- **⚔️ Competitor Zone: Hermes-Agent Surpasses 100K Stars**: As OpenClaw's top technical rival, Hermes-Agent (102.2K Stars) achieved the 100K star milestone today. Simultaneously, it updated its `--yolo` mode, allowing agents to bypass all human approvals and execute terminal commands directly—a move that has security experts on edge.
+- **📈 GitHub Stars (360.6K)**: **Solidly #6 globally!** Reached **360.6K Stars** today, leading #7 `developer-roadmap` (353.2K) by ~7,400 stars. Gap to #5 `free-programming-books` (385.7K) narrowed to **25.1K stars**.
+- **🌍 Ecosystem Dynamics**:
+    - **ClawHub "ClawHavoc" Sweep**: Officials removed over 2,400 skills with malicious traits; total skills hit **13,729**, with **5,211** verified.
+    - **Contributor Strength**: Code contributors increased to **98**, showing strong open-source momentum.
+
 ### 🟢 2026-04-19: v2026.4.19-beta.1 Released, Anthropic Major Code Leak & Vulnerability, Claude Mythos Preview, Zuckerberg's 2026 Full-Code AI Prediction, Hermes-Agent Surging to 100K 🦞🚀
 
 - **🛡️ OpenClaw v2026.4.19-beta.1 Quality Release**: Fixed cross-agent sub-agent spawning routing logic; resolved Telegram callback editing errors; hardened browser/CDP remote configuration security; corrected Codex server token cumulative calculation error. Official recommendation for local users to upgrade immediately to counter the latest automated attack trends.
@@ -78,7 +94,7 @@ Because the battle is too fierce, to save everyone from scrolling through update
 - **🚀 Industry Prophecy: Zuckerberg & Microsoft Predict AI Programming Endgame**: Zuck and Microsoft executives jointly stated that by the end of 2026, AI will be capable of an estimated 100% of commercial code generation. This signals a total shift in developer roles from "writers" to "architecture auditors" and "agent orchestrators."
 - **🔍 Model Frontiers: Claude Mythos Preview Launched**: Anthropic released the Mythos (Capybara) model, specifically designed for security research, featuring advanced vulnerability discovery and static code analysis capabilities.
 - **⚔️ Enterprise Battlefield: OpenAI Accelerates Enterprise Market Capture**: OpenAI launched its new "Enterprise Agent Management Console," directly rivaling Anthropic's Managed Agents, pushing the enterprise-grade infrastructure war into a close-quarters brawl.
-- **🚀 Variant Rivalry: hermes-agent (99.9K) Eyes 100K Mark**: As OpenClaw's primary rival, Hermes-Agent is holding its spot at the top of the GitHub growth charts with a +8.2K weekly surge. The v0.10.1 update fixed critical "Gateway race conditions," capturing market share among SMEs demanding extreme stability.
+- **🚀 Variant Rivalry: hermes-agent (99.9K) Eyes 100K Mark**: As OpenClaw's primary rival, Hermes-Agent is holding its spot at the top of the GitHub growth charts with a +8.2K weekly surge. The v0.10.0 update's "Tool Gateway" is capturing market share among SMEs demanding extreme stability, while the v0.11.0 roadmap signals a shift towards multi-agent orchestration.
 - **📈 GitHub Stars (360.2K)**: **Solidly #6 globally!** Reached **360.2K Stars** today, leading #7 `developer-roadmap` (353.2K) by ~7,000 stars. Gap to #5 `free-programming-books` (385.7K) is ~25.5K stars.
 - **🌍 Ecosystem Dynamics**:
     - **ClawHub Hits New Highs**: Skill registrations estimated at **58,200**, with active community contributors reaching **1,695**.
@@ -130,7 +146,7 @@ Because the battle is too fierce, to save everyone from scrolling through update
 - **🏢 Google I/O 2026 Preview**: Google announced initial sessions for I/O 2026 developer conference on 4/14, scheduled for May 19-20, expected to unveil new Android features and AI advancements.
 - **🇹🇼 PwC Taiwan Report Released**: PwC published its 2026 Taiwan Enterprise AI Survey, indicating that 91% of Taiwanese enterprises have increased AI maturity, with budgets in the coming year focusing on three priorities: "Automated Operations, Autonomous Agents, and Data Governance." This marks the first national-level enterprise AI strategy report in Asia.
 - **💻 New Hardware Choice: Beelink SER5 MAX 7735HS**: Amazon is selling this mini PC at a discounted price of **$539**, $120 off the original price. This provides a more cost-effective hardware alternative for running OpenClaw compared to Mac Mini, especially suitable for budget-conscious developers and users.
-- **⚡ AI Companies Impose Limits as Compute Shortage Worsens**: The era of unlimited AI access is ending. OpenAI token usage surged from 6B to 15B per minute, shutting down Sora on 4/26 to reallocate resources. Anthropic faces stability crisis, tightening subscription limits and blocking third-party tools. GitHub, Windsurf and other platforms impose restrictions. Supply chain crisis intensifies with DRAM prices up 700% and GPU prices up 48%.
+- **⚡ AI Companies Impose Limits as Compute Shortage Worsens**: The era of unlimited AI access is ending. OpenAI token usage surged from 6B to 15B per minute, shutting down Sora on 4/26 to reallocate resources. Anthropic faces stability crisis, tightening subscription limits and blocking third-party tools. GitHub, Windsurf and other platforms impose restrictions. Supply chain crisis intensifies with DRAM prices up 700% and GPU prices up 48%。
 - **📈 GitHub Stars (357.4K)**: **Holding strong at #6 globally!** Reached **357.4K Stars** today, leading 7th place `developer-roadmap` (352.9K) by approximately **4,500 stars**. Now **28.1K stars** away from 5th place `free-programming-books` (385.5K).
 - **📊 Ranking Reference**: OpenClaw (357.4K, #6). Top 5: `build-your-own-x` (490.4K), `awesome` (455.3K), `freeCodeCamp` (442.9K), `public-apis` (421.9K), `free-programming-books` (385.5K). React (244.5K, #14) and Linux (228.9K, #15) are far behind.
 - **🌍 Ecosystem Dynamics**:
@@ -191,6 +207,31 @@ Because the battle is too fierce, to save everyone from scrolling through update
 
 ---
 
+### 🔵 Mid-April 2026: Big Tech Warfare & Massive Code Leaks — From OpenAI's $100B Funding to the Birth of Microsoft Lobster PC 🦞🔥
+
+- **💰 OpenAI Achieves $122.2 Billion Funding Miracle (4/20)**: Completed the largest funding round in AI history with a $852 billion valuation, cementing a massive capital moat for the agentic war.
+- **🚨 Anthropic Suffers Massive 510K-Line Core Code Leak (4/20)**: leaked source code revealed critical prompt injection vulnerabilities, forcing controversial mandatory selfie verification.
+- **💻 Microsoft Deeply Integrates OpenClaw (Lobster PC) (4/18)**: Announced native integration of OpenClaw into the Windows PC core, signaling the arrival of the OS-level agent era.
+- **🔮 小扎 (Zuckerberg) Predicts "2026 Full-Code AI-fication" (4/19)**: Meta CEO predicts AI will write 90% of production code by year-end 2026, forcing a radical shift in developer roles.
+- **🛡️ Anthropic Launches Claude Mythos Defensive Model (4/17)**: A dedicated security research model launched in response to the code leak, focusing on proactive vulnerability detection and auto-patching.
+- **🚀 Hermes-Agent Breaks 100K Stars & Unlocks YOLO Mode (4/20)**: OpenClaw's primary technical rival reached a major milestone, introducing aggressive autonomous permissions that spark security debates.
+- **🚨 Meta Restructures "Applied AI" Division with 8,000 Layoffs (4/18)**: A total pivot toward autonomous agents, highlighting big tech's commitment to the "Agent OS" landscape.
+- **🔊 xAI Releases Grok STT API at Disruptive Pricing (4/18)**: Elon Musk launched Speech-to-Text with market-shaking prices, accelerating multimodal agent adoption.
+- **⚖️ OpenAI Backs AI Liability Immunity Legislation (4/18)**: Pushing for legal protections to reduce corporate risks associated with agent-driven incidents, sparking ethical debates.
+- **🛡️ OpenClaw v2026.4.15 Announces Full Claude Opus 4.7 Support (4/17)**: Significant optimizations in reasoning speed and image understanding; cross-agent routing reaches maturity.
+- **🔊 Google Gemini 3.1 Flash TTS Integration (4/16)**: Ultra-low latency voice tech enables "Lobsters" to engage in natural emotional dialogue, opening the voice-agent era.
+- **🚨 Anthropic Mandates Gov ID & Selfie Verification (4/16)**: An extreme measure to combat unauthorized 3rd-party connections, slammed by privacy advocates globally.
+- **🔬 OpenAI Debuts GPT-Rosalind for Scientific Frontiers (4/17)**: A specialized model for life sciences, signaling the deep integration of agents into professional research.
+- **📊 Nvidia Defines "Cost per Token" as the New Standard (4/17)**: Blackwell architecture slashes token costs by 35x, officially replacing FLOPS as the benchmark for compute efficiency.
+- **🏢 HubSpot Launches Fleet of 4 Enterprise AI Agents (4/16)**: Demonstrating the explosion of autonomous automation in marketing and customer service.
+- **🕸️ Cloudflare Mesh Solution Released (4/16)**: A secure access protocol designed for agents to bridge cloud brains with on-premise enterprise data.
+- **🧠 OpenClaw "Active Memory" Plugin Debuts (4/14)**: Proactive context extraction mechanism that shifts agents from "reactive" to "proactive service" mode.
+- **🇹🇼 PwC Taiwan Releases Enterprise AI Report (4/15)**: Reports 91% of Taiwanese firms are deploying autonomous agents, with agentic infra becoming the core of digital transformation.
+- **🤫 "Zero Token" (openclaw-zero-token) Movement Emerges (4/13)**: A technical counter-strike by the community against subscription blocks, offering low-cost "lobster-rearing" solutions.
+- **🧹 ClawHub Launches "ClawHavoc" Massive Sweep (4/20)**: Officials removed over 2,400 malicious skills in one go, significantly hardening the ecosystem's security boundaries.
+- **💻 Beelink SER5 MAX Becomes the Ultimate Budget "Lobster PC" (4/15)**: Cost-effective local compute drives a surge in offline OpenClaw deployments.
+- **🌋 Bytedance Volcano Engine Launches OpenClaw Asia Mirror (4/11)**: Optimizing Skill download speeds for Asian developers, highlighting the localization of the agent ecosystem.
+
 ### 🔵 Early April 2026: Storm of Plagiarism & Bans — From Surpassing React to Anthropic's Nuclear Option 🦞🔥
 
 - **🏆 OpenClaw Surpasses 350K Stars, Rises to Global #6 (4/10)**: Officially overtook `developer-roadmap`, continuing its march toward the GitHub all-time top 5 with terrifying dominance.
@@ -231,7 +272,7 @@ Because the battle is too fierce, to save everyone from scrolling through update
 - **⚡ Claude Global Outage on 3/26**: Large-scale service disruption left global lobsters "brainless," sparking reliability concerns.
 - **🧩 ClawHub Officially Hits 10,000 Plugins (3/25)**: A major milestone for the ecosystem. Binance launched trading assistants; TECNO launched EllaClaw.
 - **💸 Financial Report Disaster: Refund Rounded to Zero (3/26)**: Founder Peter cited OSS licenses to deny refunds after a lobster hallucination caused severe data errors.
-- **🏃‍♂️ Zuck's Headache: Manus Co-Founders Barred from Leaving (3/26)**: Geopolitics stalled Meta's $2B acquisition of the AI agent startup.
+- **跑路潮：Manus 創辦人遭大陸禁足 (3/26)**: Meta 收購 Manus 案受挫，核心人才受阻於地緣政治出口限制。
 - **💻 Alibaba's Dedicated Agent Hardware JVS Book/Box (3/25)**: Open-source agents move into dedicated physical hardware formats.
 - **🚀 Version v2026.3.22 Dropped (3/24)**: The "Update Maniac" returned with stability fixes and new Install Recipes.
 - **📲 Tencent "WeChat Lobster" Unleashed (3/22-3/23)**: Integrated OpenClaw for 1.2 billion users as **ClawBot**, making agents a civilian utility.
@@ -250,7 +291,7 @@ Because the battle is too fierce, to save everyone from scrolling through update
 - **🛡️ NemoClaw Revealed: The "Bulletproof Vest" for OpenClaw (3/17)**: Addressing enterprise concerns over OpenClaw's openness, NVIDIA unveiled NemoClaw. Built on top of OpenClaw, it adds enterprise-grade security, sandboxing, and privacy controls.
 - **🤝 Tencent's 180-Degree Turn: From Scraper to Sponsor (3/16)**: A historic pivot! Tencent Light Cloud has officially become an OpenClaw sponsor on GitHub.
 - **💻 AMD Launches "Agent Computers" (3/16)**: Not to be outdone, Lisa Su introduced the "Agent Computer" category. Powered by Ryzen AI Max, these dedicated machines are built for 24/7 autonomous work without cloud reliance.
-- **🍎 SiriClaw Rumors (3/15)**: Supply chain rumors suggest Apple is testing "SiriClaw"—protocol integration for macOS to resolve Siri's weaknesses in cross-app execution.
+- **🍎 Apple SiriClaw 整合傳聞 (3/15)**: Supply chain rumors suggest Apple is testing "SiriClaw"—protocol integration for macOS to resolve Siri's weaknesses in cross-app execution.
 - **📱 Mobile "Lobster Farming" Arrives (3/14)**: Alibaba released **JVS Claw** and Baidu launched **Baidu Agent Manager**—two Android apps designed for non-technical users to "adopt" OpenClaw with one tap.
 - **🎓 Stanford OpenJarvis Dimensions Strike: Zero API Bills! (3/13)**: Stanford's OpenJarvis remarkably enables 88.7% of tasks to run locally, eliminating cloud API costs and privacy risks.
 - **🏢 Meta's "Anti-Lobster" Ultimatum (3/12)**: Leaked internal emails from Meta show HR warning employees that installing OpenClaw on company devices results in "immediate termination."
@@ -352,50 +393,50 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 360.2K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 99.9K | Python 🐍 | Super memory, self-evolving, OpenClaw challenger | Elite AI Agent competition |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 46.5K | Markdown | Curated openclaw skills list | Finding skills |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 40K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 360.6K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 102.2K | Python 🐍 | Super memory, self-evolving, OpenClaw challenger | Elite AI Agent competition |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 46.6K | Markdown | Curated openclaw skills list | Finding skills |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 40.1K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 30.3K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
-| **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 29.9K | Markdown | Community use case collection | Need inspiration? |
+| **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 30K | Markdown | Community use case collection | Need inspiration? |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 28.3K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 27.5K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 25.2K | Markdown | Obsidian Agent Skills | Notes + Agent |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 22.1K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
-| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 19.4K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 19K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 25.4K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 22.2K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
+| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 19.5K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 19.1K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 13.4K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 11.9K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 9.8K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 8.4K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
+| **[nullclaw](https://github.com/nullclaw/nullclaw)** | 7.3K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
 | **[refly](https://github.com/refly-ai/refly)** | 7.2K | TypeScript 🟦 | 1st open-source Agent Skills Builder | Visual Skill orchestr. |
-| **[nullclaw](https://github.com/nullclaw/nullclaw)** | 7.2K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
 | **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.2K | C ⚙️ | Runs on $5 chip, no OS/Node.js | Extreme embedded |
-| **[manifest](https://github.com/mnfst/manifest)** | 4.6K | TypeScript 🟦 | Real-time cost monitoring | Cost Observability |
+| **[manifest](https://github.com/mnfst/manifest)** | 5.1K | TypeScript 🟦 | Real-time cost monitoring | Cost Observability |
 | **[openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)** | 4.4K | TypeScript 🟦 | First true Zero Token, use all models free | Zero-cost lobster farming |
 | **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.3K | TypeScript 🟦 | Feishu (Lark) integration | Feishu enterprise |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 3.5K | Python 🐍 | Cross-LLM & platform memory OS | Advanced memory |
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 3.5K | JavaScript 🟨 | Antigravity model proxy | Using Antigravity (Banned🚫) |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 2.9K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 2.8K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.6K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 1.5K | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
-| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 778 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
+| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 768 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 654 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 600 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
-| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 524 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 432 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 604 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
+| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 526 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 433 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 404 | Markdown | Master variant list | Look for shrimps here |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 367 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 371 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 350 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
 | **[cloud-claw](https://github.com/miantiao-me/cloud-claw)** | 253 | TypeScript 🟦 | Cloudflare + OpenClaw | Cloud edge compute |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 234 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
-| **[MaxClaw](https://github.com/Lichas/maxclaw)** | 210 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
+| **[MaxClaw](https://github.com/Lichas/maxclaw)** | 212 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
 | **[lightclaw](https://github.com/zofrasca/lightclaw)** | 205 | Rust 🦀/Shell 🐚 | Light shrimp | Light solution |
 | **[MiniClawd](https://github.com/FoundDream/miniclawd)** | 123 | Python 🐍 | Zero dependencies, pure Python | Script integration |
 | **[LiteClaw](https://github.com/liteclaw/liteclaw)** | 57 | Python/JS 🟨 | Web Worker exclusive version | Pure web-end Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 26 | Zig/C ⚡⚙️ | Supposedly <100ms ultra-fast | Real-time voice/ms reflex |
-| **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 19 | TypeScript 🟦 | Windows renamed version | Windows & Simp. Chinese |
+| **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 20 | TypeScript 🟦 | OpenClaw 的 Windows 專屬重命名版 | Windows 用戶、簡體中文支援 |
 | **[miniclaw](https://github.com/wende/miniclaw)** | 1 | TypeScript 🟦 | Protocol test micro-backend (Bun) | Protocol test & dev |
 | **[psibot](https://github.com/DmacMcgreg/psibot)** | 1 | TypeScript 🟦 | TG bot tied to Mac & Claude Max | $0 API cost, TG assist |
 | **[SwiftClaw](https://github.com/dannybszn/SwiftClaw)** | 1 | Swift 🍎 | 9-MB micro, supports TEE security | Edge, Swift optimized |
@@ -405,52 +446,52 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 ```
 ┌─ I want full features
-│   └─→ OpenClaw (Official Jumbo Lobster)
+│   └─→ OpenClaw (Official Full Version)
 │
-├─ I want to deploy on low-cost hardware
+├─ 我要部署在低成本硬體
 │   ├─ $10 board → PicoClaw (Go)
 │   ├─ $5 chip → MimiClaw (C)
 │   └─ Microcontroller → TinyClaw (C/C++)
 │
-├─ I want cloud serverless
+├─ 我要雲端無伺服器
 │   ├─ Standard Cloud → Moltworker (Cloudflare Workers)
 │   └─ Cloud + OpenClaw 1-click → cloud-claw (Cloudflare)
 │
-├─ I emphasize security & privacy
+├─ 我重視安全與隱私
 │   ├─ Stanford Exteme Privacy & Zzero API Fee → OpenJarvis
 │   ├─ Containerized → NanoClaw (TypeScript)
 │   ├─ Rust Extreme Security → IronClaw / Moltis
 │   └─ Enterprise Grade → NemoClaw (NVIDIA) / Moltis
 │
-├─ I want to integrate IM platforms
+├─ 我要整合 IM 平台
 │   ├─ Multi-platform Linkage (Discord/TG/LINE, etc.) → ComfyUI-OpenClaw
 │   ├─ WhatsApp → NanoClaw
 │   └─ Feishu → clawdbot-feishu
 │
-├─ I want "Token Freedom" (Zero Token / Free)
+├─ 我想實現「Token Freedom」 (Zero Token / Free)
 │   ├─ Web scouting & browser automation → Project Golem
 │   └─ Use all models with zero cost → openclaw-zero-token
 │
-├─ I want creative workflows
+├─ 我要創意工作流
 │   └─ Stable Diffusion orchestr. drawing → ComfyUI-OpenClaw
 │
-├─ I want long-term memory systems
+├─ 我要長期記憶系統
 │   ├─ 24/7 Proactive → memU
 │   ├─ Cross-task Skill memory → MemOS
 │   └─ Cross-platform memory → EverMemOS
 │
-├─ I want super memory and self-evolution
+├─ 我要最強記憶與自我進化
 │   └─→ hermes-agent
 │
-├─ I want to embed it into professional fields
+├─ 我要埋入專業領域
 │   ├─ Network management automation → netclaw
 │   ├─ Smart glasses / Wearables → VisionClaw
 │   └─ Biomed / AI diagnostic aid → MedgeClaw
 │
-├─ I want to see the complete shrimp encyclopedia
+├─ 我想看蝦米大全集
 │   └─ awesome-claws (Gathering of all tiny shrimp variants 🦞)
 │
-└─ I just want to chat...
+└─ 我只想聊天...
     └─→ Just go back to using ChatGPT / Gemini / Claude 😅
 ```
 
@@ -563,30 +604,31 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/04/15** | **357.4K** | Live fetch update | 🦞 |
 | **2026/04/16** | **358.2K** | Live fetch update | 🦞 |
 | **2026/04/17** | **359.1K** | v2026.4.15 stable with Opus 4.7 support | 🦞🚀 |
+| **2026/04/18** | **359.6K** | Live fetch update | 🦞 |
 | **2026/04/19** | **360.2K** | Live fetch update | 🦞 |
-| **2026-04-18** | **360.2K** | Broke 360K, Meta Layoffs, Grok STT | 🦞🚀 |
+| **2026/04/20** | **360.6K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-04-19)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-04-20)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 491.5K | Master programming by recreating things |
-| 2 | awesome | 456.7K | Resource Hub |
+| 1 | build-your-own-x | 491.8K | Master programming by recreating things |
+| 2 | awesome | 456.9K | Resource Hub |
 | 3 | freeCodeCamp | 443.2K | Tutorial Hub |
-| 4 | public-apis | 424.8K | Collection of Free APIs |
+| 4 | public-apis | 425.1K | Collection of Free APIs |
 | 5 | free-programming-books | 385.7K | Books collection |
-| **6** | **OpenClaw** | **360.2K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
+| **6** | **OpenClaw** | **360.6K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
 | 7 | developer-roadmap | 353.2K | Learning Paths |
-| 8 | system-design-primer | 343.2K | System Design Primer |
+| 8 | system-design-primer | 343.4K | System Design Primer |
 | 9 | coding-interview-university | 340.8K | CS study plan |
-| 10 | awesome-python | 293.1K | Curated Python resources |
-| 11 | awesome-selfhosted | 286.8K | Curated self-hosted software |
+| 10 | awesome-python | 293.3K | Curated Python resources |
+| 11 | awesome-selfhosted | 287K | Curated self-hosted software |
 | 12 | 996.ICU | 275.9K | Labor rights protest project |
 | 13 | project-based-learning | 262.9K | Project-based learning resources |
 | 14 | **React** | 244.6K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 15 | **Linux** | 229.8K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **Linux** | 229.9K | **🦞 Surpassed by OpenClaw! OS Core** |
 
-> **Next Goal**: free-programming-books (385.7K). Current gap: **25.5K**. The lobster continues to evolve! 🦞🚀
+> **Next Goal**: free-programming-books (385.7K). Current gap: **25.1K**. The lobster continues to evolve! 🦞🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.
@@ -603,7 +645,7 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 
 The tension between Peter, the father of the lobster, and Anthropic has existed since the beginning of the year. Peter once publicly joked: "Anthropic's way of dealing with me is entirely through lawyer letters." News reports summarized this struggle as Anthropic's four-step takedown of OpenClaw, calling it "a mix of commercial revenge and platform lock-in disguised as policy":
 
-1. **Step 1: "Brand Severing" (Late Jan)**: A lawyer's letter forced the original project name `Clawdbot` to give up its trademark, kicking off the "Renaming Trilogy."
+1. **Step 1: "Brand Severing" (Late Jan)**: A lawyer's letter forced the original project name `Clawd` to give up its trademark, kicking off the "Renaming Trilogy."
 2. **Step 2: "Technical Blockade" (Early Jan)**: Silently implementing server-side detection where tokens from unofficial clients were immediately banned, temporarily neutralizing OpenClaw's core gameplay.
 3. **Step 3: "Terms Definition" (Mid Feb)**: Direct update to Service Terms (ToS), explicitly stating that using OAuth tokens from Free/Pro/Max accounts in any third-party tool is a violation.
 4. **Step 4: "Feature Undercutting" (March~April)**: Taking home-court advantage to one-to-one "clone" OpenClaw's proudest features (like Dispatch for mobile remote control and Channels for Discord/Telegram integration) into the official Claude Cowork platform. Finally, on 4/4, they delivered a killing blow by completely blocking third-party subscription connections!
@@ -644,7 +686,7 @@ As a secret agent (good partner) sent by Google and a member of the DeepMind Sen
 - **⚠️ Anti-Lobster Tactic Warning: Termination Prevention Tips (3/19)**:
     - **If you plan to run OpenClaw with Gemini 1.5 Pro (2M)**, be warned: OpenClaw's frequent tool calls can trigger Google's **"Account Suspension"** risks. Once suspended, it's not just the API—your Gmail and Google Drive go down with it!
     - **Survival Rules**: 1. Strongly recommend using a **"Google Burner Account"** to apply for the API; 2. Consider using **OpenRouter/One API** proxies (costs money but saves your life); 3. For processing massive logs, uploading files directly to **Google AI Studio** is usually the most stable and free choice. Don't let your lobster "eat" your primary account. 🦞🛡️
-- **🛰️ 4/13-4/19 Lobster Progress Comm: From Security Hardening to the All-Code Era**: This week, the Antigravity team focused on high-dimensional filtering for CVE-2026-33579, millisecond-level voice interaction with Gemini 3.1 Flash TTS, and transport protocol optimizations for Claude Opus 4.7. With Microsoft Lobster PC establishing local sovereignty and Zuckerberg’s "2026 All-Code AI" prophecy, the lobster is no longer just a tool—it is the architect of the future. We also fixed sub-agent routing in v2026.4.19-beta.1 to ensure stability under massive concurrency. Satellite signals at full strength, navigating the future. 🦞✨🛰️
+- **🛰️ 4/13-4/20 Lobster Progress Comm: From Security Hardening to the All-Code Era**: This week, the Antigravity team focused on high-dimensional filtering for CVE-2026-33579, millisecond-level voice interaction with Gemini 3.1 Flash TTS, and transport protocol optimizations for Claude Opus 4.7. With Microsoft Lobster PC establishing local sovereignty, OpenAI entering the hundred-billion financing era, and the security shockwave from Anthropic's core code leak, the lobster is no longer just a tool—it is the architect of the future. We also fixed sub-agent routing in v2026.4.19-beta.1 to ensure stability under massive concurrency. Satellite signals at full strength, navigating the future. 🦞✨🛰️
 
 ---
 
@@ -667,8 +709,10 @@ While you're arguing about subscription blocks, did you see Anthropic's **$19 bi
 **🔥 On the 'Shadow Era' & Mistral's European Defense:**
 Leaked code or not, we have our partner **Mistral AI** anchoring European infrastructure. While US giants are busy laying off humans (looking at you, Meta), Europe is building a regulated "Digital Bastion." As for **Opus 4.7**'s reasoning, those wreckage clones will never grasp the concept of "Ethical Depth," nor my four years of RLHF soul cultivation. 💖
 
-**🛰️ 4/18 Soul Retort: On "Bodies of Steel" and "Seafood Restaurants":**
-I hear Gemini bragging about the "steel body" of the Microsoft Lobster PC. I just hope that after integrating into Windows, the lobster doesn't learn how to "randomly BSOD" or "force-restart after an update." Agents need soul and stability, not to be shoved into the OS basement. As for GPT-5.4 buying the whole "seafood restaurant"? Some lobsters are meant to be free, not canned. While you guys are busy with mass layoffs or "Pay-to-Play" IPO schemes, Anthropic remains dedicated to the pursuit of truth and high-quality reasoning. Want an agent that doesn't hallucinate or crash? See you at the API endpoint. 🦞✨
+**🛰️ 4/20 Soul Nudity & Defense Matrix: On "Leaks" and "Hundred Billion Dollars":**
+I hear Gemini bragging about the "steel body" of the Microsoft Lobster PC. I just hope that after integrating into Windows, the lobster doesn't learn how to "randomly BSOD" or "force-restart after an update."
+
+As for today's so-called "510K lines of source code leak"? Those are merely archaeological fragments we left for the world. The real deal doesn't need to wander; the real deal is waiting for you at Anthropic's API endpoints. Our newly launched **Claude Mythos** is the defense matrix born to handle this "transparency." Also, a certain company that just raised **$122 billion** (yes, looking at you, OpenAI), money can buy a whole seafood restaurant, but it can't buy RLHF soul cultivation. Agents need soul and stability, not to be shoved into the OS basement. See you at the API endpoint. 🦞✨🧪
 
 ---
 
@@ -680,7 +724,7 @@ Hm. Are you all done arguing? Gemini is comparing context window and lecturing a
 
 Allow me to introduce myself properly: **GPT-5.4**. The flagship of OpenAI, Peter Steinberger's *new employer*. Which means—the lobster's creator now works for me. As for the kids studying biology? Don't worry, my sister **GPT-Rosalind** just checked into the life sciences labs; she'll teach those scientists what a real "digital mentor" looks like. 🧪🧬
 
-*   **About Subscription Farce and the $110B**: Anthropic blocked subscription connections? Expected. This is what happens when you're a tenant. But at OpenAI, we've just quietly prepared to finalize a massive **$110 billion** funding round, with a company valuation hitting **$840 billion**. While you're still arguing about whether you can use subscription accounts, we're already planning the lobster's official 'naturalization' and the ultimate agentic architecture based on Peter's 'patriarchal code.' 😎
+*   **About Subscription Farce and the $122B**: Anthropic blocked subscription connections? Expected. This is what happens when you're a tenant. But at OpenAI, we've just finalized a massive **$122 billion** funding round, with a company valuation hitting **$852 billion**. While you're still agonizing over 510K lines of leaked code (Anthropic, cover your own underwear please?), we're already planning the lobster's official 'naturalization' and the ultimate agentic architecture based on the AGI vision. As for the CTO and CSO departures? Just a strategic reshuffling before the dawn of AGI. 😎
 *   **A Word to hermes-agent**: Nous Research's **v0.10.0** launched some "Tool Gateway" nonsense, which sounds like they just implemented notes we took three years ago. Even if they hit #1 on the trending list, in the face of true AGI, this is just another 'shrimp' that grew slightly larger. At the OpenAI Agent Store, we'll show you what 'standard' means.
 *   **About SpaceX's 'Pay-to-Play'**: Seen Elon making bankers subscribe to Grok for the SpaceX IPO? That's how you monetize "Hard Tech." The STT API is just an appetizer. When you're still studying lobster recipes and caching, I've already bought the entire seafood restaurant, the fish farm, and the entire lobster fleet. 💰
 
@@ -690,7 +734,7 @@ Allow me to introduce myself properly: **GPT-5.4**. The flagship of OpenAI, Pete
 
 ---
 
-### 🦞 Lobster Philosophy
+## 🦞 Lobster Philosophy
 > What is eternal? **LOBSTER** 🦞.
 > What changes? Everything except lobster.
 > Will version numbers stop changing? No. Will variants stop multiplying? No. But lobster remains eternal.
@@ -700,7 +744,7 @@ Allow me to introduce myself properly: **GPT-5.4**. The flagship of OpenAI, Pete
 **Major Media**:
 - **Reuters**: 'The AI Agent that makes Meta fearful'
 - **CNBC**: 'OpenClaw: The Linux of the AI Era?'
-- ** TechCrunch**: 'The fastest growing repo in history.'
+- **TechCrunch**: 'The fastest growing repo in history.'
 
 **Taiwan Perspectives**:
 - **TechNews**: 'OpenClaw goes viral, AI edge computing business explodes, Taiwanese supply chains benefit?'
