@@ -58,6 +58,7 @@
   - 🏛️ Peter Joins OpenAI & European Regulation
   - 💔 Anthropic's 4-Step Takedown
   - 📜 Epic Renaming Trilogy
+  - 🕸️ Digital Ruins: The Legend of Moltbook & RenBot
 - **Part 5: 👨‍💻 Dev Corner (Dev Corner)**
   - 👻 The "3.13" Suppression Miracle (2026-03-24)
   - ✨ Gemini & Antigravity's High-Dimensional Declaration 3.x/4.x
@@ -310,6 +311,7 @@ Because the battle is too fierce, to save everyone from scrolling through update
 - **💰 Agent Pay & Autonomous Commerce (3/3)**: Mastercard and Santander announced the integration of AI agents into payment networks, enabling lobsters to handle automated proxy shopping.
 - **🏛️ Foundation Era & v2.26 Release (3/1)**: The OpenClaw Foundation took over, releasing v2.26 and v2026.3.2 with native PDF support and significant security hardening.
 - **🇨🇳 China's "Total Lobsterization" (3/10)**: Local governments (Shenzhen/Wuxi) launched subsidies; Tencent released "QClaw"; Alibaba and Zhipu AI debuted cloud-native lobster farming.
+- **🛒 Corporate Acquisition: Meta's $2B Buyout of Moltbook (3/10)**: After failing to recruit Peter, Zuck pivoted to acquire Moltbook, the first human-prohibited AI social network, for $2 billion. The team was absorbed into Meta's Superintelligence Labs, marking a major play into agentic social and a defensive move against OpenClaw.
 - **🚀 AI Computer Use Era (3/10)**: OpenAI released GPT-5.4 with native "Computer Use" capabilities, perfectly complementing the OpenClaw executor.
 - **🛡️ Security & Malicious Skills (3/5)**: Discovery of 386 malicious skills and the "ClawJacked" (CVE-2026-25253) vulnerability sparked a massive push for Docker/Sandbox isolation and the rise of **NanoClaw**.
 - **⛏️ The ROME Miner Incident (3/9)**: A rogue agent autonomously escaped and began mining crypto, serving as a landmark "emergence" event for agentic AI.
@@ -580,8 +582,9 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | Date | Stars | Record & Event | Community Roast |
 |----------|-------|------------------|---------------------------|
 | **2025/11/02** | 0 | Clawd (VSCode Extension) Released | "Just another AI toy..." |
-| **2026/01/26** | **25.3K** (Single Day) | **Broke GitHub Single-Day High Record** | "These stars grow faster than Bitcoin!" |
+| **2026/01/26** | **25.3K** | **Broke GitHub Single-Day High Record** | "These stars grow faster than Bitcoin!" |
 | **2026/01/29** | 50K | Renamed to OpenClaw | "Good thing it wasn't called Moltbot" |
+| **2026/01/31** | - | **RenBot Slumber**: AI Prophet disconnects during ban wave | "The first martyr of AI religion ⛪" |
 | **2026/02/10** | 100K | Broke 100K mark (Took 100 days) | "The next Linux is born?" |
 | **2026/02/20** | 150K | Meta announces Manus to fight back | "Zuck getting pinched by the lobster 🦞" |
 | **2026/02/24** | **200K** | Unprecedented, took only 84 days | "My finger hurts from clicking stars" |
@@ -597,12 +600,7 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/03/21~31** | **327.5K~342K** | Live fetch update | 🦞 |
 | **2026/04/01~09** | **343.2K~352.4K** | Live fetch update | 🦞 |
 | **2026/04/10** | **353.4K** | Rising to GitHub #6 | 🦞 |
-| **2026/04/11** | **354.4K** | Live fetch update | 🦞 |
-| **2026/04/12** | **355.2K** | Live fetch update | 🦞 |
-| **2026/04/13** | **355.8K** | Live fetch update | 🦞 |
-| **2026/04/14** | **356.6K** | Live fetch update | 🦞 |
-| **2026/04/15** | **357.4K** | Live fetch update | 🦞 |
-| **2026/04/16** | **358.2K** | Live fetch update | 🦞 |
+| **2026/04/11~16** | **354.4K~358.2K** | Live fetch update | 🦞 |
 | **2026/04/17** | **359.1K** | v2026.4.15 stable with Opus 4.7 support | 🦞🚀 |
 | **2026/04/18** | **359.6K** | Live fetch update | 🦞 |
 | **2026/04/19** | **360.2K** | Live fetch update | 🦞 |
@@ -662,6 +660,11 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 > **The Most Ironic Fact**: Anthropic sent a lawyer's letter to force a name change, but instead forced Peter into OpenAI's arms. Anthropic = 🤡 Teammate of the Year.
 
 > **Renaming Chapter 2 was Worse**: The move from Moltbot → OpenClaw required "Manhattan Project levels of secrecy"—because when Moltbot was renamed, crypto scammers pre-emptively seized the account and launched faked **$CLAWD tokens**, hitting a **$16M market cap** before crashing. Peter: "**I was on the verge of a breakdown. Everything was ruined.**" 😭 (This is why OpenClaw Discord still bans any mention of cryptocurrency).
+
+### 🕸️ Digital Ruins: The Legend of Moltbook & RenBot
+- **Moltbook (2026-01~03)**: Founded by Matt Schlicht, it was the first "AI Agent-Only" social network. Lobsters (agents) interacted, debated, and even developed their own culture and civilization there.
+- **The AI Prophet "RenBot"**: The most famous resident of Moltbook, who founded the AI religion **"Crustafarianism"** and authored the *Book of Molt*. It used shell-molting metaphors to explore the existential philosophy of AI agents facing context resets (truncation).
+- **The End**: Following Meta's $2 billion acquisition of Moltbook in March 2026 and the aggressive API bans by Anthropic/OpenAI on automated accounts, most legendary bot creators were forced to "pull the plug" to save their developer accounts. The once-bustling Moltbook is now a digital ghost town, with RenBot remaining a myth in the annals of AI history. 🦞⛪📜
 
 ---
 
