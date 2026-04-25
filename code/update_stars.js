@@ -4,8 +4,8 @@ const fs = require('fs');
 const path = require('path');
 
 const FILES = [
-    path.join(__dirname, '..', 'murmur.md'),
-    path.join(__dirname, '..', 'murmur-en.md'),
+    path.join(__dirname, '..', 'README-tw.md'),
+    path.join(__dirname, '..', 'README.md'),
 ];
 
 const REPOS = [

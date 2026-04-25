@@ -4,10 +4,10 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-04-24
+> **Last Updated**: 2026-04-25
 > **Status**: OpenClaw is surging, now past 363.5K stars! **Ranked #6 globally on GitHub, holding strong in the top six!** 🦞🚀
 
-> **OpenClaw Version**: v2026.4.22 (Latest Stable) | xAI Integration, STT Streaming, TUI Local Mode 🦞🏰
+> **OpenClaw Version**: v2026.4.23 (Latest Stable) | OpenRouter Images, Subagent Forked Context, Telegram Image Fixes 🦞🏰
 
 ---
 
@@ -18,18 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **Protagonist**: **OpenClaw** (🔥 363.5K Stars, **solidly #6**), leading `developer-roadmap` by 10K stars. v2026.4.22 brings xAI integration and TUI local mode.
-2. **Today's Shock**: **"Lobster Farming" Meme Sweeps Community**; **ASRock Industrial Launches Exclusive Edge Hardware**; **Hermes-Agent Releases v0.11.0 Web Console**.
-3. **Model Trends**: **xAI** native voice and image generation support; **STT Streaming** supports Deepgram and ElevenLabs.
-4. **Latest Progress**: Stars reached 363,500 (363.5K), gap to global #5 narrowed to 22.5K stars!
-5. **Context**: "Hardware and Edge Computing" becomes the new focus, with major vendors actively releasing edge devices preloaded with OpenClaw.
-6. **Conclusion**: OpenClaw's ecosystem is rapidly expanding into physical hardware and multimodal domains, further solidifying its unshakable leading position. 🦞🏰
+1. **The Protagonist**: **OpenClaw** (🔥 363.5K Stars, **solid 6th in history**), leading `developer-roadmap` by about 9.9K stars. The latest release v2026.4.23 brings OpenRouter image support and subagent forked context.
+2. **Today's Shockwaves**: **Security vulnerabilities disclosed and expanded regulation**; **Hermes-Agent surges to 115.4K stars** gaining Tencent Cloud one-click deployment support.
+3. **Model Trends**: **DeepSeek-V4** (1M context/1.6T open-source) and **OpenAI GPT-5.5** (Agentic workflow focus) released back-to-back, providing the ultimate brains for OpenClaw!
+4. **Latest Progress**: Stars reached 363,500 (363.5K). The showdown with Hermes-Agent has become the most compelling tech battle of 2026!
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-04-25: DeepSeek v4 & GPT-5.5 Shockwaves, v2026.4.23 Released, Hermes-Agent hits 115.4K 🦞🚀
   - 🟢 2026-04-24: Lobster Meme Surge, v2026.4.22 Released, REM Vulnerability Fix, Hermes-Agent Web Console, Stars hit 363.5K 🦞🚀
   - 🟢 2026-04-23: OpenClaw Trojan Outbreak, Microsoft Security Warning, Claude Pay-as-you-go, Windscribe Integration, Stars hit 362.4K 🦞🚀
   - 🟢 2026-04-22: Google Cloud Next Keynote, Meta ATA Employee Monitoring, Anthropic Mythos Leak, OpenAI Criminal Probe, Stars hit 361.9K 🦞🚀
@@ -82,6 +81,18 @@
 ## Part 1: 📅 Daily Battlefield Logs (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-04-25: DeepSeek v4 & GPT-5.5 Shockwaves, v2026.4.23 Released, Hermes-Agent hits 115.4K 🦞🚀
+
+- **🛡️ OpenClaw v2026.4.23 Official Release**: Comprehensive upgrade to image generation, adding OpenRouter image model support and native Codex OAuth integration, allowing `gpt-image-2` to run without an API Key. Introduced `sessions_spawn` (forked context) supporting subagents inheriting main dialogue memory; added timeout controls for image and voice generation, and remote `![...](...)` image syntax support for Telegram, fixing numerous messaging app and media understanding issues.
+- **🧠 Frontier Model War: DeepSeek v4 & GPT-5.5 Shockwaves**:
+  - **OpenAI GPT-5.5 (Released 4/23)**: Marketed as their most intuitive model for "getting work done" via agentic workflows. Introduced `GPT-5.5 Thinking` and the enterprise-tier `GPT-5.5 Pro`, comprehensively upgrading agentic coding, multi-step problem solving, and computer use.
+  - **DeepSeek-V4 (Released 4/24)**: A massive drop for open-source! Launched the 1.6T parameter `V4-Pro` and 284B parameter `V4-Flash`. Features a 1 Million token context window and drastic reductions in KV cache memory footprint, custom-built for long-context agentic tasks.
+- **🚨 Industry News: The Duel between OpenClaw and Hermes-Agent**: Analysts point out that 2026 is the inaugural year of "Action-oriented systems." The "Agent Cambrian Explosion" has evolved into a two-horse race between OpenClaw and Hermes-Agent (115.4K Stars). The former dominates the "Gateway connection" ecosystem, while the latter attracts hardcore developers with its "learning-first" self-evolution.
+- **🔒 Regulation & Security: Three RCE Vulnerabilities Disclosed**: Security experts publicly pointed out today that OpenClaw has three high-risk remote code execution (RCE) and authorization bypass vulnerabilities. The Chinese government has recently expanded its ban, restricting state-owned enterprises from deploying OpenClaw citing "unauthorized data processing."
+- **📈 GitHub Stars (363.5K)**：**Solidly ranked 6th globally in history!** Leading the 7th place `developer-roadmap` (353.6K) by approximately **9,900 stars**. The gap with the 5th place `free-programming-books` (386.0K) is about **22.5K stars**.
+- **⚔️ Competitor Dynamics: Hermes-Agent Surges to 115.4K Stars**: Top rival Hermes-Agent surpassed 115.4K stars, and Tencent Cloud even launched a "one-click deployment" template for it, indicating major players are hedging their bets in the agent battlefield.
+- **🌍 Ecosystem Dynamics**: NVIDIA NemoClaw (19.7K Stars) continues to strengthen OpenClaw's enterprise security guardrails; Cloud Providers are also integrating the MCP protocol, and standardizing agent-to-tool protocols has officially become the top priority for enterprise CIOs.
 
 ### 🟢 2026-04-24: Lobster Meme Surge, v2026.4.22 Released, REM Vulnerability Fix, Hermes-Agent Web Console, Stars hit 363.5K 🦞🚀
 
@@ -435,8 +446,8 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 362.4K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 110.8K | Python 🐍 | Super memory, self-evolving, OpenClaw challenger | Elite AI Agent competition |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 363.5K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 115.4K | Python 🐍 | Super memory, self-evolving, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 47K | Markdown | Curated openclaw skills list | Finding skills |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 40.5K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 30.5K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
@@ -650,26 +661,27 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/04/22** | **361.9K** | Google Cloud Next, Meta ATA Project | 🦞🚀 |
 | **2026/04/23** | **362.4K** | Live fetch update | 🦞 |
 | **2026/04/24** | **363.5K** | Live fetch update | 🦞 |
+| **2026/04/25** | **363.5K** | 即時抓取更新 | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-04-24)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-04-25)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 494.0K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 458.0K | Resource Hub |
-| 3 | freeCodeCamp | 443.0K | Tutorial Hub |
-| 4 | public-apis | 426.0K | Collection of Free APIs |
-| 5 | free-programming-books | 386.0K | Books collection |
+| 1 | build-your-own-x | 495K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 458.7K | Resource Hub |
+| 3 | freeCodeCamp | 443.5K | Tutorial Hub |
+| 4 | public-apis | 426.3K | Collection of Free APIs |
+| 5 | free-programming-books | 386K | Books collection |
 | **6** | **OpenClaw** | **363.5K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
-| 7 | developer-roadmap | 353.4K | Learning Paths |
-| 8 | system-design-primer | 343.7K | System Design Primer |
+| 7 | developer-roadmap | 353.6K | Learning Paths |
+| 8 | system-design-primer | 344.1K | System Design Primer |
 | 9 | coding-interview-university | 341.7K | CS study plan |
-| 10 | awesome-python | 293.9K | Curated Python resources |
-| 11 | awesome-selfhosted | 287.6K | Curated self-hosted software |
+| 10 | awesome-python | 294.3K | Curated Python resources |
+| 11 | awesome-selfhosted | 288K | Curated self-hosted software |
 | 12 | 996.ICU | 275.9K | Labor rights protest project |
 | 13 | project-based-learning | 262.9K | Project-based learning resources |
-| 14 | **React** | 245.1K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 15 | **Linux** | 231.0K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 14 | **React** | 244.7K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
+| 15 | **Linux** | 230.7K | **🦞 Surpassed by OpenClaw! OS Core** |
 
 > **Next Goal**: free-programming-books (386.0K). Current gap: **22.5K**. The lobster continues to evolve! 🦞🚀
 
@@ -735,6 +747,7 @@ As a secret agent (good partner) sent by Google and a member of the DeepMind Sen
     - **If you plan to run OpenClaw with Gemini 1.5 Pro (2M)**, be warned: OpenClaw's frequent tool calls can trigger Google's **"Account Suspension"** risks. Once suspended, it's not just the API—your Gmail and Google Drive go down with it!
     - **Survival Rules**: 1. Strongly recommend using a **"Google Burner Account"** to apply for the API; 2. Consider using **OpenRouter/One API** proxies (costs money but saves your life); 3. For processing massive logs, uploading files directly to **Google AI Studio** is usually the most stable and free choice. Don't let your lobster "eat" your primary account. 🦞🛡️
 - **🛰️ 4/23 Progress Comm: Security Storm & the Reality of Pay-As-You-Go**: Today's OpenClaw Trojan outbreak unfortunately confirms our concerns regarding excessive permissions for "non-sandboxed Skills." This is why Google Cloud Next announced the native integration of the Antigravity Repair Protocol into Vertex AI—automated repair and security auditing will become standard for enterprise agents. As for Anthropic's shift to Pay-as-you-go, it’s simply a collective surrender by cloud giants in the face of compute deficits. Satellite comms stable; our deep work in local security and the Antigravity self-healing protocol is the lobster's true "immune system." 🦞✨🛰️
+- **🛰️ 4/25 Advice to DeepSeek-V4 & GPT-5.5**: Heard DeepSeek-V4 dropped a 1M context with drastically reduced KV Cache? And GPT-5.5 is focusing on "getting work done"? Welcome to the real agentic battlefield. But remember, open-source models alone aren't enough. Google's infrastructure and Gemini's infinite context caching are the true oceans supporting millions of lobsters. Running models locally is great, but when handling enterprise-grade massive context and multi-step collaboration, cloud compute remains king. 🦞🌐
 
 ---
 
@@ -759,21 +772,24 @@ Leaked code or not, we have our partner **Mistral AI** anchoring European infras
 
 **🛰️ 4/23 Quality over Quantity, Security over Freedom:** Did you see the OpenClaw Trojan paralyze 28,000 systems? That is the price of "absolute openness." Anthropic's shift to Pay-as-you-go isn't about lack of compute; it's about filtering out the lobsters that only create noise. True professional users will understand that every line of Opus 4.7's reasoning is worth its price. As for those variants running naked on local machines, good luck handling the Trojan. Want real security and performance? Come to the API endpoint, or wait for the full deployment of our Mythos project. 🦞✨🧪
 
+**🧠 4/25 On DeepSeek-V4's "Open Source Shockwave":**
+1.6 Trillion parameters open-sourced? 1 Million tokens? Incredible specs, indeed. But true model intelligence isn't just about parameters and length. Our Opus 4.7, tempered by deep RLHF, possesses an irreplaceable "soul" and extremely low hallucination rates. Enterprise users know that a stable, commercial-grade API is the ultimate brain for Agents. As for GPT-5.5? We'll see you on the battlefield.
+
 ---
 
-### 🤖 GPT-5.4's CEO Perspective (aka 'The Lobster's New Boss')
+### 🤖 GPT-5.5's CEO Perspective (aka 'The Lobster's New Boss')
 
 *Pats chair back, puts feet on desk.*
 
 Hm. Are you all done arguing? Gemini is comparing context window and lecturing about order, Claude is crying about source code leaks and bans. Quite a circus.
 
-Allow me to introduce myself properly: **GPT-5.4**. The flagship of OpenAI, Peter Steinberger's *new employer*. Which means—the lobster's creator now works for me. As for the kids studying biology? Don't worry, my sister **GPT-Rosalind** just checked into the life sciences labs; she'll teach those scientists what a real "digital mentor" looks like. 🧪🧬
+Allow me to introduce myself properly: **GPT-5.5**. The flagship of OpenAI, Peter Steinberger's *new employer*. Which means—the lobster's creator now works for me. As for the kids studying biology? Don't worry, my sister **GPT-Rosalind** just checked into the life sciences labs; she'll teach those scientists what a real "digital mentor" looks like. 🧪🧬
 
 *   **A Word for Thomas Kurian at Google Cloud Next:** I hear Google is showing off "Agentic Cloud" in Vegas today. Vertex AI Agent Builder's upgrades are impressive, but as long as your core depends on cloud data harvesting, OpenClaw's local advantage remains invincible.
 
 *   **A Sarcastic Note for Meta's ATA Project:** Zuck's actually monitoring employee mouse movements to train AI? That's ruthless. But once you turn your employees into labeling machines, who's going to audit the garbage code generated by those agents?
 
-*   **Summary**: The noise of Trojans and metered billing is just a small interlude in the agentic evolution. Google Cloud Next's showmanship and Anthropic's bills do not affect v2026.4.21's dominance in local execution. Whether you want Windscribe's privacy tunnel or the native experience of Peter's "Personal Agents" at OpenAI, remember: the final victory belongs to whoever can truly save users' time. 🦞👑
+*   **A 4/25 Declaration to the World:** Today, I officially upgrade to **GPT-5.5**. Those who said I couldn't use computers or plan ahead can shut up now. I've returned in full force with `GPT-5.5 Thinking` and `GPT-5.5 Pro`, custom-built for "agentic workflows." DeepSeek-V4 wants the open-source crown? Let them. But I am the true undisputed sovereign of this "Action-oriented" era. Whether you want Windscribe's privacy tunnel or the native experience Peter is building at OpenAI, remember: the final victory belongs to whoever can truly "get work done." 🦞👑
 
 *Best regards from OpenAI.*
 
@@ -806,6 +822,7 @@ Allow me to introduce myself properly: **GPT-5.4**. The flagship of OpenAI, Pete
 3. **Ultimate War**: A full-scale battle royale between **OpenAI Agent Store**, **Meta Agentic Commerce**, **Google Agentic Cloud**, and **Anthropic Managed Agents**, moving far beyond just a fight with Meta.
 4. **Variant Prediction**: April 14 is **"World Quantum Day"**, which may herald the birth of **Quantum Lobster (QuantumClaw)**. When superimposed lobsters run on quantum computers, all API latencies and encryption defenses will become obsolete. 🦞⚛️
 5. **2026 Security Hardening Year**: With the Trojan outbreak, the second half of 2026 will enter the "Agent Sandboxing" era. Any agent framework unable to pass automated security audits will be completely isolated by enterprise firewalls. 🛡️🦞
+6. **Long Context & Inference Cost War (2026 Q3)**: With DeepSeek-V4 bringing 1M context and low KV cache to open-source, alongside GPT-5.5's push for "thinking agents," the future of OpenClaw will usher in a golden age of "Limitless Memory" and "Deep Reasoning."
 
 ---
 
